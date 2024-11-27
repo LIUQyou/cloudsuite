@@ -1,0 +1,9 @@
+# started on Tue Nov 26 06:48:18 2024
+
+
+ Performance counter stats for 'CPU(s) 0':
+
+                78      minor-faults                                                
+
+      60.001451122 seconds time elapsed
+

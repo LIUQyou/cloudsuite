@@ -1,0 +1,12 @@
+# started on Tue Nov 26 08:28:34 2024
+
+
+ Performance counter stats for 'CPU(s) 0' (3 runs):
+
+    32,472,524,552      cycles                                                        ( +-  0.11% )
+    53,432,660,655      instructions              #    1.65  insn per cycle           ( +-  0.20% )
+     5,723,394,756      branch-instructions                                           ( +-  0.19% )
+        81,654,789      branch-misses             #    1.43% of all branches          ( +-  0.14% )
+
+           10.1036 +- 0.0899 seconds time elapsed  ( +-  0.89% )
+

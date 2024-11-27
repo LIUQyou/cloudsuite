@@ -1,0 +1,12 @@
+# started on Tue Nov 26 08:29:35 2024
+
+
+ Performance counter stats for 'CPU(s) 0' (3 runs):
+
+       273,928,753      LLC-loads                                                     ( +-  2.89% )  (49.98%)
+            29,810      LLC-load-misses           #    0.01% of all LL-cache accesses  ( +-  7.06% )  (50.01%)
+         9,572,737      LLC-stores                                                    ( +-  3.36% )  (50.02%)
+            15,725      LLC-store-misses                                              ( +-  1.72% )  (49.99%)
+
+         10.012336 +- 0.000325 seconds time elapsed  ( +-  0.00% )
+

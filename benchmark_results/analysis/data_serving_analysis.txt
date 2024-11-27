@@ -1,0 +1,8 @@
+=== Performance Analysis for data_serving ===
+Time: Wed Nov 27 03:08:48 AM CST 2024
+
+Instructions per Cycle (IPC):
+
+Cache Statistics:
+
+Branch Statistics:

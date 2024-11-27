@@ -1,0 +1,22 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	0.620616
+0	Top Hotspots	
+0	Function	Module	CPU Time	% of CPU Time(%)
+0	Effective Physical Core Utilization	3.8% (0.759 out of 20)
+1	Effective Logical Core Utilization	1.9% (0.759 out of 40)
+0	Collection and Platform Info	
+1	Application Command Line	stress-ng 
+1	Operating System	5.15.0-122-generic DISTRIB_ID=Ubuntu DISTRIB_RELEASE=22.04 DISTRIB_CODENAME=jammy DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
+1	Computer Name	node0.tlbperf.armgem5-pg0.wisc.cloudlab.us
+1	Result Size	3631124
+1	Collection start time	15:17:07 26/11/2024 UTC
+1	Collection stop time	15:17:08 26/11/2024 UTC
+1	Collector Type	Driverless Perf per-process counting,User-mode sampling and tracing
+1	CPU	
+2	Name	Intel(R) Xeon(R) E5/E7 v3 Processor code named Haswell
+2	Frequency	2593749806
+2	Logical CPU Count	40
+2	LLC size	26214400
+2	Cache Allocation Technology	
+3	Level 2 capability	not detected
+3	Level 3 capability	not detected

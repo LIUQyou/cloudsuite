@@ -1,0 +1,39 @@
+=== Microarchitecture Performance Analysis ===
+Time: Tue Nov 26 08:31:35 AM CST 2024
+
+=== Frontend Pressure Analysis ===
+instructions # 1.65 insn per cycle ( +- 0.20% )     53432660655
+branch-instructions ( +- 0.19% )              5723394756
+branch-misses # 1.43% of all branches ( +- 0.14% )        81654789
+L1-icache-load-misses ( +- 2.62% ) (66.68%)         6250293
+
+=== Backend Pressure Analysis ===
+
+=== Cache Pressure Analysis ===
+L1-dcache-loads ( +- 0.03% ) (66.65%)         7924566812
+L1-dcache-load-misses # 8.01% of all L1-dcache accesses ( +- 0.19% ) (66.67%)       634787400
+LLC-loads ( +- 2.89% ) (49.98%)                273928753
+LLC-load-misses # 0.01% of all LL-cache accesses ( +- 7.06% ) (50.01%)           29810
+LLC-stores ( +- 3.36% ) (50.02%)                 9572737
+LLC-store-misses ( +- 1.72% ) (49.99%)             15725
+cache-misses ( +- 16.57% ) (40.03%)                61208
+
+=== Memory & TLB Pressure Analysis ===
+dTLB-loads ( +- 0.25% ) (79.98%)              7931047274
+dTLB-load-misses # 0.00% of all dTLB cache accesses ( +- 8.10% ) (40.02%)           80705
+iTLB-loads ( +- 0.83% )                           168465
+iTLB-load-misses # 39.41% of all iTLB cache accesses ( +- 10.44% )           67124
+mem-loads (79.99%)                                     0
+mem-stores ( +- 0.14% ) (79.99%)              3317351208
+
+=== Derived Metrics ===
+IPC:                         0.18
+LLC Miss Rate:                0.01%
+
+=== Detailed TLB Analysis ===
+DTLB Miss Rate:                        0.0010%
+STLB Hit Rate:                    114374.1416%
+ITLB Miss Rate:                       39.8445%
+
+=== TLB Pressure Summary ===
+TLB Misses per 1K Cycles:               0.00

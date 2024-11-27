@@ -1,0 +1,10 @@
+# started on Tue Nov 26 06:45:17 2024
+
+
+ Performance counter stats for 'CPU(s) 0':
+
+        27,767,838      L1-dcache-loads                                             
+         1,824,031      L1-dcache-load-misses     #    6.57% of all L1-dcache accesses
+
+      60.001371113 seconds time elapsed
+

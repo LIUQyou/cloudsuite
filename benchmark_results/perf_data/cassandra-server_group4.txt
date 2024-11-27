@@ -1,0 +1,138 @@
+# started on Tue Nov 26 11:12:30 2024
+
+     1.001109398,1494256,,dTLB-loads,20383985,85.28,,
+     1.001109398,72882,,dTLB-load-misses,12707224,53.06,4.88,of all dTLB cache accesses
+     1.001109398,5717,,iTLB-loads,7958986,33.30,,
+     1.001109398,60247,,iTLB-load-misses,14759851,61.87,1053.82,of all iTLB cache accesses
+     2.002636002,3935926,,dTLB-loads,21088160,80.09,,
+     2.002636002,66702,,dTLB-load-misses,14514677,55.22,1.69,of all dTLB cache accesses
+     2.002636002,7600,,iTLB-loads,8483652,32.28,,
+     2.002636002,65008,,iTLB-load-misses,17011347,64.72,855.37,of all iTLB cache accesses
+     3.004162713,1581803,,dTLB-loads,18641032,76.26,,
+     3.004162713,73682,,dTLB-load-misses,12589993,51.51,4.66,of all dTLB cache accesses
+     3.004162713,6466,,iTLB-loads,13869199,56.74,,
+     3.004162713,59011,,iTLB-load-misses,17656083,72.23,912.64,of all iTLB cache accesses
+     4.005804567,1507499,,dTLB-loads,19007207,78.74,,
+     4.005804567,71668,,dTLB-load-misses,8691345,36.01,4.75,of all dTLB cache accesses
+     4.005804567,6378,,iTLB-loads,12374431,51.26,,
+     4.005804567,59238,,iTLB-load-misses,20578438,85.25,928.79,of all iTLB cache accesses
+     5.007477987,1511724,,dTLB-loads,19552226,82.70,,
+     5.007477987,71115,,dTLB-load-misses,8814767,37.28,4.70,of all dTLB cache accesses
+     5.007477987,7081,,iTLB-loads,8887561,37.59,,
+     5.007477987,59043,,iTLB-load-misses,18920231,80.02,833.82,of all iTLB cache accesses
+     6.008970532,6233839,,dTLB-loads,31218050,72.65,,
+     6.008970532,124163,,dTLB-load-misses,25608327,59.59,1.99,of all dTLB cache accesses
+     6.008970532,35836,,iTLB-loads,20058315,46.68,,
+     6.008970532,88688,,iTLB-load-misses,29115281,67.76,247.48,of all iTLB cache accesses
+     7.010661280,4230654,,dTLB-loads,22571577,81.95,,
+     7.010661280,85423,,dTLB-load-misses,14658930,53.22,2.02,of all dTLB cache accesses
+     7.010661280,7039,,iTLB-loads,12857399,46.68,,
+     7.010661280,60207,,iTLB-load-misses,17854241,64.82,855.33,of all iTLB cache accesses
+     8.012339011,1533377,,dTLB-loads,19445509,82.61,,
+     8.012339011,74696,,dTLB-load-misses,8683461,36.89,4.87,of all dTLB cache accesses
+     8.012339011,6465,,iTLB-loads,15524929,65.95,,
+     8.012339011,59178,,iTLB-load-misses,18951152,80.51,915.36,of all iTLB cache accesses
+     9.014023634,1498596,,dTLB-loads,19603965,83.61,,
+     9.014023634,72678,,dTLB-load-misses,6584305,28.08,4.85,of all dTLB cache accesses
+     9.014023634,7052,,iTLB-loads,16659018,71.05,,
+     9.014023634,59067,,iTLB-load-misses,20706588,88.31,837.59,of all iTLB cache accesses
+    10.015728894,1493065,,dTLB-loads,20854910,85.78,,
+    10.015728894,72462,,dTLB-load-misses,11225271,46.17,4.85,of all dTLB cache accesses
+    10.015728894,7067,,iTLB-loads,10093343,41.51,,
+    10.015728894,57686,,iTLB-load-misses,16546713,68.06,816.27,of all iTLB cache accesses
+    11.017444016,3986154,,dTLB-loads,23964954,84.61,,
+    11.017444016,76592,,dTLB-load-misses,10688710,37.74,1.92,of all dTLB cache accesses
+    11.017444016,10575,,iTLB-loads,13755307,48.57,,
+    11.017444016,57822,,iTLB-load-misses,21992066,77.65,546.78,of all iTLB cache accesses
+    12.019143575,1452888,,dTLB-loads,11826158,48.97,,
+    12.019143575,73650,,dTLB-load-misses,14223810,58.90,5.07,of all dTLB cache accesses
+    12.019143575,7044,,iTLB-loads,20140555,83.40,,
+    12.019143575,58140,,iTLB-load-misses,22248046,92.13,825.38,of all iTLB cache accesses
+    13.020823407,1710673,,dTLB-loads,22652093,88.87,,
+    13.020823407,69631,,dTLB-load-misses,7131426,27.98,4.07,of all dTLB cache accesses
+    13.020823407,7458,,iTLB-loads,12001823,47.09,,
+    13.020823407,62294,,iTLB-load-misses,21194109,83.15,835.26,of all iTLB cache accesses
+    14.022516612,1523218,,dTLB-loads,21171813,87.60,,
+    14.022516612,76081,,dTLB-load-misses,7640178,31.61,4.99,of all dTLB cache accesses
+    14.022516612,6639,,iTLB-loads,15062999,62.32,,
+    14.022516612,59187,,iTLB-load-misses,19525111,80.79,891.50,of all iTLB cache accesses
+    15.024189032,5094575,,dTLB-loads,19573025,60.68,,
+    15.024189032,78893,,dTLB-load-misses,22623846,70.13,1.55,of all dTLB cache accesses
+    15.024189032,9969,,iTLB-loads,15696677,48.66,,
+    15.024189032,73794,,iTLB-load-misses,22320445,69.19,740.23,of all iTLB cache accesses
+    16.025912413,1744437,,dTLB-loads,22771468,84.40,,
+    16.025912413,82361,,dTLB-load-misses,12421939,46.04,4.72,of all dTLB cache accesses
+    16.025912413,9441,,iTLB-loads,7661588,28.40,,
+    16.025912413,61225,,iTLB-load-misses,18769907,69.45,648.50,of all iTLB cache accesses
+    17.027627336,2153615,,dTLB-loads,16859585,62.52,,
+    17.027627336,78623,,dTLB-load-misses,17895083,66.36,3.65,of all dTLB cache accesses
+    17.027627336,10653,,iTLB-loads,15196661,56.36,,
+    17.027627336,58023,,iTLB-load-misses,19175920,71.23,544.66,of all iTLB cache accesses
+    18.029332032,1516128,,dTLB-loads,21129189,88.52,,
+    18.029332032,75743,,dTLB-load-misses,6186949,25.92,5.00,of all dTLB cache accesses
+    18.029332032,6641,,iTLB-loads,14125846,59.06,,
+    18.029332032,58382,,iTLB-load-misses,20472700,85.59,879.11,of all iTLB cache accesses
+    19.031010571,4367923,,dTLB-loads,18731591,66.84,,
+    19.031010571,88392,,dTLB-load-misses,14208934,50.70,2.02,of all dTLB cache accesses
+    19.031010571,5432,,iTLB-loads,18037961,64.48,,
+    19.031010571,56575,,iTLB-load-misses,23108757,82.46,1041.51,of all iTLB cache accesses
+    20.032694212,1648166,,dTLB-loads,20351140,80.25,,
+    20.032694212,79460,,dTLB-load-misses,15537203,61.27,4.82,of all dTLB cache accesses
+    20.032694212,7079,,iTLB-loads,9650417,38.06,,
+    20.032694212,57653,,iTLB-load-misses,14780885,58.40,814.42,of all iTLB cache accesses
+    21.034391572,1625492,,dTLB-loads,16499863,65.43,,
+    21.034391572,77697,,dTLB-load-misses,13477159,53.44,4.78,of all dTLB cache accesses
+    21.034391572,7095,,iTLB-loads,14990708,59.44,,
+    21.034391572,59462,,iTLB-load-misses,20459896,81.13,838.08,of all iTLB cache accesses
+    22.036103880,2735817,,dTLB-loads,18083331,63.83,,
+    22.036103880,85999,,dTLB-load-misses,13766364,48.59,3.14,of all dTLB cache accesses
+    22.036103880,9916,,iTLB-loads,18585401,65.51,,
+    22.036103880,60397,,iTLB-load-misses,24859144,87.60,609.09,of all iTLB cache accesses
+    23.037802548,141770784,,dTLB-loads,304661830,70.56,,
+    23.037802548,785211,,dTLB-load-misses,221867703,51.38,0.55,of all dTLB cache accesses
+    23.037802548,468559,,iTLB-loads,227861142,52.77,,
+    23.037802548,378941,,iTLB-load-misses,326526738,75.63,80.87,of all iTLB cache accesses
+    24.039658516,130384655,,dTLB-loads,250069726,74.95,,
+    24.039658516,613375,,dTLB-load-misses,194119680,58.15,0.47,of all dTLB cache accesses
+    24.039658516,199783,,iTLB-loads,162556726,48.68,,
+    24.039658516,246981,,iTLB-load-misses,223595378,66.92,123.62,of all iTLB cache accesses
+    25.041546064,489881688,,dTLB-loads,609611809,72.99,,
+    25.041546064,1242950,,dTLB-load-misses,427289177,51.19,0.25,of all dTLB cache accesses
+    25.041546064,755488,,iTLB-loads,431096057,51.72,,
+    25.041546064,495713,,iTLB-load-misses,628728211,75.33,65.61,of all iTLB cache accesses
+    26.043414406,503639353,,dTLB-loads,695057131,74.71,,
+    26.043414406,1315906,,dTLB-load-misses,462762472,49.73,0.26,of all dTLB cache accesses
+    26.043414406,913703,,iTLB-loads,475458370,51.10,,
+    26.043414406,533319,,iTLB-load-misses,699665762,75.43,58.37,of all iTLB cache accesses
+    27.045320362,313068053,,dTLB-loads,607704657,76.77,,
+    27.045320362,1167042,,dTLB-load-misses,386166651,48.80,0.37,of all dTLB cache accesses
+    27.045320362,746627,,iTLB-loads,387260782,48.98,,
+    27.045320362,532812,,iTLB-load-misses,588753858,74.90,71.36,of all iTLB cache accesses
+    28.047200242,1623504,,dTLB-loads,21789932,87.32,,
+    28.047200242,77239,,dTLB-load-misses,14705811,58.93,4.76,of all dTLB cache accesses
+    28.047200242,8142,,iTLB-loads,7820799,31.34,,
+    28.047200242,57989,,iTLB-load-misses,13410859,53.74,712.22,of all iTLB cache accesses
+    29.049021516,2867315,,dTLB-loads,19176299,65.15,,
+    29.049021516,84232,,dTLB-load-misses,13439256,45.66,2.94,of all dTLB cache accesses
+    29.049021516,6304,,iTLB-loads,19673707,66.84,,
+    29.049021516,57720,,iTLB-load-misses,26248969,89.18,915.61,of all iTLB cache accesses
+    30.050746056,1750069,,dTLB-loads,21264122,84.46,,
+    30.050746056,75117,,dTLB-load-misses,13942674,55.38,4.29,of all dTLB cache accesses
+    30.050746056,8387,,iTLB-loads,11301425,44.89,,
+    30.050746056,60619,,iTLB-load-misses,15147552,60.16,722.77,of all iTLB cache accesses
+    31.052437192,11803490,,dTLB-loads,37559396,76.21,,
+    31.052437192,87636,,dTLB-load-misses,23873871,48.44,0.74,of all dTLB cache accesses
+    31.052437192,16297,,iTLB-loads,20411126,41.57,,
+    31.052437192,78269,,iTLB-load-misses,37140519,75.63,480.27,of all iTLB cache accesses
+    32.054136905,1911625,,dTLB-loads,24996555,89.56,,
+    32.054136905,82232,,dTLB-load-misses,6577011,23.56,4.30,of all dTLB cache accesses
+    32.054136905,12176,,iTLB-loads,5916145,21.20,,
+    32.054136905,81904,,iTLB-load-misses,24249586,86.88,672.67,of all iTLB cache accesses
+    33.055864810,36953411,,dTLB-loads,75148618,72.78,,
+    33.055864810,145977,,dTLB-load-misses,56962978,55.17,0.40,of all dTLB cache accesses
+    33.055864810,76881,,iTLB-loads,51871812,50.24,,
+    33.055864810,76262,,iTLB-load-misses,74390712,72.05,99.19,of all iTLB cache accesses
+    33.113131605,74849,,dTLB-loads,36665,2.71,,
+    33.113131605,3966,,dTLB-load-misses,1314565,97.29,5.30,of all dTLB cache accesses
+    33.113131605,400,,iTLB-loads,1314565,97.29,,
+    33.113131605,3894,,iTLB-load-misses,1351230,100.00,973.50,of all iTLB cache accesses

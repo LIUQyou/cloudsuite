@@ -1,0 +1,13 @@
+# started on Tue Nov 26 08:31:05 2024
+
+
+ Performance counter stats for 'CPU(s) 0' (3 runs):
+
+                 0      mem-loads                                                     (79.99%)
+     3,317,351,208      mem-stores                                                    ( +-  0.14% )  (79.99%)
+            61,208      cache-misses                                                  ( +- 16.57% )  (40.03%)
+            15,043      node-loads                                                    ( +- 27.07% )  (40.02%)
+            10,148      node-load-misses                                              ( +- 10.44% )  (60.01%)
+
+         10.014278 +- 0.000242 seconds time elapsed  ( +-  0.00% )
+

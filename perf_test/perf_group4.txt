@@ -1,0 +1,11 @@
+# started on Tue Nov 26 06:47:18 2024
+
+
+ Performance counter stats for 'CPU(s) 0':
+
+            39,533      iTLB-loads                                                  
+           349,289      iTLB-load-misses          #  883.54% of all iTLB cache accesses
+           244,456      itlb_misses.walk_completed                                   
+
+      60.001729052 seconds time elapsed
+

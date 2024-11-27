@@ -1,0 +1,13 @@
+# started on Tue Nov 26 08:30:05 2024
+
+
+ Performance counter stats for 'CPU(s) 0' (3 runs):
+
+     7,931,047,274      dTLB-loads                                                    ( +-  0.25% )  (79.98%)
+            80,705      dTLB-load-misses          #    0.00% of all dTLB cache accesses  ( +-  8.10% )  (40.02%)
+        92,305,651      dtlb_load_misses.stlb_hit                                     ( +-  1.44% )  (40.03%)
+            65,435      dtlb_load_misses.walk_completed                                     ( +-  3.00% )  (60.02%)
+            52,258      dtlb_load_misses.walk_completed                                     ( +-  4.35% )  (80.00%)
+
+         10.012250 +- 0.000387 seconds time elapsed  ( +-  0.00% )
+
