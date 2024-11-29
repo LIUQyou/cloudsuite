@@ -38,6 +38,7 @@ function print_usage() {
     echo "  media-streaming          - Run Media Streaming benchmark"
     echo "  web-search              - Run Web Search benchmark"
     echo "  web-serving             - Run Web Serving benchmark"
+    echo "  data-analytics           - Run Data Analytics benchmark"
 }
 
 function run_data_serving() {
@@ -202,6 +203,69 @@ function run_web_serving() {
     docker logs faban_client 2>&1 | grep -E "Runtime|Throughput|Latency" >> $REPORT_FILE
 }
 
+function run_data_analytics() {
+    echo "Running Data Analytics benchmark..." | tee -a $LOG_FILE
+    {
+        # Create dataset
+        docker create --name wikimedia-dataset cloudsuite/wikimedia-pages-dataset
+        
+        # Start master with proper initialization
+        docker run -d --net host --volumes-from wikimedia-dataset --name data-master \
+            cloudsuite/data-analytics \
+            --master \
+            --master-ip=127.0.0.1 \
+            --hdfs-block-size=64 \
+            --yarn-cores=4 \
+            --mapreduce-mem=8192
+        
+        echo "Waiting for master node initialization..." | tee -a $LOG_FILE
+        sleep 30  # Initial wait for master startup
+        
+        # Start worker with explicit memory settings
+        docker run -d --net host --name data-slave01 \
+            cloudsuite/data-analytics \
+            --slave \
+            --master-ip=127.0.0.1 \
+            --mapreduce-mem=8192
+        
+        echo "Waiting for worker node registration..." | tee -a $LOG_FILE
+        sleep 30
+        
+        # Verify HDFS and YARN status
+        echo "Verifying Hadoop services..." | tee -a $LOG_FILE
+        
+        # Check if HDFS is running
+        if ! docker exec data-master hdfs dfsadmin -report | grep "Live datanodes"; then
+            echo "Error: HDFS datanodes not found" >&2
+            return 1
+        fi
+        
+        # Check if YARN ResourceManager is running
+        if ! docker exec data-master yarn node -list | grep "Total Nodes:"; then
+            echo "Error: YARN nodes not registered" >&2
+            return 1
+        fi
+        
+        # Format HDFS if needed
+        if ! docker exec data-master hdfs dfs -ls / >/dev/null 2>&1; then
+            echo "Formatting HDFS..." | tee -a $LOG_FILE
+            docker exec data-master hdfs namenode -format -force
+            
+            # Restart services after format
+            docker exec data-master /etc/init.d/hadoop-hdfs-namenode restart
+            docker exec data-master /etc/init.d/hadoop-hdfs-datanode restart
+            sleep 30
+        fi
+        
+        echo "Running benchmark..." | tee -a $LOG_FILE
+        docker exec data-master benchmark
+        
+        # Collect results
+        echo "Data Analytics Results:" >> $REPORT_FILE
+        docker logs data-master 2>&1 | grep -E "Runtime|Throughput|Completed" >> $REPORT_FILE
+    } 2>&1 | tee -a $LOG_FILE
+}
+
 function cleanup() {
     echo "Cleaning up containers..."
     docker rm -f $(docker ps -aq) 2>/dev/null || true
@@ -245,6 +309,9 @@ case $1 in
         ;;
     "web-serving")
         run_web_serving
+        ;;
+    "data-analytics")
+        run_data_analytics
         ;;
     *)
         echo "Unknown benchmark: $1"

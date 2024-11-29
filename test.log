@@ -1,0 +1,64 @@
+0
+0
+Cleaning up containers and performance data...
+074f4a01abbc
+8aed47417dbf
+5b8f59665c5c
+Deleted Volumes:
+8e534f16065973e8ac96e72f2362917d6edc6f9f9556189a5ca5cadbd4805d1c
+
+Total reclaimed space: 1.006GB
+Running data-analytics with event group 1...
+Cleaning up containers and performance data...
+Total reclaimed space: 0B
+Running Data Analytics benchmark with performance monitoring...
+bbc2f39bb68208725a07e84c42c5572d58ea4bcf13d36bd355e335493c5b5f97
+2b94ac095ee49a66b949c60bfef8eafd94209753bbecae4da1bdd9f8e5dd3d75
+Started monitoring container data-master (PID: 333421)
+e88976c4e580c22d0e6807ad8fbba5b1507e61adc1b9761fccb47b34d9f2664c
+Started monitoring container data-slave01 (PID: 333723)
+Mahout: Start HDFS server
+Mahout: make dir for /user/data/wiki
+[0;31mMahout: seqwiki[0m
+Adding lib/ to CLASSPATH
+Adding lib/ to CLASSPATH
+Running on hadoop, using /opt/hadoop-2.10.2/bin/hadoop and HADOOP_CONF_DIR=/opt/hadoop-2.10.2/etc/hadoop
+MAHOUT-JOB: /opt/mahout-14.1/mahout-examples-0.13.0-job.jar
+[0;31mMahout: seq2sparse[0m
+Adding lib/ to CLASSPATH
+Adding lib/ to CLASSPATH
+Running on hadoop, using /opt/hadoop-2.10.2/bin/hadoop and HADOOP_CONF_DIR=/opt/hadoop-2.10.2/etc/hadoop
+MAHOUT-JOB: /opt/mahout-14.1/mahout-examples-0.13.0-job.jar
+[0;31mMahout: split[0m
+Adding lib/ to CLASSPATH
+Adding lib/ to CLASSPATH
+Running on hadoop, using /opt/hadoop-2.10.2/bin/hadoop and HADOOP_CONF_DIR=/opt/hadoop-2.10.2/etc/hadoop
+MAHOUT-JOB: /opt/mahout-14.1/mahout-examples-0.13.0-job.jar
+[0;31mMahout: trainnb[0m
+Adding lib/ to CLASSPATH
+Adding lib/ to CLASSPATH
+Running on hadoop, using /opt/hadoop-2.10.2/bin/hadoop and HADOOP_CONF_DIR=/opt/hadoop-2.10.2/etc/hadoop
+MAHOUT-JOB: /opt/mahout-14.1/mahout-examples-0.13.0-job.jar
+[0;31mMahout: testnb[0m
+Adding lib/ to CLASSPATH
+Adding lib/ to CLASSPATH
+Running on hadoop, using /opt/hadoop-2.10.2/bin/hadoop and HADOOP_CONF_DIR=/opt/hadoop-2.10.2/etc/hadoop
+MAHOUT-JOB: /opt/mahout-14.1/mahout-examples-0.13.0-job.jar
+
+Benchmark time: 117204ms
+Completed group 1 for data-analytics
+Running data-analytics with event group 2...
+Cleaning up containers and performance data...
+e88976c4e580
+2b94ac095ee4
+bbc2f39bb682
+Deleted Volumes:
+e3c8454ba888e8bbe63f43dfa9db28fa9a47b6e69bd7fc76dd15cad7950d756b
+
+Total reclaimed space: 1.006GB
+Running Data Analytics benchmark with performance monitoring...
+08881f8ed613e6b14034a54f149505fecc71a089ada09f8604f7a59965926a03
+8e3b5cd3667a0a22f699c7298aa890c0ffc75cb1f46fc42f965b88c841a2104e
+Started monitoring container data-master (PID: 335982)
+1858cd9735fca4a0b814da73f07c9127995d9f578dff3842806e7b3191c02f1d
+Started monitoring container data-slave01 (PID: 336289)
