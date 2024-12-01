@@ -1,0 +1,54 @@
+Data Serving Warmup Results:
+[OVERALL], Throughput(ops/sec), 9895.640574501309
+[CLEANUP], AverageLatency(us), 560394.0
+[INSERT], AverageLatency(us), 396.8008875
+Data Serving Load Results:
+[OVERALL], Throughput(ops/sec), 4760.317989241681
+[READ], AverageLatency(us), 493.229811249933
+[CLEANUP], AverageLatency(us), 562475.75
+[UPDATE], AverageLatency(us), 392.9472043923399
+Data Serving Warmup Results:
+[OVERALL], Throughput(ops/sec), 10817.20758113176
+[CLEANUP], AverageLatency(us), 562956.75
+[INSERT], AverageLatency(us), 361.9357178
+Data Serving Load Results:
+[OVERALL], Throughput(ops/sec), 4760.997905160922
+[READ], AverageLatency(us), 501.6121717265785
+[CLEANUP], AverageLatency(us), 559938.0
+[UPDATE], AverageLatency(us), 394.9696528316006
+Data Serving Warmup Results:
+[OVERALL], Throughput(ops/sec), 10688.499708738384
+[CLEANUP], AverageLatency(us), 560393.75
+[INSERT], AverageLatency(us), 366.5738205
+Data Serving Load Results:
+[OVERALL], Throughput(ops/sec), 4756.242568370987
+[READ], AverageLatency(us), 501.7328360096093
+[CLEANUP], AverageLatency(us), 560394.5
+[UPDATE], AverageLatency(us), 400.2564366288428
+Data Serving Warmup Results:
+[OVERALL], Throughput(ops/sec), 10188.77767272016
+[CLEANUP], AverageLatency(us), 561935.0
+[INSERT], AverageLatency(us), 384.3663374
+Data Serving Load Results:
+[OVERALL], Throughput(ops/sec), 4759.63826749167
+[READ], AverageLatency(us), 491.2899456376912
+[CLEANUP], AverageLatency(us), 560905.0
+[UPDATE], AverageLatency(us), 394.97676388963015
+Data Serving Warmup Results:
+[OVERALL], Throughput(ops/sec), 10401.833219086531
+[CLEANUP], AverageLatency(us), 560914.25
+[INSERT], AverageLatency(us), 376.9997577
+Data Serving Load Results:
+[OVERALL], Throughput(ops/sec), 4759.185227489053
+[READ], AverageLatency(us), 496.76096740161057
+[CLEANUP], AverageLatency(us), 560907.0
+[UPDATE], AverageLatency(us), 392.5292668965242
+Data Serving Warmup Results:
+[OVERALL], Throughput(ops/sec), 10587.007201282298
+[CLEANUP], AverageLatency(us), 561422.0
+[INSERT], AverageLatency(us), 370.5817565
+Data Serving Load Results:
+[OVERALL], Throughput(ops/sec), 4757.373929590866
+[READ], AverageLatency(us), 487.3873450619752
+[CLEANUP], AverageLatency(us), 560910.25
+[UPDATE], AverageLatency(us), 389.0613178604775

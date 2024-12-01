@@ -10,10 +10,10 @@ ANALYSIS_DIR="$OUTPUT_DIR/analysis"
 # Define perf event groups
 EVENT_GROUP_1="cycles,instructions,branch-instructions,branch-misses"
 EVENT_GROUP_2="L1-dcache-loads,L1-dcache-load-misses"
-EVENT_GROUP_3="LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses"
+EVENT_GROUP_3="LLC-loads,LLC-load-misses"
 EVENT_GROUP_4="iTLB-loads,iTLB-load-misses"
 EVENT_GROUP_5="dTLB-loads,dTLB-load-misses"
-EVENT_GROUP_6="mem-loads,mem-stores,cache-misses,node-loads,node-load-misses"
+EVENT_GROUP_6="mem-loads,mem-stores,node-loads,node-load-misses"
 
 # Add new variables for monitoring control
 MONITOR_INTERVAL=1000  # ms
@@ -121,75 +121,81 @@ function setup_dirs() {
 
 function analyze_perf_data() {
     local benchmark=$1
-    local perf_file="$PERF_DATA_DIR/${benchmark}_stats.txt"
-    local analysis_file="$ANALYSIS_DIR/${benchmark}_analysis.txt"
-    
+    local perf_file="$PERF_DATA_DIR/${benchmark}_group${SELECTED_GROUP}.txt"
+    local analysis_file="$ANALYSIS_DIR/${benchmark}_analysis_group${SELECTED_GROUP}.txt"
+
     # Debug: Print raw perf data
     echo "Raw perf data for $benchmark:" >> "$LOG_FILE"
     cat "$perf_file" >> "$LOG_FILE"
-    
+
     {
-        echo "=== Performance Analysis for $benchmark ==="
+        echo "=== Performance Analysis for $benchmark (Event Group $SELECTED_GROUP) ==="
         echo "Time: $(date)"
-        
+
         echo -e "\nInstructions per Cycle (IPC):"
-        awk -F',' '
-            /instructions/ { 
-                inst=$1
-                gsub("[^0-9.]", "", inst)
-                print "Instructions:", inst
-            }
-            /cycles/ {
-                cycles=$1
-                gsub("[^0-9.]", "", cycles)
-                print "Cycles:", cycles
+        awk '
+            /^ *[0-9]+/ {
+                value = $1
+                event = $2
+                gsub(",", "", value)
+                if (event == "instructions") inst = value
+                else if (event == "cycles") cycles = value
             }
             END {
-                if (cycles > 0) printf "IPC: %.2f\n", inst/cycles
-                else print "IPC: N/A"
+                if (inst && cycles) {
+                    print "Instructions:", inst
+                    print "Cycles:", cycles
+                    printf "IPC: %.2f\n", inst / cycles
+                } else {
+                    print "IPC data not available."
+                }
             }
         ' "$perf_file"
-        
+
         echo -e "\nCache Statistics:"
-        awk -F',' '
-            /L1-dcache-load-misses/ {
-                l1miss=$1
-                gsub("[^0-9.]", "", l1miss)
-                print "L1 misses:", l1miss
-            }
-            /L1-dcache-loads/ {
-                l1total=$1
-                gsub("[^0-9.]", "", l1total)
-                print "L1 total:", l1total
+        awk '
+            /^ *[0-9]+/ {
+                value = $1
+                event = $2
+                gsub(",", "", value)
+                if (event == "L1-dcache-loads") l1_total = value
+                else if (event == "L1-dcache-load-misses") l1_miss = value
             }
             END {
-                if (l1total > 0 && l1miss <= l1total) 
-                    printf "L1 Miss Rate: %.2f%%\n", (l1miss/l1total)*100
-                else print "L1 Miss Rate: N/A"
+                if (l1_total && l1_miss) {
+                    print "L1 total loads:", l1_total
+                    print "L1 load misses:", l1_miss
+                    printf "L1 Miss Rate: %.2f%%\n", (l1_miss / l1_total) * 100
+                } else {
+                    print "L1 cache data not available."
+                }
             }
         ' "$perf_file"
-        
+
         echo -e "\nBranch Statistics:"
-        awk -F',' '
-            /branch-misses/ {
-                bmiss=$1
-                gsub("[^0-9.]", "", bmiss)
-                print "Branch misses:", bmiss
-            }
-            /branch-instructions/ {
-                btotal=$1
-                gsub("[^0-9.]", "", btotal)
-                print "Branch total:", btotal
+        awk '
+            /^ *[0-9]+/ {
+                value = $1
+                event = $2
+                gsub(",", "", value)
+                if (event == "branch-instructions") branch_total = value
+                else if (event == "branch-misses") branch_miss = value
             }
             END {
-                if (btotal > 0 && bmiss <= btotal) 
-                    printf "Branch Miss Rate: %.2f%%\n", (bmiss/btotal)*100
-                else print "Branch Miss Rate: N/A"
+                if (branch_total && branch_miss) {
+                    print "Total branch instructions:", branch_total
+                    print "Branch misses:", branch_miss
+                    printf "Branch Miss Rate: %.2f%%\n", (branch_miss / branch_total) * 100
+                } else {
+                    print "Branch data not available."
+                }
             }
         ' "$perf_file"
-        
+
+        # Add more sections as needed
+
     } > "$analysis_file"
-    
+
     echo "----------------------------------------" >> "$REPORT_FILE"
     cat "$analysis_file" >> "$REPORT_FILE"
 }
@@ -240,35 +246,42 @@ function print_usage() {
 
 function run_data_serving() {
     echo "Running Data Serving benchmark with performance monitoring..." | tee -a $LOG_FILE
-    {
-        # Start server
-        docker run -d --name cassandra-server --net host cloudsuite/data-serving:server
-        if ! wait_for_container "cassandra-server"; then
-            echo "Error: Cassandra server failed to start" >&2
-            return 1
-        fi
-        sleep 30  # Wait for server to initialize
+    start_perf_record "data_serving"
 
-        # Start monitoring server
-        if ! monitor_container "cassandra-server"; then
-            echo "Error: Failed to monitor Cassandra server" >&2
-            return 1
-        fi
-        echo "Started Performance monitoring Cassandra server"
+    # Start server
+    docker run -d --name cassandra-server --net host cloudsuite/data-serving:server
+    sleep 30  # Wait for server to initialize
 
-        # Run client directly without background
-        docker run --name cassandra-client --net host cloudsuite/data-serving:client bash -c \
-            "./warmup.sh localhost 10000000 4 && ./load.sh localhost 10000000 5000 4"
+    # Monitor server performance
+    monitor_container "cassandra-server"
 
-        # Monitor the results
-        docker logs cassandra-client 2>&1 | grep -E "Runtime|Throughput|Latency" >> $REPORT_FILE
-    } 2>&1 | tee -a $LOG_FILE
+    # Run warmup to populate the database
+    docker run --name cassandra-client-warmup --net host cloudsuite/data-serving:client \
+        bash -c "./warmup.sh localhost 10000000 4"
+
+    # Collect warmup results
+    echo "Data Serving Warmup Results:" >> $REPORT_FILE
+    docker logs cassandra-client-warmup 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+
+    # Remove warmup client container
+    docker rm cassandra-client-warmup
+
+    # Run load to apply workload
+    docker run --name cassandra-client-load --net host cloudsuite/data-serving:client \
+        bash -c "./load.sh localhost 10000000 5000 4"
+
+    # Collect load results
+    echo "Data Serving Load Results:" >> $REPORT_FILE
+    docker logs cassandra-client-load 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+
+    # Remove load client container
+    docker rm cassandra-client-load
 
     stop_perf_record
-    analyze_perf_data "data_serving"
 
-    # Clean up containers
-    docker rm -f cassandra-server cassandra-client 2>/dev/null || true
+    # Stop and remove server
+    docker stop cassandra-server
+    docker rm cassandra-server
 }
 
 function run_data_serving_relational() {
@@ -297,7 +310,7 @@ function run_data_serving_relational() {
         --run --tpcc --server-ip=127.0.0.1
 
     stop_perf_record
-    analyze_perf_data "data_serving_relational"
+    # analyze_perf_data "data_serving_relational"
 
     # Clean up containers
     docker rm -f postgresql-server sysbench-client sysbench-client-run 2>/dev/null || true
@@ -344,7 +357,7 @@ function run_data_caching() {
     docker exec -it dc-client /bin/bash /entrypoint.sh --m="RPS" --S=28 --g=0.8 --c=200 --w=8 --T=1 --r=100000
 
     stop_perf_record
-    analyze_perf_data "data_caching"
+    # analyze_perf_data "data_caching"
 
     # Clean up containers
     docker rm -f dc-server dc-client 2>/dev/null || true
@@ -363,7 +376,7 @@ function run_graph_analytics() {
         cloudsuite/graph-analytics --driver-memory 8g --executor-memory 8g
     
     stop_perf_record
-    analyze_perf_data "graph_analytics"
+    # analyze_perf_data "graph_analytics"
 
     # Clean up containers
     docker rm -f twitter-data 2>/dev/null || true
@@ -382,7 +395,7 @@ function run_in_memory_analytics() {
         --driver-memory 4g --executor-memory 4g
     
     stop_perf_record
-    analyze_perf_data "in_memory_analytics"
+    # analyze_perf_data "in_memory_analytics"
 
     # Clean up containers
     docker rm -f movielens-data 2>/dev/null || true
@@ -404,7 +417,7 @@ function run_media_streaming() {
         cloudsuite/media-streaming:client localhost 10
     
     stop_perf_record
-    analyze_perf_data "media_streaming"
+    # analyze_perf_data "media_streaming"
 
     # Clean up containers
     docker rm -f streaming_dataset streaming_server streaming_client 2>/dev/null || true
@@ -426,7 +439,7 @@ function run_web_search() {
         cloudsuite/web-search:client localhost 8
     
     stop_perf_record
-    analyze_perf_data "web_search"
+    # analyze_perf_data "web_search"
 
     # Clean up containers
     docker rm -f web_search_dataset server web_search_client 2>/dev/null || true
@@ -456,7 +469,7 @@ function run_web_serving() {
         cloudsuite/web-serving:faban_client localhost 1
     
     stop_perf_record
-    analyze_perf_data "web_serving"
+    # analyze_perf_data "web_serving"
 
     # Clean up containers
     docker rm -f database_server memcache_server web_server faban_client 2>/dev/null || true
@@ -502,7 +515,7 @@ function run_data_analytics() {
     docker exec data-master benchmark
     
     stop_perf_record
-    analyze_perf_data "data_analytics"
+    # analyze_perf_data "data_analytics"
 
     # Clean up containers
     docker rm -f wikimedia-dataset data-master data-slave01 2>/dev/null || true
@@ -510,7 +523,8 @@ function run_data_analytics() {
 
 function cleanup() {
     echo "Cleaning up containers and performance data..."
-    docker rm -f $(docker ps -aq) 2>/dev/null || true
+    docker rm -f $(docker ps -aq --filter "name=cassandra-server") 2>/dev/null
+    docker rm -f $(docker ps -aq --filter "name=cassandra-client-") 2>/dev/null
     docker volume prune -f
     rm -rf docker_servers
 }

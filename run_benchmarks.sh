@@ -47,15 +47,33 @@ function run_data_serving() {
         # Start server
         docker run -d --name cassandra-server --net host cloudsuite/data-serving:server
         sleep 30  # Wait for server to initialize
-        
-        # Start client and run warmup
-        docker run -it --name cassandra-client --net host cloudsuite/data-serving:client bash -c \
-            "./warmup.sh localhost 10000000 4 && ./load.sh localhost 10000000 5000 4"
+
+        # Run warmup to populate the database
+        docker run --rm --net host cloudsuite/data-serving:client \
+            bash -c "./warmup.sh localhost 10000000 4"
+
+        # Run load to apply workload
+        docker run --rm --net host cloudsuite/data-serving:client \
+        docker logs cassandra-client-warmup 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+
+        # Remove warmup client container
+        docker rm cassandra-client-warmup
+
+        # Run load to apply workload
+        docker run --name cassandra-client-load --net host cloudsuite/data-serving:client \
+            bash -c "./load.sh localhost 10000000 5000 4"
+
+        # Collect load results
+        echo "Data Serving Load Results:" >> $REPORT_FILE
+        docker logs cassandra-client-load 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+
+        # Remove load client container
+        docker rm cassandra-client-load
+
+        # Stop and remove server
+        docker stop cassandra-server
+        docker rm cassandra-server
     } 2>&1 | tee -a $LOG_FILE
-    
-    # Collect results
-    echo "Data Serving Results:" >> $REPORT_FILE
-    docker logs cassandra-client 2>&1 | grep -E "Runtime|Throughput|Latency" >> $REPORT_FILE
 }
 
 function run_data_serving_relational() {
@@ -309,17 +327,20 @@ case $1 in
         ;;
     "web-serving")
         run_web_serving
-        ;;
-    "data-analytics")
-        run_data_analytics
-        ;;
-    *)
-        echo "Unknown benchmark: $1"
         print_usage
+        exit 1
+esac
+
+echo "Benchmark completed! Results available in:"
+echo "- Report: $REPORT_FILE"
+        print_usage
+echo "- Logs: $LOG_FILE"
+echo "- Logs: $LOG_FILE"
+echo "- Report: $REPORT_FILE"
         exit 1
         ;;
 esac
 
 echo "Benchmark completed! Results available in:"
-echo "- Logs: $LOG_FILE"
 echo "- Report: $REPORT_FILE"
+echo "- Logs: $LOG_FILE"
