@@ -1,0 +1,92 @@
+
+Running all event groups sequentially
+
+=== Running event group 1 ===
+
+Running Data Serving benchmark with performance monitoring...
+
+Starting Cassandra server...
+
+Starting monitoring for container: cassandra-server
+
+Started real-time logging for cassandra-server to benchmark_results/container_logs/cassandra-server.log
+
+Started monitoring container cassandra-server (PID: 457193)
+
+Starting monitoring for container: cassandra-client-warmup
+
+Started real-time logging for cassandra-client-warmup to benchmark_results/container_logs/cassandra-client-warmup.log
+
+Started monitoring container cassandra-client-warmup (PID: 457554)
+
+Starting monitoring for container: cassandra-client-load
+
+Started real-time logging for cassandra-client-load to benchmark_results/container_logs/cassandra-client-load.log
+
+Started monitoring container cassandra-client-load (PID: 458375)
+
+=== Running event group 2 ===
+
+Running Data Serving benchmark with performance monitoring...
+
+Starting Cassandra server...
+
+Starting monitoring for container: cassandra-server
+
+Started real-time logging for cassandra-server to benchmark_results/container_logs/cassandra-server.log
+
+Started monitoring container cassandra-server (PID: 459122)
+
+Starting monitoring for container: cassandra-client-warmup
+
+Started real-time logging for cassandra-client-warmup to benchmark_results/container_logs/cassandra-client-warmup.log
+
+Started monitoring container cassandra-client-warmup (PID: 459496)
+
+Starting monitoring for container: cassandra-client-load
+
+Started real-time logging for cassandra-client-load to benchmark_results/container_logs/cassandra-client-load.log
+
+Started monitoring container cassandra-client-load (PID: 460298)
+
+=== Running event group 3 ===
+
+Running Data Serving benchmark with performance monitoring...
+
+Starting Cassandra server...
+
+Starting monitoring for container: cassandra-server
+
+Started real-time logging for cassandra-server to benchmark_results/container_logs/cassandra-server.log
+
+Started monitoring container cassandra-server (PID: 461023)
+
+Starting monitoring for container: cassandra-client-warmup
+
+Started real-time logging for cassandra-client-warmup to benchmark_results/container_logs/cassandra-client-warmup.log
+
+Started monitoring container cassandra-client-warmup (PID: 461385)
+
+Starting monitoring for container: cassandra-client-load
+
+Started real-time logging for cassandra-client-load to benchmark_results/container_logs/cassandra-client-load.log
+
+Started monitoring container cassandra-client-load (PID: 462191)
+
+=== Running event group 4 ===
+
+Running Data Serving benchmark with performance monitoring...
+
+Starting Cassandra server...
+
+Starting monitoring for container: cassandra-server
+
+Started real-time logging for cassandra-server to benchmark_results/container_logs/cassandra-server.log
+
+Started monitoring container cassandra-server (PID: 462943)
+
+Starting monitoring for container: cassandra-client-warmup
+
+Started real-time logging for cassandra-client-warmup to benchmark_results/container_logs/cassandra-client-warmup.log
+
+Started monitoring container cassandra-client-warmup (PID: 463312)

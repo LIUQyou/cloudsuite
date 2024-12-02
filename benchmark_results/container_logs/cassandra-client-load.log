@@ -1,0 +1,74 @@
+======================================================
+server IP: localhost
+Database record count: 5000000
+Target load: 5000 rps
+Loader threads count: 4
+Opeartion count: 300000
+Make sure you have run the warmup.sh before loading the server, and use the same record count here.
+======================================================
+/usr/bin/java  -classpath /ycsb/conf:/ycsb/lib/HdrHistogram-2.1.4.jar:/ycsb/lib/core-0.17.0.jar:/ycsb/lib/htrace-core4-4.1.0-incubating.jar:/ycsb/lib/jackson-core-asl-1.9.4.jar:/ycsb/lib/jackson-mapper-asl-1.9.4.jar:/ycsb/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/ycsb/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar:/ycsb/cassandra-binding/lib/guava-16.0.1.jar:/ycsb/cassandra-binding/lib/metrics-core-3.1.2.jar:/ycsb/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/ycsb/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/ycsb/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/ycsb/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/ycsb/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/ycsb/cassandra-binding/lib/slf4j-api-1.7.25.jar site.ycsb.Client -t -db site.ycsb.db.CassandraCQLClient -p hosts=localhost -P /ycsb/workloads/workloada -p recordcount=5000000 -p operationcount=300000 -threads 4 -target 5000 -s
+Command line: -t -db site.ycsb.db.CassandraCQLClient -p hosts=localhost -P /ycsb/workloads/workloada -p recordcount=5000000 -p operationcount=300000 -threads 4 -target 5000 -s
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024-12-02 13:24:19:502 0 sec: 0 operations; est completion in 0 second 
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/ycsb/cassandra-binding/lib/netty-common-4.0.33.Final.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Dec 02, 2024 1:24:19 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2024-12-02 13:24:29:461 10 sec: 46083 operations; 4607.84 current ops/sec; est completion in 56 seconds [READ: Count=23031, Max=41215, Min=275, Avg=561.68, 90=718, 99=1586, 99.9=3559, 99.99=15479] [UPDATE: Count=23100, Max=38303, Min=199, Avg=435.86, 90=523, 99=1075, 99.9=3125, 99.99=15215] 
+2024-12-02 13:24:39:461 20 sec: 96081 operations; 4999.8 current ops/sec; est completion in 43 seconds [READ: Count=25217, Max=14719, Min=265, Avg=487.54, 90=563, 99=657, 99.9=1012, 99.99=12815] [UPDATE: Count=24752, Max=15567, Min=189, Avg=399.64, 90=467, 99=541, 99.9=961, 99.99=14799] 
+2024-12-02 13:24:49:461 30 sec: 146079 operations; 4999.8 current ops/sec; est completion in 32 seconds [READ: Count=24941, Max=24383, Min=248, Avg=484.69, 90=560, 99=654, 99.9=873, 99.99=15863] [UPDATE: Count=25057, Max=24703, Min=212, Avg=401.69, 90=467, 99=539, 99.9=780, 99.99=15583] 
+2024-12-02 13:24:59:461 40 sec: 196081 operations; 5000.2 current ops/sec; est completion in 22 seconds [READ: Count=25202, Max=24143, Min=209, Avg=468.5, 90=551, 99=649, 99.9=1007, 99.99=17135] [UPDATE-FAILED: Count=4, Max=2011135, Min=2004992, Avg=2009088, 90=2011135, 99=2011135, 99.9=2011135, 99.99=2011135] [UPDATE: Count=24827, Max=265215, Min=151, Avg=424.94, 90=461, 99=542, 99.9=934, 99.99=262911] 
+2024-12-02 13:25:09:460 50 sec: 246079 operations; 5000.3 current ops/sec; est completion in 11 seconds [READ: Count=25155, Max=17967, Min=243, Avg=477.41, 90=554, 99=632, 99.9=766, 99.99=16447] [UPDATE-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [UPDATE: Count=24813, Max=17775, Min=194, Avg=393.26, 90=469, 99=533, 99.9=664, 99.99=16247] 
+2024-12-02 13:25:19:461 60 sec: 296080 operations; 4999.6 current ops/sec; est completion in 1 second [READ: Count=25003, Max=17743, Min=259, Avg=467.94, 90=542, 99=622, 99.9=845, 99.99=6443] [UPDATE-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [UPDATE: Count=25011, Max=17279, Min=200, Avg=387.09, 90=457, 99=530, 99.9=690, 99.99=16799] 
+2024-12-02 13:25:22:487 63 sec: 300000 operations; 1295.01 current ops/sec; [READ: Count=1951, Max=1042, Min=317, Avg=514.45, 90=590, 99=655, 99.9=734, 99.99=1042] [UPDATE-FAILED: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [CLEANUP: Count=4, Max=2242559, Min=5, Avg=560421, 90=2242559, 99=2242559, 99.9=2242559, 99.99=2242559] [UPDATE: Count=1936, Max=740, Min=248, Avg=432.48, 90=502, 99=569, 99.9=638, 99.99=740] 
+[OVERALL], RunTime(ms), 63028
+[OVERALL], Throughput(ops/sec), 4759.789299993654
+[TOTAL_GCS_G1_Young_Generation], Count, 9
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 123
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.1951513612997398
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 9
+[TOTAL_GC_TIME], Time(ms), 123
+[TOTAL_GC_TIME_%], Time(%), 0.1951513612997398
+[READ], Operations, 150500
+[READ], AverageLatency(us), 490.62600664451827
+[READ], MinLatency(us), 209
+[READ], MaxLatency(us), 41215
+[READ], 95thPercentileLatency(us), 610
+[READ], 99thPercentileLatency(us), 830
+[READ], Return=OK, 150500
+[UPDATE-FAILED], Operations, 4
+[UPDATE-FAILED], AverageLatency(us), 2009088.0
+[UPDATE-FAILED], MinLatency(us), 2004992
+[UPDATE-FAILED], MaxLatency(us), 2011135
+[UPDATE-FAILED], 95thPercentileLatency(us), 2011135
+[UPDATE-FAILED], 99thPercentileLatency(us), 2011135
+[CLEANUP], Operations, 4
+[CLEANUP], AverageLatency(us), 560421.0
+[CLEANUP], MinLatency(us), 5
+[CLEANUP], MaxLatency(us), 2242559
+[CLEANUP], 95thPercentileLatency(us), 2242559
+[CLEANUP], 99thPercentileLatency(us), 2242559
+[UPDATE], Operations, 149496
+[UPDATE], AverageLatency(us), 407.04815513458556
+[UPDATE], MinLatency(us), 151
+[UPDATE], MaxLatency(us), 265215
+[UPDATE], 95thPercentileLatency(us), 499
+[UPDATE], 99thPercentileLatency(us), 608
+[UPDATE], Return=OK, 149496
+[UPDATE], Return=ERROR, 4

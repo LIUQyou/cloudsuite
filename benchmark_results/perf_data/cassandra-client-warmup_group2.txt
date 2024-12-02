@@ -1,0 +1,1167 @@
+# started on Mon Dec  2 07:03:11 2024
+
+#           time             counts unit events
+     1.001080126      <not counted>      L1-dcache-loads                                             
+     1.001080126      <not counted>      L1-dcache-load-misses                                       
+     2.002266248      <not counted>      L1-dcache-loads                                             
+     2.002266248      <not counted>      L1-dcache-load-misses                                       
+     3.003403632      <not counted>      L1-dcache-loads                                             
+     3.003403632      <not counted>      L1-dcache-load-misses                                       
+     4.004539798        555,514,381      L1-dcache-loads                                             
+     4.004539798         22,828,177      L1-dcache-load-misses     #    4.11% of all L1-dcache accesses
+     5.005740113         14,112,395      L1-dcache-loads                                             
+     5.005740113          2,291,872      L1-dcache-load-misses     #   16.24% of all L1-dcache accesses
+     6.006898264      <not counted>      L1-dcache-loads                                             
+     6.006898264      <not counted>      L1-dcache-load-misses                                       
+     7.008056161      <not counted>      L1-dcache-loads                                             
+     7.008056161      <not counted>      L1-dcache-load-misses                                       
+     8.009193144      <not counted>      L1-dcache-loads                                             
+     8.009193144      <not counted>      L1-dcache-load-misses                                       
+     9.010324707      <not counted>      L1-dcache-loads                                             
+     9.010324707      <not counted>      L1-dcache-load-misses                                       
+    10.011461843        569,602,867      L1-dcache-loads                                             
+    10.011461843         24,987,490      L1-dcache-load-misses     #    4.39% of all L1-dcache accesses
+    11.012598910      <not counted>      L1-dcache-loads                                             
+    11.012598910      <not counted>      L1-dcache-load-misses                                       
+    12.013743344      <not counted>      L1-dcache-loads                                             
+    12.013743344      <not counted>      L1-dcache-load-misses                                       
+    13.014869199      <not counted>      L1-dcache-loads                                             
+    13.014869199      <not counted>      L1-dcache-load-misses                                       
+    14.015995533      <not counted>      L1-dcache-loads                                             
+    14.015995533      <not counted>      L1-dcache-load-misses                                       
+    15.017100566        393,892,838      L1-dcache-loads                                             
+    15.017100566         15,642,694      L1-dcache-load-misses     #    3.97% of all L1-dcache accesses
+    16.018258360        175,818,808      L1-dcache-loads                                             
+    16.018258360          9,361,859      L1-dcache-load-misses     #    5.32% of all L1-dcache accesses
+    17.019423110      <not counted>      L1-dcache-loads                                             
+    17.019423110      <not counted>      L1-dcache-load-misses                                       
+    18.020554057      <not counted>      L1-dcache-loads                                             
+    18.020554057      <not counted>      L1-dcache-load-misses                                       
+    19.021684650      <not counted>      L1-dcache-loads                                             
+    19.021684650      <not counted>      L1-dcache-load-misses                                       
+    20.022816283      <not counted>      L1-dcache-loads                                             
+    20.022816283      <not counted>      L1-dcache-load-misses                                       
+    21.024007546        569,807,949      L1-dcache-loads                                             
+    21.024007546         24,459,042      L1-dcache-load-misses     #    4.29% of all L1-dcache accesses
+    22.025199206      <not counted>      L1-dcache-loads                                             
+    22.025199206      <not counted>      L1-dcache-load-misses                                       
+    23.026322939      <not counted>      L1-dcache-loads                                             
+    23.026322939      <not counted>      L1-dcache-load-misses                                       
+    24.027493298      <not counted>      L1-dcache-loads                                             
+    24.027493298      <not counted>      L1-dcache-load-misses                                       
+    25.028644865      <not counted>      L1-dcache-loads                                             
+    25.028644865      <not counted>      L1-dcache-load-misses                                       
+#           time             counts unit events
+    26.029799099        194,893,983      L1-dcache-loads                                             
+    26.029799099          8,688,813      L1-dcache-load-misses     #    4.46% of all L1-dcache accesses
+    27.030986351        374,689,620      L1-dcache-loads                                             
+    27.030986351         16,195,671      L1-dcache-load-misses     #    4.32% of all L1-dcache accesses
+    28.032191789      <not counted>      L1-dcache-loads                                             
+    28.032191789      <not counted>      L1-dcache-load-misses                                       
+    29.033346416      <not counted>      L1-dcache-loads                                             
+    29.033346416      <not counted>      L1-dcache-load-misses                                       
+    30.034475872      <not counted>      L1-dcache-loads                                             
+    30.034475872      <not counted>      L1-dcache-load-misses                                       
+    31.035605622      <not counted>      L1-dcache-loads                                             
+    31.035605622      <not counted>      L1-dcache-load-misses                                       
+    32.036748036        570,138,555      L1-dcache-loads                                             
+    32.036748036         24,348,968      L1-dcache-load-misses     #    4.27% of all L1-dcache accesses
+    33.037921539      <not counted>      L1-dcache-loads                                             
+    33.037921539      <not counted>      L1-dcache-load-misses                                       
+    34.039056729      <not counted>      L1-dcache-loads                                             
+    34.039056729      <not counted>      L1-dcache-load-misses                                       
+    35.040192273      <not counted>      L1-dcache-loads                                             
+    35.040192273      <not counted>      L1-dcache-load-misses                                       
+    36.041338443      <not counted>      L1-dcache-loads                                             
+    36.041338443      <not counted>      L1-dcache-load-misses                                       
+    37.042501901         11,764,155      L1-dcache-loads                                             
+    37.042501901            936,163      L1-dcache-load-misses     #    7.96% of all L1-dcache accesses
+    38.043670246        584,618,723      L1-dcache-loads                                             
+    38.043670246         22,447,935      L1-dcache-load-misses     #    3.84% of all L1-dcache accesses
+    39.044867703          5,436,364      L1-dcache-loads                                             
+    39.044867703            324,337      L1-dcache-load-misses     #    5.97% of all L1-dcache accesses
+    40.046066914         20,160,785      L1-dcache-loads                                             
+    40.046066914          3,299,974      L1-dcache-load-misses     #   16.37% of all L1-dcache accesses
+    41.047293842      <not counted>      L1-dcache-loads                                             
+    41.047293842      <not counted>      L1-dcache-load-misses                                       
+    42.048439904      <not counted>      L1-dcache-loads                                             
+    42.048439904      <not counted>      L1-dcache-load-misses                                       
+    43.049570871      <not counted>      L1-dcache-loads                                             
+    43.049570871      <not counted>      L1-dcache-load-misses                                       
+    44.050723494      <not counted>      L1-dcache-loads                                             
+    44.050723494      <not counted>      L1-dcache-load-misses                                       
+    45.051844005        460,161,343      L1-dcache-loads                                             
+    45.051844005         30,820,957      L1-dcache-load-misses     #    6.70% of all L1-dcache accesses
+    46.052194928      1,200,564,613      L1-dcache-loads                                             
+    46.052194928         84,986,387      L1-dcache-load-misses     #    7.08% of all L1-dcache accesses
+    47.053374123      3,780,422,532      L1-dcache-loads                                             
+    47.053374123        242,549,237      L1-dcache-load-misses     #    6.42% of all L1-dcache accesses
+    48.054594769      3,427,112,257      L1-dcache-loads                                             
+    48.054594769        207,757,251      L1-dcache-load-misses     #    6.06% of all L1-dcache accesses
+    49.055788830        476,808,747      L1-dcache-loads                                             
+    49.055788830         38,130,379      L1-dcache-load-misses     #    8.00% of all L1-dcache accesses
+    50.056971484        303,514,321      L1-dcache-loads                                             
+    50.056971484         23,889,678      L1-dcache-load-misses     #    7.87% of all L1-dcache accesses
+#           time             counts unit events
+    51.058222252        380,666,777      L1-dcache-loads                                             
+    51.058222252         29,370,414      L1-dcache-load-misses     #    7.72% of all L1-dcache accesses
+    52.059513564        288,782,904      L1-dcache-loads                                             
+    52.059513564         24,987,317      L1-dcache-load-misses     #    8.65% of all L1-dcache accesses
+    53.060731135        276,189,668      L1-dcache-loads                                             
+    53.060731135         23,713,968      L1-dcache-load-misses     #    8.59% of all L1-dcache accesses
+    54.061992148        199,109,177      L1-dcache-loads                                             
+    54.061992148         17,635,380      L1-dcache-load-misses     #    8.86% of all L1-dcache accesses
+    55.063243073        333,131,063      L1-dcache-loads                                             
+    55.063243073         24,854,144      L1-dcache-load-misses     #    7.46% of all L1-dcache accesses
+    56.064532809        357,505,462      L1-dcache-loads                                             
+    56.064532809         29,937,227      L1-dcache-load-misses     #    8.37% of all L1-dcache accesses
+    57.065821759        241,591,006      L1-dcache-loads                                             
+    57.065821759         22,940,636      L1-dcache-load-misses     #    9.50% of all L1-dcache accesses
+    58.067099391        285,032,438      L1-dcache-loads                                             
+    58.067099391         24,666,235      L1-dcache-load-misses     #    8.65% of all L1-dcache accesses
+    59.068205358        230,304,442      L1-dcache-loads                                             
+    59.068205358         21,586,203      L1-dcache-load-misses     #    9.37% of all L1-dcache accesses
+    60.069512362        284,249,088      L1-dcache-loads                                             
+    60.069512362         24,249,801      L1-dcache-load-misses     #    8.53% of all L1-dcache accesses
+    61.070824158        273,786,586      L1-dcache-loads                                             
+    61.070824158         24,374,318      L1-dcache-load-misses     #    8.90% of all L1-dcache accesses
+    62.072034587        419,528,169      L1-dcache-loads                                             
+    62.072034587         30,532,977      L1-dcache-load-misses     #    7.28% of all L1-dcache accesses
+    63.073311370        348,790,465      L1-dcache-loads                                             
+    63.073311370         27,352,812      L1-dcache-load-misses     #    7.84% of all L1-dcache accesses
+    64.074558763        280,327,635      L1-dcache-loads                                             
+    64.074558763         23,546,484      L1-dcache-load-misses     #    8.40% of all L1-dcache accesses
+    65.075792655        286,070,905      L1-dcache-loads                                             
+    65.075792655         24,300,903      L1-dcache-load-misses     #    8.49% of all L1-dcache accesses
+    66.077011642        321,365,791      L1-dcache-loads                                             
+    66.077011642         26,288,949      L1-dcache-load-misses     #    8.18% of all L1-dcache accesses
+    67.078310970        217,741,614      L1-dcache-loads                                             
+    67.078310970         16,802,306      L1-dcache-load-misses     #    7.72% of all L1-dcache accesses
+    68.079512414        247,388,630      L1-dcache-loads                                             
+    68.079512414         21,052,212      L1-dcache-load-misses     #    8.51% of all L1-dcache accesses
+    69.080731505        270,594,172      L1-dcache-loads                                             
+    69.080731505         22,427,989      L1-dcache-load-misses     #    8.29% of all L1-dcache accesses
+    70.081985469        324,604,517      L1-dcache-loads                                             
+    70.081985469         26,147,553      L1-dcache-load-misses     #    8.06% of all L1-dcache accesses
+    71.083229957        293,849,278      L1-dcache-loads                                             
+    71.083229957         23,346,162      L1-dcache-load-misses     #    7.94% of all L1-dcache accesses
+    72.084463127        283,224,219      L1-dcache-loads                                             
+    72.084463127         24,139,594      L1-dcache-load-misses     #    8.52% of all L1-dcache accesses
+    73.085758566        324,350,354      L1-dcache-loads                                             
+    73.085758566         26,341,230      L1-dcache-load-misses     #    8.12% of all L1-dcache accesses
+    74.087031396        406,262,279      L1-dcache-loads                                             
+    74.087031396         29,347,088      L1-dcache-load-misses     #    7.22% of all L1-dcache accesses
+    75.088296530        326,623,744      L1-dcache-loads                                             
+    75.088296530         25,044,916      L1-dcache-load-misses     #    7.67% of all L1-dcache accesses
+#           time             counts unit events
+    76.089540853        381,044,550      L1-dcache-loads                                             
+    76.089540853         29,523,210      L1-dcache-load-misses     #    7.75% of all L1-dcache accesses
+    77.090805804        585,143,412      L1-dcache-loads                                             
+    77.090805804         37,928,432      L1-dcache-load-misses     #    6.48% of all L1-dcache accesses
+    78.092119286        264,209,670      L1-dcache-loads                                             
+    78.092119286         22,570,332      L1-dcache-load-misses     #    8.54% of all L1-dcache accesses
+    79.093377255        270,797,097      L1-dcache-loads                                             
+    79.093377255         23,250,839      L1-dcache-load-misses     #    8.59% of all L1-dcache accesses
+    80.094692307        279,654,139      L1-dcache-loads                                             
+    80.094692307         22,034,235      L1-dcache-load-misses     #    7.88% of all L1-dcache accesses
+    81.095960218        274,893,422      L1-dcache-loads                                             
+    81.095960218         23,160,008      L1-dcache-load-misses     #    8.43% of all L1-dcache accesses
+    82.097281277        303,360,082      L1-dcache-loads                                             
+    82.097281277         24,754,876      L1-dcache-load-misses     #    8.16% of all L1-dcache accesses
+    83.098553668        321,008,454      L1-dcache-loads                                             
+    83.098553668         25,503,457      L1-dcache-load-misses     #    7.94% of all L1-dcache accesses
+    84.099858451        323,381,376      L1-dcache-loads                                             
+    84.099858451         24,734,660      L1-dcache-load-misses     #    7.65% of all L1-dcache accesses
+    85.101118443        319,326,389      L1-dcache-loads                                             
+    85.101118443         25,309,027      L1-dcache-load-misses     #    7.93% of all L1-dcache accesses
+    86.102424298        356,348,740      L1-dcache-loads                                             
+    86.102424298         26,422,344      L1-dcache-load-misses     #    7.41% of all L1-dcache accesses
+    87.102706636        323,159,007      L1-dcache-loads                                             
+    87.102706636         25,252,199      L1-dcache-load-misses     #    7.81% of all L1-dcache accesses
+    88.102973124        319,170,817      L1-dcache-loads                                             
+    88.102973124         25,103,870      L1-dcache-load-misses     #    7.87% of all L1-dcache accesses
+    89.104175188        329,634,309      L1-dcache-loads                                             
+    89.104175188         26,810,219      L1-dcache-load-misses     #    8.13% of all L1-dcache accesses
+    90.105363610        322,409,770      L1-dcache-loads                                             
+    90.105363610         26,107,088      L1-dcache-load-misses     #    8.10% of all L1-dcache accesses
+    91.106601847        347,725,690      L1-dcache-loads                                             
+    91.106601847         25,017,391      L1-dcache-load-misses     #    7.19% of all L1-dcache accesses
+    92.107857860        351,878,488      L1-dcache-loads                                             
+    92.107857860         25,772,993      L1-dcache-load-misses     #    7.32% of all L1-dcache accesses
+    93.109049336        314,174,712      L1-dcache-loads                                             
+    93.109049336         24,316,750      L1-dcache-load-misses     #    7.74% of all L1-dcache accesses
+    94.110362358        337,233,325      L1-dcache-loads                                             
+    94.110362358         25,649,724      L1-dcache-load-misses     #    7.61% of all L1-dcache accesses
+    95.111593827        344,742,458      L1-dcache-loads                                             
+    95.111593827         25,733,209      L1-dcache-load-misses     #    7.46% of all L1-dcache accesses
+    96.112896022        354,615,532      L1-dcache-loads                                             
+    96.112896022         25,751,958      L1-dcache-load-misses     #    7.26% of all L1-dcache accesses
+    97.114164934        278,310,653      L1-dcache-loads                                             
+    97.114164934         23,038,939      L1-dcache-load-misses     #    8.28% of all L1-dcache accesses
+    98.115398473        311,520,351      L1-dcache-loads                                             
+    98.115398473         24,233,354      L1-dcache-load-misses     #    7.78% of all L1-dcache accesses
+    99.116670463        334,356,313      L1-dcache-loads                                             
+    99.116670463         24,988,250      L1-dcache-load-misses     #    7.47% of all L1-dcache accesses
+   100.117953271        322,672,210      L1-dcache-loads                                             
+   100.117953271         25,065,919      L1-dcache-load-misses     #    7.77% of all L1-dcache accesses
+#           time             counts unit events
+   101.119188962        356,018,191      L1-dcache-loads                                             
+   101.119188962         25,729,198      L1-dcache-load-misses     #    7.23% of all L1-dcache accesses
+   102.120230950        380,767,799      L1-dcache-loads                                             
+   102.120230950         27,719,394      L1-dcache-load-misses     #    7.28% of all L1-dcache accesses
+   103.121504179        338,637,528      L1-dcache-loads                                             
+   103.121504179         26,174,900      L1-dcache-load-misses     #    7.73% of all L1-dcache accesses
+   104.122778343        274,732,442      L1-dcache-loads                                             
+   104.122778343         23,163,242      L1-dcache-load-misses     #    8.43% of all L1-dcache accesses
+   105.123110864        317,875,055      L1-dcache-loads                                             
+   105.123110864         25,397,553      L1-dcache-load-misses     #    7.99% of all L1-dcache accesses
+   106.124187373        494,324,696      L1-dcache-loads                                             
+   106.124187373         33,561,164      L1-dcache-load-misses     #    6.79% of all L1-dcache accesses
+   107.125129292        395,954,657      L1-dcache-loads                                             
+   107.125129292         28,092,246      L1-dcache-load-misses     #    7.09% of all L1-dcache accesses
+   108.126346303        373,783,603      L1-dcache-loads                                             
+   108.126346303         27,649,850      L1-dcache-load-misses     #    7.40% of all L1-dcache accesses
+   109.126778425        372,823,296      L1-dcache-loads                                             
+   109.126778425         27,718,661      L1-dcache-load-misses     #    7.43% of all L1-dcache accesses
+   110.128077185        323,535,989      L1-dcache-loads                                             
+   110.128077185         25,061,024      L1-dcache-load-misses     #    7.75% of all L1-dcache accesses
+   111.129390249        356,886,162      L1-dcache-loads                                             
+   111.129390249         26,949,599      L1-dcache-load-misses     #    7.55% of all L1-dcache accesses
+   112.130661596        368,533,152      L1-dcache-loads                                             
+   112.130661596         26,383,566      L1-dcache-load-misses     #    7.16% of all L1-dcache accesses
+   113.130916190        417,476,664      L1-dcache-loads                                             
+   113.130916190         28,859,131      L1-dcache-load-misses     #    6.91% of all L1-dcache accesses
+   114.132215667        320,434,094      L1-dcache-loads                                             
+   114.132215667         24,656,197      L1-dcache-load-misses     #    7.69% of all L1-dcache accesses
+   115.132611007        341,321,854      L1-dcache-loads                                             
+   115.132611007         25,474,460      L1-dcache-load-misses     #    7.46% of all L1-dcache accesses
+   116.133876352        339,350,549      L1-dcache-loads                                             
+   116.133876352         25,989,268      L1-dcache-load-misses     #    7.66% of all L1-dcache accesses
+   117.134282533        308,811,881      L1-dcache-loads                                             
+   117.134282533         24,654,207      L1-dcache-load-misses     #    7.98% of all L1-dcache accesses
+   118.135538993        273,638,078      L1-dcache-loads                                             
+   118.135538993         23,345,007      L1-dcache-load-misses     #    8.53% of all L1-dcache accesses
+   119.136197873        259,530,356      L1-dcache-loads                                             
+   119.136197873         21,765,428      L1-dcache-load-misses     #    8.39% of all L1-dcache accesses
+   120.136591315        239,239,018      L1-dcache-loads                                             
+   120.136591315         20,689,559      L1-dcache-load-misses     #    8.65% of all L1-dcache accesses
+   121.137172759        260,620,693      L1-dcache-loads                                             
+   121.137172759         22,164,249      L1-dcache-load-misses     #    8.50% of all L1-dcache accesses
+   122.137454903        271,531,906      L1-dcache-loads                                             
+   122.137454903         23,148,477      L1-dcache-load-misses     #    8.53% of all L1-dcache accesses
+   123.138644744        259,630,497      L1-dcache-loads                                             
+   123.138644744         22,072,367      L1-dcache-load-misses     #    8.50% of all L1-dcache accesses
+   124.138972105        348,826,573      L1-dcache-loads                                             
+   124.138972105         25,590,641      L1-dcache-load-misses     #    7.34% of all L1-dcache accesses
+   125.140182184        392,570,093      L1-dcache-loads                                             
+   125.140182184         29,363,871      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+#           time             counts unit events
+   126.141119167        453,537,606      L1-dcache-loads                                             
+   126.141119167         31,648,785      L1-dcache-load-misses     #    6.98% of all L1-dcache accesses
+   127.141426151        379,222,701      L1-dcache-loads                                             
+   127.141426151         27,258,422      L1-dcache-load-misses     #    7.19% of all L1-dcache accesses
+   128.141797768        386,960,358      L1-dcache-loads                                             
+   128.141797768         27,831,875      L1-dcache-load-misses     #    7.19% of all L1-dcache accesses
+   129.143088120        401,085,686      L1-dcache-loads                                             
+   129.143088120         28,030,801      L1-dcache-load-misses     #    6.99% of all L1-dcache accesses
+   130.144341530        389,545,477      L1-dcache-loads                                             
+   130.144341530         27,608,002      L1-dcache-load-misses     #    7.09% of all L1-dcache accesses
+   131.145600412        365,469,726      L1-dcache-loads                                             
+   131.145600412         26,557,291      L1-dcache-load-misses     #    7.27% of all L1-dcache accesses
+   132.145889659        302,761,909      L1-dcache-loads                                             
+   132.145889659         23,919,550      L1-dcache-load-misses     #    7.90% of all L1-dcache accesses
+   133.146200442        369,312,159      L1-dcache-loads                                             
+   133.146200442         26,789,350      L1-dcache-load-misses     #    7.25% of all L1-dcache accesses
+   134.146592447        363,382,838      L1-dcache-loads                                             
+   134.146592447         25,631,904      L1-dcache-load-misses     #    7.05% of all L1-dcache accesses
+   135.147811657        419,773,636      L1-dcache-loads                                             
+   135.147811657         29,279,274      L1-dcache-load-misses     #    6.98% of all L1-dcache accesses
+   136.148191242        449,393,035      L1-dcache-loads                                             
+   136.148191242         30,244,040      L1-dcache-load-misses     #    6.73% of all L1-dcache accesses
+   137.149486644        348,910,652      L1-dcache-loads                                             
+   137.149486644         25,604,141      L1-dcache-load-misses     #    7.34% of all L1-dcache accesses
+   138.150778933        336,016,480      L1-dcache-loads                                             
+   138.150778933         25,186,465      L1-dcache-load-misses     #    7.50% of all L1-dcache accesses
+   139.152030443        332,720,077      L1-dcache-loads                                             
+   139.152030443         24,841,099      L1-dcache-load-misses     #    7.47% of all L1-dcache accesses
+   140.153284548        356,107,001      L1-dcache-loads                                             
+   140.153284548         26,808,122      L1-dcache-load-misses     #    7.53% of all L1-dcache accesses
+   141.154562114        345,857,969      L1-dcache-loads                                             
+   141.154562114         26,061,989      L1-dcache-load-misses     #    7.54% of all L1-dcache accesses
+   142.155809898        356,658,261      L1-dcache-loads                                             
+   142.155809898         27,126,989      L1-dcache-load-misses     #    7.61% of all L1-dcache accesses
+   143.156186389        365,683,683      L1-dcache-loads                                             
+   143.156186389         26,681,272      L1-dcache-load-misses     #    7.30% of all L1-dcache accesses
+   144.156511862        395,599,242      L1-dcache-loads                                             
+   144.156511862         27,981,808      L1-dcache-load-misses     #    7.07% of all L1-dcache accesses
+   145.157741325        304,008,044      L1-dcache-loads                                             
+   145.157741325         23,605,479      L1-dcache-load-misses     #    7.76% of all L1-dcache accesses
+   146.158370133        422,338,401      L1-dcache-loads                                             
+   146.158370133         28,488,108      L1-dcache-load-misses     #    6.75% of all L1-dcache accesses
+   147.158691862        375,345,095      L1-dcache-loads                                             
+   147.158691862         26,757,322      L1-dcache-load-misses     #    7.13% of all L1-dcache accesses
+   148.159805897        351,789,422      L1-dcache-loads                                             
+   148.159805897         25,909,630      L1-dcache-load-misses     #    7.37% of all L1-dcache accesses
+   149.160189261        394,170,660      L1-dcache-loads                                             
+   149.160189261         27,158,510      L1-dcache-load-misses     #    6.89% of all L1-dcache accesses
+   150.161397204        295,195,884      L1-dcache-loads                                             
+   150.161397204         22,782,058      L1-dcache-load-misses     #    7.72% of all L1-dcache accesses
+#           time             counts unit events
+   151.162642167        276,471,463      L1-dcache-loads                                             
+   151.162642167         22,933,137      L1-dcache-load-misses     #    8.29% of all L1-dcache accesses
+   152.163915181        261,207,401      L1-dcache-loads                                             
+   152.163915181         21,920,087      L1-dcache-load-misses     #    8.39% of all L1-dcache accesses
+   153.164224693        283,801,532      L1-dcache-loads                                             
+   153.164224693         23,226,263      L1-dcache-load-misses     #    8.18% of all L1-dcache accesses
+   154.165441774        292,449,290      L1-dcache-loads                                             
+   154.165441774         23,306,890      L1-dcache-load-misses     #    7.97% of all L1-dcache accesses
+   155.166717007        276,223,168      L1-dcache-loads                                             
+   155.166717007         22,638,058      L1-dcache-load-misses     #    8.20% of all L1-dcache accesses
+   156.167053927        446,395,549      L1-dcache-loads                                             
+   156.167053927         30,493,754      L1-dcache-load-misses     #    6.83% of all L1-dcache accesses
+   157.168274722        380,741,111      L1-dcache-loads                                             
+   157.168274722         28,992,269      L1-dcache-load-misses     #    7.61% of all L1-dcache accesses
+   158.169489009        361,010,817      L1-dcache-loads                                             
+   158.169489009         28,824,611      L1-dcache-load-misses     #    7.98% of all L1-dcache accesses
+   159.169770907        357,087,334      L1-dcache-loads                                             
+   159.169770907         27,627,127      L1-dcache-load-misses     #    7.74% of all L1-dcache accesses
+   160.255214349        390,251,034      L1-dcache-loads                                             
+   160.255214349         30,043,992      L1-dcache-load-misses     #    7.70% of all L1-dcache accesses
+   161.256519122        366,311,912      L1-dcache-loads                                             
+   161.256519122         26,892,575      L1-dcache-load-misses     #    7.34% of all L1-dcache accesses
+   162.257756058        376,715,897      L1-dcache-loads                                             
+   162.257756058         27,183,476      L1-dcache-load-misses     #    7.22% of all L1-dcache accesses
+   163.258957933        380,603,208      L1-dcache-loads                                             
+   163.258957933         27,963,549      L1-dcache-load-misses     #    7.35% of all L1-dcache accesses
+   164.260189886        357,459,685      L1-dcache-loads                                             
+   164.260189886         26,702,604      L1-dcache-load-misses     #    7.47% of all L1-dcache accesses
+   165.260498648        406,663,300      L1-dcache-loads                                             
+   165.260498648         28,876,508      L1-dcache-load-misses     #    7.10% of all L1-dcache accesses
+   166.260739103      1,561,385,843      L1-dcache-loads                                             
+   166.260739103         94,394,538      L1-dcache-load-misses     #    6.05% of all L1-dcache accesses
+   167.261956612        969,463,113      L1-dcache-loads                                             
+   167.261956612         49,247,263      L1-dcache-load-misses     #    5.08% of all L1-dcache accesses
+   168.263209674        337,745,137      L1-dcache-loads                                             
+   168.263209674         25,451,734      L1-dcache-load-misses     #    7.54% of all L1-dcache accesses
+   169.264195200        335,468,429      L1-dcache-loads                                             
+   169.264195200         24,861,532      L1-dcache-load-misses     #    7.41% of all L1-dcache accesses
+   170.265416076        393,797,988      L1-dcache-loads                                             
+   170.265416076         28,524,467      L1-dcache-load-misses     #    7.24% of all L1-dcache accesses
+   171.265642071        527,484,964      L1-dcache-loads                                             
+   171.265642071         34,341,718      L1-dcache-load-misses     #    6.51% of all L1-dcache accesses
+   172.266074007        514,089,090      L1-dcache-loads                                             
+   172.266074007         32,825,850      L1-dcache-load-misses     #    6.39% of all L1-dcache accesses
+   173.267261379        462,276,689      L1-dcache-loads                                             
+   173.267261379         29,773,481      L1-dcache-load-misses     #    6.44% of all L1-dcache accesses
+   174.268192253        351,843,574      L1-dcache-loads                                             
+   174.268192253         26,260,368      L1-dcache-load-misses     #    7.46% of all L1-dcache accesses
+   175.269429288        339,289,502      L1-dcache-loads                                             
+   175.269429288         25,091,309      L1-dcache-load-misses     #    7.40% of all L1-dcache accesses
+#           time             counts unit events
+   176.270697157        304,305,391      L1-dcache-loads                                             
+   176.270697157         23,800,830      L1-dcache-load-misses     #    7.82% of all L1-dcache accesses
+   177.271954559        341,832,941      L1-dcache-loads                                             
+   177.271954559         24,052,617      L1-dcache-load-misses     #    7.04% of all L1-dcache accesses
+   178.272189474        357,405,806      L1-dcache-loads                                             
+   178.272189474         26,381,211      L1-dcache-load-misses     #    7.38% of all L1-dcache accesses
+   179.273486420        337,099,546      L1-dcache-loads                                             
+   179.273486420         25,102,896      L1-dcache-load-misses     #    7.45% of all L1-dcache accesses
+   180.274737282        335,202,647      L1-dcache-loads                                             
+   180.274737282         24,756,472      L1-dcache-load-misses     #    7.39% of all L1-dcache accesses
+   181.274960101        310,202,758      L1-dcache-loads                                             
+   181.274960101         23,759,678      L1-dcache-load-misses     #    7.66% of all L1-dcache accesses
+   182.275267117        296,278,019      L1-dcache-loads                                             
+   182.275267117         22,807,183      L1-dcache-load-misses     #    7.70% of all L1-dcache accesses
+   183.276191869        318,096,327      L1-dcache-loads                                             
+   183.276191869         24,678,108      L1-dcache-load-misses     #    7.76% of all L1-dcache accesses
+   184.276475094        344,763,866      L1-dcache-loads                                             
+   184.276475094         25,678,817      L1-dcache-load-misses     #    7.45% of all L1-dcache accesses
+   185.276700115        492,977,340      L1-dcache-loads                                             
+   185.276700115         31,206,094      L1-dcache-load-misses     #    6.33% of all L1-dcache accesses
+   186.276996572        334,963,527      L1-dcache-loads                                             
+   186.276996572         24,853,023      L1-dcache-load-misses     #    7.42% of all L1-dcache accesses
+   187.278276714        334,617,131      L1-dcache-loads                                             
+   187.278276714         25,406,553      L1-dcache-load-misses     #    7.59% of all L1-dcache accesses
+   188.278508407        344,930,480      L1-dcache-loads                                             
+   188.278508407         24,573,033      L1-dcache-load-misses     #    7.12% of all L1-dcache accesses
+   189.279719158        509,696,145      L1-dcache-loads                                             
+   189.279719158         32,537,863      L1-dcache-load-misses     #    6.38% of all L1-dcache accesses
+   190.280176192        510,217,324      L1-dcache-loads                                             
+   190.280176192         32,181,848      L1-dcache-load-misses     #    6.31% of all L1-dcache accesses
+   191.281370326        302,818,955      L1-dcache-loads                                             
+   191.281370326         23,221,892      L1-dcache-load-misses     #    7.67% of all L1-dcache accesses
+   192.281823532        365,285,152      L1-dcache-loads                                             
+   192.281823532         26,736,884      L1-dcache-load-misses     #    7.32% of all L1-dcache accesses
+   193.283043552        501,725,747      L1-dcache-loads                                             
+   193.283043552         31,348,026      L1-dcache-load-misses     #    6.25% of all L1-dcache accesses
+   194.284194874        391,275,384      L1-dcache-loads                                             
+   194.284194874         26,628,146      L1-dcache-load-misses     #    6.81% of all L1-dcache accesses
+   195.285410242        357,677,458      L1-dcache-loads                                             
+   195.285410242         26,734,287      L1-dcache-load-misses     #    7.47% of all L1-dcache accesses
+   196.285645804        335,931,858      L1-dcache-loads                                             
+   196.285645804         23,469,172      L1-dcache-load-misses     #    6.99% of all L1-dcache accesses
+   197.285898802        319,469,038      L1-dcache-loads                                             
+   197.285898802         25,882,075      L1-dcache-load-misses     #    8.10% of all L1-dcache accesses
+   198.286203986        359,361,649      L1-dcache-loads                                             
+   198.286203986         25,713,225      L1-dcache-load-misses     #    7.16% of all L1-dcache accesses
+   199.286555208        336,275,310      L1-dcache-loads                                             
+   199.286555208         26,102,181      L1-dcache-load-misses     #    7.76% of all L1-dcache accesses
+   200.287786627        401,678,588      L1-dcache-loads                                             
+   200.287786627         28,996,108      L1-dcache-load-misses     #    7.22% of all L1-dcache accesses
+#           time             counts unit events
+   201.288866363        424,034,490      L1-dcache-loads                                             
+   201.288866363         29,584,486      L1-dcache-load-misses     #    6.98% of all L1-dcache accesses
+   202.290054373        381,490,869      L1-dcache-loads                                             
+   202.290054373         28,557,734      L1-dcache-load-misses     #    7.49% of all L1-dcache accesses
+   203.291311445        423,416,192      L1-dcache-loads                                             
+   203.291311445         30,180,092      L1-dcache-load-misses     #    7.13% of all L1-dcache accesses
+   204.292491693        482,696,089      L1-dcache-loads                                             
+   204.292491693         33,100,188      L1-dcache-load-misses     #    6.86% of all L1-dcache accesses
+   205.293657735        507,799,557      L1-dcache-loads                                             
+   205.293657735         33,181,041      L1-dcache-load-misses     #    6.53% of all L1-dcache accesses
+   206.294085675        452,421,973      L1-dcache-loads                                             
+   206.294085675         29,967,180      L1-dcache-load-misses     #    6.62% of all L1-dcache accesses
+   207.295328362        469,494,777      L1-dcache-loads                                             
+   207.295328362         31,287,141      L1-dcache-load-misses     #    6.66% of all L1-dcache accesses
+   208.296495418        502,227,198      L1-dcache-loads                                             
+   208.296495418         32,935,819      L1-dcache-load-misses     #    6.56% of all L1-dcache accesses
+   209.297700680        506,720,088      L1-dcache-loads                                             
+   209.297700680         33,976,638      L1-dcache-load-misses     #    6.71% of all L1-dcache accesses
+   210.298906009        431,828,632      L1-dcache-loads                                             
+   210.298906009         29,927,285      L1-dcache-load-misses     #    6.93% of all L1-dcache accesses
+   211.300104415        328,022,695      L1-dcache-loads                                             
+   211.300104415         24,448,027      L1-dcache-load-misses     #    7.45% of all L1-dcache accesses
+   212.301347374        286,648,853      L1-dcache-loads                                             
+   212.301347374         23,409,855      L1-dcache-load-misses     #    8.17% of all L1-dcache accesses
+   213.302626605        396,294,920      L1-dcache-loads                                             
+   213.302626605         27,771,857      L1-dcache-load-misses     #    7.01% of all L1-dcache accesses
+   214.302912572        340,811,872      L1-dcache-loads                                             
+   214.302912572         25,587,203      L1-dcache-load-misses     #    7.51% of all L1-dcache accesses
+   215.303267270        333,657,357      L1-dcache-loads                                             
+   215.303267270         24,947,227      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   216.304487308        381,336,563      L1-dcache-loads                                             
+   216.304487308         27,595,772      L1-dcache-load-misses     #    7.24% of all L1-dcache accesses
+   217.304781882        401,593,374      L1-dcache-loads                                             
+   217.304781882         29,477,550      L1-dcache-load-misses     #    7.34% of all L1-dcache accesses
+   218.305247663        407,017,918      L1-dcache-loads                                             
+   218.305247663         29,916,662      L1-dcache-load-misses     #    7.35% of all L1-dcache accesses
+   219.306468178        481,594,234      L1-dcache-loads                                             
+   219.306468178         33,047,337      L1-dcache-load-misses     #    6.86% of all L1-dcache accesses
+   220.307666242        419,705,981      L1-dcache-loads                                             
+   220.307666242         28,191,545      L1-dcache-load-misses     #    6.72% of all L1-dcache accesses
+   221.308942014        525,107,927      L1-dcache-loads                                             
+   221.308942014         32,211,875      L1-dcache-load-misses     #    6.13% of all L1-dcache accesses
+   222.310121773        531,111,024      L1-dcache-loads                                             
+   222.310121773         32,426,607      L1-dcache-load-misses     #    6.11% of all L1-dcache accesses
+   223.311316972        308,498,669      L1-dcache-loads                                             
+   223.311316972         23,091,281      L1-dcache-load-misses     #    7.49% of all L1-dcache accesses
+   224.312543673        386,460,034      L1-dcache-loads                                             
+   224.312543673         28,458,916      L1-dcache-load-misses     #    7.36% of all L1-dcache accesses
+   225.313762416        422,960,464      L1-dcache-loads                                             
+   225.313762416         31,129,056      L1-dcache-load-misses     #    7.36% of all L1-dcache accesses
+#           time             counts unit events
+   226.314975486        460,955,440      L1-dcache-loads                                             
+   226.314975486         30,822,355      L1-dcache-load-misses     #    6.69% of all L1-dcache accesses
+   227.316167725        438,658,916      L1-dcache-loads                                             
+   227.316167725         29,603,729      L1-dcache-load-misses     #    6.75% of all L1-dcache accesses
+   228.317377711        329,937,005      L1-dcache-loads                                             
+   228.317377711         24,859,745      L1-dcache-load-misses     #    7.53% of all L1-dcache accesses
+   229.318626918        281,459,390      L1-dcache-loads                                             
+   229.318626918         22,895,707      L1-dcache-load-misses     #    8.13% of all L1-dcache accesses
+   230.319879476        314,237,873      L1-dcache-loads                                             
+   230.319879476         24,613,732      L1-dcache-load-misses     #    7.83% of all L1-dcache accesses
+   231.321134006        370,535,699      L1-dcache-loads                                             
+   231.321134006         27,018,577      L1-dcache-load-misses     #    7.29% of all L1-dcache accesses
+   232.322348034        497,672,429      L1-dcache-loads                                             
+   232.322348034         34,104,544      L1-dcache-load-misses     #    6.85% of all L1-dcache accesses
+   233.323527519        458,752,847      L1-dcache-loads                                             
+   233.323527519         31,016,385      L1-dcache-load-misses     #    6.76% of all L1-dcache accesses
+   234.324216362        452,404,975      L1-dcache-loads                                             
+   234.324216362         30,108,125      L1-dcache-load-misses     #    6.66% of all L1-dcache accesses
+   235.325395266        495,789,764      L1-dcache-loads                                             
+   235.325395266         32,633,005      L1-dcache-load-misses     #    6.58% of all L1-dcache accesses
+   236.326641218        497,946,481      L1-dcache-loads                                             
+   236.326641218         31,482,245      L1-dcache-load-misses     #    6.32% of all L1-dcache accesses
+   237.327850163        518,043,442      L1-dcache-loads                                             
+   237.327850163         32,127,655      L1-dcache-load-misses     #    6.20% of all L1-dcache accesses
+   238.329234707        496,298,325      L1-dcache-loads                                             
+   238.329234707         30,990,659      L1-dcache-load-misses     #    6.24% of all L1-dcache accesses
+   239.329447253        466,414,216      L1-dcache-loads                                             
+   239.329447253         30,970,856      L1-dcache-load-misses     #    6.64% of all L1-dcache accesses
+   240.330613168        463,515,618      L1-dcache-loads                                             
+   240.330613168         30,891,341      L1-dcache-load-misses     #    6.66% of all L1-dcache accesses
+   241.331838442        488,121,271      L1-dcache-loads                                             
+   241.331838442         32,298,448      L1-dcache-load-misses     #    6.62% of all L1-dcache accesses
+   242.333044598        494,177,227      L1-dcache-loads                                             
+   242.333044598         31,453,140      L1-dcache-load-misses     #    6.36% of all L1-dcache accesses
+   243.333238296        473,444,025      L1-dcache-loads                                             
+   243.333238296         30,282,629      L1-dcache-load-misses     #    6.40% of all L1-dcache accesses
+   244.333465019        481,995,427      L1-dcache-loads                                             
+   244.333465019         32,032,439      L1-dcache-load-misses     #    6.65% of all L1-dcache accesses
+   245.334657133        484,797,364      L1-dcache-loads                                             
+   245.334657133         32,048,127      L1-dcache-load-misses     #    6.61% of all L1-dcache accesses
+   246.335912637        429,616,425      L1-dcache-loads                                             
+   246.335912637         28,807,954      L1-dcache-load-misses     #    6.71% of all L1-dcache accesses
+   247.337117031        460,549,803      L1-dcache-loads                                             
+   247.337117031         30,609,023      L1-dcache-load-misses     #    6.65% of all L1-dcache accesses
+   248.338305456        460,104,952      L1-dcache-loads                                             
+   248.338305456         30,677,997      L1-dcache-load-misses     #    6.67% of all L1-dcache accesses
+   249.339508757        412,519,274      L1-dcache-loads                                             
+   249.339508757         27,657,392      L1-dcache-load-misses     #    6.70% of all L1-dcache accesses
+   250.340721959        454,377,305      L1-dcache-loads                                             
+   250.340721959         30,132,959      L1-dcache-load-misses     #    6.63% of all L1-dcache accesses
+#           time             counts unit events
+   251.341940724        450,975,122      L1-dcache-loads                                             
+   251.341940724         30,156,599      L1-dcache-load-misses     #    6.69% of all L1-dcache accesses
+   252.343148111        418,314,637      L1-dcache-loads                                             
+   252.343148111         28,165,104      L1-dcache-load-misses     #    6.73% of all L1-dcache accesses
+   253.344187389        479,784,607      L1-dcache-loads                                             
+   253.344187389         31,881,585      L1-dcache-load-misses     #    6.64% of all L1-dcache accesses
+   254.345371773        473,613,153      L1-dcache-loads                                             
+   254.345371773         31,447,419      L1-dcache-load-misses     #    6.64% of all L1-dcache accesses
+   255.346571074        458,951,221      L1-dcache-loads                                             
+   255.346571074         30,422,606      L1-dcache-load-misses     #    6.63% of all L1-dcache accesses
+   256.347837103        388,166,144      L1-dcache-loads                                             
+   256.347837103         26,988,548      L1-dcache-load-misses     #    6.95% of all L1-dcache accesses
+   257.348195384        322,819,750      L1-dcache-loads                                             
+   257.348195384         23,892,037      L1-dcache-load-misses     #    7.40% of all L1-dcache accesses
+   258.349471156        340,113,304      L1-dcache-loads                                             
+   258.349471156         25,433,892      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   259.350719513        279,764,368      L1-dcache-loads                                             
+   259.350719513         20,927,728      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   260.351974481        331,541,241      L1-dcache-loads                                             
+   260.351974481         25,234,161      L1-dcache-load-misses     #    7.61% of all L1-dcache accesses
+   261.352229144        260,137,353      L1-dcache-loads                                             
+   261.352229144         21,166,838      L1-dcache-load-misses     #    8.14% of all L1-dcache accesses
+   262.353119520        246,077,519      L1-dcache-loads                                             
+   262.353119520         20,642,436      L1-dcache-load-misses     #    8.39% of all L1-dcache accesses
+   263.353462467        278,694,790      L1-dcache-loads                                             
+   263.353462467         22,879,800      L1-dcache-load-misses     #    8.21% of all L1-dcache accesses
+   264.354695710        391,877,568      L1-dcache-loads                                             
+   264.354695710         28,632,181      L1-dcache-load-misses     #    7.31% of all L1-dcache accesses
+   265.355916809        436,910,805      L1-dcache-loads                                             
+   265.355916809         29,090,297      L1-dcache-load-misses     #    6.66% of all L1-dcache accesses
+   266.356215910        433,838,504      L1-dcache-loads                                             
+   266.356215910         28,213,792      L1-dcache-load-misses     #    6.50% of all L1-dcache accesses
+   267.357463506        404,880,214      L1-dcache-loads                                             
+   267.357463506         26,889,600      L1-dcache-load-misses     #    6.64% of all L1-dcache accesses
+   268.358684733        360,505,004      L1-dcache-loads                                             
+   268.358684733         25,793,106      L1-dcache-load-misses     #    7.15% of all L1-dcache accesses
+   269.359052028        370,638,290      L1-dcache-loads                                             
+   269.359052028         25,922,120      L1-dcache-load-misses     #    6.99% of all L1-dcache accesses
+   270.360334373        248,245,024      L1-dcache-loads                                             
+   270.360334373         21,054,928      L1-dcache-load-misses     #    8.48% of all L1-dcache accesses
+   271.361587165        349,347,835      L1-dcache-loads                                             
+   271.361587165         24,840,859      L1-dcache-load-misses     #    7.11% of all L1-dcache accesses
+   272.361839425        444,067,004      L1-dcache-loads                                             
+   272.361839425         29,320,296      L1-dcache-load-misses     #    6.60% of all L1-dcache accesses
+   273.362236877        447,218,821      L1-dcache-loads                                             
+   273.362236877         29,994,736      L1-dcache-load-misses     #    6.71% of all L1-dcache accesses
+   274.363447958        356,560,198      L1-dcache-loads                                             
+   274.363447958         26,481,484      L1-dcache-load-misses     #    7.43% of all L1-dcache accesses
+   275.364222318        339,221,459      L1-dcache-loads                                             
+   275.364222318         25,438,350      L1-dcache-load-misses     #    7.50% of all L1-dcache accesses
+#           time             counts unit events
+   276.364602681        337,499,870      L1-dcache-loads                                             
+   276.364602681         25,834,712      L1-dcache-load-misses     #    7.65% of all L1-dcache accesses
+   277.365954316        340,016,706      L1-dcache-loads                                             
+   277.365954316         25,296,091      L1-dcache-load-misses     #    7.44% of all L1-dcache accesses
+   278.367220648        321,244,315      L1-dcache-loads                                             
+   278.367220648         24,643,647      L1-dcache-load-misses     #    7.67% of all L1-dcache accesses
+   279.368458156        278,775,365      L1-dcache-loads                                             
+   279.368458156         22,402,396      L1-dcache-load-misses     #    8.04% of all L1-dcache accesses
+   280.369713427        332,562,916      L1-dcache-loads                                             
+   280.369713427         26,242,835      L1-dcache-load-misses     #    7.89% of all L1-dcache accesses
+   281.370883915        407,293,361      L1-dcache-loads                                             
+   281.370883915         27,983,235      L1-dcache-load-misses     #    6.87% of all L1-dcache accesses
+   282.372042597        530,018,022      L1-dcache-loads                                             
+   282.372042597         33,321,917      L1-dcache-load-misses     #    6.29% of all L1-dcache accesses
+   283.372353548        559,866,139      L1-dcache-loads                                             
+   283.372353548         34,063,216      L1-dcache-load-misses     #    6.08% of all L1-dcache accesses
+   284.373522864        554,480,017      L1-dcache-loads                                             
+   284.373522864         34,327,862      L1-dcache-load-misses     #    6.19% of all L1-dcache accesses
+   285.374715057        508,412,994      L1-dcache-loads                                             
+   285.374715057         33,081,757      L1-dcache-load-misses     #    6.51% of all L1-dcache accesses
+   286.375915687        577,968,773      L1-dcache-loads                                             
+   286.375915687         35,048,855      L1-dcache-load-misses     #    6.06% of all L1-dcache accesses
+   287.377098215        558,162,411      L1-dcache-loads                                             
+   287.377098215         33,703,401      L1-dcache-load-misses     #    6.04% of all L1-dcache accesses
+   288.378279042        536,995,933      L1-dcache-loads                                             
+   288.378279042         34,051,223      L1-dcache-load-misses     #    6.34% of all L1-dcache accesses
+   289.379500591        374,567,236      L1-dcache-loads                                             
+   289.379500591         24,832,337      L1-dcache-load-misses     #    6.63% of all L1-dcache accesses
+   290.380775502        477,821,482      L1-dcache-loads                                             
+   290.380775502         32,443,211      L1-dcache-load-misses     #    6.79% of all L1-dcache accesses
+   291.381966700        533,359,500      L1-dcache-loads                                             
+   291.381966700         32,300,695      L1-dcache-load-misses     #    6.06% of all L1-dcache accesses
+   292.383133904        600,805,533      L1-dcache-loads                                             
+   292.383133904         33,411,789      L1-dcache-load-misses     #    5.56% of all L1-dcache accesses
+   293.384230630        559,900,384      L1-dcache-loads                                             
+   293.384230630         33,486,368      L1-dcache-load-misses     #    5.98% of all L1-dcache accesses
+   294.385443959        468,093,034      L1-dcache-loads                                             
+   294.385443959         29,682,855      L1-dcache-load-misses     #    6.34% of all L1-dcache accesses
+   295.385695078        551,433,693      L1-dcache-loads                                             
+   295.385695078         35,293,239      L1-dcache-load-misses     #    6.40% of all L1-dcache accesses
+   296.386908383        563,506,053      L1-dcache-loads                                             
+   296.386908383         34,625,516      L1-dcache-load-misses     #    6.14% of all L1-dcache accesses
+   297.388138107        546,063,562      L1-dcache-loads                                             
+   297.388138107         35,621,039      L1-dcache-load-misses     #    6.52% of all L1-dcache accesses
+   298.389347774        464,161,556      L1-dcache-loads                                             
+   298.389347774         31,299,024      L1-dcache-load-misses     #    6.74% of all L1-dcache accesses
+   299.390539506        520,330,227      L1-dcache-loads                                             
+   299.390539506         34,500,856      L1-dcache-load-misses     #    6.63% of all L1-dcache accesses
+   300.391715695        544,025,686      L1-dcache-loads                                             
+   300.391715695         34,754,230      L1-dcache-load-misses     #    6.39% of all L1-dcache accesses
+#           time             counts unit events
+   301.392237759        549,927,992      L1-dcache-loads                                             
+   301.392237759         33,238,117      L1-dcache-load-misses     #    6.04% of all L1-dcache accesses
+   302.392529281        538,308,181      L1-dcache-loads                                             
+   302.392529281         32,812,050      L1-dcache-load-misses     #    6.10% of all L1-dcache accesses
+   303.393760747        506,164,791      L1-dcache-loads                                             
+   303.393760747         31,195,052      L1-dcache-load-misses     #    6.16% of all L1-dcache accesses
+   304.394932407        506,923,699      L1-dcache-loads                                             
+   304.394932407         31,193,075      L1-dcache-load-misses     #    6.15% of all L1-dcache accesses
+   305.395244630        430,713,128      L1-dcache-loads                                             
+   305.395244630         28,214,046      L1-dcache-load-misses     #    6.55% of all L1-dcache accesses
+   306.396189564        412,250,455      L1-dcache-loads                                             
+   306.396189564         28,890,801      L1-dcache-load-misses     #    7.01% of all L1-dcache accesses
+   307.396544072        394,968,296      L1-dcache-loads                                             
+   307.396544072         28,217,855      L1-dcache-load-misses     #    7.14% of all L1-dcache accesses
+   308.396754902        457,188,640      L1-dcache-loads                                             
+   308.396754902         29,941,593      L1-dcache-load-misses     #    6.55% of all L1-dcache accesses
+   309.397071873        373,394,395      L1-dcache-loads                                             
+   309.397071873         26,489,587      L1-dcache-load-misses     #    7.09% of all L1-dcache accesses
+   310.398296732        233,862,639      L1-dcache-loads                                             
+   310.398296732         18,893,564      L1-dcache-load-misses     #    8.08% of all L1-dcache accesses
+   311.398612679        425,071,516      L1-dcache-loads                                             
+   311.398612679         30,468,708      L1-dcache-load-misses     #    7.17% of all L1-dcache accesses
+   312.398986731        481,597,292      L1-dcache-loads                                             
+   312.398986731         30,877,821      L1-dcache-load-misses     #    6.41% of all L1-dcache accesses
+   313.400185162        506,061,261      L1-dcache-loads                                             
+   313.400185162         30,678,457      L1-dcache-load-misses     #    6.06% of all L1-dcache accesses
+   314.401356842        467,092,119      L1-dcache-loads                                             
+   314.401356842         30,334,409      L1-dcache-load-misses     #    6.49% of all L1-dcache accesses
+   315.402584884        439,933,089      L1-dcache-loads                                             
+   315.402584884         30,180,308      L1-dcache-load-misses     #    6.86% of all L1-dcache accesses
+   316.403787990        386,994,501      L1-dcache-loads                                             
+   316.403787990         27,894,648      L1-dcache-load-misses     #    7.21% of all L1-dcache accesses
+   317.404216757        405,837,254      L1-dcache-loads                                             
+   317.404216757         30,362,753      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   318.405418703        487,186,918      L1-dcache-loads                                             
+   318.405418703         33,267,729      L1-dcache-load-misses     #    6.83% of all L1-dcache accesses
+   319.406661360        460,834,416      L1-dcache-loads                                             
+   319.406661360         29,966,612      L1-dcache-load-misses     #    6.50% of all L1-dcache accesses
+   320.407174298        430,955,502      L1-dcache-loads                                             
+   320.407174298         27,329,560      L1-dcache-load-misses     #    6.34% of all L1-dcache accesses
+   321.408181506        468,835,999      L1-dcache-loads                                             
+   321.408181506         30,911,993      L1-dcache-load-misses     #    6.59% of all L1-dcache accesses
+   322.409356396        497,007,076      L1-dcache-loads                                             
+   322.409356396         32,267,579      L1-dcache-load-misses     #    6.49% of all L1-dcache accesses
+   323.409622223        505,955,972      L1-dcache-loads                                             
+   323.409622223         32,898,338      L1-dcache-load-misses     #    6.50% of all L1-dcache accesses
+   324.410818884        432,016,192      L1-dcache-loads                                             
+   324.410818884         29,167,614      L1-dcache-load-misses     #    6.75% of all L1-dcache accesses
+   325.411142747        432,551,184      L1-dcache-loads                                             
+   325.411142747         30,056,337      L1-dcache-load-misses     #    6.95% of all L1-dcache accesses
+#           time             counts unit events
+   326.412183542        490,426,984      L1-dcache-loads                                             
+   326.412183542         32,702,534      L1-dcache-load-misses     #    6.67% of all L1-dcache accesses
+   327.413360530        479,875,676      L1-dcache-loads                                             
+   327.413360530         32,315,628      L1-dcache-load-misses     #    6.73% of all L1-dcache accesses
+   328.414567420        438,605,203      L1-dcache-loads                                             
+   328.414567420         29,341,394      L1-dcache-load-misses     #    6.69% of all L1-dcache accesses
+   329.415781134        345,161,444      L1-dcache-loads                                             
+   329.415781134         24,924,523      L1-dcache-load-misses     #    7.22% of all L1-dcache accesses
+   330.416220054        431,981,472      L1-dcache-loads                                             
+   330.416220054         31,316,513      L1-dcache-load-misses     #    7.25% of all L1-dcache accesses
+   331.416448105        499,262,878      L1-dcache-loads                                             
+   331.416448105         34,468,438      L1-dcache-load-misses     #    6.90% of all L1-dcache accesses
+   332.417653702        496,826,382      L1-dcache-loads                                             
+   332.417653702         34,291,118      L1-dcache-load-misses     #    6.90% of all L1-dcache accesses
+   333.418862914        529,720,616      L1-dcache-loads                                             
+   333.418862914         33,301,847      L1-dcache-load-misses     #    6.29% of all L1-dcache accesses
+   334.420063886        496,263,447      L1-dcache-loads                                             
+   334.420063886         34,121,287      L1-dcache-load-misses     #    6.88% of all L1-dcache accesses
+   335.421291540        564,420,218      L1-dcache-loads                                             
+   335.421291540         34,347,938      L1-dcache-load-misses     #    6.09% of all L1-dcache accesses
+   336.422137071        496,789,229      L1-dcache-loads                                               (99.97%)
+   336.422137071         31,491,783      L1-dcache-load-misses     #    6.34% of all L1-dcache accesses  (99.97%)
+   337.811170232        372,302,703      L1-dcache-loads                                               (99.98%)
+   337.811170232         28,771,646      L1-dcache-load-misses     #    7.73% of all L1-dcache accesses  (99.98%)
+   338.812224569        368,051,519      L1-dcache-loads                                             
+   338.812224569         27,549,565      L1-dcache-load-misses     #    7.49% of all L1-dcache accesses
+   339.813491341        369,915,257      L1-dcache-loads                                             
+   339.813491341         27,524,203      L1-dcache-load-misses     #    7.44% of all L1-dcache accesses
+   340.814760274        371,163,184      L1-dcache-loads                                             
+   340.814760274         27,209,663      L1-dcache-load-misses     #    7.33% of all L1-dcache accesses
+   341.815211183        368,252,863      L1-dcache-loads                                             
+   341.815211183         27,647,027      L1-dcache-load-misses     #    7.51% of all L1-dcache accesses
+   342.816461336        370,645,509      L1-dcache-loads                                             
+   342.816461336         27,247,726      L1-dcache-load-misses     #    7.35% of all L1-dcache accesses
+   343.816725079        361,564,192      L1-dcache-loads                                             
+   343.816725079         26,823,802      L1-dcache-load-misses     #    7.42% of all L1-dcache accesses
+   344.817966495        316,722,301      L1-dcache-loads                                             
+   344.817966495         24,474,861      L1-dcache-load-misses     #    7.73% of all L1-dcache accesses
+   345.819220511        364,955,021      L1-dcache-loads                                             
+   345.819220511         28,254,878      L1-dcache-load-misses     #    7.74% of all L1-dcache accesses
+   346.820223531        419,768,905      L1-dcache-loads                                             
+   346.820223531         29,459,015      L1-dcache-load-misses     #    7.02% of all L1-dcache accesses
+   347.820952447        338,241,515      L1-dcache-loads                                             
+   347.820952447         24,054,498      L1-dcache-load-misses     #    7.11% of all L1-dcache accesses
+   348.822178453        396,103,826      L1-dcache-loads                                             
+   348.822178453         29,182,831      L1-dcache-load-misses     #    7.37% of all L1-dcache accesses
+   349.823413169        405,179,695      L1-dcache-loads                                             
+   349.823413169         28,747,405      L1-dcache-load-misses     #    7.09% of all L1-dcache accesses
+   350.824646777        388,811,424      L1-dcache-loads                                             
+   350.824646777         27,265,156      L1-dcache-load-misses     #    7.01% of all L1-dcache accesses
+#           time             counts unit events
+   351.825894818        450,952,729      L1-dcache-loads                                             
+   351.825894818         30,668,894      L1-dcache-load-misses     #    6.80% of all L1-dcache accesses
+   352.827121635        443,047,552      L1-dcache-loads                                             
+   352.827121635         30,490,986      L1-dcache-load-misses     #    6.88% of all L1-dcache accesses
+   353.828186453        389,755,070      L1-dcache-loads                                             
+   353.828186453         27,838,446      L1-dcache-load-misses     #    7.14% of all L1-dcache accesses
+   354.829393168        375,937,216      L1-dcache-loads                                             
+   354.829393168         27,524,472      L1-dcache-load-misses     #    7.32% of all L1-dcache accesses
+   355.830601251        435,801,054      L1-dcache-loads                                             
+   355.830601251         29,218,370      L1-dcache-load-misses     #    6.70% of all L1-dcache accesses
+   356.831936548        381,419,405      L1-dcache-loads                                             
+   356.831936548         27,128,837      L1-dcache-load-misses     #    7.11% of all L1-dcache accesses
+   357.832184257        388,747,590      L1-dcache-loads                                             
+   357.832184257         27,636,877      L1-dcache-load-misses     #    7.11% of all L1-dcache accesses
+   358.833394320        387,802,235      L1-dcache-loads                                             
+   358.833394320         27,564,242      L1-dcache-load-misses     #    7.11% of all L1-dcache accesses
+   359.834620034        469,848,785      L1-dcache-loads                                             
+   359.834620034         32,266,929      L1-dcache-load-misses     #    6.87% of all L1-dcache accesses
+   360.834966702        511,597,113      L1-dcache-loads                                             
+   360.834966702         33,674,782      L1-dcache-load-misses     #    6.58% of all L1-dcache accesses
+   361.836146221        522,990,364      L1-dcache-loads                                             
+   361.836146221         34,527,264      L1-dcache-load-misses     #    6.60% of all L1-dcache accesses
+   362.837398648        515,421,927      L1-dcache-loads                                             
+   362.837398648         33,958,830      L1-dcache-load-misses     #    6.59% of all L1-dcache accesses
+   363.838609506        516,625,338      L1-dcache-loads                                             
+   363.838609506         34,662,188      L1-dcache-load-misses     #    6.71% of all L1-dcache accesses
+   364.839824864        500,245,143      L1-dcache-loads                                             
+   364.839824864         34,090,259      L1-dcache-load-misses     #    6.81% of all L1-dcache accesses
+   365.841015369        535,138,305      L1-dcache-loads                                             
+   365.841015369         35,102,225      L1-dcache-load-misses     #    6.56% of all L1-dcache accesses
+   366.842267155        413,899,264      L1-dcache-loads                                             
+   366.842267155         28,007,673      L1-dcache-load-misses     #    6.77% of all L1-dcache accesses
+   367.843451438        451,876,065      L1-dcache-loads                                             
+   367.843451438         32,419,113      L1-dcache-load-misses     #    7.17% of all L1-dcache accesses
+   368.844675663        531,289,210      L1-dcache-loads                                             
+   368.844675663         34,838,470      L1-dcache-load-misses     #    6.56% of all L1-dcache accesses
+   369.845891432        522,855,963      L1-dcache-loads                                             
+   369.845891432         34,533,606      L1-dcache-load-misses     #    6.60% of all L1-dcache accesses
+   370.847106028        493,397,921      L1-dcache-loads                                             
+   370.847106028         32,603,173      L1-dcache-load-misses     #    6.61% of all L1-dcache accesses
+   371.848344491        491,104,558      L1-dcache-loads                                             
+   371.848344491         32,374,802      L1-dcache-load-misses     #    6.59% of all L1-dcache accesses
+   372.849535704        514,541,297      L1-dcache-loads                                             
+   372.849535704         32,592,738      L1-dcache-load-misses     #    6.33% of all L1-dcache accesses
+   373.850732830        472,662,492      L1-dcache-loads                                             
+   373.850732830         29,813,071      L1-dcache-load-misses     #    6.31% of all L1-dcache accesses
+   374.851956044        477,596,854      L1-dcache-loads                                             
+   374.851956044         29,913,591      L1-dcache-load-misses     #    6.26% of all L1-dcache accesses
+   375.853198720        421,058,682      L1-dcache-loads                                             
+   375.853198720         25,840,223      L1-dcache-load-misses     #    6.14% of all L1-dcache accesses
+#           time             counts unit events
+   376.853590918        457,924,021      L1-dcache-loads                                             
+   376.853590918         27,651,786      L1-dcache-load-misses     #    6.04% of all L1-dcache accesses
+   377.854796792        322,352,147      L1-dcache-loads                                             
+   377.854796792         24,116,207      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   378.856095611        270,815,465      L1-dcache-loads                                             
+   378.856095611         21,741,148      L1-dcache-load-misses     #    8.03% of all L1-dcache accesses
+   379.857371515        247,564,323      L1-dcache-loads                                             
+   379.857371515         21,238,121      L1-dcache-load-misses     #    8.58% of all L1-dcache accesses
+   380.858590146        303,940,728      L1-dcache-loads                                             
+   380.858590146         24,249,355      L1-dcache-load-misses     #    7.98% of all L1-dcache accesses
+   381.859844147        301,431,963      L1-dcache-loads                                             
+   381.859844147         23,289,854      L1-dcache-load-misses     #    7.73% of all L1-dcache accesses
+   382.861086536        259,083,406      L1-dcache-loads                                             
+   382.861086536         21,533,478      L1-dcache-load-misses     #    8.31% of all L1-dcache accesses
+   383.862370953        321,653,166      L1-dcache-loads                                             
+   383.862370953         23,638,570      L1-dcache-load-misses     #    7.35% of all L1-dcache accesses
+   384.862672731        364,031,342      L1-dcache-loads                                             
+   384.862672731         26,770,371      L1-dcache-load-misses     #    7.35% of all L1-dcache accesses
+   385.863434156        478,950,853      L1-dcache-loads                                             
+   385.863434156         32,356,489      L1-dcache-load-misses     #    6.76% of all L1-dcache accesses
+   386.864199713        452,206,631      L1-dcache-loads                                             
+   386.864199713         29,835,570      L1-dcache-load-misses     #    6.60% of all L1-dcache accesses
+   387.864534527        313,865,433      L1-dcache-loads                                             
+   387.864534527         24,067,560      L1-dcache-load-misses     #    7.67% of all L1-dcache accesses
+   388.865792357        338,531,758      L1-dcache-loads                                             
+   388.865792357         25,438,161      L1-dcache-load-misses     #    7.51% of all L1-dcache accesses
+   389.867000268        404,323,251      L1-dcache-loads                                             
+   389.867000268         27,878,764      L1-dcache-load-misses     #    6.90% of all L1-dcache accesses
+   390.868199712        382,874,078      L1-dcache-loads                                             
+   390.868199712         27,521,092      L1-dcache-load-misses     #    7.19% of all L1-dcache accesses
+   391.868679427        277,833,702      L1-dcache-loads                                             
+   391.868679427         22,138,382      L1-dcache-load-misses     #    7.97% of all L1-dcache accesses
+   392.869219556        308,750,651      L1-dcache-loads                                             
+   392.869219556         24,296,575      L1-dcache-load-misses     #    7.87% of all L1-dcache accesses
+   393.870436682        379,692,509      L1-dcache-loads                                             
+   393.870436682         27,524,252      L1-dcache-load-misses     #    7.25% of all L1-dcache accesses
+   394.871657175        475,328,888      L1-dcache-loads                                             
+   394.871657175         32,453,400      L1-dcache-load-misses     #    6.83% of all L1-dcache accesses
+   395.872178573        448,608,003      L1-dcache-loads                                             
+   395.872178573         29,899,471      L1-dcache-load-misses     #    6.66% of all L1-dcache accesses
+   396.873350851        458,494,706      L1-dcache-loads                                             
+   396.873350851         29,250,476      L1-dcache-load-misses     #    6.38% of all L1-dcache accesses
+   397.873635320        459,162,216      L1-dcache-loads                                             
+   397.873635320         29,252,452      L1-dcache-load-misses     #    6.37% of all L1-dcache accesses
+   398.874866493        385,447,476      L1-dcache-loads                                             
+   398.874866493         26,678,671      L1-dcache-load-misses     #    6.92% of all L1-dcache accesses
+   399.876078023        376,267,829      L1-dcache-loads                                             
+   399.876078023         26,852,972      L1-dcache-load-misses     #    7.14% of all L1-dcache accesses
+   400.877328237        307,322,521      L1-dcache-loads                                             
+   400.877328237         23,205,167      L1-dcache-load-misses     #    7.55% of all L1-dcache accesses
+#           time             counts unit events
+   401.878568733        349,749,420      L1-dcache-loads                                             
+   401.878568733         25,682,550      L1-dcache-load-misses     #    7.34% of all L1-dcache accesses
+   402.879855912        278,868,971      L1-dcache-loads                                             
+   402.879855912         22,461,947      L1-dcache-load-misses     #    8.05% of all L1-dcache accesses
+   403.881118829        230,266,340      L1-dcache-loads                                             
+   403.881118829         20,614,150      L1-dcache-load-misses     #    8.95% of all L1-dcache accesses
+   404.882400337        264,887,540      L1-dcache-loads                                             
+   404.882400337         22,508,142      L1-dcache-load-misses     #    8.50% of all L1-dcache accesses
+   405.883650176        360,438,509      L1-dcache-loads                                             
+   405.883650176         26,889,630      L1-dcache-load-misses     #    7.46% of all L1-dcache accesses
+   406.884879235        320,449,148      L1-dcache-loads                                             
+   406.884879235         24,362,527      L1-dcache-load-misses     #    7.60% of all L1-dcache accesses
+   407.886118099        347,278,943      L1-dcache-loads                                             
+   407.886118099         26,167,979      L1-dcache-load-misses     #    7.54% of all L1-dcache accesses
+   408.886443413        354,666,171      L1-dcache-loads                                             
+   408.886443413         25,269,049      L1-dcache-load-misses     #    7.12% of all L1-dcache accesses
+   409.887690625        416,713,960      L1-dcache-loads                                             
+   409.887690625         29,557,229      L1-dcache-load-misses     #    7.09% of all L1-dcache accesses
+   410.888197800        437,963,229      L1-dcache-loads                                             
+   410.888197800         28,903,491      L1-dcache-load-misses     #    6.60% of all L1-dcache accesses
+   411.889416029        417,996,359      L1-dcache-loads                                             
+   411.889416029         28,624,642      L1-dcache-load-misses     #    6.85% of all L1-dcache accesses
+   412.889712148        391,611,277      L1-dcache-loads                                             
+   412.889712148         27,620,781      L1-dcache-load-misses     #    7.05% of all L1-dcache accesses
+   413.890062546        367,866,476      L1-dcache-loads                                             
+   413.890062546         26,711,837      L1-dcache-load-misses     #    7.26% of all L1-dcache accesses
+   414.891327423        376,624,311      L1-dcache-loads                                             
+   414.891327423         26,862,009      L1-dcache-load-misses     #    7.13% of all L1-dcache accesses
+   415.892194110        392,399,486      L1-dcache-loads                                             
+   415.892194110         28,294,309      L1-dcache-load-misses     #    7.21% of all L1-dcache accesses
+   416.893389536        468,633,139      L1-dcache-loads                                             
+   416.893389536         32,115,896      L1-dcache-load-misses     #    6.85% of all L1-dcache accesses
+   417.894591150        482,151,236      L1-dcache-loads                                             
+   417.894591150         32,202,311      L1-dcache-load-misses     #    6.68% of all L1-dcache accesses
+   418.895785654        389,255,709      L1-dcache-loads                                             
+   418.895785654         26,158,965      L1-dcache-load-misses     #    6.72% of all L1-dcache accesses
+   419.896983612        462,736,058      L1-dcache-loads                                             
+   419.896983612         30,211,739      L1-dcache-load-misses     #    6.53% of all L1-dcache accesses
+   420.898224140        474,474,591      L1-dcache-loads                                             
+   420.898224140         29,938,162      L1-dcache-load-misses     #    6.31% of all L1-dcache accesses
+   421.899432858        465,956,197      L1-dcache-loads                                             
+   421.899432858         29,519,389      L1-dcache-load-misses     #    6.34% of all L1-dcache accesses
+   422.900195386        465,786,588      L1-dcache-loads                                             
+   422.900195386         29,697,676      L1-dcache-load-misses     #    6.38% of all L1-dcache accesses
+   423.901463227        263,397,410      L1-dcache-loads                                             
+   423.901463227         21,202,249      L1-dcache-load-misses     #    8.05% of all L1-dcache accesses
+   424.902742144        238,975,656      L1-dcache-loads                                             
+   424.902742144         20,344,983      L1-dcache-load-misses     #    8.51% of all L1-dcache accesses
+   425.903031960        251,383,276      L1-dcache-loads                                             
+   425.903031960         21,145,461      L1-dcache-load-misses     #    8.41% of all L1-dcache accesses
+#           time             counts unit events
+   426.904188257        355,089,288      L1-dcache-loads                                             
+   426.904188257         26,396,734      L1-dcache-load-misses     #    7.43% of all L1-dcache accesses
+   427.905156620        405,463,936      L1-dcache-loads                                             
+   427.905156620         28,868,298      L1-dcache-load-misses     #    7.12% of all L1-dcache accesses
+   428.906405109        443,311,289      L1-dcache-loads                                             
+   428.906405109         31,313,406      L1-dcache-load-misses     #    7.06% of all L1-dcache accesses
+   429.906617569        410,826,426      L1-dcache-loads                                             
+   429.906617569         28,363,509      L1-dcache-load-misses     #    6.90% of all L1-dcache accesses
+   430.907832451        474,964,307      L1-dcache-loads                                             
+   430.907832451         31,562,787      L1-dcache-load-misses     #    6.65% of all L1-dcache accesses
+   431.909063348        496,709,329      L1-dcache-loads                                             
+   431.909063348         32,875,367      L1-dcache-load-misses     #    6.62% of all L1-dcache accesses
+   432.910306545        532,545,329      L1-dcache-loads                                             
+   432.910306545         33,651,187      L1-dcache-load-misses     #    6.32% of all L1-dcache accesses
+   433.910576549        555,581,068      L1-dcache-loads                                             
+   433.910576549         33,319,704      L1-dcache-load-misses     #    6.00% of all L1-dcache accesses
+   434.911780685        473,524,192      L1-dcache-loads                                             
+   434.911780685         28,970,975      L1-dcache-load-misses     #    6.12% of all L1-dcache accesses
+   435.913033068        547,989,039      L1-dcache-loads                                               (100.00%)
+   435.913033068         33,316,273      L1-dcache-load-misses     #    6.08% of all L1-dcache accesses  (100.00%)
+   436.914289791        526,840,508      L1-dcache-loads                                             
+   436.914289791         32,575,271      L1-dcache-load-misses     #    6.18% of all L1-dcache accesses
+   437.919794195        468,035,520      L1-dcache-loads                                             
+   437.919794195         28,868,076      L1-dcache-load-misses     #    6.17% of all L1-dcache accesses
+   438.920998935        370,310,936      L1-dcache-loads                                             
+   438.920998935         26,829,589      L1-dcache-load-misses     #    7.25% of all L1-dcache accesses
+   439.922225497        344,189,293      L1-dcache-loads                                             
+   439.922225497         26,505,690      L1-dcache-load-misses     #    7.70% of all L1-dcache accesses
+   440.923405572        477,378,494      L1-dcache-loads                                             
+   440.923405572         31,666,554      L1-dcache-load-misses     #    6.63% of all L1-dcache accesses
+   441.924651555        494,493,256      L1-dcache-loads                                             
+   441.924651555         31,943,673      L1-dcache-load-misses     #    6.46% of all L1-dcache accesses
+   442.925873403        485,941,254      L1-dcache-loads                                             
+   442.925873403         29,762,854      L1-dcache-load-misses     #    6.12% of all L1-dcache accesses
+   443.927080819        496,168,825      L1-dcache-loads                                             
+   443.927080819         30,658,447      L1-dcache-load-misses     #    6.18% of all L1-dcache accesses
+   444.928297521        432,091,952      L1-dcache-loads                                             
+   444.928297521         30,259,418      L1-dcache-load-misses     #    7.00% of all L1-dcache accesses
+   445.929454067        536,008,625      L1-dcache-loads                                             
+   445.929454067         33,796,988      L1-dcache-load-misses     #    6.31% of all L1-dcache accesses
+   446.930664194        482,450,133      L1-dcache-loads                                             
+   446.930664194         29,513,505      L1-dcache-load-misses     #    6.12% of all L1-dcache accesses
+   447.931856753        466,316,200      L1-dcache-loads                                             
+   447.931856753         30,619,384      L1-dcache-load-misses     #    6.57% of all L1-dcache accesses
+   448.933084442        471,843,191      L1-dcache-loads                                             
+   448.933084442         30,907,090      L1-dcache-load-misses     #    6.55% of all L1-dcache accesses
+   449.995011629        525,107,020      L1-dcache-loads                                             
+   449.995011629         33,849,867      L1-dcache-load-misses     #    6.45% of all L1-dcache accesses
+   450.996187929        479,804,947      L1-dcache-loads                                             
+   450.996187929         29,957,890      L1-dcache-load-misses     #    6.24% of all L1-dcache accesses
+#           time             counts unit events
+   451.996408803        321,044,247      L1-dcache-loads                                             
+   451.996408803         24,485,853      L1-dcache-load-misses     #    7.63% of all L1-dcache accesses
+   452.996628424        254,216,319      L1-dcache-loads                                             
+   452.996628424         21,255,102      L1-dcache-load-misses     #    8.36% of all L1-dcache accesses
+   453.997194113        264,119,793      L1-dcache-loads                                             
+   453.997194113         21,066,407      L1-dcache-load-misses     #    7.98% of all L1-dcache accesses
+   454.998520089        251,675,136      L1-dcache-loads                                             
+   454.998520089         21,027,922      L1-dcache-load-misses     #    8.36% of all L1-dcache accesses
+   455.998815527        331,590,682      L1-dcache-loads                                             
+   455.998815527         26,123,007      L1-dcache-load-misses     #    7.88% of all L1-dcache accesses
+   457.000020773        497,444,913      L1-dcache-loads                                             
+   457.000020773         33,024,731      L1-dcache-load-misses     #    6.64% of all L1-dcache accesses
+   458.001296007        434,777,921      L1-dcache-loads                                             
+   458.001296007         28,816,943      L1-dcache-load-misses     #    6.63% of all L1-dcache accesses
+   459.002477712        449,797,849      L1-dcache-loads                                             
+   459.002477712         28,321,799      L1-dcache-load-misses     #    6.30% of all L1-dcache accesses
+   460.003742279        323,714,314      L1-dcache-loads                                             
+   460.003742279         23,721,516      L1-dcache-load-misses     #    7.33% of all L1-dcache accesses
+   461.004190142        264,577,161      L1-dcache-loads                                             
+   461.004190142         21,529,303      L1-dcache-load-misses     #    8.14% of all L1-dcache accesses
+   462.004510152        332,338,481      L1-dcache-loads                                             
+   462.004510152         25,077,398      L1-dcache-load-misses     #    7.55% of all L1-dcache accesses
+   463.005784873        319,669,302      L1-dcache-loads                                             
+   463.005784873         23,915,650      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   464.006158924        312,289,236      L1-dcache-loads                                             
+   464.006158924         24,061,027      L1-dcache-load-misses     #    7.70% of all L1-dcache accesses
+   465.007061260        360,565,590      L1-dcache-loads                                             
+   465.007061260         26,633,661      L1-dcache-load-misses     #    7.39% of all L1-dcache accesses
+   466.008296629        352,063,225      L1-dcache-loads                                             
+   466.008296629         24,807,753      L1-dcache-load-misses     #    7.05% of all L1-dcache accesses
+   467.008609582        315,027,802      L1-dcache-loads                                             
+   467.008609582         23,748,251      L1-dcache-load-misses     #    7.54% of all L1-dcache accesses
+   468.009888078        333,252,501      L1-dcache-loads                                             
+   468.009888078         24,264,683      L1-dcache-load-misses     #    7.28% of all L1-dcache accesses
+   469.011149577        355,447,859      L1-dcache-loads                                             
+   469.011149577         25,982,031      L1-dcache-load-misses     #    7.31% of all L1-dcache accesses
+   470.012373702        284,689,444      L1-dcache-loads                                             
+   470.012373702         23,214,318      L1-dcache-load-misses     #    8.15% of all L1-dcache accesses
+   471.013603140        272,680,015      L1-dcache-loads                                             
+   471.013603140         22,962,591      L1-dcache-load-misses     #    8.42% of all L1-dcache accesses
+   472.013884399        413,057,431      L1-dcache-loads                                             
+   472.013884399         28,551,904      L1-dcache-load-misses     #    6.91% of all L1-dcache accesses
+   473.015119176        417,371,757      L1-dcache-loads                                             
+   473.015119176         28,079,410      L1-dcache-load-misses     #    6.73% of all L1-dcache accesses
+   474.016397976        411,642,564      L1-dcache-loads                                             
+   474.016397976         28,501,193      L1-dcache-load-misses     #    6.92% of all L1-dcache accesses
+   475.017631484        375,481,147      L1-dcache-loads                                             
+   475.017631484         27,071,588      L1-dcache-load-misses     #    7.21% of all L1-dcache accesses
+   476.018874223        437,832,218      L1-dcache-loads                                             
+   476.018874223         31,258,866      L1-dcache-load-misses     #    7.14% of all L1-dcache accesses
+#           time             counts unit events
+   477.020094628        475,775,010      L1-dcache-loads                                             
+   477.020094628         32,026,182      L1-dcache-load-misses     #    6.73% of all L1-dcache accesses
+   478.021363431        510,085,146      L1-dcache-loads                                             
+   478.021363431         33,225,621      L1-dcache-load-misses     #    6.51% of all L1-dcache accesses
+   479.022599945        548,847,105      L1-dcache-loads                                             
+   479.022599945         33,252,554      L1-dcache-load-misses     #    6.06% of all L1-dcache accesses
+   480.023844807        489,100,334      L1-dcache-loads                                             
+   480.023844807         30,309,797      L1-dcache-load-misses     #    6.20% of all L1-dcache accesses
+   481.025040482        482,884,054      L1-dcache-loads                                             
+   481.025040482         29,751,610      L1-dcache-load-misses     #    6.16% of all L1-dcache accesses
+   482.026215577        512,671,708      L1-dcache-loads                                             
+   482.026215577         31,588,937      L1-dcache-load-misses     #    6.16% of all L1-dcache accesses
+   483.027385079        513,566,360      L1-dcache-loads                                             
+   483.027385079         31,631,722      L1-dcache-load-misses     #    6.16% of all L1-dcache accesses
+   484.028588496        511,381,394      L1-dcache-loads                                             
+   484.028588496         31,595,653      L1-dcache-load-misses     #    6.18% of all L1-dcache accesses
+   485.029766325        530,524,581      L1-dcache-loads                                             
+   485.029766325         32,476,653      L1-dcache-load-misses     #    6.12% of all L1-dcache accesses
+   486.030974376        512,323,143      L1-dcache-loads                                             
+   486.030974376         30,939,117      L1-dcache-load-misses     #    6.04% of all L1-dcache accesses
+   487.032183290        376,857,944      L1-dcache-loads                                             
+   487.032183290         25,613,072      L1-dcache-load-misses     #    6.80% of all L1-dcache accesses
+   488.032573116        257,171,957      L1-dcache-loads                                             
+   488.032573116         20,905,736      L1-dcache-load-misses     #    8.13% of all L1-dcache accesses
+   489.033902746        282,184,229      L1-dcache-loads                                             
+   489.033902746         22,295,429      L1-dcache-load-misses     #    7.90% of all L1-dcache accesses
+   490.035206048        292,497,442      L1-dcache-loads                                             
+   490.035206048         23,089,199      L1-dcache-load-misses     #    7.89% of all L1-dcache accesses
+   491.036517349        397,653,316      L1-dcache-loads                                             
+   491.036517349         27,542,941      L1-dcache-load-misses     #    6.93% of all L1-dcache accesses
+   492.036845299        340,418,994      L1-dcache-loads                                             
+   492.036845299         25,643,322      L1-dcache-load-misses     #    7.53% of all L1-dcache accesses
+   493.038140154        349,387,711      L1-dcache-loads                                             
+   493.038140154         25,005,309      L1-dcache-load-misses     #    7.16% of all L1-dcache accesses
+   494.039405941        300,163,041      L1-dcache-loads                                             
+   494.039405941         23,203,395      L1-dcache-load-misses     #    7.73% of all L1-dcache accesses
+   495.040733311        288,825,999      L1-dcache-loads                                             
+   495.040733311         23,599,438      L1-dcache-load-misses     #    8.17% of all L1-dcache accesses
+   496.042013773        323,092,632      L1-dcache-loads                                             
+   496.042013773         24,987,266      L1-dcache-load-misses     #    7.73% of all L1-dcache accesses
+   497.043239494        303,038,931      L1-dcache-loads                                             
+   497.043239494         24,419,889      L1-dcache-load-misses     #    8.06% of all L1-dcache accesses
+   498.044545421        293,360,725      L1-dcache-loads                                             
+   498.044545421         23,960,009      L1-dcache-load-misses     #    8.17% of all L1-dcache accesses
+   499.045806924        350,187,782      L1-dcache-loads                                             
+   499.045806924         26,036,116      L1-dcache-load-misses     #    7.43% of all L1-dcache accesses
+   500.047019770        331,895,197      L1-dcache-loads                                             
+   500.047019770         25,253,794      L1-dcache-load-misses     #    7.61% of all L1-dcache accesses
+   501.048236799        315,308,503      L1-dcache-loads                                             
+   501.048236799         24,022,770      L1-dcache-load-misses     #    7.62% of all L1-dcache accesses
+#           time             counts unit events
+   502.049547153        304,828,670      L1-dcache-loads                                             
+   502.049547153         22,996,145      L1-dcache-load-misses     #    7.54% of all L1-dcache accesses
+   503.050759802        457,830,743      L1-dcache-loads                                             
+   503.050759802         30,610,553      L1-dcache-load-misses     #    6.69% of all L1-dcache accesses
+   504.051982931        451,899,301      L1-dcache-loads                                             
+   504.051982931         29,655,788      L1-dcache-load-misses     #    6.56% of all L1-dcache accesses
+   505.053187824        521,761,885      L1-dcache-loads                                             
+   505.053187824         32,114,023      L1-dcache-load-misses     #    6.15% of all L1-dcache accesses
+   506.054405137        518,044,354      L1-dcache-loads                                             
+   506.054405137         32,092,872      L1-dcache-load-misses     #    6.20% of all L1-dcache accesses
+   507.055616434        373,563,768      L1-dcache-loads                                             
+   507.055616434         26,364,948      L1-dcache-load-misses     #    7.06% of all L1-dcache accesses
+   508.056186116        459,099,290      L1-dcache-loads                                             
+   508.056186116         30,281,765      L1-dcache-load-misses     #    6.60% of all L1-dcache accesses
+   509.056372482        424,175,966      L1-dcache-loads                                             
+   509.056372482         28,691,684      L1-dcache-load-misses     #    6.76% of all L1-dcache accesses
+   510.057589747        363,377,030      L1-dcache-loads                                             
+   510.057589747         26,811,195      L1-dcache-load-misses     #    7.38% of all L1-dcache accesses
+   511.058845917        294,681,923      L1-dcache-loads                                             
+   511.058845917         23,118,820      L1-dcache-load-misses     #    7.85% of all L1-dcache accesses
+   512.060092496        319,460,818      L1-dcache-loads                                             
+   512.060092496         23,544,488      L1-dcache-load-misses     #    7.37% of all L1-dcache accesses
+   513.061322777        320,576,492      L1-dcache-loads                                             
+   513.061322777         24,599,707      L1-dcache-load-misses     #    7.67% of all L1-dcache accesses
+   514.062617757        303,319,636      L1-dcache-loads                                               (100.00%)
+   514.062617757         23,615,663      L1-dcache-load-misses     #    7.79% of all L1-dcache accesses  (100.00%)
+   515.063867477        273,925,236      L1-dcache-loads                                             
+   515.063867477         22,480,813      L1-dcache-load-misses     #    8.21% of all L1-dcache accesses
+   516.065113418        286,161,313      L1-dcache-loads                                             
+   516.065113418         22,877,026      L1-dcache-load-misses     #    7.99% of all L1-dcache accesses
+   517.066371512        249,026,661      L1-dcache-loads                                             
+   517.066371512         21,283,699      L1-dcache-load-misses     #    8.55% of all L1-dcache accesses
+   518.067602877        296,886,693      L1-dcache-loads                                             
+   518.067602877         23,913,210      L1-dcache-load-misses     #    8.05% of all L1-dcache accesses
+   519.068920338        296,176,650      L1-dcache-loads                                             
+   519.068920338         23,644,875      L1-dcache-load-misses     #    7.98% of all L1-dcache accesses
+   520.070192633        439,401,171      L1-dcache-loads                                             
+   520.070192633         30,442,105      L1-dcache-load-misses     #    6.93% of all L1-dcache accesses
+   521.071397547        456,129,077      L1-dcache-loads                                             
+   521.071397547         30,388,113      L1-dcache-load-misses     #    6.66% of all L1-dcache accesses
+   522.072182642        378,669,726      L1-dcache-loads                                             
+   522.072182642         26,107,826      L1-dcache-load-misses     #    6.89% of all L1-dcache accesses
+   523.072611528        403,588,016      L1-dcache-loads                                             
+   523.072611528         28,257,898      L1-dcache-load-misses     #    7.00% of all L1-dcache accesses
+   524.073861081        467,061,357      L1-dcache-loads                                             
+   524.073861081         30,978,974      L1-dcache-load-misses     #    6.63% of all L1-dcache accesses
+   525.075086635        485,389,753      L1-dcache-loads                                             
+   525.075086635         29,721,468      L1-dcache-load-misses     #    6.12% of all L1-dcache accesses
+   526.076317469        531,755,229      L1-dcache-loads                                             
+   526.076317469         32,585,532      L1-dcache-load-misses     #    6.13% of all L1-dcache accesses
+#           time             counts unit events
+   527.077523927        503,572,426      L1-dcache-loads                                             
+   527.077523927         31,047,113      L1-dcache-load-misses     #    6.17% of all L1-dcache accesses
+   528.078748338        339,301,627      L1-dcache-loads                                             
+   528.078748338         24,240,066      L1-dcache-load-misses     #    7.14% of all L1-dcache accesses
+   529.079181694        265,991,297      L1-dcache-loads                                             
+   529.079181694         22,248,385      L1-dcache-load-misses     #    8.36% of all L1-dcache accesses
+   530.080191395        307,403,888      L1-dcache-loads                                             
+   530.080191395         23,955,727      L1-dcache-load-misses     #    7.79% of all L1-dcache accesses
+   531.080493875        291,958,600      L1-dcache-loads                                             
+   531.080493875         23,595,479      L1-dcache-load-misses     #    8.08% of all L1-dcache accesses
+   532.081791487        337,416,810      L1-dcache-loads                                             
+   532.081791487         25,207,338      L1-dcache-load-misses     #    7.47% of all L1-dcache accesses
+   533.082298146        315,385,173      L1-dcache-loads                                             
+   533.082298146         24,759,547      L1-dcache-load-misses     #    7.85% of all L1-dcache accesses
+   534.083593984        356,048,673      L1-dcache-loads                                             
+   534.083593984         26,619,327      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   535.084869094        359,547,110      L1-dcache-loads                                             
+   535.084869094         26,609,711      L1-dcache-load-misses     #    7.40% of all L1-dcache accesses
+   536.086124928        386,053,676      L1-dcache-loads                                             
+   536.086124928         27,655,468      L1-dcache-load-misses     #    7.16% of all L1-dcache accesses
+   537.087422486        422,147,485      L1-dcache-loads                                             
+   537.087422486         29,845,197      L1-dcache-load-misses     #    7.07% of all L1-dcache accesses
+   538.088598706        406,086,356      L1-dcache-loads                                             
+   538.088598706         27,892,154      L1-dcache-load-misses     #    6.87% of all L1-dcache accesses
+   539.089853905        392,428,646      L1-dcache-loads                                             
+   539.089853905         27,479,641      L1-dcache-load-misses     #    7.00% of all L1-dcache accesses
+   540.091073671        416,597,077      L1-dcache-loads                                             
+   540.091073671         28,250,911      L1-dcache-load-misses     #    6.78% of all L1-dcache accesses
+   541.092273843        371,490,882      L1-dcache-loads                                             
+   541.092273843         26,096,493      L1-dcache-load-misses     #    7.02% of all L1-dcache accesses
+   542.093522726        365,481,712      L1-dcache-loads                                             
+   542.093522726         26,630,692      L1-dcache-load-misses     #    7.29% of all L1-dcache accesses
+   543.094760656        392,352,221      L1-dcache-loads                                             
+   543.094760656         26,824,078      L1-dcache-load-misses     #    6.84% of all L1-dcache accesses
+   544.095110271        282,732,511      L1-dcache-loads                                             
+   544.095110271         21,407,288      L1-dcache-load-misses     #    7.57% of all L1-dcache accesses
+   545.096196189        277,021,072      L1-dcache-loads                                             
+   545.096196189         22,017,788      L1-dcache-load-misses     #    7.95% of all L1-dcache accesses
+   546.096434242        286,506,170      L1-dcache-loads                                             
+   546.096434242         22,395,909      L1-dcache-load-misses     #    7.82% of all L1-dcache accesses
+   547.097702157        343,686,550      L1-dcache-loads                                             
+   547.097702157         25,197,582      L1-dcache-load-misses     #    7.33% of all L1-dcache accesses
+   548.098936017        448,740,861      L1-dcache-loads                                             
+   548.098936017         28,907,913      L1-dcache-load-misses     #    6.44% of all L1-dcache accesses
+   549.099189670        420,978,082      L1-dcache-loads                                             
+   549.099189670         29,163,522      L1-dcache-load-misses     #    6.93% of all L1-dcache accesses
+   550.100391010        388,952,094      L1-dcache-loads                                             
+   550.100391010         27,423,669      L1-dcache-load-misses     #    7.05% of all L1-dcache accesses
+   551.101645455        325,299,605      L1-dcache-loads                                             
+   551.101645455         24,374,764      L1-dcache-load-misses     #    7.49% of all L1-dcache accesses
+#           time             counts unit events
+   552.102885680        418,616,419      L1-dcache-loads                                             
+   552.102885680         29,537,706      L1-dcache-load-misses     #    7.06% of all L1-dcache accesses
+   553.104079654        493,052,185      L1-dcache-loads                                             
+   553.104079654         32,599,514      L1-dcache-load-misses     #    6.61% of all L1-dcache accesses
+   554.105359888        308,467,864      L1-dcache-loads                                             
+   554.105359888         23,373,707      L1-dcache-load-misses     #    7.58% of all L1-dcache accesses
+   555.105662095        304,014,319      L1-dcache-loads                                             
+   555.105662095         23,326,719      L1-dcache-load-misses     #    7.67% of all L1-dcache accesses
+   556.106852097        365,379,475      L1-dcache-loads                                             
+   556.106852097         27,324,611      L1-dcache-load-misses     #    7.48% of all L1-dcache accesses
+   557.107224353        493,372,870      L1-dcache-loads                                             
+   557.107224353         32,937,146      L1-dcache-load-misses     #    6.68% of all L1-dcache accesses
+   558.108477473        489,199,866      L1-dcache-loads                                             
+   558.108477473         32,165,081      L1-dcache-load-misses     #    6.58% of all L1-dcache accesses
+   559.109721533        266,291,240      L1-dcache-loads                                             
+   559.109721533         21,081,856      L1-dcache-load-misses     #    7.92% of all L1-dcache accesses
+   560.109967439        320,611,869      L1-dcache-loads                                             
+   560.109967439         25,668,744      L1-dcache-load-misses     #    8.01% of all L1-dcache accesses
+   561.110191600        270,073,973      L1-dcache-loads                                             
+   561.110191600         22,337,462      L1-dcache-load-misses     #    8.27% of all L1-dcache accesses
+   562.111361277        305,674,919      L1-dcache-loads                                             
+   562.111361277         25,352,124      L1-dcache-load-misses     #    8.29% of all L1-dcache accesses
+   563.112184889        368,566,607      L1-dcache-loads                                             
+   563.112184889         26,647,849      L1-dcache-load-misses     #    7.23% of all L1-dcache accesses
+   564.113393764        427,866,455      L1-dcache-loads                                             
+   564.113393764         29,315,667      L1-dcache-load-misses     #    6.85% of all L1-dcache accesses
+   565.114563334        435,910,590      L1-dcache-loads                                             
+   565.114563334         31,154,098      L1-dcache-load-misses     #    7.15% of all L1-dcache accesses
+   566.115714123        495,051,790      L1-dcache-loads                                             
+   566.115714123         32,716,892      L1-dcache-load-misses     #    6.61% of all L1-dcache accesses
+   567.116179836        474,098,656      L1-dcache-loads                                             
+   567.116179836         30,897,012      L1-dcache-load-misses     #    6.52% of all L1-dcache accesses
+   568.117343228        442,674,666      L1-dcache-loads                                             
+   568.117343228         29,479,771      L1-dcache-load-misses     #    6.66% of all L1-dcache accesses
+   569.118498652        294,948,739      L1-dcache-loads                                             
+   569.118498652         22,322,180      L1-dcache-load-misses     #    7.57% of all L1-dcache accesses
+   570.119672737         95,530,292      L1-dcache-loads                                             
+   570.119672737          7,512,275      L1-dcache-load-misses     #    7.86% of all L1-dcache accesses
+   571.120231083          1,287,327      L1-dcache-loads                                             
+   571.120231083            240,884      L1-dcache-load-misses     #   18.71% of all L1-dcache accesses
+   572.121487140        161,032,654      L1-dcache-loads                                             
+   572.121487140          7,284,089      L1-dcache-load-misses     #    4.52% of all L1-dcache accesses

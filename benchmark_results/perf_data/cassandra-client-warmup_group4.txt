@@ -1,0 +1,1182 @@
+# started on Mon Dec  2 07:26:26 2024
+
+#           time             counts unit events
+     1.001096825      <not counted>      iTLB-loads                                                  
+     1.001096825      <not counted>      iTLB-load-misses                                            
+     2.002286563      <not counted>      iTLB-loads                                                  
+     2.002286563      <not counted>      iTLB-load-misses                                            
+     3.003429860      <not counted>      iTLB-loads                                                  
+     3.003429860      <not counted>      iTLB-load-misses                                            
+     4.004574098            308,864      iTLB-loads                                                  
+     4.004574098            350,059      iTLB-load-misses          #  113.34% of all iTLB cache accesses
+     5.005796549             24,131      iTLB-loads                                                  
+     5.005796549             18,692      iTLB-load-misses          #   77.46% of all iTLB cache accesses
+     6.006979273      <not counted>      iTLB-loads                                                  
+     6.006979273      <not counted>      iTLB-load-misses                                            
+     7.008124310      <not counted>      iTLB-loads                                                  
+     7.008124310      <not counted>      iTLB-load-misses                                            
+     8.009267032      <not counted>      iTLB-loads                                                  
+     8.009267032      <not counted>      iTLB-load-misses                                            
+     9.010402123      <not counted>      iTLB-loads                                                  
+     9.010402123      <not counted>      iTLB-load-misses                                            
+    10.011547574            321,545      iTLB-loads                                                  
+    10.011547574            369,311      iTLB-load-misses          #  114.86% of all iTLB cache accesses
+    11.012747734      <not counted>      iTLB-loads                                                  
+    11.012747734      <not counted>      iTLB-load-misses                                            
+    12.013887822      <not counted>      iTLB-loads                                                  
+    12.013887822      <not counted>      iTLB-load-misses                                            
+    13.015042482      <not counted>      iTLB-loads                                                  
+    13.015042482      <not counted>      iTLB-load-misses                                            
+    14.016174312      <not counted>      iTLB-loads                                                  
+    14.016174312      <not counted>      iTLB-load-misses                                            
+    15.017311087            160,685      iTLB-loads                                                  
+    15.017311087            241,765      iTLB-load-misses          #  150.46% of all iTLB cache accesses
+    16.018507625            166,196      iTLB-loads                                                  
+    16.018507625            102,093      iTLB-load-misses          #   61.43% of all iTLB cache accesses
+    17.019672951      <not counted>      iTLB-loads                                                  
+    17.019672951      <not counted>      iTLB-load-misses                                            
+    18.020809299      <not counted>      iTLB-loads                                                  
+    18.020809299      <not counted>      iTLB-load-misses                                            
+    19.021937457      <not counted>      iTLB-loads                                                  
+    19.021937457      <not counted>      iTLB-load-misses                                            
+    20.023071590      <not counted>      iTLB-loads                                                  
+    20.023071590      <not counted>      iTLB-load-misses                                            
+    21.024280503            323,446      iTLB-loads                                                  
+    21.024280503            353,698      iTLB-load-misses          #  109.35% of all iTLB cache accesses
+    22.025477448      <not counted>      iTLB-loads                                                  
+    22.025477448      <not counted>      iTLB-load-misses                                            
+    23.026644974      <not counted>      iTLB-loads                                                  
+    23.026644974      <not counted>      iTLB-load-misses                                            
+    24.027794045      <not counted>      iTLB-loads                                                  
+    24.027794045      <not counted>      iTLB-load-misses                                            
+    25.028953964      <not counted>      iTLB-loads                                                  
+    25.028953964      <not counted>      iTLB-load-misses                                            
+#           time             counts unit events
+    26.030113270             95,638      iTLB-loads                                                  
+    26.030113270            267,077      iTLB-load-misses          #  279.26% of all iTLB cache accesses
+    27.031308583            241,005      iTLB-loads                                                  
+    27.031308583            254,754      iTLB-load-misses          #  105.70% of all iTLB cache accesses
+    28.032506226      <not counted>      iTLB-loads                                                  
+    28.032506226      <not counted>      iTLB-load-misses                                            
+    29.033653874      <not counted>      iTLB-loads                                                  
+    29.033653874      <not counted>      iTLB-load-misses                                            
+    30.034782990      <not counted>      iTLB-loads                                                  
+    30.034782990      <not counted>      iTLB-load-misses                                            
+    31.035923253      <not counted>      iTLB-loads                                                  
+    31.035923253      <not counted>      iTLB-load-misses                                            
+    32.037075963            331,961      iTLB-loads                                                  
+    32.037075963            377,013      iTLB-load-misses          #  113.57% of all iTLB cache accesses
+    33.038266825      <not counted>      iTLB-loads                                                  
+    33.038266825      <not counted>      iTLB-load-misses                                            
+    34.039415943      <not counted>      iTLB-loads                                                  
+    34.039415943      <not counted>      iTLB-load-misses                                            
+    35.040545630      <not counted>      iTLB-loads                                                  
+    35.040545630      <not counted>      iTLB-load-misses                                            
+    36.041716711      <not counted>      iTLB-loads                                                  
+    36.041716711      <not counted>      iTLB-load-misses                                            
+    37.042857268             11,932      iTLB-loads                                                  
+    37.042857268             21,157      iTLB-load-misses          #  177.31% of all iTLB cache accesses
+    38.044009783            367,265      iTLB-loads                                                  
+    38.044009783            543,105      iTLB-load-misses          #  147.88% of all iTLB cache accesses
+    39.045189214             12,446      iTLB-loads                                                  
+    39.045189214             10,975      iTLB-load-misses          #   88.18% of all iTLB cache accesses
+    40.046395112             10,585      iTLB-loads                                                  
+    40.046395112             16,820      iTLB-load-misses          #  158.90% of all iTLB cache accesses
+    41.047628326      <not counted>      iTLB-loads                                                  
+    41.047628326      <not counted>      iTLB-load-misses                                            
+    42.048792416      <not counted>      iTLB-loads                                                  
+    42.048792416      <not counted>      iTLB-load-misses                                            
+    43.049926644      <not counted>      iTLB-loads                                                  
+    43.049926644      <not counted>      iTLB-load-misses                                            
+    44.051063017      <not counted>      iTLB-loads                                                  
+    44.051063017      <not counted>      iTLB-load-misses                                            
+    45.052156045          1,570,065      iTLB-loads                                                  
+    45.052156045          1,071,611      iTLB-load-misses          #   68.25% of all iTLB cache accesses
+    46.053318341          4,068,737      iTLB-loads                                                  
+    46.053318341          2,793,851      iTLB-load-misses          #   68.67% of all iTLB cache accesses
+    47.053859048          7,744,783      iTLB-loads                                                  
+    47.053859048          6,732,443      iTLB-load-misses          #   86.93% of all iTLB cache accesses
+    48.055035213          6,371,586      iTLB-loads                                                  
+    48.055035213          5,154,207      iTLB-load-misses          #   80.89% of all iTLB cache accesses
+    49.056239011          2,316,679      iTLB-loads                                                  
+    49.056239011          3,125,421      iTLB-load-misses          #  134.91% of all iTLB cache accesses
+    50.056538684          1,463,391      iTLB-loads                                                  
+    50.056538684          2,528,813      iTLB-load-misses          #  172.81% of all iTLB cache accesses
+#           time             counts unit events
+    51.057825922          1,340,355      iTLB-loads                                                  
+    51.057825922          2,471,920      iTLB-load-misses          #  184.42% of all iTLB cache accesses
+    52.059104234          1,533,038      iTLB-loads                                                  
+    52.059104234          2,696,288      iTLB-load-misses          #  175.88% of all iTLB cache accesses
+    53.060350425          1,482,703      iTLB-loads                                                  
+    53.060350425          2,455,257      iTLB-load-misses          #  165.59% of all iTLB cache accesses
+    54.061610052          1,412,620      iTLB-loads                                                  
+    54.061610052          2,207,582      iTLB-load-misses          #  156.28% of all iTLB cache accesses
+    55.061873513            962,808      iTLB-loads                                                  
+    55.061873513          1,358,833      iTLB-load-misses          #  141.13% of all iTLB cache accesses
+    56.063163791          1,461,391      iTLB-loads                                                  
+    56.063163791          2,427,365      iTLB-load-misses          #  166.10% of all iTLB cache accesses
+    57.064393466          1,304,625      iTLB-loads                                                  
+    57.064393466          2,207,917      iTLB-load-misses          #  169.24% of all iTLB cache accesses
+    58.065675480          1,320,024      iTLB-loads                                                  
+    58.065675480          2,307,338      iTLB-load-misses          #  174.80% of all iTLB cache accesses
+    59.065992802          1,194,341      iTLB-loads                                                  
+    59.065992802          2,099,202      iTLB-load-misses          #  175.76% of all iTLB cache accesses
+    60.066633566          1,159,807      iTLB-loads                                                  
+    60.066633566          2,398,908      iTLB-load-misses          #  206.84% of all iTLB cache accesses
+    61.067874133          1,363,299      iTLB-loads                                                  
+    61.067874133          2,525,624      iTLB-load-misses          #  185.26% of all iTLB cache accesses
+    62.068302965          1,543,827      iTLB-loads                                                  
+    62.068302965          2,664,375      iTLB-load-misses          #  172.58% of all iTLB cache accesses
+    63.069530457          1,897,366      iTLB-loads                                                  
+    63.069530457          2,654,717      iTLB-load-misses          #  139.92% of all iTLB cache accesses
+    64.070792749          2,058,132      iTLB-loads                                                  
+    64.070792749          2,924,070      iTLB-load-misses          #  142.07% of all iTLB cache accesses
+    65.072024037          1,898,188      iTLB-loads                                                  
+    65.072024037          3,050,717      iTLB-load-misses          #  160.72% of all iTLB cache accesses
+    66.073321227          1,358,773      iTLB-loads                                                  
+    66.073321227          2,459,966      iTLB-load-misses          #  181.04% of all iTLB cache accesses
+    67.074565653            882,661      iTLB-loads                                                  
+    67.074565653          1,592,345      iTLB-load-misses          #  180.40% of all iTLB cache accesses
+    68.075800199          1,558,902      iTLB-loads                                                  
+    68.075800199          2,707,082      iTLB-load-misses          #  173.65% of all iTLB cache accesses
+    69.077098314          1,237,174      iTLB-loads                                                  
+    69.077098314          2,584,149      iTLB-load-misses          #  208.88% of all iTLB cache accesses
+    70.078360316          1,310,649      iTLB-loads                                                  
+    70.078360316          2,594,772      iTLB-load-misses          #  197.98% of all iTLB cache accesses
+    71.079585882          1,575,295      iTLB-loads                                                  
+    71.079585882          2,857,301      iTLB-load-misses          #  181.38% of all iTLB cache accesses
+    72.080841398          1,742,132      iTLB-loads                                                  
+    72.080841398          3,029,669      iTLB-load-misses          #  173.91% of all iTLB cache accesses
+    73.082070773          2,327,517      iTLB-loads                                                  
+    73.082070773          3,325,276      iTLB-load-misses          #  142.87% of all iTLB cache accesses
+    74.083277975          2,565,576      iTLB-loads                                                  
+    74.083277975          3,078,784      iTLB-load-misses          #  120.00% of all iTLB cache accesses
+    75.084485778          2,471,256      iTLB-loads                                                  
+    75.084485778          3,188,600      iTLB-load-misses          #  129.03% of all iTLB cache accesses
+#           time             counts unit events
+    76.085721038          1,893,981      iTLB-loads                                                  
+    76.085721038          3,136,137      iTLB-load-misses          #  165.58% of all iTLB cache accesses
+    77.087050690          1,566,919      iTLB-loads                                                  
+    77.087050690          2,663,585      iTLB-load-misses          #  169.99% of all iTLB cache accesses
+    78.088363012          1,230,680      iTLB-loads                                                  
+    78.088363012          2,466,376      iTLB-load-misses          #  200.41% of all iTLB cache accesses
+    79.089614046          1,709,561      iTLB-loads                                                  
+    79.089614046          2,591,524      iTLB-load-misses          #  151.59% of all iTLB cache accesses
+    80.090842291          2,631,898      iTLB-loads                                                  
+    80.090842291          3,111,459      iTLB-load-misses          #  118.22% of all iTLB cache accesses
+    81.092082811          2,794,861      iTLB-loads                                                  
+    81.092082811          3,181,057      iTLB-load-misses          #  113.82% of all iTLB cache accesses
+    82.093327887          2,895,931      iTLB-loads                                                  
+    82.093327887          3,213,470      iTLB-load-misses          #  110.97% of all iTLB cache accesses
+    83.093872443          2,593,887      iTLB-loads                                                  
+    83.093872443          3,303,764      iTLB-load-misses          #  127.37% of all iTLB cache accesses
+    84.094504101          2,626,435      iTLB-loads                                                  
+    84.094504101          3,204,753      iTLB-load-misses          #  122.02% of all iTLB cache accesses
+    85.095715579          2,825,580      iTLB-loads                                                  
+    85.095715579          3,142,496      iTLB-load-misses          #  111.22% of all iTLB cache accesses
+    86.096959953          2,692,470      iTLB-loads                                                  
+    86.096959953          3,079,257      iTLB-load-misses          #  114.37% of all iTLB cache accesses
+    87.098073029          2,228,276      iTLB-loads                                                  
+    87.098073029          2,840,291      iTLB-load-misses          #  127.47% of all iTLB cache accesses
+    88.099318486          1,784,390      iTLB-loads                                                  
+    88.099318486          3,009,254      iTLB-load-misses          #  168.64% of all iTLB cache accesses
+    89.100564160          2,264,616      iTLB-loads                                                  
+    89.100564160          3,159,498      iTLB-load-misses          #  139.52% of all iTLB cache accesses
+    90.101766141          2,531,249      iTLB-loads                                                  
+    90.101766141          3,295,067      iTLB-load-misses          #  130.18% of all iTLB cache accesses
+    91.103014752          2,329,437      iTLB-loads                                                  
+    91.103014752          3,365,981      iTLB-load-misses          #  144.50% of all iTLB cache accesses
+    92.104282147          1,471,827      iTLB-loads                                                  
+    92.104282147          3,045,050      iTLB-load-misses          #  206.89% of all iTLB cache accesses
+    93.105566628          1,400,214      iTLB-loads                                                  
+    93.105566628          2,780,559      iTLB-load-misses          #  198.58% of all iTLB cache accesses
+    94.106853111          1,481,397      iTLB-loads                                                  
+    94.106853111          2,893,875      iTLB-load-misses          #  195.35% of all iTLB cache accesses
+    95.108149116          1,391,783      iTLB-loads                                                  
+    95.108149116          2,602,770      iTLB-load-misses          #  187.01% of all iTLB cache accesses
+    96.109427592          1,919,469      iTLB-loads                                                  
+    96.109427592          3,033,848      iTLB-load-misses          #  158.06% of all iTLB cache accesses
+    97.109895203          1,559,215      iTLB-loads                                                  
+    97.109895203          2,815,240      iTLB-load-misses          #  180.55% of all iTLB cache accesses
+    98.111166142          1,886,147      iTLB-loads                                                  
+    98.111166142          3,042,686      iTLB-load-misses          #  161.32% of all iTLB cache accesses
+    99.112467830          1,669,088      iTLB-loads                                                  
+    99.112467830          3,105,162      iTLB-load-misses          #  186.04% of all iTLB cache accesses
+   100.113769732          1,342,917      iTLB-loads                                                  
+   100.113769732          2,695,164      iTLB-load-misses          #  200.69% of all iTLB cache accesses
+#           time             counts unit events
+   101.114823017          1,459,736      iTLB-loads                                                  
+   101.114823017          2,808,145      iTLB-load-misses          #  192.37% of all iTLB cache accesses
+   102.116121046          1,430,357      iTLB-loads                                                  
+   102.116121046          3,033,020      iTLB-load-misses          #  212.05% of all iTLB cache accesses
+   103.117387907          1,111,452      iTLB-loads                                                  
+   103.117387907          2,638,906      iTLB-load-misses          #  237.43% of all iTLB cache accesses
+   104.118665195          1,072,702      iTLB-loads                                                  
+   104.118665195          2,444,595      iTLB-load-misses          #  227.89% of all iTLB cache accesses
+   105.118912922          1,367,727      iTLB-loads                                                  
+   105.118912922          2,786,555      iTLB-load-misses          #  203.74% of all iTLB cache accesses
+   106.120178008          1,606,669      iTLB-loads                                                  
+   106.120178008          2,565,887      iTLB-load-misses          #  159.70% of all iTLB cache accesses
+   107.121423644          1,594,831      iTLB-loads                                                  
+   107.121423644          2,688,800      iTLB-load-misses          #  168.59% of all iTLB cache accesses
+   108.121872042          1,458,935      iTLB-loads                                                  
+   108.121872042          2,503,951      iTLB-load-misses          #  171.63% of all iTLB cache accesses
+   109.123116580          1,815,724      iTLB-loads                                                  
+   109.123116580          2,470,546      iTLB-load-misses          #  136.06% of all iTLB cache accesses
+   110.124321318          1,785,821      iTLB-loads                                                  
+   110.124321318          2,738,474      iTLB-load-misses          #  153.35% of all iTLB cache accesses
+   111.125576135          1,330,863      iTLB-loads                                                  
+   111.125576135          2,323,138      iTLB-load-misses          #  174.56% of all iTLB cache accesses
+   112.125890760          1,263,520      iTLB-loads                                                  
+   112.125890760          2,286,521      iTLB-load-misses          #  180.96% of all iTLB cache accesses
+   113.126466055          1,284,404      iTLB-loads                                                  
+   113.126466055          2,329,867      iTLB-load-misses          #  181.40% of all iTLB cache accesses
+   114.127742435          1,611,109      iTLB-loads                                                  
+   114.127742435          2,622,625      iTLB-load-misses          #  162.78% of all iTLB cache accesses
+   115.129013604          1,664,422      iTLB-loads                                                  
+   115.129013604          2,651,185      iTLB-load-misses          #  159.29% of all iTLB cache accesses
+   116.129879410          1,479,399      iTLB-loads                                                  
+   116.129879410          2,480,482      iTLB-load-misses          #  167.67% of all iTLB cache accesses
+   117.130364049          2,579,159      iTLB-loads                                                  
+   117.130364049          3,411,970      iTLB-load-misses          #  132.29% of all iTLB cache accesses
+   118.130672003          2,882,315      iTLB-loads                                                  
+   118.130672003          3,268,522      iTLB-load-misses          #  113.40% of all iTLB cache accesses
+   119.131876452          2,358,297      iTLB-loads                                                  
+   119.131876452          3,368,764      iTLB-load-misses          #  142.85% of all iTLB cache accesses
+   120.132115439          1,680,092      iTLB-loads                                                  
+   120.132115439          2,757,326      iTLB-load-misses          #  164.12% of all iTLB cache accesses
+   121.133388419          1,791,023      iTLB-loads                                                  
+   121.133388419          2,959,478      iTLB-load-misses          #  165.24% of all iTLB cache accesses
+   122.134632684          1,615,125      iTLB-loads                                                  
+   122.134632684          2,877,789      iTLB-load-misses          #  178.18% of all iTLB cache accesses
+   123.135931243          1,694,549      iTLB-loads                                                  
+   123.135931243          2,904,065      iTLB-load-misses          #  171.38% of all iTLB cache accesses
+   124.137210843          1,771,593      iTLB-loads                                                  
+   124.137210843          2,907,796      iTLB-load-misses          #  164.13% of all iTLB cache accesses
+   125.137876834          2,010,225      iTLB-loads                                                  
+   125.137876834          3,003,971      iTLB-load-misses          #  149.43% of all iTLB cache accesses
+#           time             counts unit events
+   126.139136205          2,732,237      iTLB-loads                                                  
+   126.139136205          3,534,773      iTLB-load-misses          #  129.37% of all iTLB cache accesses
+   127.140360076          3,079,742      iTLB-loads                                                  
+   127.140360076          3,612,097      iTLB-load-misses          #  117.29% of all iTLB cache accesses
+   128.140550107          1,896,982      iTLB-loads                                                  
+   128.140550107          2,616,361      iTLB-load-misses          #  137.92% of all iTLB cache accesses
+   129.140933487          1,462,092      iTLB-loads                                                  
+   129.140933487          2,269,495      iTLB-load-misses          #  155.22% of all iTLB cache accesses
+   130.142220902          2,101,264      iTLB-loads                                                  
+   130.142220902          2,942,432      iTLB-load-misses          #  140.03% of all iTLB cache accesses
+   131.143455956          2,264,911      iTLB-loads                                                  
+   131.143455956          2,936,142      iTLB-load-misses          #  129.64% of all iTLB cache accesses
+   132.144690166          3,280,077      iTLB-loads                                                  
+   132.144690166          3,520,566      iTLB-load-misses          #  107.33% of all iTLB cache accesses
+   133.145868139          3,277,583      iTLB-loads                                                  
+   133.145868139          3,394,179      iTLB-load-misses          #  103.56% of all iTLB cache accesses
+   134.147073685          3,095,593      iTLB-loads                                                  
+   134.147073685          3,557,603      iTLB-load-misses          #  114.92% of all iTLB cache accesses
+   135.148298799          3,146,307      iTLB-loads                                                  
+   135.148298799          3,630,534      iTLB-load-misses          #  115.39% of all iTLB cache accesses
+   136.149495450          3,185,183      iTLB-loads                                                  
+   136.149495450          3,407,656      iTLB-load-misses          #  106.98% of all iTLB cache accesses
+   137.150735360          2,975,457      iTLB-loads                                                  
+   137.150735360          3,339,640      iTLB-load-misses          #  112.24% of all iTLB cache accesses
+   138.151938681          2,704,649      iTLB-loads                                                  
+   138.151938681          3,287,311      iTLB-load-misses          #  121.54% of all iTLB cache accesses
+   139.153208949          3,184,945      iTLB-loads                                                  
+   139.153208949          3,336,362      iTLB-load-misses          #  104.75% of all iTLB cache accesses
+   140.154447369          2,837,481      iTLB-loads                                                  
+   140.154447369          3,049,954      iTLB-load-misses          #  107.49% of all iTLB cache accesses
+   141.155692246          1,919,977      iTLB-loads                                                  
+   141.155692246          3,157,669      iTLB-load-misses          #  164.46% of all iTLB cache accesses
+   142.156947866          1,606,129      iTLB-loads                                                  
+   142.156947866          2,998,392      iTLB-load-misses          #  186.68% of all iTLB cache accesses
+   143.158154488          2,692,343      iTLB-loads                                                  
+   143.158154488          3,584,345      iTLB-load-misses          #  133.13% of all iTLB cache accesses
+   144.159422896          2,056,002      iTLB-loads                                                  
+   144.159422896          3,265,439      iTLB-load-misses          #  158.82% of all iTLB cache accesses
+   145.160643027          1,561,485      iTLB-loads                                                  
+   145.160643027          2,857,669      iTLB-load-misses          #  183.01% of all iTLB cache accesses
+   146.161901085          1,676,206      iTLB-loads                                                  
+   146.161901085          2,905,229      iTLB-load-misses          #  173.32% of all iTLB cache accesses
+   147.163165710          1,611,603      iTLB-loads                                                  
+   147.163165710          2,834,512      iTLB-load-misses          #  175.88% of all iTLB cache accesses
+   148.164457809          1,591,109      iTLB-loads                                                  
+   148.164457809          2,817,210      iTLB-load-misses          #  177.06% of all iTLB cache accesses
+   149.165724211          1,695,496      iTLB-loads                                                  
+   149.165724211          3,137,806      iTLB-load-misses          #  185.07% of all iTLB cache accesses
+   150.167013499          2,403,145      iTLB-loads                                                  
+   150.167013499          3,665,716      iTLB-load-misses          #  152.54% of all iTLB cache accesses
+#           time             counts unit events
+   151.168249835          2,668,401      iTLB-loads                                                  
+   151.168249835          3,443,099      iTLB-load-misses          #  129.03% of all iTLB cache accesses
+   152.168709159          2,534,458      iTLB-loads                                                  
+   152.168709159          3,656,630      iTLB-load-misses          #  144.28% of all iTLB cache accesses
+   153.169949897          2,226,315      iTLB-loads                                                  
+   153.169949897          3,339,677      iTLB-load-misses          #  150.01% of all iTLB cache accesses
+   154.171208731          1,524,529      iTLB-loads                                                  
+   154.171208731          2,769,999      iTLB-load-misses          #  181.70% of all iTLB cache accesses
+   155.172482474          1,354,972      iTLB-loads                                                  
+   155.172482474          2,465,134      iTLB-load-misses          #  181.93% of all iTLB cache accesses
+   156.173757257          1,495,997      iTLB-loads                                                  
+   156.173757257          2,665,513      iTLB-load-misses          #  178.18% of all iTLB cache accesses
+   157.175022068          1,325,392      iTLB-loads                                                  
+   157.175022068          2,530,937      iTLB-load-misses          #  190.96% of all iTLB cache accesses
+   158.176305340          1,329,147      iTLB-loads                                                  
+   158.176305340          2,535,334      iTLB-load-misses          #  190.75% of all iTLB cache accesses
+   159.177583591          1,349,831      iTLB-loads                                                  
+   159.177583591          2,551,392      iTLB-load-misses          #  189.02% of all iTLB cache accesses
+   160.178860819          1,488,597      iTLB-loads                                                  
+   160.178860819          2,678,898      iTLB-load-misses          #  179.96% of all iTLB cache accesses
+   161.180123188          1,494,981      iTLB-loads                                                  
+   161.180123188          2,631,140      iTLB-load-misses          #  176.00% of all iTLB cache accesses
+   162.181409551          1,610,180      iTLB-loads                                                  
+   162.181409551          2,493,660      iTLB-load-misses          #  154.87% of all iTLB cache accesses
+   163.182669970          1,417,208      iTLB-loads                                                  
+   163.182669970          2,578,235      iTLB-load-misses          #  181.92% of all iTLB cache accesses
+   164.183920320          1,408,351      iTLB-loads                                                  
+   164.183920320          2,614,406      iTLB-load-misses          #  185.64% of all iTLB cache accesses
+   165.185176684          1,424,054      iTLB-loads                                                  
+   165.185176684          2,580,495      iTLB-load-misses          #  181.21% of all iTLB cache accesses
+   166.186436164          3,158,473      iTLB-loads                                                  
+   166.186436164          3,394,124      iTLB-load-misses          #  107.46% of all iTLB cache accesses
+   167.187687827          2,529,418      iTLB-loads                                                  
+   167.187687827          3,135,953      iTLB-load-misses          #  123.98% of all iTLB cache accesses
+   168.188999666          1,448,542      iTLB-loads                                                  
+   168.188999666          2,388,870      iTLB-load-misses          #  164.92% of all iTLB cache accesses
+   169.257861090          1,678,958      iTLB-loads                                                  
+   169.257861090          2,671,654      iTLB-load-misses          #  159.13% of all iTLB cache accesses
+   170.259134331          1,356,519      iTLB-loads                                                  
+   170.259134331          2,297,579      iTLB-load-misses          #  169.37% of all iTLB cache accesses
+   171.260423159          1,424,009      iTLB-loads                                                  
+   171.260423159          2,338,773      iTLB-load-misses          #  164.24% of all iTLB cache accesses
+   172.261666207          1,436,670      iTLB-loads                                                  
+   172.261666207          2,374,533      iTLB-load-misses          #  165.28% of all iTLB cache accesses
+   173.263011482          1,550,717      iTLB-loads                                                  
+   173.263011482          2,262,110      iTLB-load-misses          #  145.88% of all iTLB cache accesses
+   174.264276787          1,676,629      iTLB-loads                                                  
+   174.264276787          2,359,450      iTLB-load-misses          #  140.73% of all iTLB cache accesses
+   175.265605829          1,756,577      iTLB-loads                                                  
+   175.265605829          2,645,573      iTLB-load-misses          #  150.61% of all iTLB cache accesses
+#           time             counts unit events
+   176.266858466          1,493,303      iTLB-loads                                                  
+   176.266858466          2,500,148      iTLB-load-misses          #  167.42% of all iTLB cache accesses
+   177.268173510          1,678,534      iTLB-loads                                                  
+   177.268173510          2,751,170      iTLB-load-misses          #  163.90% of all iTLB cache accesses
+   178.269540648          2,030,083      iTLB-loads                                                  
+   178.269540648          3,074,548      iTLB-load-misses          #  151.45% of all iTLB cache accesses
+   179.270788439          1,732,398      iTLB-loads                                                  
+   179.270788439          2,818,649      iTLB-load-misses          #  162.70% of all iTLB cache accesses
+   180.272068282          1,906,671      iTLB-loads                                                  
+   180.272068282          2,950,486      iTLB-load-misses          #  154.75% of all iTLB cache accesses
+   181.273345091          1,607,469      iTLB-loads                                                  
+   181.273345091          2,689,923      iTLB-load-misses          #  167.34% of all iTLB cache accesses
+   182.274625451          1,867,343      iTLB-loads                                                  
+   182.274625451          2,858,807      iTLB-load-misses          #  153.09% of all iTLB cache accesses
+   183.275904103          2,105,931      iTLB-loads                                                  
+   183.275904103          3,020,372      iTLB-load-misses          #  143.42% of all iTLB cache accesses
+   184.277086634          1,647,742      iTLB-loads                                                  
+   184.277086634          2,648,259      iTLB-load-misses          #  160.72% of all iTLB cache accesses
+   185.278366075          1,843,609      iTLB-loads                                                  
+   185.278366075          2,916,252      iTLB-load-misses          #  158.18% of all iTLB cache accesses
+   186.279601179          2,625,126      iTLB-loads                                                  
+   186.279601179          3,243,080      iTLB-load-misses          #  123.54% of all iTLB cache accesses
+   187.280841021          2,828,869      iTLB-loads                                                  
+   187.280841021          3,678,824      iTLB-load-misses          #  130.05% of all iTLB cache accesses
+   188.281884471          2,788,213      iTLB-loads                                                  
+   188.281884471          3,698,045      iTLB-load-misses          #  132.63% of all iTLB cache accesses
+   189.283276017          2,539,400      iTLB-loads                                                  
+   189.283276017          3,513,472      iTLB-load-misses          #  138.36% of all iTLB cache accesses
+   190.284498864          2,234,796      iTLB-loads                                                  
+   190.284498864          3,239,511      iTLB-load-misses          #  144.96% of all iTLB cache accesses
+   191.285599468          3,648,223      iTLB-loads                                                  
+   191.285599468          3,268,609      iTLB-load-misses          #   89.59% of all iTLB cache accesses
+   192.285878624          3,060,987      iTLB-loads                                                  
+   192.285878624          3,233,029      iTLB-load-misses          #  105.62% of all iTLB cache accesses
+   193.287076570          2,599,180      iTLB-loads                                                  
+   193.287076570          3,403,000      iTLB-load-misses          #  130.93% of all iTLB cache accesses
+   194.288314077          1,772,658      iTLB-loads                                                  
+   194.288314077          2,936,934      iTLB-load-misses          #  165.68% of all iTLB cache accesses
+   195.288605415          2,598,366      iTLB-loads                                                  
+   195.288605415          3,555,326      iTLB-load-misses          #  136.83% of all iTLB cache accesses
+   196.289859781          2,636,202      iTLB-loads                                                  
+   196.289859781          3,390,120      iTLB-load-misses          #  128.60% of all iTLB cache accesses
+   197.291072505          1,957,367      iTLB-loads                                                  
+   197.291072505          3,032,394      iTLB-load-misses          #  154.92% of all iTLB cache accesses
+   198.526591832          2,694,246      iTLB-loads                                                  
+   198.526591832          4,030,321      iTLB-load-misses          #  149.59% of all iTLB cache accesses
+   199.527779727          2,820,897      iTLB-loads                                                  
+   199.527779727          3,702,531      iTLB-load-misses          #  131.25% of all iTLB cache accesses
+   200.529016461          2,128,005      iTLB-loads                                                  
+   200.529016461          3,176,493      iTLB-load-misses          #  149.27% of all iTLB cache accesses
+#           time             counts unit events
+   201.529876692          2,395,940      iTLB-loads                                                  
+   201.529876692          3,390,776      iTLB-load-misses          #  141.52% of all iTLB cache accesses
+   202.531078731          2,806,717      iTLB-loads                                                  
+   202.531078731          3,657,915      iTLB-load-misses          #  130.33% of all iTLB cache accesses
+   203.532266178          2,710,524      iTLB-loads                                                  
+   203.532266178          3,632,625      iTLB-load-misses          #  134.02% of all iTLB cache accesses
+   204.532706170          2,493,997      iTLB-loads                                                  
+   204.532706170          3,428,238      iTLB-load-misses          #  137.46% of all iTLB cache accesses
+   205.533878904          2,427,065      iTLB-loads                                                  
+   205.533878904          3,465,176      iTLB-load-misses          #  142.77% of all iTLB cache accesses
+   206.535116917          1,889,230      iTLB-loads                                                  
+   206.535116917          3,403,598      iTLB-load-misses          #  180.16% of all iTLB cache accesses
+   207.536368806          2,366,752      iTLB-loads                                                  
+   207.536368806          3,778,085      iTLB-load-misses          #  159.63% of all iTLB cache accesses
+   208.537585822          2,343,672      iTLB-loads                                                  
+   208.537585822          3,643,771      iTLB-load-misses          #  155.47% of all iTLB cache accesses
+   209.538850178          2,346,670      iTLB-loads                                                  
+   209.538850178          3,619,530      iTLB-load-misses          #  154.24% of all iTLB cache accesses
+   210.540147769          1,641,742      iTLB-loads                                                  
+   210.540147769          2,868,606      iTLB-load-misses          #  174.73% of all iTLB cache accesses
+   211.541310685          1,392,702      iTLB-loads                                                  
+   211.541310685          2,551,250      iTLB-load-misses          #  183.19% of all iTLB cache accesses
+   212.542543211          1,628,250      iTLB-loads                                                  
+   212.542543211          2,753,465      iTLB-load-misses          #  169.11% of all iTLB cache accesses
+   213.543821673          2,027,631      iTLB-loads                                                  
+   213.543821673          3,151,162      iTLB-load-misses          #  155.41% of all iTLB cache accesses
+   214.545105427          2,115,732      iTLB-loads                                                  
+   214.545105427          3,217,407      iTLB-load-misses          #  152.07% of all iTLB cache accesses
+   215.546367517          2,078,817      iTLB-loads                                                  
+   215.546367517          3,065,267      iTLB-load-misses          #  147.45% of all iTLB cache accesses
+   216.547622600          2,909,936      iTLB-loads                                                  
+   216.547622600          3,477,042      iTLB-load-misses          #  119.49% of all iTLB cache accesses
+   217.548858340          2,843,925      iTLB-loads                                                  
+   217.548858340          3,678,621      iTLB-load-misses          #  129.35% of all iTLB cache accesses
+   218.550064698          2,331,857      iTLB-loads                                                  
+   218.550064698          3,328,533      iTLB-load-misses          #  142.74% of all iTLB cache accesses
+   219.551265640          1,791,833      iTLB-loads                                                  
+   219.551265640          2,933,650      iTLB-load-misses          #  163.72% of all iTLB cache accesses
+   220.552547788          1,561,977      iTLB-loads                                                  
+   220.552547788          2,608,977      iTLB-load-misses          #  167.03% of all iTLB cache accesses
+   221.553818169          1,574,114      iTLB-loads                                                  
+   221.553818169          2,635,788      iTLB-load-misses          #  167.45% of all iTLB cache accesses
+   222.555122851          1,318,902      iTLB-loads                                                  
+   222.555122851          2,431,433      iTLB-load-misses          #  184.35% of all iTLB cache accesses
+   223.556418549          1,368,346      iTLB-loads                                                  
+   223.556418549          2,623,625      iTLB-load-misses          #  191.74% of all iTLB cache accesses
+   224.557706357          1,530,846      iTLB-loads                                                  
+   224.557706357          2,814,568      iTLB-load-misses          #  183.86% of all iTLB cache accesses
+   225.558936032          1,758,338      iTLB-loads                                                  
+   225.558936032          2,703,875      iTLB-load-misses          #  153.77% of all iTLB cache accesses
+#           time             counts unit events
+   226.559210363          2,069,943      iTLB-loads                                                  
+   226.559210363          2,964,353      iTLB-load-misses          #  143.21% of all iTLB cache accesses
+   227.560496574          2,397,978      iTLB-loads                                                  
+   227.560496574          3,371,819      iTLB-load-misses          #  140.61% of all iTLB cache accesses
+   228.561742213          1,845,937      iTLB-loads                                                  
+   228.561742213          2,780,497      iTLB-load-misses          #  150.63% of all iTLB cache accesses
+   229.562115053          1,922,152      iTLB-loads                                                  
+   229.562115053          2,528,761      iTLB-load-misses          #  131.56% of all iTLB cache accesses
+   230.563113310          1,585,611      iTLB-loads                                                  
+   230.563113310          2,637,852      iTLB-load-misses          #  166.36% of all iTLB cache accesses
+   231.563495385          1,480,951      iTLB-loads                                                  
+   231.563495385          2,595,835      iTLB-load-misses          #  175.28% of all iTLB cache accesses
+   232.564745422          1,518,661      iTLB-loads                                                  
+   232.564745422          2,512,772      iTLB-load-misses          #  165.46% of all iTLB cache accesses
+   233.566050675          1,859,351      iTLB-loads                                                  
+   233.566050675          2,755,681      iTLB-load-misses          #  148.21% of all iTLB cache accesses
+   234.567322467          1,977,939      iTLB-loads                                                  
+   234.567322467          2,997,622      iTLB-load-misses          #  151.55% of all iTLB cache accesses
+   235.568616015          1,481,144      iTLB-loads                                                  
+   235.568616015          2,582,025      iTLB-load-misses          #  174.33% of all iTLB cache accesses
+   236.569900715          2,017,345      iTLB-loads                                                  
+   236.569900715          3,107,197      iTLB-load-misses          #  154.02% of all iTLB cache accesses
+   237.571224770          1,860,584      iTLB-loads                                                  
+   237.571224770          3,136,043      iTLB-load-misses          #  168.55% of all iTLB cache accesses
+   238.572502123          1,764,703      iTLB-loads                                                  
+   238.572502123          2,990,066      iTLB-load-misses          #  169.44% of all iTLB cache accesses
+   239.573772893          1,782,776      iTLB-loads                                                  
+   239.573772893          3,025,574      iTLB-load-misses          #  169.71% of all iTLB cache accesses
+   240.575092854          1,839,406      iTLB-loads                                                  
+   240.575092854          3,072,860      iTLB-load-misses          #  167.06% of all iTLB cache accesses
+   241.576398792          1,570,701      iTLB-loads                                                  
+   241.576398792          2,609,579      iTLB-load-misses          #  166.14% of all iTLB cache accesses
+   242.577659042          1,971,205      iTLB-loads                                                  
+   242.577659042          3,320,459      iTLB-load-misses          #  168.45% of all iTLB cache accesses
+   243.578860393          2,422,912      iTLB-loads                                                  
+   243.578860393          3,789,833      iTLB-load-misses          #  156.42% of all iTLB cache accesses
+   244.580074399          2,372,172      iTLB-loads                                                  
+   244.580074399          3,786,277      iTLB-load-misses          #  159.61% of all iTLB cache accesses
+   245.581295300          1,689,093      iTLB-loads                                                  
+   245.581295300          3,034,866      iTLB-load-misses          #  179.67% of all iTLB cache accesses
+   246.582521764          1,859,319      iTLB-loads                                                  
+   246.582521764          3,212,314      iTLB-load-misses          #  172.77% of all iTLB cache accesses
+   247.583728108          2,028,681      iTLB-loads                                                  
+   247.583728108          3,353,041      iTLB-load-misses          #  165.28% of all iTLB cache accesses
+   248.585038620          1,417,870      iTLB-loads                                                  
+   248.585038620          2,781,757      iTLB-load-misses          #  196.19% of all iTLB cache accesses
+   249.586276502          1,638,256      iTLB-loads                                                  
+   249.586276502          2,871,068      iTLB-load-misses          #  175.25% of all iTLB cache accesses
+   250.587542184          1,480,549      iTLB-loads                                                  
+   250.587542184          2,700,137      iTLB-load-misses          #  182.37% of all iTLB cache accesses
+#           time             counts unit events
+   251.588843601          1,611,416      iTLB-loads                                                  
+   251.588843601          2,709,153      iTLB-load-misses          #  168.12% of all iTLB cache accesses
+   252.590052506          2,583,776      iTLB-loads                                                  
+   252.590052506          2,999,395      iTLB-load-misses          #  116.09% of all iTLB cache accesses
+   253.591242400          1,860,970      iTLB-loads                                                  
+   253.591242400          2,719,019      iTLB-load-misses          #  146.11% of all iTLB cache accesses
+   254.592422664          1,264,884      iTLB-loads                                                  
+   254.592422664          2,334,933      iTLB-load-misses          #  184.60% of all iTLB cache accesses
+   255.593653215          1,491,562      iTLB-loads                                                  
+   255.593653215          2,661,329      iTLB-load-misses          #  178.43% of all iTLB cache accesses
+   256.594997872          2,085,456      iTLB-loads                                                  
+   256.594997872          3,343,405      iTLB-load-misses          #  160.32% of all iTLB cache accesses
+   257.596233399          2,259,501      iTLB-loads                                                  
+   257.596233399          3,452,675      iTLB-load-misses          #  152.81% of all iTLB cache accesses
+   258.597487994          2,076,573      iTLB-loads                                                  
+   258.597487994          3,018,627      iTLB-load-misses          #  145.37% of all iTLB cache accesses
+   259.598794906          1,954,294      iTLB-loads                                                  
+   259.598794906          3,169,582      iTLB-load-misses          #  162.19% of all iTLB cache accesses
+   260.600081579          2,189,742      iTLB-loads                                                  
+   260.600081579          3,475,161      iTLB-load-misses          #  158.70% of all iTLB cache accesses
+   261.600485385          1,933,723      iTLB-loads                                                  
+   261.600485385          3,179,683      iTLB-load-misses          #  164.43% of all iTLB cache accesses
+   262.600870468          1,862,905      iTLB-loads                                                  
+   262.600870468          2,870,261      iTLB-load-misses          #  154.07% of all iTLB cache accesses
+   263.601881637          2,367,825      iTLB-loads                                                  
+   263.601881637          3,495,281      iTLB-load-misses          #  147.62% of all iTLB cache accesses
+   264.603146764          1,408,350      iTLB-loads                                                  
+   264.603146764          2,654,370      iTLB-load-misses          #  188.47% of all iTLB cache accesses
+   265.604417775          1,382,629      iTLB-loads                                                  
+   265.604417775          2,594,765      iTLB-load-misses          #  187.67% of all iTLB cache accesses
+   266.605670499          1,876,229      iTLB-loads                                                  
+   266.605670499          3,138,076      iTLB-load-misses          #  167.25% of all iTLB cache accesses
+   267.605909391          1,366,287      iTLB-loads                                                  
+   267.605909391          2,612,112      iTLB-load-misses          #  191.18% of all iTLB cache accesses
+   268.607171194          1,437,073      iTLB-loads                                                  
+   268.607171194          2,651,286      iTLB-load-misses          #  184.49% of all iTLB cache accesses
+   269.608423373          1,511,270      iTLB-loads                                                  
+   269.608423373          2,715,889      iTLB-load-misses          #  179.71% of all iTLB cache accesses
+   270.609658490          1,791,829      iTLB-loads                                                  
+   270.609658490          3,029,169      iTLB-load-misses          #  169.05% of all iTLB cache accesses
+   271.610943985          1,955,205      iTLB-loads                                                  
+   271.610943985          3,179,740      iTLB-load-misses          #  162.63% of all iTLB cache accesses
+   272.612166386          2,375,337      iTLB-loads                                                  
+   272.612166386          3,484,408      iTLB-load-misses          #  146.69% of all iTLB cache accesses
+   273.613437205          1,921,256      iTLB-loads                                                  
+   273.613437205          3,035,217      iTLB-load-misses          #  157.98% of all iTLB cache accesses
+   274.613902486          1,626,480      iTLB-loads                                                  
+   274.613902486          2,583,898      iTLB-load-misses          #  158.86% of all iTLB cache accesses
+   275.615134202          2,256,720      iTLB-loads                                                  
+   275.615134202          3,483,106      iTLB-load-misses          #  154.34% of all iTLB cache accesses
+#           time             counts unit events
+   276.616436792          1,871,375      iTLB-loads                                                  
+   276.616436792          3,153,784      iTLB-load-misses          #  168.53% of all iTLB cache accesses
+   277.617721451          1,918,631      iTLB-loads                                                  
+   277.617721451          3,121,531      iTLB-load-misses          #  162.70% of all iTLB cache accesses
+   278.619030698          2,454,934      iTLB-loads                                                  
+   278.619030698          3,584,821      iTLB-load-misses          #  146.03% of all iTLB cache accesses
+   279.620250143          3,166,769      iTLB-loads                                                  
+   279.620250143          3,741,946      iTLB-load-misses          #  118.16% of all iTLB cache accesses
+   280.621456777          3,165,083      iTLB-loads                                                  
+   280.621456777          3,681,276      iTLB-load-misses          #  116.31% of all iTLB cache accesses
+   281.622643564          2,788,469      iTLB-loads                                                  
+   281.622643564          3,602,158      iTLB-load-misses          #  129.18% of all iTLB cache accesses
+   282.623873010          1,415,660      iTLB-loads                                                  
+   282.623873010          2,995,324      iTLB-load-misses          #  211.58% of all iTLB cache accesses
+   283.625214153          1,709,505      iTLB-loads                                                  
+   283.625214153          3,294,439      iTLB-load-misses          #  192.71% of all iTLB cache accesses
+   284.626386276          1,702,775      iTLB-loads                                                  
+   284.626386276          3,042,152      iTLB-load-misses          #  178.66% of all iTLB cache accesses
+   285.627615683          2,976,259      iTLB-loads                                                  
+   285.627615683          3,927,697      iTLB-load-misses          #  131.97% of all iTLB cache accesses
+   286.628810492          2,178,929      iTLB-loads                                                  
+   286.628810492          3,475,060      iTLB-load-misses          #  159.48% of all iTLB cache accesses
+   287.630066942          2,094,054      iTLB-loads                                                  
+   287.630066942          3,406,539      iTLB-load-misses          #  162.68% of all iTLB cache accesses
+   288.631353219          1,931,776      iTLB-loads                                                  
+   288.631353219          3,138,858      iTLB-load-misses          #  162.49% of all iTLB cache accesses
+   289.632621766          1,952,177      iTLB-loads                                                  
+   289.632621766          3,135,604      iTLB-load-misses          #  160.62% of all iTLB cache accesses
+   290.633920171          1,881,635      iTLB-loads                                                  
+   290.633920171          3,146,936      iTLB-load-misses          #  167.24% of all iTLB cache accesses
+   291.635209523          2,199,692      iTLB-loads                                                  
+   291.635209523          3,198,157      iTLB-load-misses          #  145.39% of all iTLB cache accesses
+   292.636487094          2,838,670      iTLB-loads                                                  
+   292.636487094          3,486,696      iTLB-load-misses          #  122.83% of all iTLB cache accesses
+   293.637729026          3,279,231      iTLB-loads                                                  
+   293.637729026          3,481,500      iTLB-load-misses          #  106.17% of all iTLB cache accesses
+   294.638983074          2,844,372      iTLB-loads                                                  
+   294.638983074          2,770,625      iTLB-load-misses          #   97.41% of all iTLB cache accesses
+   295.640207527          3,103,784      iTLB-loads                                                  
+   295.640207527          3,564,182      iTLB-load-misses          #  114.83% of all iTLB cache accesses
+   296.641466219          3,630,179      iTLB-loads                                                  
+   296.641466219          3,472,697      iTLB-load-misses          #   95.66% of all iTLB cache accesses
+   297.642685740          3,638,029      iTLB-loads                                                  
+   297.642685740          3,485,647      iTLB-load-misses          #   95.81% of all iTLB cache accesses
+   298.643898488          3,571,225      iTLB-loads                                                  
+   298.643898488          3,415,381      iTLB-load-misses          #   95.64% of all iTLB cache accesses
+   299.644134477          3,220,352      iTLB-loads                                                  
+   299.644134477          3,499,417      iTLB-load-misses          #  108.67% of all iTLB cache accesses
+   300.645352431          3,478,510      iTLB-loads                                                  
+   300.645352431          3,520,672      iTLB-load-misses          #  101.21% of all iTLB cache accesses
+#           time             counts unit events
+   301.645895521          3,296,841      iTLB-loads                                                  
+   301.645895521          3,535,394      iTLB-load-misses          #  107.24% of all iTLB cache accesses
+   302.647106494          2,115,049      iTLB-loads                                                  
+   302.647106494          3,185,366      iTLB-load-misses          #  150.60% of all iTLB cache accesses
+   303.647334023          2,932,988      iTLB-loads                                                  
+   303.647334023          3,462,549      iTLB-load-misses          #  118.06% of all iTLB cache accesses
+   304.647836969          2,768,317      iTLB-loads                                                  
+   304.647836969          2,834,022      iTLB-load-misses          #  102.37% of all iTLB cache accesses
+   305.649058838          2,502,423      iTLB-loads                                                  
+   305.649058838          3,274,598      iTLB-load-misses          #  130.86% of all iTLB cache accesses
+   306.649875149          3,162,991      iTLB-loads                                                  
+   306.649875149          3,371,029      iTLB-load-misses          #  106.58% of all iTLB cache accesses
+   307.651072064          3,629,356      iTLB-loads                                                  
+   307.651072064          3,495,394      iTLB-load-misses          #   96.31% of all iTLB cache accesses
+   308.652312382          3,626,816      iTLB-loads                                                  
+   308.652312382          3,354,533      iTLB-load-misses          #   92.49% of all iTLB cache accesses
+   309.653562599          2,282,873      iTLB-loads                                                  
+   309.653562599          3,414,822      iTLB-load-misses          #  149.58% of all iTLB cache accesses
+   310.653905647          1,590,288      iTLB-loads                                                  
+   310.653905647          2,732,826      iTLB-load-misses          #  171.84% of all iTLB cache accesses
+   311.655132371          1,684,916      iTLB-loads                                                  
+   311.655132371          2,862,474      iTLB-load-misses          #  169.89% of all iTLB cache accesses
+   312.656389193          2,070,011      iTLB-loads                                                  
+   312.656389193          3,177,005      iTLB-load-misses          #  153.48% of all iTLB cache accesses
+   313.657574946          2,505,331      iTLB-loads                                                  
+   313.657574946          3,472,038      iTLB-load-misses          #  138.59% of all iTLB cache accesses
+   314.658745423          2,939,678      iTLB-loads                                                  
+   314.658745423          3,917,978      iTLB-load-misses          #  133.28% of all iTLB cache accesses
+   315.659971966          2,545,044      iTLB-loads                                                  
+   315.659971966          3,571,763      iTLB-load-misses          #  140.34% of all iTLB cache accesses
+   316.661249807          2,178,028      iTLB-loads                                                  
+   316.661249807          3,333,952      iTLB-load-misses          #  153.07% of all iTLB cache accesses
+   317.661875395          2,167,840      iTLB-loads                                                  
+   317.661875395          3,370,956      iTLB-load-misses          #  155.50% of all iTLB cache accesses
+   318.663079761          2,763,730      iTLB-loads                                                  
+   318.663079761          3,828,883      iTLB-load-misses          #  138.54% of all iTLB cache accesses
+   319.663326071          2,736,498      iTLB-loads                                                  
+   319.663326071          3,840,846      iTLB-load-misses          #  140.36% of all iTLB cache accesses
+   320.664525194          1,514,736      iTLB-loads                                                  
+   320.664525194          2,599,146      iTLB-load-misses          #  171.59% of all iTLB cache accesses
+   321.665031396          1,674,125      iTLB-loads                                                  
+   321.665031396          3,299,856      iTLB-load-misses          #  197.11% of all iTLB cache accesses
+   322.666268936          2,091,069      iTLB-loads                                                  
+   322.666268936          3,694,002      iTLB-load-misses          #  176.66% of all iTLB cache accesses
+   323.667444862          2,645,772      iTLB-loads                                                  
+   323.667444862          3,745,053      iTLB-load-misses          #  141.55% of all iTLB cache accesses
+   324.668624715          2,382,220      iTLB-loads                                                  
+   324.668624715          3,445,168      iTLB-load-misses          #  144.62% of all iTLB cache accesses
+   325.669818173          2,483,747      iTLB-loads                                                  
+   325.669818173          3,575,514      iTLB-load-misses          #  143.96% of all iTLB cache accesses
+#           time             counts unit events
+   326.670956900          2,463,913      iTLB-loads                                                  
+   326.670956900          3,587,131      iTLB-load-misses          #  145.59% of all iTLB cache accesses
+   327.672167103          2,143,488      iTLB-loads                                                  
+   327.672167103          3,130,986      iTLB-load-misses          #  146.07% of all iTLB cache accesses
+   328.672419471          1,936,884      iTLB-loads                                                  
+   328.672419471          3,037,501      iTLB-load-misses          #  156.82% of all iTLB cache accesses
+   329.673671695          2,419,737      iTLB-loads                                                  
+   329.673671695          3,564,118      iTLB-load-misses          #  147.29% of all iTLB cache accesses
+   330.674789771          2,460,830      iTLB-loads                                                  
+   330.674789771          3,588,722      iTLB-load-misses          #  145.83% of all iTLB cache accesses
+   331.675987172          2,749,513      iTLB-loads                                                  
+   331.675987172          3,704,421      iTLB-load-misses          #  134.73% of all iTLB cache accesses
+   332.677229987          2,620,468      iTLB-loads                                                  
+   332.677229987          3,482,057      iTLB-load-misses          #  132.88% of all iTLB cache accesses
+   333.677877140          2,688,350      iTLB-loads                                                  
+   333.677877140          3,680,369      iTLB-load-misses          #  136.90% of all iTLB cache accesses
+   334.679105399          2,775,581      iTLB-loads                                                  
+   334.679105399          3,763,583      iTLB-load-misses          #  135.60% of all iTLB cache accesses
+   335.680303642          2,790,050      iTLB-loads                                                  
+   335.680303642          3,712,303      iTLB-load-misses          #  133.06% of all iTLB cache accesses
+   336.680578479          2,656,506      iTLB-loads                                                  
+   336.680578479          3,830,913      iTLB-load-misses          #  144.21% of all iTLB cache accesses
+   337.681806699          2,078,092      iTLB-loads                                                  
+   337.681806699          3,154,665      iTLB-load-misses          #  151.81% of all iTLB cache accesses
+   338.683102849          2,071,922      iTLB-loads                                                  
+   338.683102849          3,109,894      iTLB-load-misses          #  150.10% of all iTLB cache accesses
+   339.683410887          2,292,049      iTLB-loads                                                  
+   339.683410887          3,353,062      iTLB-load-misses          #  146.29% of all iTLB cache accesses
+   340.684675684          1,608,609      iTLB-loads                                                  
+   340.684675684          2,809,194      iTLB-load-misses          #  174.63% of all iTLB cache accesses
+   341.685911096          1,341,118      iTLB-loads                                                  
+   341.685911096          2,596,872      iTLB-load-misses          #  193.63% of all iTLB cache accesses
+   342.686168017          1,414,652      iTLB-loads                                                  
+   342.686168017          2,705,683      iTLB-load-misses          #  191.26% of all iTLB cache accesses
+   343.687464618          1,822,601      iTLB-loads                                                  
+   343.687464618          3,061,373      iTLB-load-misses          #  167.97% of all iTLB cache accesses
+   344.688729682          2,636,209      iTLB-loads                                                  
+   344.688729682          3,742,759      iTLB-load-misses          #  141.98% of all iTLB cache accesses
+   345.689906476          2,744,744      iTLB-loads                                                  
+   345.689906476          3,775,404      iTLB-load-misses          #  137.55% of all iTLB cache accesses
+   346.691153156          2,534,330      iTLB-loads                                                  
+   346.691153156          3,625,317      iTLB-load-misses          #  143.05% of all iTLB cache accesses
+   347.692365782          2,254,099      iTLB-loads                                                  
+   347.692365782          3,542,316      iTLB-load-misses          #  157.15% of all iTLB cache accesses
+   348.693279045          2,394,192      iTLB-loads                                                  
+   348.693279045          3,615,196      iTLB-load-misses          #  151.00% of all iTLB cache accesses
+   349.694523930          2,230,784      iTLB-loads                                                  
+   349.694523930          3,580,707      iTLB-load-misses          #  160.51% of all iTLB cache accesses
+   350.695775464          1,839,957      iTLB-loads                                                  
+   350.695775464          3,085,073      iTLB-load-misses          #  167.67% of all iTLB cache accesses
+#           time             counts unit events
+   351.697028409          1,334,128      iTLB-loads                                                  
+   351.697028409          2,549,123      iTLB-load-misses          #  191.07% of all iTLB cache accesses
+   352.698303801          1,417,753      iTLB-loads                                                  
+   352.698303801          2,713,502      iTLB-load-misses          #  191.39% of all iTLB cache accesses
+   353.699539637          1,391,558      iTLB-loads                                                  
+   353.699539637          2,647,117      iTLB-load-misses          #  190.23% of all iTLB cache accesses
+   354.699876797          1,313,798      iTLB-loads                                                  
+   354.699876797          2,611,788      iTLB-load-misses          #  198.80% of all iTLB cache accesses
+   355.701131542          1,361,023      iTLB-loads                                                  
+   355.701131542          2,662,818      iTLB-load-misses          #  195.65% of all iTLB cache accesses
+   356.701865126          1,170,444      iTLB-loads                                                  
+   356.701865126          2,488,779      iTLB-load-misses          #  212.64% of all iTLB cache accesses
+   357.703164272          1,180,491      iTLB-loads                                                  
+   357.703164272          2,473,451      iTLB-load-misses          #  209.53% of all iTLB cache accesses
+   358.704406109          1,280,100      iTLB-loads                                                  
+   358.704406109          2,433,501      iTLB-load-misses          #  190.10% of all iTLB cache accesses
+   359.705671937          2,039,431      iTLB-loads                                                  
+   359.705671937          2,859,887      iTLB-load-misses          #  140.23% of all iTLB cache accesses
+   360.705903431          2,913,221      iTLB-loads                                                  
+   360.705903431          3,553,863      iTLB-load-misses          #  121.99% of all iTLB cache accesses
+   361.707119977          3,204,777      iTLB-loads                                                  
+   361.707119977          3,327,795      iTLB-load-misses          #  103.84% of all iTLB cache accesses
+   362.708382557          2,707,774      iTLB-loads                                                  
+   362.708382557          3,627,440      iTLB-load-misses          #  133.96% of all iTLB cache accesses
+   363.709570697          3,251,448      iTLB-loads                                                  
+   363.709570697          3,439,231      iTLB-load-misses          #  105.78% of all iTLB cache accesses
+   364.710811508          3,433,748      iTLB-loads                                                  
+   364.710811508          3,488,497      iTLB-load-misses          #  101.59% of all iTLB cache accesses
+   365.712024471          3,594,162      iTLB-loads                                                  
+   365.712024471          3,530,209      iTLB-load-misses          #   98.22% of all iTLB cache accesses
+   366.713223694          3,597,001      iTLB-loads                                                  
+   366.713223694          3,498,092      iTLB-load-misses          #   97.25% of all iTLB cache accesses
+   367.714411978          3,663,547      iTLB-loads                                                  
+   367.714411978          3,468,615      iTLB-load-misses          #   94.68% of all iTLB cache accesses
+   368.715607205          2,919,420      iTLB-loads                                                  
+   368.715607205          3,068,371      iTLB-load-misses          #  105.10% of all iTLB cache accesses
+   369.716800758          3,146,542      iTLB-loads                                                  
+   369.716800758          3,437,276      iTLB-load-misses          #  109.24% of all iTLB cache accesses
+   370.718049417          2,927,570      iTLB-loads                                                  
+   370.718049417          3,396,856      iTLB-load-misses          #  116.03% of all iTLB cache accesses
+   371.719267670          2,973,135      iTLB-loads                                                  
+   371.719267670          3,366,321      iTLB-load-misses          #  113.22% of all iTLB cache accesses
+   372.720520999          3,369,971      iTLB-loads                                                  
+   372.720520999          3,522,832      iTLB-load-misses          #  104.54% of all iTLB cache accesses
+   373.720989904          2,949,521      iTLB-loads                                                  
+   373.720989904          3,392,633      iTLB-load-misses          #  115.02% of all iTLB cache accesses
+   374.721873028          3,648,609      iTLB-loads                                                  
+   374.721873028          3,436,493      iTLB-load-misses          #   94.19% of all iTLB cache accesses
+   375.723110537          3,558,642      iTLB-loads                                                  
+   375.723110537          3,480,483      iTLB-load-misses          #   97.80% of all iTLB cache accesses
+#           time             counts unit events
+   376.724309833          3,671,160      iTLB-loads                                                  
+   376.724309833          3,564,676      iTLB-load-misses          #   97.10% of all iTLB cache accesses
+   377.725534504          3,333,880      iTLB-loads                                                  
+   377.725534504          3,138,418      iTLB-load-misses          #   94.14% of all iTLB cache accesses
+   378.726746160          3,503,105      iTLB-loads                                                  
+   378.726746160          3,516,363      iTLB-load-misses          #  100.38% of all iTLB cache accesses
+   379.728004518          1,912,451      iTLB-loads                                                  
+   379.728004518          2,993,507      iTLB-load-misses          #  156.53% of all iTLB cache accesses
+   380.729207189          2,547,696      iTLB-loads                                                  
+   380.729207189          3,412,999      iTLB-load-misses          #  133.96% of all iTLB cache accesses
+   381.729865564          3,466,282      iTLB-loads                                                  
+   381.729865564          3,474,450      iTLB-load-misses          #  100.24% of all iTLB cache accesses
+   382.731057197          3,400,988      iTLB-loads                                                  
+   382.731057197          3,490,591      iTLB-load-misses          #  102.63% of all iTLB cache accesses
+   383.731297735          3,436,457      iTLB-loads                                                  
+   383.731297735          3,438,630      iTLB-load-misses          #  100.06% of all iTLB cache accesses
+   384.732551606          3,122,037      iTLB-loads                                                  
+   384.732551606          3,489,118      iTLB-load-misses          #  111.76% of all iTLB cache accesses
+   385.733730979          1,835,218      iTLB-loads                                                  
+   385.733730979          2,829,240      iTLB-load-misses          #  154.16% of all iTLB cache accesses
+   386.735058836          1,484,147      iTLB-loads                                                  
+   386.735058836          2,459,028      iTLB-load-misses          #  165.69% of all iTLB cache accesses
+   387.736298777          2,182,790      iTLB-loads                                                  
+   387.736298777          3,501,270      iTLB-load-misses          #  160.40% of all iTLB cache accesses
+   388.737570744          1,785,675      iTLB-loads                                                  
+   388.737570744          3,051,132      iTLB-load-misses          #  170.87% of all iTLB cache accesses
+   389.738833743          1,582,106      iTLB-loads                                                  
+   389.738833743          3,159,143      iTLB-load-misses          #  199.68% of all iTLB cache accesses
+   390.740080938          1,762,511      iTLB-loads                                                  
+   390.740080938          3,221,305      iTLB-load-misses          #  182.77% of all iTLB cache accesses
+   391.741280055          2,415,499      iTLB-loads                                                  
+   391.741280055          3,574,520      iTLB-load-misses          #  147.98% of all iTLB cache accesses
+   392.742509564          2,489,274      iTLB-loads                                                  
+   392.742509564          3,656,083      iTLB-load-misses          #  146.87% of all iTLB cache accesses
+   393.743757509          3,342,541      iTLB-loads                                                  
+   393.743757509          3,533,070      iTLB-load-misses          #  105.70% of all iTLB cache accesses
+   394.745000326          1,997,437      iTLB-loads                                                  
+   394.745000326          2,978,459      iTLB-load-misses          #  149.11% of all iTLB cache accesses
+   395.745880251          2,109,817      iTLB-loads                                                  
+   395.745880251          3,281,125      iTLB-load-misses          #  155.52% of all iTLB cache accesses
+   396.747132183          2,201,013      iTLB-loads                                                  
+   396.747132183          3,598,673      iTLB-load-misses          #  163.50% of all iTLB cache accesses
+   397.748421108          1,859,394      iTLB-loads                                                  
+   397.748421108          3,044,999      iTLB-load-misses          #  163.76% of all iTLB cache accesses
+   398.749660175          1,693,611      iTLB-loads                                                  
+   398.749660175          3,021,526      iTLB-load-misses          #  178.41% of all iTLB cache accesses
+   399.750945247          1,825,705      iTLB-loads                                                  
+   399.750945247          3,136,483      iTLB-load-misses          #  171.80% of all iTLB cache accesses
+   400.752168440          2,081,372      iTLB-loads                                                  
+   400.752168440          3,383,546      iTLB-load-misses          #  162.56% of all iTLB cache accesses
+#           time             counts unit events
+   401.753440971          2,456,909      iTLB-loads                                                  
+   401.753440971          3,542,831      iTLB-load-misses          #  144.20% of all iTLB cache accesses
+   402.754640349          2,439,452      iTLB-loads                                                  
+   402.754640349          3,663,877      iTLB-load-misses          #  150.19% of all iTLB cache accesses
+   403.755844772          3,525,629      iTLB-loads                                                  
+   403.755844772          3,737,317      iTLB-load-misses          #  106.00% of all iTLB cache accesses
+   404.756205017          2,449,583      iTLB-loads                                                  
+   404.756205017          3,518,107      iTLB-load-misses          #  143.62% of all iTLB cache accesses
+   405.757453935          3,109,460      iTLB-loads                                                  
+   405.757453935          3,508,399      iTLB-load-misses          #  112.83% of all iTLB cache accesses
+   406.758664570          3,153,993      iTLB-loads                                                  
+   406.758664570          3,479,121      iTLB-load-misses          #  110.31% of all iTLB cache accesses
+   407.759890070          3,119,097      iTLB-loads                                                  
+   407.759890070          3,109,213      iTLB-load-misses          #   99.68% of all iTLB cache accesses
+   408.761135151          3,603,775      iTLB-loads                                                  
+   408.761135151          3,200,067      iTLB-load-misses          #   88.80% of all iTLB cache accesses
+   409.762306758          3,430,361      iTLB-loads                                                  
+   409.762306758          3,181,136      iTLB-load-misses          #   92.73% of all iTLB cache accesses
+   410.763499095          3,579,912      iTLB-loads                                                  
+   410.763499095          3,216,622      iTLB-load-misses          #   89.85% of all iTLB cache accesses
+   411.764699040          3,652,272      iTLB-loads                                                  
+   411.764699040          3,190,114      iTLB-load-misses          #   87.35% of all iTLB cache accesses
+   412.765927687          2,449,477      iTLB-loads                                                  
+   412.765927687          2,979,317      iTLB-load-misses          #  121.63% of all iTLB cache accesses
+   413.766307516          1,797,466      iTLB-loads                                                  
+   413.766307516          2,765,288      iTLB-load-misses          #  153.84% of all iTLB cache accesses
+   414.767551128          2,148,521      iTLB-loads                                                  
+   414.767551128          3,059,557      iTLB-load-misses          #  142.40% of all iTLB cache accesses
+   415.767857582          1,940,819      iTLB-loads                                                  
+   415.767857582          2,872,088      iTLB-load-misses          #  147.98% of all iTLB cache accesses
+   416.769138165          1,220,419      iTLB-loads                                                  
+   416.769138165          2,342,692      iTLB-load-misses          #  191.96% of all iTLB cache accesses
+   417.770400464          1,220,891      iTLB-loads                                                  
+   417.770400464          2,071,418      iTLB-load-misses          #  169.66% of all iTLB cache accesses
+   418.770911087          2,315,019      iTLB-loads                                                  
+   418.770911087          3,219,258      iTLB-load-misses          #  139.06% of all iTLB cache accesses
+   419.772173876          1,743,363      iTLB-loads                                                  
+   419.772173876          2,760,389      iTLB-load-misses          #  158.34% of all iTLB cache accesses
+   420.773426735          1,799,958      iTLB-loads                                                  
+   420.773426735          2,835,174      iTLB-load-misses          #  157.51% of all iTLB cache accesses
+   421.773872314          1,800,629      iTLB-loads                                                  
+   421.773872314          2,826,946      iTLB-load-misses          #  157.00% of all iTLB cache accesses
+   422.775119469          1,685,900      iTLB-loads                                                  
+   422.775119469          2,726,471      iTLB-load-misses          #  161.72% of all iTLB cache accesses
+   423.776385085          1,680,756      iTLB-loads                                                  
+   423.776385085          2,753,465      iTLB-load-misses          #  163.82% of all iTLB cache accesses
+   424.777649188          1,697,521      iTLB-loads                                                  
+   424.777649188          2,757,245      iTLB-load-misses          #  162.43% of all iTLB cache accesses
+   425.778952258          1,712,185      iTLB-loads                                                  
+   425.778952258          3,159,893      iTLB-load-misses          #  184.55% of all iTLB cache accesses
+#           time             counts unit events
+   426.780253143          1,607,971      iTLB-loads                                                  
+   426.780253143          3,047,190      iTLB-load-misses          #  189.51% of all iTLB cache accesses
+   427.781548835          1,547,718      iTLB-loads                                                  
+   427.781548835          2,980,667      iTLB-load-misses          #  192.58% of all iTLB cache accesses
+   428.782814562          1,781,484      iTLB-loads                                                  
+   428.782814562          3,245,299      iTLB-load-misses          #  182.17% of all iTLB cache accesses
+   429.783194818          1,765,377      iTLB-loads                                                  
+   429.783194818          3,012,279      iTLB-load-misses          #  170.63% of all iTLB cache accesses
+   430.784406039          1,961,408      iTLB-loads                                                  
+   430.784406039          3,444,912      iTLB-load-misses          #  175.63% of all iTLB cache accesses
+   431.785677863          1,820,887      iTLB-loads                                                  
+   431.785677863          3,277,010      iTLB-load-misses          #  179.97% of all iTLB cache accesses
+   432.786911401          1,887,906      iTLB-loads                                                  
+   432.786911401          3,346,211      iTLB-load-misses          #  177.24% of all iTLB cache accesses
+   433.788185507          1,566,871      iTLB-loads                                                  
+   433.788185507          2,813,217      iTLB-load-misses          #  179.54% of all iTLB cache accesses
+   434.788480235          1,640,759      iTLB-loads                                                  
+   434.788480235          3,027,623      iTLB-load-misses          #  184.53% of all iTLB cache accesses
+   435.789735363          1,809,389      iTLB-loads                                                  
+   435.789735363          3,188,200      iTLB-load-misses          #  176.20% of all iTLB cache accesses
+   436.791036805          1,877,967      iTLB-loads                                                  
+   436.791036805          3,235,126      iTLB-load-misses          #  172.27% of all iTLB cache accesses
+   437.792303503          2,059,093      iTLB-loads                                                  
+   437.792303503          3,364,586      iTLB-load-misses          #  163.40% of all iTLB cache accesses
+   438.793036940          1,973,357      iTLB-loads                                                  
+   438.793036940          3,287,238      iTLB-load-misses          #  166.58% of all iTLB cache accesses
+   439.793881720          2,194,748      iTLB-loads                                                  
+   439.793881720          3,362,655      iTLB-load-misses          #  153.21% of all iTLB cache accesses
+   440.794229179          2,622,056      iTLB-loads                                                  
+   440.794229179          3,744,245      iTLB-load-misses          #  142.80% of all iTLB cache accesses
+   441.795459572          1,892,936      iTLB-loads                                                  
+   441.795459572          3,072,850      iTLB-load-misses          #  162.33% of all iTLB cache accesses
+   442.795723064          1,818,293      iTLB-loads                                                  
+   442.795723064          3,143,651      iTLB-load-misses          #  172.89% of all iTLB cache accesses
+   443.796164664          1,786,923      iTLB-loads                                                  
+   443.796164664          3,097,806      iTLB-load-misses          #  173.36% of all iTLB cache accesses
+   444.796634797          1,785,902      iTLB-loads                                                  
+   444.796634797          3,188,483      iTLB-load-misses          #  178.54% of all iTLB cache accesses
+   445.797816815          2,021,020      iTLB-loads                                                  
+   445.797816815          3,218,173      iTLB-load-misses          #  159.24% of all iTLB cache accesses
+   446.798211004          2,584,307      iTLB-loads                                                  
+   446.798211004          3,790,512      iTLB-load-misses          #  146.67% of all iTLB cache accesses
+   447.798706838          2,731,127      iTLB-loads                                                  
+   447.798706838          3,845,579      iTLB-load-misses          #  140.81% of all iTLB cache accesses
+   448.798993128          2,509,501      iTLB-loads                                                  
+   448.798993128          3,578,777      iTLB-load-misses          #  142.61% of all iTLB cache accesses
+   449.800181366          2,592,260      iTLB-loads                                                  
+   449.800181366          3,695,932      iTLB-load-misses          #  142.58% of all iTLB cache accesses
+   450.801392719          2,732,103      iTLB-loads                                                  
+   450.801392719          3,827,133      iTLB-load-misses          #  140.08% of all iTLB cache accesses
+#           time             counts unit events
+   451.801900215          3,400,796      iTLB-loads                                                  
+   451.801900215          3,471,088      iTLB-load-misses          #  102.07% of all iTLB cache accesses
+   452.802167003          3,315,797      iTLB-loads                                                  
+   452.802167003          3,447,296      iTLB-load-misses          #  103.97% of all iTLB cache accesses
+   453.803390660          2,821,602      iTLB-loads                                                  
+   453.803390660          3,209,697      iTLB-load-misses          #  113.75% of all iTLB cache accesses
+   454.804606875          2,292,822      iTLB-loads                                                  
+   454.804606875          3,246,492      iTLB-load-misses          #  141.59% of all iTLB cache accesses
+   455.805794554          2,553,909      iTLB-loads                                                  
+   455.805794554          3,661,137      iTLB-load-misses          #  143.35% of all iTLB cache accesses
+   456.807029680          2,537,567      iTLB-loads                                                  
+   456.807029680          3,592,191      iTLB-load-misses          #  141.56% of all iTLB cache accesses
+   457.808245006          2,849,632      iTLB-loads                                                  
+   457.808245006          3,592,413      iTLB-load-misses          #  126.07% of all iTLB cache accesses
+   458.809464033          3,335,843      iTLB-loads                                                  
+   458.809464033          3,454,372      iTLB-load-misses          #  103.55% of all iTLB cache accesses
+   459.810641367          3,132,595      iTLB-loads                                                  
+   459.810641367          3,383,730      iTLB-load-misses          #  108.02% of all iTLB cache accesses
+   460.811860572          3,499,053      iTLB-loads                                                  
+   460.811860572          3,460,274      iTLB-load-misses          #   98.89% of all iTLB cache accesses
+   461.812129205          3,597,084      iTLB-loads                                                  
+   461.812129205          3,467,333      iTLB-load-misses          #   96.39% of all iTLB cache accesses
+   462.812425265          3,364,100      iTLB-loads                                                  
+   462.812425265          3,331,473      iTLB-load-misses          #   99.03% of all iTLB cache accesses
+   463.813618570          3,522,284      iTLB-loads                                                  
+   463.813618570          3,471,037      iTLB-load-misses          #   98.55% of all iTLB cache accesses
+   464.813897995          3,609,309      iTLB-loads                                                  
+   464.813897995          3,540,947      iTLB-load-misses          #   98.11% of all iTLB cache accesses
+   465.815098749          3,491,229      iTLB-loads                                                  
+   465.815098749          3,506,404      iTLB-load-misses          #  100.43% of all iTLB cache accesses
+   466.816288351          3,460,978      iTLB-loads                                                  
+   466.816288351          3,484,832      iTLB-load-misses          #  100.69% of all iTLB cache accesses
+   467.816708798          3,728,167      iTLB-loads                                                  
+   467.816708798          3,446,503      iTLB-load-misses          #   92.44% of all iTLB cache accesses
+   468.817871435          3,640,336      iTLB-loads                                                  
+   468.817871435          3,413,254      iTLB-load-misses          #   93.76% of all iTLB cache accesses
+   469.819068049          3,363,440      iTLB-loads                                                  
+   469.819068049          3,427,822      iTLB-load-misses          #  101.91% of all iTLB cache accesses
+   470.820280244          2,152,077      iTLB-loads                                                  
+   470.820280244          2,425,262      iTLB-load-misses          #  112.69% of all iTLB cache accesses
+   471.821451022          2,433,447      iTLB-loads                                                  
+   471.821451022          3,312,550      iTLB-load-misses          #  136.13% of all iTLB cache accesses
+   472.821865073          2,275,944      iTLB-loads                                                  
+   472.821865073          3,196,814      iTLB-load-misses          #  140.46% of all iTLB cache accesses
+   473.822114969          2,336,637      iTLB-loads                                                  
+   473.822114969          3,323,556      iTLB-load-misses          #  142.24% of all iTLB cache accesses
+   474.823334581          2,576,129      iTLB-loads                                                  
+   474.823334581          3,504,279      iTLB-load-misses          #  136.03% of all iTLB cache accesses
+   475.824552522          3,189,772      iTLB-loads                                                  
+   475.824552522          3,420,246      iTLB-load-misses          #  107.23% of all iTLB cache accesses
+#           time             counts unit events
+   476.825743584          3,489,993      iTLB-loads                                                  
+   476.825743584          3,436,342      iTLB-load-misses          #   98.46% of all iTLB cache accesses
+   477.826981894          3,400,628      iTLB-loads                                                  
+   477.826981894          3,374,232      iTLB-load-misses          #   99.22% of all iTLB cache accesses
+   478.827343978          3,208,716      iTLB-loads                                                  
+   478.827343978          3,385,868      iTLB-load-misses          #  105.52% of all iTLB cache accesses
+   479.828577543          1,849,590      iTLB-loads                                                  
+   479.828577543          3,150,973      iTLB-load-misses          #  170.36% of all iTLB cache accesses
+   480.829815696          2,054,485      iTLB-loads                                                  
+   480.829815696          3,350,473      iTLB-load-misses          #  163.08% of all iTLB cache accesses
+   481.831056498          2,378,709      iTLB-loads                                                  
+   481.831056498          3,341,108      iTLB-load-misses          #  140.46% of all iTLB cache accesses
+   482.832264120          3,447,741      iTLB-loads                                                  
+   482.832264120          3,580,993      iTLB-load-misses          #  103.86% of all iTLB cache accesses
+   483.833470638          3,142,181      iTLB-loads                                                  
+   483.833470638          3,544,936      iTLB-load-misses          #  112.82% of all iTLB cache accesses
+   484.834680152          3,359,746      iTLB-loads                                                  
+   484.834680152          3,466,350      iTLB-load-misses          #  103.17% of all iTLB cache accesses
+   485.835855321          2,993,558      iTLB-loads                                                  
+   485.835855321          3,425,085      iTLB-load-misses          #  114.42% of all iTLB cache accesses
+   486.837077274          3,462,884      iTLB-loads                                                  
+   486.837077274          3,490,545      iTLB-load-misses          #  100.80% of all iTLB cache accesses
+   487.837932843          3,291,239      iTLB-loads                                                  
+   487.837932843          3,463,559      iTLB-load-misses          #  105.24% of all iTLB cache accesses
+   488.838370624          2,067,717      iTLB-loads                                                  
+   488.838370624          3,192,631      iTLB-load-misses          #  154.40% of all iTLB cache accesses
+   489.838667898          1,428,330      iTLB-loads                                                  
+   489.838667898          2,641,970      iTLB-load-misses          #  184.97% of all iTLB cache accesses
+   490.839949184          1,765,792      iTLB-loads                                                  
+   490.839949184          3,018,496      iTLB-load-misses          #  170.94% of all iTLB cache accesses
+   491.841215093          2,151,117      iTLB-loads                                                  
+   491.841215093          3,295,304      iTLB-load-misses          #  153.19% of all iTLB cache accesses
+   492.842537833          2,368,483      iTLB-loads                                                  
+   492.842537833          3,629,262      iTLB-load-misses          #  153.23% of all iTLB cache accesses
+   493.843758894          2,341,367      iTLB-loads                                                  
+   493.843758894          3,624,638      iTLB-load-misses          #  154.81% of all iTLB cache accesses
+   494.843960815          1,667,416      iTLB-loads                                                  
+   494.843960815          2,921,405      iTLB-load-misses          #  175.21% of all iTLB cache accesses
+   495.845188662          1,410,261      iTLB-loads                                                  
+   495.845188662          2,633,130      iTLB-load-misses          #  186.71% of all iTLB cache accesses
+   496.846441356          1,399,314      iTLB-loads                                                  
+   496.846441356          2,669,249      iTLB-load-misses          #  190.75% of all iTLB cache accesses
+   497.847674842          1,760,997      iTLB-loads                                                  
+   497.847674842          3,198,287      iTLB-load-misses          #  181.62% of all iTLB cache accesses
+   498.848884437          1,994,872      iTLB-loads                                                  
+   498.848884437          3,387,724      iTLB-load-misses          #  169.82% of all iTLB cache accesses
+   500.097877466          2,106,574      iTLB-loads                                                  
+   500.097877466          3,782,084      iTLB-load-misses          #  179.54% of all iTLB cache accesses
+   501.099103473          1,251,979      iTLB-loads                                                  
+   501.099103473          2,398,647      iTLB-load-misses          #  191.59% of all iTLB cache accesses
+#           time             counts unit events
+   502.100339360          2,122,581      iTLB-loads                                                  
+   502.100339360          2,929,770      iTLB-load-misses          #  138.03% of all iTLB cache accesses
+   503.101562317          1,403,125      iTLB-loads                                                  
+   503.101562317          2,462,490      iTLB-load-misses          #  175.50% of all iTLB cache accesses
+   504.101875979          1,625,593      iTLB-loads                                                  
+   504.101875979          2,722,370      iTLB-load-misses          #  167.47% of all iTLB cache accesses
+   505.102237615          1,412,794      iTLB-loads                                                  
+   505.102237615          2,564,622      iTLB-load-misses          #  181.53% of all iTLB cache accesses
+   506.103504138          1,384,040      iTLB-loads                                                  
+   506.103504138          2,624,481      iTLB-load-misses          #  189.62% of all iTLB cache accesses
+   507.104219429          1,925,294      iTLB-loads                                                  
+   507.104219429          3,056,023      iTLB-load-misses          #  158.73% of all iTLB cache accesses
+   508.105533270          2,153,823      iTLB-loads                                                  
+   508.105533270          3,189,276      iTLB-load-misses          #  148.08% of all iTLB cache accesses
+   509.106788351          1,868,210      iTLB-loads                                                  
+   509.106788351          2,835,311      iTLB-load-misses          #  151.77% of all iTLB cache accesses
+   510.108021603          1,949,096      iTLB-loads                                                  
+   510.108021603          3,015,603      iTLB-load-misses          #  154.72% of all iTLB cache accesses
+   511.109221404          1,848,916      iTLB-loads                                                  
+   511.109221404          2,925,660      iTLB-load-misses          #  158.24% of all iTLB cache accesses
+   512.109879627          1,945,259      iTLB-loads                                                  
+   512.109879627          2,983,531      iTLB-load-misses          #  153.37% of all iTLB cache accesses
+   513.111164462          1,975,314      iTLB-loads                                                  
+   513.111164462          3,058,416      iTLB-load-misses          #  154.83% of all iTLB cache accesses
+   514.112425392          3,047,843      iTLB-loads                                                  
+   514.112425392          3,201,817      iTLB-load-misses          #  105.05% of all iTLB cache accesses
+   515.113703639          3,735,500      iTLB-loads                                                  
+   515.113703639          3,198,398      iTLB-load-misses          #   85.62% of all iTLB cache accesses
+   516.113995522          3,992,884      iTLB-loads                                                  
+   516.113995522          3,224,667      iTLB-load-misses          #   80.76% of all iTLB cache accesses
+   517.115194727          4,058,862      iTLB-loads                                                  
+   517.115194727          3,117,099      iTLB-load-misses          #   76.80% of all iTLB cache accesses
+   518.116415749          4,129,520      iTLB-loads                                                  
+   518.116415749          3,014,776      iTLB-load-misses          #   73.01% of all iTLB cache accesses
+   519.116651842          3,990,476      iTLB-loads                                                  
+   519.116651842          3,065,218      iTLB-load-misses          #   76.81% of all iTLB cache accesses
+   520.116855453          3,854,590      iTLB-loads                                                  
+   520.116855453          2,989,636      iTLB-load-misses          #   77.56% of all iTLB cache accesses
+   521.117860817          3,951,118      iTLB-loads                                                  
+   521.117860817          3,186,630      iTLB-load-misses          #   80.65% of all iTLB cache accesses
+   522.118137231          2,954,414      iTLB-loads                                                  
+   522.118137231          2,759,188      iTLB-load-misses          #   93.39% of all iTLB cache accesses
+   523.118455280          2,800,793      iTLB-loads                                                  
+   523.118455280          3,095,658      iTLB-load-misses          #  110.53% of all iTLB cache accesses
+   524.119662959          3,378,837      iTLB-loads                                                  
+   524.119662959          3,163,708      iTLB-load-misses          #   93.63% of all iTLB cache accesses
+   525.120870955          3,260,962      iTLB-loads                                                  
+   525.120870955          3,112,253      iTLB-load-misses          #   95.44% of all iTLB cache accesses
+   526.122090098          1,976,704      iTLB-loads                                                  
+   526.122090098          2,830,154      iTLB-load-misses          #  143.18% of all iTLB cache accesses
+#           time             counts unit events
+   527.123372906          1,793,908      iTLB-loads                                                  
+   527.123372906          2,774,130      iTLB-load-misses          #  154.64% of all iTLB cache accesses
+   528.123707995          1,709,717      iTLB-loads                                                  
+   528.123707995          2,794,682      iTLB-load-misses          #  163.46% of all iTLB cache accesses
+   529.124937981          1,717,739      iTLB-loads                                                  
+   529.124937981          2,827,862      iTLB-load-misses          #  164.63% of all iTLB cache accesses
+   530.125872702          1,690,260      iTLB-loads                                                  
+   530.125872702          2,797,942      iTLB-load-misses          #  165.53% of all iTLB cache accesses
+   531.126129194          1,868,306      iTLB-loads                                                  
+   531.126129194          2,936,376      iTLB-load-misses          #  157.17% of all iTLB cache accesses
+   532.127349145          1,706,358      iTLB-loads                                                  
+   532.127349145          2,794,945      iTLB-load-misses          #  163.80% of all iTLB cache accesses
+   533.128625994          2,196,478      iTLB-loads                                                  
+   533.128625994          3,420,043      iTLB-load-misses          #  155.71% of all iTLB cache accesses
+   534.129863812          1,678,079      iTLB-loads                                                  
+   534.129863812          2,736,603      iTLB-load-misses          #  163.08% of all iTLB cache accesses
+   535.131156433          1,663,739      iTLB-loads                                                  
+   535.131156433          2,994,501      iTLB-load-misses          #  179.99% of all iTLB cache accesses
+   536.132453307          1,796,599      iTLB-loads                                                  
+   536.132453307          3,239,745      iTLB-load-misses          #  180.33% of all iTLB cache accesses
+   537.133746719          1,870,989      iTLB-loads                                                  
+   537.133746719          3,312,695      iTLB-load-misses          #  177.06% of all iTLB cache accesses
+   538.134232302          1,988,016      iTLB-loads                                                  
+   538.134232302          3,358,145      iTLB-load-misses          #  168.92% of all iTLB cache accesses
+   539.135535535          1,816,083      iTLB-loads                                                  
+   539.135535535          2,918,523      iTLB-load-misses          #  160.70% of all iTLB cache accesses
+   540.136816566          1,347,674      iTLB-loads                                                  
+   540.136816566          2,437,721      iTLB-load-misses          #  180.88% of all iTLB cache accesses
+   541.138086736          1,293,648      iTLB-loads                                                  
+   541.138086736          2,400,580      iTLB-load-misses          #  185.57% of all iTLB cache accesses
+   542.139306018          1,398,532      iTLB-loads                                                  
+   542.139306018          2,527,484      iTLB-load-misses          #  180.72% of all iTLB cache accesses
+   543.140561839          1,678,083      iTLB-loads                                                  
+   543.140561839          2,566,116      iTLB-load-misses          #  152.92% of all iTLB cache accesses
+   544.140826363          1,805,088      iTLB-loads                                                  
+   544.140826363          2,852,371      iTLB-load-misses          #  158.02% of all iTLB cache accesses
+   545.142099913          1,642,610      iTLB-loads                                                  
+   545.142099913          2,672,099      iTLB-load-misses          #  162.67% of all iTLB cache accesses
+   546.143381486          1,944,923      iTLB-loads                                                  
+   546.143381486          2,821,937      iTLB-load-misses          #  145.09% of all iTLB cache accesses
+   547.144631947          1,888,165      iTLB-loads                                                  
+   547.144631947          2,758,559      iTLB-load-misses          #  146.10% of all iTLB cache accesses
+   548.145304685          2,031,733      iTLB-loads                                                  
+   548.145304685          3,095,875      iTLB-load-misses          #  152.38% of all iTLB cache accesses
+   549.145883212          1,869,898      iTLB-loads                                                  
+   549.145883212          2,837,792      iTLB-load-misses          #  151.76% of all iTLB cache accesses
+   550.147187938          1,577,219      iTLB-loads                                                  
+   550.147187938          2,544,463      iTLB-load-misses          #  161.33% of all iTLB cache accesses
+   551.148429327          1,382,133      iTLB-loads                                                  
+   551.148429327          2,346,485      iTLB-load-misses          #  169.77% of all iTLB cache accesses
+#           time             counts unit events
+   552.149318753          1,525,541      iTLB-loads                                                  
+   552.149318753          2,485,273      iTLB-load-misses          #  162.91% of all iTLB cache accesses
+   553.150595397          1,423,360      iTLB-loads                                                  
+   553.150595397          2,429,546      iTLB-load-misses          #  170.69% of all iTLB cache accesses
+   554.151816824          1,970,672      iTLB-loads                                                  
+   554.151816824          2,895,799      iTLB-load-misses          #  146.94% of all iTLB cache accesses
+   555.153070291          1,815,166      iTLB-loads                                                  
+   555.153070291          2,738,726      iTLB-load-misses          #  150.88% of all iTLB cache accesses
+   556.154342524          2,278,812      iTLB-loads                                                  
+   556.154342524          3,017,702      iTLB-load-misses          #  132.42% of all iTLB cache accesses
+   557.155578673          3,438,240      iTLB-loads                                                  
+   557.155578673          3,523,333      iTLB-load-misses          #  102.47% of all iTLB cache accesses
+   558.156789468          3,254,144      iTLB-loads                                                  
+   558.156789468          3,407,390      iTLB-load-misses          #  104.71% of all iTLB cache accesses
+   559.157902916          2,272,220      iTLB-loads                                                  
+   559.157902916          3,237,188      iTLB-load-misses          #  142.47% of all iTLB cache accesses
+   560.159107251          2,008,561      iTLB-loads                                                  
+   560.159107251          2,968,487      iTLB-load-misses          #  147.79% of all iTLB cache accesses
+   561.160368196          1,904,014      iTLB-loads                                                  
+   561.160368196          3,176,376      iTLB-load-misses          #  166.83% of all iTLB cache accesses
+   562.161634117          1,550,734      iTLB-loads                                                  
+   562.161634117          2,826,836      iTLB-load-misses          #  182.29% of all iTLB cache accesses
+   563.161990622          1,906,755      iTLB-loads                                                  
+   563.161990622          3,205,756      iTLB-load-misses          #  168.13% of all iTLB cache accesses
+   564.163216322          2,124,345      iTLB-loads                                                  
+   564.163216322          3,429,054      iTLB-load-misses          #  161.42% of all iTLB cache accesses
+   565.164437801          2,439,095      iTLB-loads                                                  
+   565.164437801          3,460,391      iTLB-load-misses          #  141.87% of all iTLB cache accesses
+   566.165616828          2,895,995      iTLB-loads                                                  
+   566.165616828          3,613,295      iTLB-load-misses          #  124.77% of all iTLB cache accesses
+   567.166850918          2,871,532      iTLB-loads                                                  
+   567.166850918          3,605,508      iTLB-load-misses          #  125.56% of all iTLB cache accesses
+   568.168088142          3,433,254      iTLB-loads                                                  
+   568.168088142          3,531,840      iTLB-load-misses          #  102.87% of all iTLB cache accesses
+   569.169327016          3,505,963      iTLB-loads                                                  
+   569.169327016          3,515,444      iTLB-load-misses          #  100.27% of all iTLB cache accesses
+   570.170560648          2,974,177      iTLB-loads                                                  
+   570.170560648          3,174,344      iTLB-load-misses          #  106.73% of all iTLB cache accesses
+   571.171819691          3,168,078      iTLB-loads                                                  
+   571.171819691          3,467,291      iTLB-load-misses          #  109.44% of all iTLB cache accesses
+   572.172076290          2,964,630      iTLB-loads                                                  
+   572.172076290          3,713,434      iTLB-load-misses          #  125.26% of all iTLB cache accesses
+   573.173328524          2,883,723      iTLB-loads                                                  
+   573.173328524          3,794,394      iTLB-load-misses          #  131.58% of all iTLB cache accesses
+   574.174529229          3,097,829      iTLB-loads                                                  
+   574.174529229          3,303,614      iTLB-load-misses          #  106.64% of all iTLB cache accesses
+   575.174784381          3,270,793      iTLB-loads                                                  
+   575.174784381          3,437,591      iTLB-load-misses          #  105.10% of all iTLB cache accesses
+   576.175998015          3,283,375      iTLB-loads                                                  
+   576.175998015          3,130,100      iTLB-load-misses          #   95.33% of all iTLB cache accesses
+#           time             counts unit events
+   577.177215932          2,933,550      iTLB-loads                                                  
+   577.177215932          2,833,676      iTLB-load-misses          #   96.60% of all iTLB cache accesses
+   578.177896868          2,506,713      iTLB-loads                                                  
+   578.177896868          2,899,336      iTLB-load-misses          #  115.66% of all iTLB cache accesses
+   579.179087913          1,889,514      iTLB-loads                                                  
+   579.179087913          2,425,119      iTLB-load-misses          #  128.35% of all iTLB cache accesses

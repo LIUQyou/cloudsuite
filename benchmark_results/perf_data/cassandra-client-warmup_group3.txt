@@ -1,0 +1,1151 @@
+# started on Mon Dec  2 07:14:51 2024
+
+#           time             counts unit events
+     1.001100995      <not counted>      LLC-loads                                                   
+     1.001100995      <not counted>      LLC-load-misses                                             
+     2.002272776      <not counted>      LLC-loads                                                   
+     2.002272776      <not counted>      LLC-load-misses                                             
+     3.003412233      <not counted>      LLC-loads                                                   
+     3.003412233      <not counted>      LLC-load-misses                                             
+     4.004568320          7,887,254      LLC-loads                                                   
+     4.004568320            141,530      LLC-load-misses           #    1.79% of all LL-cache accesses
+     5.005757707      <not counted>      LLC-loads                                                   
+     5.005757707      <not counted>      LLC-load-misses                                             
+     6.006887758      <not counted>      LLC-loads                                                   
+     6.006887758      <not counted>      LLC-load-misses                                             
+     7.008018430      <not counted>      LLC-loads                                                   
+     7.008018430      <not counted>      LLC-load-misses                                             
+     8.009138125      <not counted>      LLC-loads                                                   
+     8.009138125      <not counted>      LLC-load-misses                                             
+     9.010239731            347,038      LLC-loads                                                   
+     9.010239731             13,095      LLC-load-misses           #    3.77% of all LL-cache accesses
+    10.011367809          7,862,518      LLC-loads                                                   
+    10.011367809            130,139      LLC-load-misses           #    1.66% of all LL-cache accesses
+    11.012562986      <not counted>      LLC-loads                                                   
+    11.012562986      <not counted>      LLC-load-misses                                             
+    12.013694777      <not counted>      LLC-loads                                                   
+    12.013694777      <not counted>      LLC-load-misses                                             
+    13.014826190      <not counted>      LLC-loads                                                   
+    13.014826190      <not counted>      LLC-load-misses                                             
+    14.015959786      <not counted>      LLC-loads                                                   
+    14.015959786      <not counted>      LLC-load-misses                                             
+    15.016588953          4,321,787      LLC-loads                                                   
+    15.016588953             53,943      LLC-load-misses           #    1.25% of all LL-cache accesses
+    16.017774484          3,396,171      LLC-loads                                                   
+    16.017774484             79,494      LLC-load-misses           #    2.34% of all LL-cache accesses
+    17.018938037      <not counted>      LLC-loads                                                   
+    17.018938037      <not counted>      LLC-load-misses                                             
+    18.020082916      <not counted>      LLC-loads                                                   
+    18.020082916      <not counted>      LLC-load-misses                                             
+    19.021235073      <not counted>      LLC-loads                                                   
+    19.021235073      <not counted>      LLC-load-misses                                             
+    20.022364624      <not counted>      LLC-loads                                                   
+    20.022364624      <not counted>      LLC-load-misses                                             
+    21.023539469          7,821,372      LLC-loads                                                   
+    21.023539469            140,454      LLC-load-misses           #    1.80% of all LL-cache accesses
+    22.024719064      <not counted>      LLC-loads                                                   
+    22.024719064      <not counted>      LLC-load-misses                                             
+    23.025835305      <not counted>      LLC-loads                                                   
+    23.025835305      <not counted>      LLC-load-misses                                             
+    24.026948339      <not counted>      LLC-loads                                                   
+    24.026948339      <not counted>      LLC-load-misses                                             
+    25.028101036      <not counted>      LLC-loads                                                   
+    25.028101036      <not counted>      LLC-load-misses                                             
+#           time             counts unit events
+    26.028545000          3,125,215      LLC-loads                                                   
+    26.028545000             58,877      LLC-load-misses           #    1.88% of all LL-cache accesses
+    27.029701527          6,208,023      LLC-loads                                                   
+    27.029701527            213,554      LLC-load-misses           #    3.44% of all LL-cache accesses
+    28.030899912      <not counted>      LLC-loads                                                   
+    28.030899912      <not counted>      LLC-load-misses                                             
+    29.032064006      <not counted>      LLC-loads                                                   
+    29.032064006      <not counted>      LLC-load-misses                                             
+    30.033192234      <not counted>      LLC-loads                                                   
+    30.033192234      <not counted>      LLC-load-misses                                             
+    31.034324257      <not counted>      LLC-loads                                                   
+    31.034324257      <not counted>      LLC-load-misses                                             
+    32.035460615          8,767,060      LLC-loads                                                   
+    32.035460615            158,175      LLC-load-misses           #    1.80% of all LL-cache accesses
+    33.036620469      <not counted>      LLC-loads                                                   
+    33.036620469      <not counted>      LLC-load-misses                                             
+    34.037742972      <not counted>      LLC-loads                                                   
+    34.037742972      <not counted>      LLC-load-misses                                             
+    35.038876232      <not counted>      LLC-loads                                                   
+    35.038876232      <not counted>      LLC-load-misses                                             
+    36.039998265      <not counted>      LLC-loads                                                   
+    36.039998265      <not counted>      LLC-load-misses                                             
+    37.041147912            812,016      LLC-loads                                                   
+    37.041147912             20,541      LLC-load-misses           #    2.53% of all LL-cache accesses
+    38.042288447          5,864,186      LLC-loads                                                   
+    38.042288447             87,749      LLC-load-misses           #    1.50% of all LL-cache accesses
+    39.043461075            132,971      LLC-loads                                                   
+    39.043461075             13,262      LLC-load-misses           #    9.97% of all LL-cache accesses
+    40.044612395          2,097,312      LLC-loads                                                   
+    40.044612395            192,246      LLC-load-misses           #    9.17% of all LL-cache accesses
+    41.045827488      <not counted>      LLC-loads                                                   
+    41.045827488      <not counted>      LLC-load-misses                                             
+    42.046966832      <not counted>      LLC-loads                                                   
+    42.046966832      <not counted>      LLC-load-misses                                             
+    43.048094594      <not counted>      LLC-loads                                                   
+    43.048094594      <not counted>      LLC-load-misses                                             
+    44.049215196      <not counted>      LLC-loads                                                   
+    44.049215196      <not counted>      LLC-load-misses                                             
+    45.050320539          9,985,752      LLC-loads                                                   
+    45.050320539            503,040      LLC-load-misses           #    5.04% of all LL-cache accesses
+    46.051478994         23,699,953      LLC-loads                                                   
+    46.051478994          1,271,162      LLC-load-misses           #    5.36% of all LL-cache accesses
+    47.052534416         97,760,315      LLC-loads                                                   
+    47.052534416          8,115,655      LLC-load-misses           #    8.30% of all LL-cache accesses
+    48.053802157         84,662,274      LLC-loads                                                   
+    48.053802157          7,031,124      LLC-load-misses           #    8.30% of all LL-cache accesses
+    49.054952906         21,393,902      LLC-loads                                                   
+    49.054952906          1,758,578      LLC-load-misses           #    8.22% of all LL-cache accesses
+    50.055587270         16,883,528      LLC-loads                                                   
+    50.055587270          1,581,209      LLC-load-misses           #    9.37% of all LL-cache accesses
+#           time             counts unit events
+    51.056542748         15,306,698      LLC-loads                                                   
+    51.056542748            968,692      LLC-load-misses           #    6.33% of all LL-cache accesses
+    52.057715435         13,208,912      LLC-loads                                                   
+    52.057715435            700,406      LLC-load-misses           #    5.30% of all LL-cache accesses
+    53.058953361         13,765,429      LLC-loads                                                   
+    53.058953361            798,379      LLC-load-misses           #    5.80% of all LL-cache accesses
+    54.060214061          8,803,465      LLC-loads                                                   
+    54.060214061            458,908      LLC-load-misses           #    5.21% of all LL-cache accesses
+    55.060543226         15,158,520      LLC-loads                                                   
+    55.060543226            846,536      LLC-load-misses           #    5.58% of all LL-cache accesses
+    56.061825848         20,598,329      LLC-loads                                                   
+    56.061825848          1,148,706      LLC-load-misses           #    5.58% of all LL-cache accesses
+    57.063014724         18,122,242      LLC-loads                                                   
+    57.063014724          1,454,213      LLC-load-misses           #    8.02% of all LL-cache accesses
+    58.064247573         15,599,927      LLC-loads                                                   
+    58.064247573          1,925,192      LLC-load-misses           #   12.34% of all LL-cache accesses
+    59.064594718         14,387,298      LLC-loads                                                   
+    59.064594718          1,851,020      LLC-load-misses           #   12.87% of all LL-cache accesses
+    60.064861053         15,632,617      LLC-loads                                                   
+    60.064861053          2,017,802      LLC-load-misses           #   12.91% of all LL-cache accesses
+    61.066137147         19,747,354      LLC-loads                                                   
+    61.066137147          2,210,045      LLC-load-misses           #   11.19% of all LL-cache accesses
+    62.067395795         15,970,530      LLC-loads                                                   
+    62.067395795          2,013,464      LLC-load-misses           #   12.61% of all LL-cache accesses
+    63.068607733         15,020,446      LLC-loads                                                   
+    63.068607733          1,995,609      LLC-load-misses           #   13.29% of all LL-cache accesses
+    64.069852010         18,993,482      LLC-loads                                                   
+    64.069852010          1,891,927      LLC-load-misses           #    9.96% of all LL-cache accesses
+    65.071111242         16,854,196      LLC-loads                                                   
+    65.071111242          1,230,468      LLC-load-misses           #    7.30% of all LL-cache accesses
+    66.072339613          8,574,117      LLC-loads                                                   
+    66.072339613            707,680      LLC-load-misses           #    8.25% of all LL-cache accesses
+    67.072620293         18,063,373      LLC-loads                                                   
+    67.072620293          1,355,991      LLC-load-misses           #    7.51% of all LL-cache accesses
+    68.072853615         20,215,933      LLC-loads                                                   
+    68.072853615          2,145,702      LLC-load-misses           #   10.61% of all LL-cache accesses
+    69.074070605         19,029,683      LLC-loads                                                   
+    69.074070605          2,135,897      LLC-load-misses           #   11.22% of all LL-cache accesses
+    70.074647448         18,291,115      LLC-loads                                                   
+    70.074647448          2,151,899      LLC-load-misses           #   11.76% of all LL-cache accesses
+    71.075865207         17,552,396      LLC-loads                                                   
+    71.075865207          2,080,036      LLC-load-misses           #   11.85% of all LL-cache accesses
+    72.077099227         17,212,518      LLC-loads                                                   
+    72.077099227          2,122,379      LLC-load-misses           #   12.33% of all LL-cache accesses
+    73.078372835         18,612,748      LLC-loads                                                   
+    73.078372835          2,131,333      LLC-load-misses           #   11.45% of all LL-cache accesses
+    74.079616178         16,370,632      LLC-loads                                                   
+    74.079616178          2,090,661      LLC-load-misses           #   12.77% of all LL-cache accesses
+    75.080823273         15,365,992      LLC-loads                                                   
+    75.080823273          1,930,793      LLC-load-misses           #   12.57% of all LL-cache accesses
+#           time             counts unit events
+    76.082054404         16,394,977      LLC-loads                                                   
+    76.082054404          1,641,728      LLC-load-misses           #   10.01% of all LL-cache accesses
+    77.082326068         15,221,540      LLC-loads                                                   
+    77.082326068          1,613,322      LLC-load-misses           #   10.60% of all LL-cache accesses
+    78.083582677         13,786,782      LLC-loads                                                   
+    78.083582677          1,567,316      LLC-load-misses           #   11.37% of all LL-cache accesses
+    79.084863657         15,426,662      LLC-loads                                                   
+    79.084863657          2,195,995      LLC-load-misses           #   14.24% of all LL-cache accesses
+    80.086154120         16,002,860      LLC-loads                                                   
+    80.086154120          2,194,092      LLC-load-misses           #   13.71% of all LL-cache accesses
+    81.086475970         15,301,598      LLC-loads                                                   
+    81.086475970          2,237,648      LLC-load-misses           #   14.62% of all LL-cache accesses
+    82.087685992         14,275,630      LLC-loads                                                   
+    82.087685992          2,022,140      LLC-load-misses           #   14.16% of all LL-cache accesses
+    83.088544162         14,989,219      LLC-loads                                                   
+    83.088544162          2,169,147      LLC-load-misses           #   14.47% of all LL-cache accesses
+    84.089774346         13,425,991      LLC-loads                                                   
+    84.089774346          1,990,172      LLC-load-misses           #   14.82% of all LL-cache accesses
+    85.091020566         16,294,631      LLC-loads                                                   
+    85.091020566          2,494,089      LLC-load-misses           #   15.31% of all LL-cache accesses
+    86.092199580         18,041,271      LLC-loads                                                   
+    86.092199580          2,555,321      LLC-load-misses           #   14.16% of all LL-cache accesses
+    87.093419359         18,475,506      LLC-loads                                                   
+    87.093419359          2,736,447      LLC-load-misses           #   14.81% of all LL-cache accesses
+    88.093639263         15,735,418      LLC-loads                                                   
+    88.093639263          2,476,796      LLC-load-misses           #   15.74% of all LL-cache accesses
+    89.094900282         16,577,139      LLC-loads                                                   
+    89.094900282          2,574,375      LLC-load-misses           #   15.53% of all LL-cache accesses
+    90.096134271         16,286,777      LLC-loads                                                   
+    90.096134271          2,439,537      LLC-load-misses           #   14.98% of all LL-cache accesses
+    91.096574867         15,022,860      LLC-loads                                                   
+    91.096574867          2,227,032      LLC-load-misses           #   14.82% of all LL-cache accesses
+    92.097799026         16,553,128      LLC-loads                                                   
+    92.097799026          2,590,297      LLC-load-misses           #   15.65% of all LL-cache accesses
+    93.099028735         16,009,786      LLC-loads                                                   
+    93.099028735          2,530,901      LLC-load-misses           #   15.81% of all LL-cache accesses
+    94.100261732         16,566,075      LLC-loads                                                   
+    94.100261732          2,360,443      LLC-load-misses           #   14.25% of all LL-cache accesses
+    95.101517157         16,923,438      LLC-loads                                                   
+    95.101517157          2,375,442      LLC-load-misses           #   14.04% of all LL-cache accesses
+    96.102760268         14,946,866      LLC-loads                                                   
+    96.102760268          2,063,972      LLC-load-misses           #   13.81% of all LL-cache accesses
+    97.104015513         15,079,693      LLC-loads                                                   
+    97.104015513          2,022,655      LLC-load-misses           #   13.41% of all LL-cache accesses
+    98.105259960         15,839,484      LLC-loads                                                   
+    98.105259960          2,199,394      LLC-load-misses           #   13.89% of all LL-cache accesses
+    99.106468601         16,613,471      LLC-loads                                                   
+    99.106468601          2,546,849      LLC-load-misses           #   15.33% of all LL-cache accesses
+   100.106883336         13,107,428      LLC-loads                                                   
+   100.106883336          1,858,679      LLC-load-misses           #   14.18% of all LL-cache accesses
+#           time             counts unit events
+   101.107196760         14,437,743      LLC-loads                                                   
+   101.107196760          2,080,090      LLC-load-misses           #   14.41% of all LL-cache accesses
+   102.108485945         13,331,679      LLC-loads                                                   
+   102.108485945          1,960,583      LLC-load-misses           #   14.71% of all LL-cache accesses
+   103.109765167         13,552,167      LLC-loads                                                   
+   103.109765167          1,912,531      LLC-load-misses           #   14.11% of all LL-cache accesses
+   104.111022034         15,192,461      LLC-loads                                                   
+   104.111022034          2,208,401      LLC-load-misses           #   14.54% of all LL-cache accesses
+   105.112218459         13,583,301      LLC-loads                                                   
+   105.112218459          2,091,815      LLC-load-misses           #   15.40% of all LL-cache accesses
+   106.113464631         16,994,366      LLC-loads                                                   
+   106.113464631          2,114,428      LLC-load-misses           #   12.44% of all LL-cache accesses
+   107.114651271         14,947,836      LLC-loads                                                   
+   107.114651271          1,796,408      LLC-load-misses           #   12.02% of all LL-cache accesses
+   108.115879947         11,294,989      LLC-loads                                                   
+   108.115879947          1,608,601      LLC-load-misses           #   14.24% of all LL-cache accesses
+   109.117150377         11,993,680      LLC-loads                                                   
+   109.117150377          1,727,648      LLC-load-misses           #   14.40% of all LL-cache accesses
+   110.118369669         13,316,444      LLC-loads                                                   
+   110.118369669          2,152,090      LLC-load-misses           #   16.16% of all LL-cache accesses
+   111.119676107         15,170,859      LLC-loads                                                   
+   111.119676107          2,545,946      LLC-load-misses           #   16.78% of all LL-cache accesses
+   112.120952441         13,223,966      LLC-loads                                                   
+   112.120952441          1,235,982      LLC-load-misses           #    9.35% of all LL-cache accesses
+   113.122193529         13,531,492      LLC-loads                                                   
+   113.122193529          1,062,493      LLC-load-misses           #    7.85% of all LL-cache accesses
+   114.123428246         14,059,255      LLC-loads                                                   
+   114.123428246          2,004,212      LLC-load-misses           #   14.26% of all LL-cache accesses
+   115.124645393         14,583,752      LLC-loads                                                   
+   115.124645393          2,148,741      LLC-load-misses           #   14.73% of all LL-cache accesses
+   116.125907723         14,538,092      LLC-loads                                                   
+   116.125907723          2,098,394      LLC-load-misses           #   14.43% of all LL-cache accesses
+   117.127164703         14,737,923      LLC-loads                                                   
+   117.127164703          2,032,502      LLC-load-misses           #   13.79% of all LL-cache accesses
+   118.127441203         15,197,857      LLC-loads                                                   
+   118.127441203          2,150,538      LLC-load-misses           #   14.15% of all LL-cache accesses
+   119.128539740         13,733,324      LLC-loads                                                   
+   119.128539740          1,751,170      LLC-load-misses           #   12.75% of all LL-cache accesses
+   120.128996331         14,628,899      LLC-loads                                                   
+   120.128996331          1,789,180      LLC-load-misses           #   12.23% of all LL-cache accesses
+   121.130251988         14,830,374      LLC-loads                                                   
+   121.130251988          1,935,803      LLC-load-misses           #   13.05% of all LL-cache accesses
+   122.131545089         17,805,201      LLC-loads                                                   
+   122.131545089          2,603,668      LLC-load-misses           #   14.62% of all LL-cache accesses
+   123.132538996         19,427,777      LLC-loads                                                   
+   123.132538996          2,349,875      LLC-load-misses           #   12.10% of all LL-cache accesses
+   124.132847141         18,231,093      LLC-loads                                                   
+   124.132847141          2,096,606      LLC-load-misses           #   11.50% of all LL-cache accesses
+   125.134013799         20,449,222      LLC-loads                                                   
+   125.134013799          2,130,576      LLC-load-misses           #   10.42% of all LL-cache accesses
+#           time             counts unit events
+   126.135197220         20,726,399      LLC-loads                                                   
+   126.135197220          1,989,862      LLC-load-misses           #    9.60% of all LL-cache accesses
+   127.147312525         20,997,981      LLC-loads                                                   
+   127.147312525          2,140,240      LLC-load-misses           #   10.19% of all LL-cache accesses
+   128.148517028         17,752,594      LLC-loads                                                   
+   128.148517028          2,240,782      LLC-load-misses           #   12.62% of all LL-cache accesses
+   129.149716568         16,955,330      LLC-loads                                                   
+   129.149716568          2,132,426      LLC-load-misses           #   12.58% of all LL-cache accesses
+   130.151005916         13,986,757      LLC-loads                                                   
+   130.151005916          1,653,859      LLC-load-misses           #   11.82% of all LL-cache accesses
+   131.152234589         15,515,869      LLC-loads                                                   
+   131.152234589          2,113,856      LLC-load-misses           #   13.62% of all LL-cache accesses
+   132.153492351         14,755,409      LLC-loads                                                   
+   132.153492351          1,890,541      LLC-load-misses           #   12.81% of all LL-cache accesses
+   133.154739829         14,401,124      LLC-loads                                                   
+   133.154739829          1,881,109      LLC-load-misses           #   13.06% of all LL-cache accesses
+   134.155944642         14,080,453      LLC-loads                                                   
+   134.155944642          1,674,904      LLC-load-misses           #   11.90% of all LL-cache accesses
+   135.156536097         14,743,981      LLC-loads                                                   
+   135.156536097          1,932,881      LLC-load-misses           #   13.11% of all LL-cache accesses
+   136.157730858         16,688,619      LLC-loads                                                   
+   136.157730858          1,982,754      LLC-load-misses           #   11.88% of all LL-cache accesses
+   137.158933700         15,231,238      LLC-loads                                                   
+   137.158933700          1,922,888      LLC-load-misses           #   12.62% of all LL-cache accesses
+   138.160169467         15,870,380      LLC-loads                                                   
+   138.160169467          1,980,997      LLC-load-misses           #   12.48% of all LL-cache accesses
+   139.160549225         15,733,034      LLC-loads                                                   
+   139.160549225          1,951,875      LLC-load-misses           #   12.41% of all LL-cache accesses
+   140.161829320         16,000,468      LLC-loads                                                   
+   140.161829320          1,970,096      LLC-load-misses           #   12.31% of all LL-cache accesses
+   141.163082416         16,331,535      LLC-loads                                                   
+   141.163082416          2,140,029      LLC-load-misses           #   13.10% of all LL-cache accesses
+   142.164332548         16,114,385      LLC-loads                                                   
+   142.164332548          1,988,951      LLC-load-misses           #   12.34% of all LL-cache accesses
+   143.165563944         15,689,759      LLC-loads                                                   
+   143.165563944          1,900,297      LLC-load-misses           #   12.11% of all LL-cache accesses
+   144.166817748         15,269,478      LLC-loads                                                   
+   144.166817748          1,790,769      LLC-load-misses           #   11.73% of all LL-cache accesses
+   145.168075682         15,888,196      LLC-loads                                                   
+   145.168075682          1,955,646      LLC-load-misses           #   12.31% of all LL-cache accesses
+   146.168550427         14,046,324      LLC-loads                                                   
+   146.168550427          1,981,546      LLC-load-misses           #   14.11% of all LL-cache accesses
+   147.168838840         10,824,908      LLC-loads                                                   
+   147.168838840          1,630,657      LLC-load-misses           #   15.06% of all LL-cache accesses
+   148.170052162         14,056,680      LLC-loads                                                   
+   148.170052162          1,956,647      LLC-load-misses           #   13.92% of all LL-cache accesses
+   149.170250792         16,796,337      LLC-loads                                                   
+   149.170250792          2,093,158      LLC-load-misses           #   12.46% of all LL-cache accesses
+   150.170480629         15,758,073      LLC-loads                                                   
+   150.170480629          1,943,684      LLC-load-misses           #   12.33% of all LL-cache accesses
+#           time             counts unit events
+   151.170738495         15,078,332      LLC-loads                                                   
+   151.170738495          2,123,960      LLC-load-misses           #   14.09% of all LL-cache accesses
+   152.171973466         15,163,236      LLC-loads                                                   
+   152.171973466          2,489,658      LLC-load-misses           #   16.42% of all LL-cache accesses
+   153.173215026         15,272,571      LLC-loads                                                   
+   153.173215026          2,306,743      LLC-load-misses           #   15.10% of all LL-cache accesses
+   154.174326904         14,066,680      LLC-loads                                                   
+   154.174326904          2,220,835      LLC-load-misses           #   15.79% of all LL-cache accesses
+   155.174810719         17,716,495      LLC-loads                                                   
+   155.174810719          2,961,366      LLC-load-misses           #   16.72% of all LL-cache accesses
+   156.176029628         16,184,613      LLC-loads                                                   
+   156.176029628          2,552,688      LLC-load-misses           #   15.77% of all LL-cache accesses
+   157.176542183         14,605,314      LLC-loads                                                   
+   157.176542183          2,317,397      LLC-load-misses           #   15.87% of all LL-cache accesses
+   158.177785401         13,818,501      LLC-loads                                                   
+   158.177785401          2,159,615      LLC-load-misses           #   15.63% of all LL-cache accesses
+   159.179008673         13,591,700      LLC-loads                                                   
+   159.179008673          2,054,703      LLC-load-misses           #   15.12% of all LL-cache accesses
+   160.180356296         14,013,157      LLC-loads                                                   
+   160.180356296          2,142,341      LLC-load-misses           #   15.29% of all LL-cache accesses
+   161.180653222         14,221,728      LLC-loads                                                   
+   161.180653222          2,294,650      LLC-load-misses           #   16.13% of all LL-cache accesses
+   162.181890125         12,893,212      LLC-loads                                                   
+   162.181890125          1,948,706      LLC-load-misses           #   15.11% of all LL-cache accesses
+   163.183105478         13,686,804      LLC-loads                                                   
+   163.183105478          2,084,637      LLC-load-misses           #   15.23% of all LL-cache accesses
+   164.184334998         12,898,077      LLC-loads                                                   
+   164.184334998          1,909,640      LLC-load-misses           #   14.81% of all LL-cache accesses
+   165.184658305         13,713,151      LLC-loads                                                   
+   165.184658305          2,260,106      LLC-load-misses           #   16.48% of all LL-cache accesses
+   166.185849184         36,004,778      LLC-loads                                                   
+   166.185849184          2,936,924      LLC-load-misses           #    8.16% of all LL-cache accesses
+   167.186101944         27,378,100      LLC-loads                                                   
+   167.186101944          3,172,479      LLC-load-misses           #   11.59% of all LL-cache accesses
+   168.186401116         15,098,310      LLC-loads                                                   
+   168.186401116          2,095,940      LLC-load-misses           #   13.88% of all LL-cache accesses
+   169.186658876         14,551,425      LLC-loads                                                   
+   169.186658876          2,225,666      LLC-load-misses           #   15.30% of all LL-cache accesses
+   170.186981564         16,800,123      LLC-loads                                                   
+   170.186981564          2,307,751      LLC-load-misses           #   13.74% of all LL-cache accesses
+   171.188208029         17,550,878      LLC-loads                                                   
+   171.188208029          2,578,292      LLC-load-misses           #   14.69% of all LL-cache accesses
+   172.189405225         17,571,269      LLC-loads                                                   
+   172.189405225          2,711,743      LLC-load-misses           #   15.43% of all LL-cache accesses
+   173.190623475         14,104,525      LLC-loads                                                   
+   173.190623475          2,013,093      LLC-load-misses           #   14.27% of all LL-cache accesses
+   174.191881293         18,123,728      LLC-loads                                                   
+   174.191881293          2,427,041      LLC-load-misses           #   13.39% of all LL-cache accesses
+   175.193098193         18,671,160      LLC-loads                                                   
+   175.193098193          2,486,789      LLC-load-misses           #   13.32% of all LL-cache accesses
+#           time             counts unit events
+   176.194326396         15,783,212      LLC-loads                                                   
+   176.194326396          2,274,804      LLC-load-misses           #   14.41% of all LL-cache accesses
+   177.195525836         17,200,621      LLC-loads                                                   
+   177.195525836          2,279,950      LLC-load-misses           #   13.26% of all LL-cache accesses
+   178.196742658         16,979,323      LLC-loads                                                   
+   178.196742658          2,288,806      LLC-load-misses           #   13.48% of all LL-cache accesses
+   179.197981336         16,726,134      LLC-loads                                                   
+   179.197981336          2,507,611      LLC-load-misses           #   14.99% of all LL-cache accesses
+   180.199196545         13,387,928      LLC-loads                                                   
+   180.199196545          2,033,251      LLC-load-misses           #   15.19% of all LL-cache accesses
+   181.199508999         12,697,561      LLC-loads                                                   
+   181.199508999          2,002,084      LLC-load-misses           #   15.77% of all LL-cache accesses
+   182.200577958         12,554,540      LLC-loads                                                   
+   182.200577958          2,192,094      LLC-load-misses           #   17.46% of all LL-cache accesses
+   183.201802435         14,368,202      LLC-loads                                                   
+   183.201802435          2,143,433      LLC-load-misses           #   14.92% of all LL-cache accesses
+   184.202928678         14,018,822      LLC-loads                                                   
+   184.202928678          2,097,327      LLC-load-misses           #   14.96% of all LL-cache accesses
+   185.204134880         17,333,436      LLC-loads                                                   
+   185.204134880          2,547,478      LLC-load-misses           #   14.70% of all LL-cache accesses
+   186.205340592         18,031,180      LLC-loads                                                   
+   186.205340592          2,829,992      LLC-load-misses           #   15.69% of all LL-cache accesses
+   187.206517203         17,049,498      LLC-loads                                                   
+   187.206517203          2,582,522      LLC-load-misses           #   15.15% of all LL-cache accesses
+   188.207714427         17,407,599      LLC-loads                                                   
+   188.207714427          2,624,910      LLC-load-misses           #   15.08% of all LL-cache accesses
+   189.208541906         18,218,081      LLC-loads                                                   
+   189.208541906          2,715,816      LLC-load-misses           #   14.91% of all LL-cache accesses
+   190.418601230         19,436,217      LLC-loads                                                   
+   190.418601230          2,766,580      LLC-load-misses           #   14.23% of all LL-cache accesses
+   191.419789785         16,297,786      LLC-loads                                                   
+   191.419789785          2,367,237      LLC-load-misses           #   14.52% of all LL-cache accesses
+   192.420544842         14,336,667      LLC-loads                                                   
+   192.420544842          1,832,254      LLC-load-misses           #   12.78% of all LL-cache accesses
+   193.421770247         19,915,449      LLC-loads                                                   
+   193.421770247          2,501,653      LLC-load-misses           #   12.56% of all LL-cache accesses
+   194.422960752         17,152,669      LLC-loads                                                   
+   194.422960752          1,968,765      LLC-load-misses           #   11.48% of all LL-cache accesses
+   195.423134026         17,010,173      LLC-loads                                                   
+   195.423134026          2,545,461      LLC-load-misses           #   14.96% of all LL-cache accesses
+   196.424292288         17,572,723      LLC-loads                                                   
+   196.424292288          1,802,370      LLC-load-misses           #   10.26% of all LL-cache accesses
+   197.425377882         18,456,974      LLC-loads                                                   
+   197.425377882          1,509,019      LLC-load-misses           #    8.18% of all LL-cache accesses
+   198.426640951         18,509,271      LLC-loads                                                   
+   198.426640951          1,551,830      LLC-load-misses           #    8.38% of all LL-cache accesses
+   199.427875041         18,388,272      LLC-loads                                                   
+   199.427875041          1,687,044      LLC-load-misses           #    9.17% of all LL-cache accesses
+   200.429071867         17,386,788      LLC-loads                                                   
+   200.429071867          1,384,391      LLC-load-misses           #    7.96% of all LL-cache accesses
+#           time             counts unit events
+   201.429442679         17,771,202      LLC-loads                                                   
+   201.429442679          1,524,067      LLC-load-misses           #    8.58% of all LL-cache accesses
+   202.430617555         19,150,974      LLC-loads                                                   
+   202.430617555          1,685,888      LLC-load-misses           #    8.80% of all LL-cache accesses
+   203.431821869         19,277,326      LLC-loads                                                   
+   203.431821869          1,505,296      LLC-load-misses           #    7.81% of all LL-cache accesses
+   204.432977713         19,705,806      LLC-loads                                                   
+   204.432977713          1,557,637      LLC-load-misses           #    7.90% of all LL-cache accesses
+   205.434136966         20,222,921      LLC-loads                                                   
+   205.434136966          1,828,898      LLC-load-misses           #    9.04% of all LL-cache accesses
+   206.435332472         18,412,193      LLC-loads                                                   
+   206.435332472          1,677,687      LLC-load-misses           #    9.11% of all LL-cache accesses
+   207.436562778         18,675,619      LLC-loads                                                   
+   207.436562778          1,493,000      LLC-load-misses           #    7.99% of all LL-cache accesses
+   208.437733974         18,791,271      LLC-loads                                                   
+   208.437733974          1,854,393      LLC-load-misses           #    9.87% of all LL-cache accesses
+   209.438036261         19,002,351      LLC-loads                                                   
+   209.438036261          2,489,687      LLC-load-misses           #   13.10% of all LL-cache accesses
+   210.438737375         19,246,975      LLC-loads                                                   
+   210.438737375          2,476,728      LLC-load-misses           #   12.87% of all LL-cache accesses
+   211.439958064         16,600,685      LLC-loads                                                   
+   211.439958064          2,115,429      LLC-load-misses           #   12.74% of all LL-cache accesses
+   212.440536843         17,458,822      LLC-loads                                                   
+   212.440536843          2,132,818      LLC-load-misses           #   12.22% of all LL-cache accesses
+   213.441717863         16,087,796      LLC-loads                                                   
+   213.441717863          1,945,132      LLC-load-misses           #   12.09% of all LL-cache accesses
+   214.442906792         13,334,725      LLC-loads                                                   
+   214.442906792          1,524,786      LLC-load-misses           #   11.43% of all LL-cache accesses
+   215.444113433         14,876,021      LLC-loads                                                   
+   215.444113433          1,674,518      LLC-load-misses           #   11.26% of all LL-cache accesses
+   216.445353022         16,181,333      LLC-loads                                                   
+   216.445353022          1,733,163      LLC-load-misses           #   10.71% of all LL-cache accesses
+   217.446575960         15,198,140      LLC-loads                                                   
+   217.446575960          1,724,099      LLC-load-misses           #   11.34% of all LL-cache accesses
+   218.447898629         13,849,519      LLC-loads                                                   
+   218.447898629          1,495,797      LLC-load-misses           #   10.80% of all LL-cache accesses
+   219.449226598         14,554,002      LLC-loads                                                   
+   219.449226598          1,802,800      LLC-load-misses           #   12.39% of all LL-cache accesses
+   220.450433383         17,509,618      LLC-loads                                                   
+   220.450433383          2,355,510      LLC-load-misses           #   13.45% of all LL-cache accesses
+   221.451649026         17,723,046      LLC-loads                                                   
+   221.451649026          1,974,225      LLC-load-misses           #   11.14% of all LL-cache accesses
+   222.452577608         16,908,673      LLC-loads                                                   
+   222.452577608          1,878,702      LLC-load-misses           #   11.11% of all LL-cache accesses
+   223.453773188         12,453,193      LLC-loads                                                   
+   223.453773188          1,430,373      LLC-load-misses           #   11.49% of all LL-cache accesses
+   224.454945871         17,118,673      LLC-loads                                                   
+   224.454945871          1,955,365      LLC-load-misses           #   11.42% of all LL-cache accesses
+   225.456164786         14,280,063      LLC-loads                                                   
+   225.456164786          1,565,889      LLC-load-misses           #   10.97% of all LL-cache accesses
+#           time             counts unit events
+   226.456559832         11,944,495      LLC-loads                                                   
+   226.456559832          1,379,496      LLC-load-misses           #   11.55% of all LL-cache accesses
+   227.457779708         13,229,526      LLC-loads                                                   
+   227.457779708          1,859,542      LLC-load-misses           #   14.06% of all LL-cache accesses
+   228.458193597         15,983,793      LLC-loads                                                   
+   228.458193597          2,150,289      LLC-load-misses           #   13.45% of all LL-cache accesses
+   229.459433515         14,929,354      LLC-loads                                                   
+   229.459433515          2,007,646      LLC-load-misses           #   13.45% of all LL-cache accesses
+   230.460557706         14,502,870      LLC-loads                                                   
+   230.460557706          1,905,667      LLC-load-misses           #   13.14% of all LL-cache accesses
+   231.461782634         17,114,356      LLC-loads                                                   
+   231.461782634          2,253,858      LLC-load-misses           #   13.17% of all LL-cache accesses
+   232.463057216         15,406,931      LLC-loads                                                   
+   232.463057216          2,036,294      LLC-load-misses           #   13.22% of all LL-cache accesses
+   233.464319762         15,611,529      LLC-loads                                                   
+   233.464319762          2,057,337      LLC-load-misses           #   13.18% of all LL-cache accesses
+   234.464533763         17,003,573      LLC-loads                                                   
+   234.464533763          2,049,938      LLC-load-misses           #   12.06% of all LL-cache accesses
+   235.465719833         15,545,558      LLC-loads                                                   
+   235.465719833          1,958,201      LLC-load-misses           #   12.60% of all LL-cache accesses
+   236.466949480         16,059,157      LLC-loads                                                   
+   236.466949480          1,978,014      LLC-load-misses           #   12.32% of all LL-cache accesses
+   237.468141999         15,654,046      LLC-loads                                                   
+   237.468141999          2,046,932      LLC-load-misses           #   13.08% of all LL-cache accesses
+   238.468547143         16,936,670      LLC-loads                                                   
+   238.468547143          2,339,668      LLC-load-misses           #   13.81% of all LL-cache accesses
+   239.470219677         15,737,815      LLC-loads                                                   
+   239.470219677          2,124,296      LLC-load-misses           #   13.50% of all LL-cache accesses
+   240.471469191         14,598,257      LLC-loads                                                   
+   240.471469191          1,983,175      LLC-load-misses           #   13.59% of all LL-cache accesses
+   241.472547180         14,918,986      LLC-loads                                                   
+   241.472547180          2,043,059      LLC-load-misses           #   13.69% of all LL-cache accesses
+   242.473760965         15,002,176      LLC-loads                                                   
+   242.473760965          1,969,640      LLC-load-misses           #   13.13% of all LL-cache accesses
+   243.475033667         13,857,095      LLC-loads                                                   
+   243.475033667          1,863,085      LLC-load-misses           #   13.44% of all LL-cache accesses
+   244.476297793         13,973,884      LLC-loads                                                   
+   244.476297793          1,876,064      LLC-load-misses           #   13.43% of all LL-cache accesses
+   245.477593121         14,331,133      LLC-loads                                                   
+   245.477593121          1,969,840      LLC-load-misses           #   13.75% of all LL-cache accesses
+   246.478867101         13,781,510      LLC-loads                                                   
+   246.478867101          1,859,554      LLC-load-misses           #   13.49% of all LL-cache accesses
+   247.480119005         11,405,640      LLC-loads                                                   
+   247.480119005          1,353,564      LLC-load-misses           #   11.87% of all LL-cache accesses
+   248.480540689         15,585,204      LLC-loads                                                   
+   248.480540689          1,838,037      LLC-load-misses           #   11.79% of all LL-cache accesses
+   249.481788341         15,176,712      LLC-loads                                                   
+   249.481788341          1,626,806      LLC-load-misses           #   10.72% of all LL-cache accesses
+   250.483039836         13,827,370      LLC-loads                                                   
+   250.483039836          1,479,692      LLC-load-misses           #   10.70% of all LL-cache accesses
+#           time             counts unit events
+   251.483268752         15,955,268      LLC-loads                                                   
+   251.483268752          1,717,182      LLC-load-misses           #   10.76% of all LL-cache accesses
+   252.484531785         20,919,565      LLC-loads                                                   
+   252.484531785          2,257,872      LLC-load-misses           #   10.79% of all LL-cache accesses
+   253.485737208         20,343,683      LLC-loads                                                   
+   253.485737208          2,255,880      LLC-load-misses           #   11.09% of all LL-cache accesses
+   254.486948849         20,375,436      LLC-loads                                                   
+   254.486948849          2,246,186      LLC-load-misses           #   11.02% of all LL-cache accesses
+   255.488113567         18,853,359      LLC-loads                                                   
+   255.488113567          2,152,078      LLC-load-misses           #   11.41% of all LL-cache accesses
+   256.489336111         18,320,384      LLC-loads                                                   
+   256.489336111          2,139,191      LLC-load-misses           #   11.68% of all LL-cache accesses
+   257.490498466         17,502,456      LLC-loads                                                   
+   257.490498466          2,167,106      LLC-load-misses           #   12.38% of all LL-cache accesses
+   258.491711184         17,098,889      LLC-loads                                                   
+   258.491711184          1,783,307      LLC-load-misses           #   10.43% of all LL-cache accesses
+   259.492963790         17,838,534      LLC-loads                                                   
+   259.492963790          1,768,855      LLC-load-misses           #    9.92% of all LL-cache accesses
+   260.494181175         17,782,626      LLC-loads                                                   
+   260.494181175          1,765,040      LLC-load-misses           #    9.93% of all LL-cache accesses
+   261.495382943         18,359,180      LLC-loads                                                   
+   261.495382943          1,886,598      LLC-load-misses           #   10.28% of all LL-cache accesses
+   262.496603488         19,693,057      LLC-loads                                                   
+   262.496603488          2,060,500      LLC-load-misses           #   10.46% of all LL-cache accesses
+   263.497824786         19,158,983      LLC-loads                                                   
+   263.497824786          2,018,551      LLC-load-misses           #   10.54% of all LL-cache accesses
+   264.499006538         20,603,180      LLC-loads                                                   
+   264.499006538          2,215,254      LLC-load-misses           #   10.75% of all LL-cache accesses
+   265.500233709         19,457,250      LLC-loads                                                   
+   265.500233709          2,222,752      LLC-load-misses           #   11.42% of all LL-cache accesses
+   266.500538270         16,029,244      LLC-loads                                                   
+   266.500538270          1,876,738      LLC-load-misses           #   11.71% of all LL-cache accesses
+   267.501740262         17,729,639      LLC-loads                                                   
+   267.501740262          2,239,775      LLC-load-misses           #   12.63% of all LL-cache accesses
+   268.501935139         17,802,359      LLC-loads                                                   
+   268.501935139          2,189,300      LLC-load-misses           #   12.30% of all LL-cache accesses
+   269.503131747         17,834,646      LLC-loads                                                   
+   269.503131747          2,259,876      LLC-load-misses           #   12.67% of all LL-cache accesses
+   270.504311841         17,674,003      LLC-loads                                                   
+   270.504311841          1,991,986      LLC-load-misses           #   11.27% of all LL-cache accesses
+   271.504548872         18,072,527      LLC-loads                                                   
+   271.504548872          2,127,367      LLC-load-misses           #   11.77% of all LL-cache accesses
+   272.505731930         19,466,122      LLC-loads                                                   
+   272.505731930          2,209,931      LLC-load-misses           #   11.35% of all LL-cache accesses
+   273.505992965         20,634,512      LLC-loads                                                   
+   273.505992965          2,274,454      LLC-load-misses           #   11.02% of all LL-cache accesses
+   274.506201316         19,046,335      LLC-loads                                                   
+   274.506201316          1,960,535      LLC-load-misses           #   10.29% of all LL-cache accesses
+   275.506449654         20,712,737      LLC-loads                                                   
+   275.506449654          2,286,763      LLC-load-misses           #   11.04% of all LL-cache accesses
+#           time             counts unit events
+   276.507639822         19,623,455      LLC-loads                                                   
+   276.507639822          2,050,509      LLC-load-misses           #   10.45% of all LL-cache accesses
+   277.508566832         21,286,426      LLC-loads                                                   
+   277.508566832          2,228,567      LLC-load-misses           #   10.47% of all LL-cache accesses
+   278.509799026         22,031,967      LLC-loads                                                   
+   278.509799026          2,174,440      LLC-load-misses           #    9.87% of all LL-cache accesses
+   279.510960650         21,137,704      LLC-loads                                                   
+   279.510960650          2,281,122      LLC-load-misses           #   10.79% of all LL-cache accesses
+   280.511333039         20,082,054      LLC-loads                                                   
+   280.511333039          2,238,909      LLC-load-misses           #   11.15% of all LL-cache accesses
+   281.512530079         20,605,805      LLC-loads                                                   
+   281.512530079          2,374,101      LLC-load-misses           #   11.52% of all LL-cache accesses
+   282.513718022         21,000,765      LLC-loads                                                   
+   282.513718022          1,575,418      LLC-load-misses           #    7.50% of all LL-cache accesses
+   283.514937484         19,101,716      LLC-loads                                                   
+   283.514937484          1,520,614      LLC-load-misses           #    7.96% of all LL-cache accesses
+   284.516133228         16,333,487      LLC-loads                                                   
+   284.516133228          1,597,660      LLC-load-misses           #    9.78% of all LL-cache accesses
+   285.517328621         17,856,517      LLC-loads                                                   
+   285.517328621          1,713,338      LLC-load-misses           #    9.60% of all LL-cache accesses
+   286.518524697         17,965,013      LLC-loads                                                   
+   286.518524697          1,663,404      LLC-load-misses           #    9.26% of all LL-cache accesses
+   287.519717607         18,266,143      LLC-loads                                                   
+   287.519717607          1,688,215      LLC-load-misses           #    9.24% of all LL-cache accesses
+   288.520917087         18,083,741      LLC-loads                                                   
+   288.520917087          1,680,079      LLC-load-misses           #    9.29% of all LL-cache accesses
+   289.521641005         17,659,787      LLC-loads                                                   
+   289.521641005          1,579,601      LLC-load-misses           #    8.94% of all LL-cache accesses
+   290.522091936         14,253,259      LLC-loads                                                   
+   290.522091936          1,156,148      LLC-load-misses           #    8.11% of all LL-cache accesses
+   291.522647640         12,175,170      LLC-loads                                                   
+   291.522647640            963,155      LLC-load-misses           #    7.91% of all LL-cache accesses
+   292.523917289         14,536,611      LLC-loads                                                   
+   292.523917289          1,166,149      LLC-load-misses           #    8.02% of all LL-cache accesses
+   293.525129741         15,595,613      LLC-loads                                                   
+   293.525129741          1,258,526      LLC-load-misses           #    8.07% of all LL-cache accesses
+   294.526333880          9,719,742      LLC-loads                                                   
+   294.526333880            815,496      LLC-load-misses           #    8.39% of all LL-cache accesses
+   295.526770761         15,235,171      LLC-loads                                                   
+   295.526770761          1,304,815      LLC-load-misses           #    8.56% of all LL-cache accesses
+   296.527918298         18,456,291      LLC-loads                                                   
+   296.527918298          1,686,766      LLC-load-misses           #    9.14% of all LL-cache accesses
+   297.528571076         18,376,502      LLC-loads                                                   
+   297.528571076          1,701,227      LLC-load-misses           #    9.26% of all LL-cache accesses
+   298.529797748         17,397,146      LLC-loads                                                   
+   298.529797748          1,880,182      LLC-load-misses           #   10.81% of all LL-cache accesses
+   299.530994411         17,101,725      LLC-loads                                                   
+   299.530994411          1,652,556      LLC-load-misses           #    9.66% of all LL-cache accesses
+   300.532187932         17,205,852      LLC-loads                                                   
+   300.532187932          1,551,094      LLC-load-misses           #    9.01% of all LL-cache accesses
+#           time             counts unit events
+   301.532574529         17,534,482      LLC-loads                                                   
+   301.532574529          1,545,943      LLC-load-misses           #    8.82% of all LL-cache accesses
+   302.533831034         14,228,455      LLC-loads                                                   
+   302.533831034          1,113,617      LLC-load-misses           #    7.83% of all LL-cache accesses
+   303.535064930         12,862,621      LLC-loads                                                   
+   303.535064930            990,803      LLC-load-misses           #    7.70% of all LL-cache accesses
+   304.536290091         12,999,158      LLC-loads                                                   
+   304.536290091          1,060,785      LLC-load-misses           #    8.16% of all LL-cache accesses
+   305.536577645         16,554,003      LLC-loads                                                   
+   305.536577645          1,424,954      LLC-load-misses           #    8.61% of all LL-cache accesses
+   306.536807266         18,241,599      LLC-loads                                                   
+   306.536807266          1,542,751      LLC-load-misses           #    8.46% of all LL-cache accesses
+   307.537972992         18,144,417      LLC-loads                                                   
+   307.537972992          1,594,448      LLC-load-misses           #    8.79% of all LL-cache accesses
+   308.539155246         17,884,664      LLC-loads                                                   
+   308.539155246          1,504,554      LLC-load-misses           #    8.41% of all LL-cache accesses
+   309.540364926         17,007,249      LLC-loads                                                   
+   309.540364926          1,538,991      LLC-load-misses           #    9.05% of all LL-cache accesses
+   310.541620303         17,379,321      LLC-loads                                                   
+   310.541620303          1,442,829      LLC-load-misses           #    8.30% of all LL-cache accesses
+   311.542868894         15,093,663      LLC-loads                                                   
+   311.542868894          1,336,345      LLC-load-misses           #    8.85% of all LL-cache accesses
+   312.544080040         15,443,066      LLC-loads                                                   
+   312.544080040          1,280,632      LLC-load-misses           #    8.29% of all LL-cache accesses
+   313.545310226         14,229,780      LLC-loads                                                   
+   313.545310226          1,171,325      LLC-load-misses           #    8.23% of all LL-cache accesses
+   314.546475745         18,435,170      LLC-loads                                                   
+   314.546475745          1,535,669      LLC-load-misses           #    8.33% of all LL-cache accesses
+   315.546913419         19,514,894      LLC-loads                                                   
+   315.546913419          1,490,467      LLC-load-misses           #    7.64% of all LL-cache accesses
+   316.601008295         18,917,909      LLC-loads                                                   
+   316.601008295          1,749,048      LLC-load-misses           #    9.25% of all LL-cache accesses
+   317.602257279         14,539,131      LLC-loads                                                   
+   317.602257279          1,305,561      LLC-load-misses           #    8.98% of all LL-cache accesses
+   318.603497288         17,821,938      LLC-loads                                                   
+   318.603497288          1,525,400      LLC-load-misses           #    8.56% of all LL-cache accesses
+   319.604540802         19,511,765      LLC-loads                                                   
+   319.604540802          1,571,144      LLC-load-misses           #    8.05% of all LL-cache accesses
+   320.605706037         19,837,595      LLC-loads                                                   
+   320.605706037          1,512,875      LLC-load-misses           #    7.63% of all LL-cache accesses
+   321.605908513         17,388,322      LLC-loads                                                   
+   321.605908513          1,334,192      LLC-load-misses           #    7.67% of all LL-cache accesses
+   322.607151680         19,849,018      LLC-loads                                                   
+   322.607151680          1,579,372      LLC-load-misses           #    7.96% of all LL-cache accesses
+   323.608379124         20,290,675      LLC-loads                                                   
+   323.608379124          1,662,130      LLC-load-misses           #    8.19% of all LL-cache accesses
+   324.608569780         19,269,603      LLC-loads                                                   
+   324.608569780          1,641,448      LLC-load-misses           #    8.52% of all LL-cache accesses
+   325.609755714         17,643,645      LLC-loads                                                   
+   325.609755714          1,759,584      LLC-load-misses           #    9.97% of all LL-cache accesses
+#           time             counts unit events
+   326.610918970         18,298,610      LLC-loads                                                   
+   326.610918970          1,426,347      LLC-load-misses           #    7.79% of all LL-cache accesses
+   327.611782738         18,264,675      LLC-loads                                                   
+   327.611782738          1,631,581      LLC-load-misses           #    8.93% of all LL-cache accesses
+   328.612573855         18,596,392      LLC-loads                                                   
+   328.612573855          1,725,180      LLC-load-misses           #    9.28% of all LL-cache accesses
+   329.613343030         18,961,727      LLC-loads                                                   
+   329.613343030          1,661,676      LLC-load-misses           #    8.76% of all LL-cache accesses
+   330.614514896         19,296,053      LLC-loads                                                   
+   330.614514896          1,633,645      LLC-load-misses           #    8.47% of all LL-cache accesses
+   331.615712188         18,036,619      LLC-loads                                                   
+   331.615712188          1,617,810      LLC-load-misses           #    8.97% of all LL-cache accesses
+   332.616946191         18,007,584      LLC-loads                                                   
+   332.616946191          1,648,198      LLC-load-misses           #    9.15% of all LL-cache accesses
+   333.618132419         18,645,341      LLC-loads                                                   
+   333.618132419          1,852,480      LLC-load-misses           #    9.94% of all LL-cache accesses
+   334.619304696         17,799,549      LLC-loads                                                   
+   334.619304696          1,656,908      LLC-load-misses           #    9.31% of all LL-cache accesses
+   335.620522032         18,097,368      LLC-loads                                                   
+   335.620522032          1,772,282      LLC-load-misses           #    9.79% of all LL-cache accesses
+   336.621771266         17,325,016      LLC-loads                                                   
+   336.621771266          1,634,573      LLC-load-misses           #    9.43% of all LL-cache accesses
+   337.621977401         14,949,599      LLC-loads                                                   
+   337.621977401          1,350,939      LLC-load-misses           #    9.04% of all LL-cache accesses
+   338.623181330         19,218,939      LLC-loads                                                   
+   338.623181330          1,563,143      LLC-load-misses           #    8.13% of all LL-cache accesses
+   339.624381438         18,425,529      LLC-loads                                                   
+   339.624381438          1,329,454      LLC-load-misses           #    7.22% of all LL-cache accesses
+   340.625620266         19,043,608      LLC-loads                                                   
+   340.625620266          1,425,274      LLC-load-misses           #    7.48% of all LL-cache accesses
+   341.626889928         18,183,593      LLC-loads                                                   
+   341.626889928          1,728,170      LLC-load-misses           #    9.50% of all LL-cache accesses
+   342.628121434         17,201,847      LLC-loads                                                   
+   342.628121434          1,585,399      LLC-load-misses           #    9.22% of all LL-cache accesses
+   343.629373320         17,935,456      LLC-loads                                                   
+   343.629373320          1,599,339      LLC-load-misses           #    8.92% of all LL-cache accesses
+   344.630602330         20,339,196      LLC-loads                                                   
+   344.630602330          1,463,108      LLC-load-misses           #    7.19% of all LL-cache accesses
+   345.631770723         17,824,836      LLC-loads                                                   
+   345.631770723          1,356,405      LLC-load-misses           #    7.61% of all LL-cache accesses
+   346.633007034         20,583,369      LLC-loads                                                   
+   346.633007034          1,664,312      LLC-load-misses           #    8.09% of all LL-cache accesses
+   347.634176230         19,387,731      LLC-loads                                                   
+   347.634176230          1,650,488      LLC-load-misses           #    8.51% of all LL-cache accesses
+   348.635406707         19,744,164      LLC-loads                                                   
+   348.635406707          1,673,433      LLC-load-misses           #    8.48% of all LL-cache accesses
+   349.636579677         19,374,157      LLC-loads                                                   
+   349.636579677          1,709,421      LLC-load-misses           #    8.82% of all LL-cache accesses
+   350.637006993         13,682,670      LLC-loads                                                   
+   350.637006993            951,355      LLC-load-misses           #    6.95% of all LL-cache accesses
+#           time             counts unit events
+   351.638270746         14,413,695      LLC-loads                                                   
+   351.638270746          1,029,426      LLC-load-misses           #    7.14% of all LL-cache accesses
+   352.639532526         14,049,795      LLC-loads                                                   
+   352.639532526          1,102,245      LLC-load-misses           #    7.85% of all LL-cache accesses
+   353.640738041         12,921,857      LLC-loads                                                   
+   353.640738041          1,119,020      LLC-load-misses           #    8.66% of all LL-cache accesses
+   354.642000141         13,653,033      LLC-loads                                                   
+   354.642000141          1,159,953      LLC-load-misses           #    8.50% of all LL-cache accesses
+   355.643233851         13,524,873      LLC-loads                                                   
+   355.643233851          1,184,226      LLC-load-misses           #    8.76% of all LL-cache accesses
+   356.644491581         11,764,699      LLC-loads                                                   
+   356.644491581          1,048,721      LLC-load-misses           #    8.91% of all LL-cache accesses
+   357.644762665         11,873,615      LLC-loads                                                   
+   357.644762665            996,648      LLC-load-misses           #    8.39% of all LL-cache accesses
+   358.646034520         12,208,546      LLC-loads                                                   
+   358.646034520          1,034,542      LLC-load-misses           #    8.47% of all LL-cache accesses
+   359.647273987         11,852,559      LLC-loads                                                   
+   359.647273987            978,227      LLC-load-misses           #    8.25% of all LL-cache accesses
+   360.647525994         14,382,296      LLC-loads                                                   
+   360.647525994          1,196,224      LLC-load-misses           #    8.32% of all LL-cache accesses
+   361.648537917         18,392,104      LLC-loads                                                   
+   361.648537917          1,526,333      LLC-load-misses           #    8.30% of all LL-cache accesses
+   362.688532854         18,682,500      LLC-loads                                                   
+   362.688532854          1,582,893      LLC-load-misses           #    8.47% of all LL-cache accesses
+   363.688739554         17,634,688      LLC-loads                                                   
+   363.688739554          1,487,465      LLC-load-misses           #    8.43% of all LL-cache accesses
+   364.689964095         18,961,099      LLC-loads                                                   
+   364.689964095          1,530,178      LLC-load-misses           #    8.07% of all LL-cache accesses
+   365.690178978         19,327,346      LLC-loads                                                   
+   365.690178978          1,600,612      LLC-load-misses           #    8.28% of all LL-cache accesses
+   366.690376582         16,340,942      LLC-loads                                                   
+   366.690376582          1,485,920      LLC-load-misses           #    9.09% of all LL-cache accesses
+   367.691605509         17,914,473      LLC-loads                                                   
+   367.691605509          1,562,788      LLC-load-misses           #    8.72% of all LL-cache accesses
+   368.692810573         18,139,574      LLC-loads                                                   
+   368.692810573          1,811,467      LLC-load-misses           #    9.99% of all LL-cache accesses
+   369.693971910         18,020,617      LLC-loads                                                   
+   369.693971910          1,648,567      LLC-load-misses           #    9.15% of all LL-cache accesses
+   370.695184438         17,810,320      LLC-loads                                                   
+   370.695184438          1,636,859      LLC-load-misses           #    9.19% of all LL-cache accesses
+   371.696398463         18,766,382      LLC-loads                                                   
+   371.696398463          1,601,419      LLC-load-misses           #    8.53% of all LL-cache accesses
+   372.697652525         18,372,823      LLC-loads                                                   
+   372.697652525          1,603,407      LLC-load-misses           #    8.73% of all LL-cache accesses
+   373.698870850         17,343,198      LLC-loads                                                   
+   373.698870850          1,486,338      LLC-load-misses           #    8.57% of all LL-cache accesses
+   374.700071780         15,869,964      LLC-loads                                                   
+   374.700071780          1,382,685      LLC-load-misses           #    8.71% of all LL-cache accesses
+   375.701316308         16,696,583      LLC-loads                                                   
+   375.701316308          1,407,456      LLC-load-misses           #    8.43% of all LL-cache accesses
+#           time             counts unit events
+   376.702552623         17,345,497      LLC-loads                                                   
+   376.702552623          1,551,196      LLC-load-misses           #    8.94% of all LL-cache accesses
+   377.703859670         16,561,571      LLC-loads                                                   
+   377.703859670          1,289,847      LLC-load-misses           #    7.79% of all LL-cache accesses
+   378.705114900         16,702,830      LLC-loads                                                   
+   378.705114900          1,372,083      LLC-load-misses           #    8.21% of all LL-cache accesses
+   379.706347353         16,381,077      LLC-loads                                                   
+   379.706347353          1,351,543      LLC-load-misses           #    8.25% of all LL-cache accesses
+   380.707591596         18,878,574      LLC-loads                                                   
+   380.707591596          1,570,924      LLC-load-misses           #    8.32% of all LL-cache accesses
+   381.708778124         19,984,793      LLC-loads                                                   
+   381.708778124          1,694,597      LLC-load-misses           #    8.48% of all LL-cache accesses
+   382.709999409         18,280,234      LLC-loads                                                   
+   382.709999409          1,488,691      LLC-load-misses           #    8.14% of all LL-cache accesses
+   383.711225816         18,529,804      LLC-loads                                                   
+   383.711225816          1,507,754      LLC-load-misses           #    8.14% of all LL-cache accesses
+   384.712414582         19,144,861      LLC-loads                                                   
+   384.712414582          1,595,622      LLC-load-misses           #    8.33% of all LL-cache accesses
+   385.713635115         14,228,444      LLC-loads                                                   
+   385.713635115          1,250,438      LLC-load-misses           #    8.79% of all LL-cache accesses
+   386.714912081         17,436,301      LLC-loads                                                   
+   386.714912081          1,375,917      LLC-load-misses           #    7.89% of all LL-cache accesses
+   387.716103025         17,814,935      LLC-loads                                                   
+   387.716103025          1,415,005      LLC-load-misses           #    7.94% of all LL-cache accesses
+   388.717330077         18,672,066      LLC-loads                                                   
+   388.717330077          1,505,854      LLC-load-misses           #    8.06% of all LL-cache accesses
+   389.718551438         18,555,669      LLC-loads                                                   
+   389.718551438          1,490,228      LLC-load-misses           #    8.03% of all LL-cache accesses
+   390.718802039         18,221,259      LLC-loads                                                   
+   390.718802039          1,477,897      LLC-load-misses           #    8.11% of all LL-cache accesses
+   391.720037604         17,826,544      LLC-loads                                                   
+   391.720037604          1,433,700      LLC-load-misses           #    8.04% of all LL-cache accesses
+   392.721264625         19,252,524      LLC-loads                                                   
+   392.721264625          1,604,227      LLC-load-misses           #    8.33% of all LL-cache accesses
+   393.722475046         18,794,566      LLC-loads                                                   
+   393.722475046          1,561,406      LLC-load-misses           #    8.31% of all LL-cache accesses
+   394.723693383         18,380,768      LLC-loads                                                   
+   394.723693383          1,660,755      LLC-load-misses           #    9.04% of all LL-cache accesses
+   395.724866393         18,058,763      LLC-loads                                                   
+   395.724866393          1,562,203      LLC-load-misses           #    8.65% of all LL-cache accesses
+   396.726053116         20,171,684      LLC-loads                                                   
+   396.726053116          1,650,291      LLC-load-misses           #    8.18% of all LL-cache accesses
+   397.727262571         19,572,902      LLC-loads                                                   
+   397.727262571          1,649,416      LLC-load-misses           #    8.43% of all LL-cache accesses
+   398.728461036         19,251,214      LLC-loads                                                   
+   398.728461036          1,620,201      LLC-load-misses           #    8.42% of all LL-cache accesses
+   399.729675429         19,429,128      LLC-loads                                                   
+   399.729675429          1,618,803      LLC-load-misses           #    8.33% of all LL-cache accesses
+   400.729927476         17,612,767      LLC-loads                                                   
+   400.729927476          1,365,513      LLC-load-misses           #    7.75% of all LL-cache accesses
+#           time             counts unit events
+   401.730188852         16,995,491      LLC-loads                                                   
+   401.730188852          1,296,402      LLC-load-misses           #    7.63% of all LL-cache accesses
+   402.730528527         18,863,610      LLC-loads                                                   
+   402.730528527          1,627,928      LLC-load-misses           #    8.63% of all LL-cache accesses
+   403.731774941         19,988,064      LLC-loads                                                   
+   403.731774941          1,672,370      LLC-load-misses           #    8.37% of all LL-cache accesses
+   404.733020386         12,865,580      LLC-loads                                                   
+   404.733020386          1,042,258      LLC-load-misses           #    8.10% of all LL-cache accesses
+   405.734282314         14,259,691      LLC-loads                                                   
+   405.734282314          1,134,950      LLC-load-misses           #    7.96% of all LL-cache accesses
+   406.735496349         12,860,524      LLC-loads                                                   
+   406.735496349          1,024,765      LLC-load-misses           #    7.97% of all LL-cache accesses
+   407.736750505         13,337,044      LLC-loads                                                   
+   407.736750505          1,088,134      LLC-load-misses           #    8.16% of all LL-cache accesses
+   408.737009063         15,653,898      LLC-loads                                                   
+   408.737009063          1,270,576      LLC-load-misses           #    8.12% of all LL-cache accesses
+   409.738221457         16,944,619      LLC-loads                                                   
+   409.738221457          1,399,482      LLC-load-misses           #    8.26% of all LL-cache accesses
+   410.738591339         16,984,387      LLC-loads                                                   
+   410.738591339          1,404,083      LLC-load-misses           #    8.27% of all LL-cache accesses
+   411.739838814         13,617,784      LLC-loads                                                   
+   411.739838814          1,088,905      LLC-load-misses           #    8.00% of all LL-cache accesses
+   412.741058843         16,251,664      LLC-loads                                                   
+   412.741058843          1,374,749      LLC-load-misses           #    8.46% of all LL-cache accesses
+   413.742294915         16,863,853      LLC-loads                                                   
+   413.742294915          1,431,057      LLC-load-misses           #    8.49% of all LL-cache accesses
+   414.743515579         16,408,551      LLC-loads                                                   
+   414.743515579          1,391,038      LLC-load-misses           #    8.48% of all LL-cache accesses
+   415.744557760         15,913,833      LLC-loads                                                   
+   415.744557760          1,388,637      LLC-load-misses           #    8.73% of all LL-cache accesses
+   416.745783436         16,573,531      LLC-loads                                                   
+   416.745783436          1,352,108      LLC-load-misses           #    8.16% of all LL-cache accesses
+   417.746112705         15,893,001      LLC-loads                                                   
+   417.746112705          1,256,202      LLC-load-misses           #    7.90% of all LL-cache accesses
+   418.747334618         18,348,488      LLC-loads                                                   
+   418.747334618          1,471,004      LLC-load-misses           #    8.02% of all LL-cache accesses
+   419.748564798         19,103,047      LLC-loads                                                   
+   419.748564798          1,564,845      LLC-load-misses           #    8.19% of all LL-cache accesses
+   420.748805462         19,105,767      LLC-loads                                                   
+   420.748805462          1,589,430      LLC-load-misses           #    8.32% of all LL-cache accesses
+   421.749990910         20,391,665      LLC-loads                                                   
+   421.749990910          1,863,225      LLC-load-misses           #    9.14% of all LL-cache accesses
+   422.751177627         19,315,529      LLC-loads                                                   
+   422.751177627          1,613,196      LLC-load-misses           #    8.35% of all LL-cache accesses
+   423.752372168         20,299,301      LLC-loads                                                   
+   423.752372168          1,725,263      LLC-load-misses           #    8.50% of all LL-cache accesses
+   424.753579228         20,291,017      LLC-loads                                                   
+   424.753579228          1,760,431      LLC-load-misses           #    8.68% of all LL-cache accesses
+   425.754770593         17,635,576      LLC-loads                                                   
+   425.754770593          1,610,194      LLC-load-misses           #    9.13% of all LL-cache accesses
+#           time             counts unit events
+   426.755975755         19,192,413      LLC-loads                                                   
+   426.755975755          1,711,581      LLC-load-misses           #    8.92% of all LL-cache accesses
+   427.757164781         18,638,703      LLC-loads                                                   
+   427.757164781          1,719,387      LLC-load-misses           #    9.22% of all LL-cache accesses
+   428.758331613         19,416,314      LLC-loads                                                   
+   428.758331613          1,765,820      LLC-load-misses           #    9.09% of all LL-cache accesses
+   429.759517124         19,676,326      LLC-loads                                                   
+   429.759517124          1,777,159      LLC-load-misses           #    9.03% of all LL-cache accesses
+   430.760699694         19,962,166      LLC-loads                                                   
+   430.760699694          1,646,736      LLC-load-misses           #    8.25% of all LL-cache accesses
+   431.761909304         18,245,083      LLC-loads                                                   
+   431.761909304          1,557,153      LLC-load-misses           #    8.53% of all LL-cache accesses
+   432.763137801         18,915,037      LLC-loads                                                   
+   432.763137801          1,680,714      LLC-load-misses           #    8.89% of all LL-cache accesses
+   433.764380480         16,973,913      LLC-loads                                                   
+   433.764380480          1,608,117      LLC-load-misses           #    9.47% of all LL-cache accesses
+   434.765601931         17,481,629      LLC-loads                                                   
+   434.765601931          1,461,968      LLC-load-misses           #    8.36% of all LL-cache accesses
+   435.766787071         15,593,795      LLC-loads                                                   
+   435.766787071          1,294,370      LLC-load-misses           #    8.30% of all LL-cache accesses
+   436.767978111         14,540,456      LLC-loads                                                   
+   436.767978111          1,249,011      LLC-load-misses           #    8.59% of all LL-cache accesses
+   437.768538992         17,334,564      LLC-loads                                                   
+   437.768538992          1,612,341      LLC-load-misses           #    9.30% of all LL-cache accesses
+   438.769750134         17,409,636      LLC-loads                                                   
+   438.769750134          1,573,794      LLC-load-misses           #    9.04% of all LL-cache accesses
+   439.770985515         16,699,798      LLC-loads                                                   
+   439.770985515          1,496,775      LLC-load-misses           #    8.96% of all LL-cache accesses
+   440.772160480         18,573,717      LLC-loads                                                   
+   440.772160480          1,634,673      LLC-load-misses           #    8.80% of all LL-cache accesses
+   441.773355432         17,143,995      LLC-loads                                                   
+   441.773355432          1,569,290      LLC-load-misses           #    9.15% of all LL-cache accesses
+   442.774572197         17,359,680      LLC-loads                                                   
+   442.774572197          1,368,346      LLC-load-misses           #    7.88% of all LL-cache accesses
+   443.775783282         16,704,703      LLC-loads                                                   
+   443.775783282          1,327,558      LLC-load-misses           #    7.95% of all LL-cache accesses
+   444.776543589         17,567,272      LLC-loads                                                   
+   444.776543589          1,538,371      LLC-load-misses           #    8.76% of all LL-cache accesses
+   445.777760511         16,918,371      LLC-loads                                                   
+   445.777760511          1,492,760      LLC-load-misses           #    8.82% of all LL-cache accesses
+   446.778010184         18,986,873      LLC-loads                                                   
+   446.778010184          1,737,083      LLC-load-misses           #    9.15% of all LL-cache accesses
+   447.779182666         17,708,332      LLC-loads                                                   
+   447.779182666          1,430,470      LLC-load-misses           #    8.08% of all LL-cache accesses
+   448.780364890         18,251,906      LLC-loads                                                   
+   448.780364890          1,545,243      LLC-load-misses           #    8.47% of all LL-cache accesses
+   449.781565520         18,447,332      LLC-loads                                                   
+   449.781565520          1,612,121      LLC-load-misses           #    8.74% of all LL-cache accesses
+   450.782717501         18,850,381      LLC-loads                                                   
+   450.782717501          1,685,769      LLC-load-misses           #    8.94% of all LL-cache accesses
+#           time             counts unit events
+   451.783904185         19,644,624      LLC-loads                                                   
+   451.783904185          1,697,056      LLC-load-misses           #    8.64% of all LL-cache accesses
+   452.785099184         19,252,382      LLC-loads                                                   
+   452.785099184          1,739,915      LLC-load-misses           #    9.04% of all LL-cache accesses
+   453.786273064         18,903,958      LLC-loads                                                   
+   453.786273064          1,705,141      LLC-load-misses           #    9.02% of all LL-cache accesses
+   454.787511995         18,687,014      LLC-loads                                                   
+   454.787511995          1,797,309      LLC-load-misses           #    9.62% of all LL-cache accesses
+   455.788698153         13,754,017      LLC-loads                                                   
+   455.788698153          1,276,103      LLC-load-misses           #    9.28% of all LL-cache accesses
+   456.789967661         15,169,864      LLC-loads                                                   
+   456.789967661          1,264,673      LLC-load-misses           #    8.34% of all LL-cache accesses
+   457.791246231         14,401,274      LLC-loads                                                   
+   457.791246231          1,111,006      LLC-load-misses           #    7.71% of all LL-cache accesses
+   458.792482837         15,984,038      LLC-loads                                                   
+   458.792482837          1,250,084      LLC-load-misses           #    7.82% of all LL-cache accesses
+   459.793785666         16,916,018      LLC-loads                                                   
+   459.793785666          1,324,916      LLC-load-misses           #    7.83% of all LL-cache accesses
+   460.794062396         16,827,221      LLC-loads                                                   
+   460.794062396          1,313,872      LLC-load-misses           #    7.81% of all LL-cache accesses
+   461.794329982         17,930,967      LLC-loads                                                   
+   461.794329982          1,413,238      LLC-load-misses           #    7.88% of all LL-cache accesses
+   462.795538887         17,434,184      LLC-loads                                                   
+   462.795538887          1,402,107      LLC-load-misses           #    8.04% of all LL-cache accesses
+   463.796539647         17,467,766      LLC-loads                                                   
+   463.796539647          1,547,761      LLC-load-misses           #    8.86% of all LL-cache accesses
+   464.797740362         17,006,560      LLC-loads                                                   
+   464.797740362          1,326,757      LLC-load-misses           #    7.80% of all LL-cache accesses
+   465.798997838         17,795,615      LLC-loads                                                   
+   465.798997838          1,447,335      LLC-load-misses           #    8.13% of all LL-cache accesses
+   466.800188023         17,998,900      LLC-loads                                                   
+   466.800188023          1,576,556      LLC-load-misses           #    8.76% of all LL-cache accesses
+   467.800567005         19,707,769      LLC-loads                                                   
+   467.800567005          1,649,881      LLC-load-misses           #    8.37% of all LL-cache accesses
+   468.801765443         18,825,217      LLC-loads                                                   
+   468.801765443          1,528,434      LLC-load-misses           #    8.12% of all LL-cache accesses
+   469.802978721         19,320,731      LLC-loads                                                   
+   469.802978721          1,570,707      LLC-load-misses           #    8.13% of all LL-cache accesses
+   470.804156494         18,646,496      LLC-loads                                                   
+   470.804156494          1,529,030      LLC-load-misses           #    8.20% of all LL-cache accesses
+   471.805355283         18,187,133      LLC-loads                                                   
+   471.805355283          1,711,582      LLC-load-misses           #    9.41% of all LL-cache accesses
+   472.805638295         17,868,282      LLC-loads                                                   
+   472.805638295          1,531,830      LLC-load-misses           #    8.57% of all LL-cache accesses
+   473.806854967         16,125,030      LLC-loads                                                   
+   473.806854967          1,465,890      LLC-load-misses           #    9.09% of all LL-cache accesses
+   474.808107417         17,416,303      LLC-loads                                                   
+   474.808107417          1,374,137      LLC-load-misses           #    7.89% of all LL-cache accesses
+   475.808559149         15,395,157      LLC-loads                                                   
+   475.808559149          1,230,346      LLC-load-misses           #    7.99% of all LL-cache accesses
+#           time             counts unit events
+   476.809837976         16,221,930      LLC-loads                                                   
+   476.809837976          1,309,749      LLC-load-misses           #    8.07% of all LL-cache accesses
+   477.811186050         15,195,455      LLC-loads                                                   
+   477.811186050          1,186,602      LLC-load-misses           #    7.81% of all LL-cache accesses
+   478.812396316         12,783,583      LLC-loads                                                   
+   478.812396316          1,010,068      LLC-load-misses           #    7.90% of all LL-cache accesses
+   479.813654709         12,582,599      LLC-loads                                                   
+   479.813654709            956,101      LLC-load-misses           #    7.60% of all LL-cache accesses
+   480.814900829         12,821,975      LLC-loads                                                   
+   480.814900829          1,012,091      LLC-load-misses           #    7.89% of all LL-cache accesses
+   481.816143320         13,041,371      LLC-loads                                                   
+   481.816143320          1,105,300      LLC-load-misses           #    8.48% of all LL-cache accesses
+   482.816541617         13,558,031      LLC-loads                                                   
+   482.816541617          1,049,156      LLC-load-misses           #    7.74% of all LL-cache accesses
+   483.817738410         16,261,951      LLC-loads                                                   
+   483.817738410          1,333,613      LLC-load-misses           #    8.20% of all LL-cache accesses
+   484.818916946         16,775,705      LLC-loads                                                   
+   484.818916946          1,457,698      LLC-load-misses           #    8.69% of all LL-cache accesses
+   485.820121728         17,064,314      LLC-loads                                                   
+   485.820121728          1,487,886      LLC-load-misses           #    8.72% of all LL-cache accesses
+   486.820537852         15,489,366      LLC-loads                                                   
+   486.820537852          1,337,279      LLC-load-misses           #    8.63% of all LL-cache accesses
+   487.821734494         17,566,780      LLC-loads                                                   
+   487.821734494          1,463,091      LLC-load-misses           #    8.33% of all LL-cache accesses
+   488.822974522         17,917,732      LLC-loads                                                   
+   488.822974522          1,616,020      LLC-load-misses           #    9.02% of all LL-cache accesses
+   489.824202280         20,031,038      LLC-loads                                                   
+   489.824202280          1,702,728      LLC-load-misses           #    8.50% of all LL-cache accesses
+   490.825370975         20,673,875      LLC-loads                                                   
+   490.825370975          1,832,604      LLC-load-misses           #    8.86% of all LL-cache accesses
+   491.826560948         20,105,498      LLC-loads                                                   
+   491.826560948          1,697,472      LLC-load-misses           #    8.44% of all LL-cache accesses
+   492.827760460         20,433,068      LLC-loads                                                   
+   492.827760460          1,724,767      LLC-load-misses           #    8.44% of all LL-cache accesses
+   493.828960475         20,294,452      LLC-loads                                                   
+   493.828960475          1,708,368      LLC-load-misses           #    8.42% of all LL-cache accesses
+   494.830198397         19,596,316      LLC-loads                                                   
+   494.830198397          1,632,248      LLC-load-misses           #    8.33% of all LL-cache accesses
+   495.831360806         17,382,211      LLC-loads                                                   
+   495.831360806          1,521,402      LLC-load-misses           #    8.75% of all LL-cache accesses
+   496.832585476         19,935,215      LLC-loads                                                   
+   496.832585476          1,780,546      LLC-load-misses           #    8.93% of all LL-cache accesses
+   497.833801996         20,533,420      LLC-loads                                                   
+   497.833801996          1,525,425      LLC-load-misses           #    7.43% of all LL-cache accesses
+   498.834995664         21,000,996      LLC-loads                                                   
+   498.834995664          1,822,938      LLC-load-misses           #    8.68% of all LL-cache accesses
+   499.836159362         20,293,951      LLC-loads                                                   
+   499.836159362          1,809,377      LLC-load-misses           #    8.92% of all LL-cache accesses
+   500.837316189         18,256,446      LLC-loads                                                   
+   500.837316189          1,515,408      LLC-load-misses           #    8.30% of all LL-cache accesses
+#           time             counts unit events
+   501.838502886         18,168,984      LLC-loads                                                   
+   501.838502886          1,575,819      LLC-load-misses           #    8.67% of all LL-cache accesses
+   502.839699068         18,565,174      LLC-loads                                                   
+   502.839699068          1,548,929      LLC-load-misses           #    8.34% of all LL-cache accesses
+   503.840864004         19,944,648      LLC-loads                                                   
+   503.840864004          1,530,815      LLC-load-misses           #    7.68% of all LL-cache accesses
+   504.842043836         19,044,497      LLC-loads                                                   
+   504.842043836          1,517,460      LLC-load-misses           #    7.97% of all LL-cache accesses
+   505.843207725         16,157,445      LLC-loads                                                   
+   505.843207725          1,363,413      LLC-load-misses           #    8.44% of all LL-cache accesses
+   506.844475690         18,516,258      LLC-loads                                                   
+   506.844475690          1,512,569      LLC-load-misses           #    8.17% of all LL-cache accesses
+   507.845706888         19,892,735      LLC-loads                                                   
+   507.845706888          1,695,690      LLC-load-misses           #    8.52% of all LL-cache accesses
+   508.846859880         21,425,313      LLC-loads                                                   
+   508.846859880          1,613,224      LLC-load-misses           #    7.53% of all LL-cache accesses
+   509.848045110         21,196,140      LLC-loads                                                   
+   509.848045110          1,601,735      LLC-load-misses           #    7.56% of all LL-cache accesses
+   510.849210037         20,472,522      LLC-loads                                                   
+   510.849210037          1,849,864      LLC-load-misses           #    9.04% of all LL-cache accesses
+   511.850361106         18,610,624      LLC-loads                                                   
+   511.850361106          1,653,919      LLC-load-misses           #    8.89% of all LL-cache accesses
+   512.851525149         18,213,228      LLC-loads                                                   
+   512.851525149          1,568,799      LLC-load-misses           #    8.61% of all LL-cache accesses
+   513.852690301         17,319,940      LLC-loads                                                   
+   513.852690301          1,606,809      LLC-load-misses           #    9.28% of all LL-cache accesses
+   514.853892631         19,945,691      LLC-loads                                                   
+   514.853892631          1,727,208      LLC-load-misses           #    8.66% of all LL-cache accesses
+   515.855085670         20,270,627      LLC-loads                                                   
+   515.855085670          1,563,203      LLC-load-misses           #    7.71% of all LL-cache accesses
+   516.856298943         19,485,799      LLC-loads                                                   
+   516.856298943          1,717,291      LLC-load-misses           #    8.81% of all LL-cache accesses
+   517.857480123         18,086,095      LLC-loads                                                   
+   517.857480123          1,595,529      LLC-load-misses           #    8.82% of all LL-cache accesses
+   518.858671530         18,547,500      LLC-loads                                                   
+   518.858671530          1,649,851      LLC-load-misses           #    8.90% of all LL-cache accesses
+   519.859854457         16,956,072      LLC-loads                                                   
+   519.859854457          1,368,888      LLC-load-misses           #    8.07% of all LL-cache accesses
+   520.861083820         16,795,876      LLC-loads                                                   
+   520.861083820          1,382,936      LLC-load-misses           #    8.23% of all LL-cache accesses
+   521.862261661         16,929,714      LLC-loads                                                   
+   521.862261661          1,414,930      LLC-load-misses           #    8.36% of all LL-cache accesses
+   522.863523616         14,818,996      LLC-loads                                                   
+   522.863523616          1,320,763      LLC-load-misses           #    8.91% of all LL-cache accesses
+   523.864552870         16,796,249      LLC-loads                                                   
+   523.864552870          1,430,238      LLC-load-misses           #    8.52% of all LL-cache accesses
+   524.865750295         20,038,627      LLC-loads                                                   
+   524.865750295          1,667,730      LLC-load-misses           #    8.32% of all LL-cache accesses
+   525.866908952         19,213,426      LLC-loads                                                   
+   525.866908952          1,554,497      LLC-load-misses           #    8.09% of all LL-cache accesses
+#           time             counts unit events
+   526.868118329         17,905,790      LLC-loads                                                   
+   526.868118329          1,419,783      LLC-load-misses           #    7.93% of all LL-cache accesses
+   527.868580253         17,310,027      LLC-loads                                                   
+   527.868580253          1,366,507      LLC-load-misses           #    7.89% of all LL-cache accesses
+   528.869793125         15,800,218      LLC-loads                                                   
+   528.869793125          1,239,754      LLC-load-misses           #    7.85% of all LL-cache accesses
+   529.871003287         15,313,672      LLC-loads                                                   
+   529.871003287          1,210,817      LLC-load-misses           #    7.91% of all LL-cache accesses
+   530.872252159         13,111,219      LLC-loads                                                   
+   530.872252159          1,053,902      LLC-load-misses           #    8.04% of all LL-cache accesses
+   531.873472202         13,829,309      LLC-loads                                                   
+   531.873472202          1,137,883      LLC-load-misses           #    8.23% of all LL-cache accesses
+   532.874722090         14,750,044      LLC-loads                                                   
+   532.874722090          1,238,914      LLC-load-misses           #    8.40% of all LL-cache accesses
+   533.875943514         13,302,982      LLC-loads                                                   
+   533.875943514          1,074,353      LLC-load-misses           #    8.08% of all LL-cache accesses
+   534.877175856         11,172,720      LLC-loads                                                   
+   534.877175856            882,977      LLC-load-misses           #    7.90% of all LL-cache accesses
+   535.878400189         16,827,489      LLC-loads                                                   
+   535.878400189          1,427,125      LLC-load-misses           #    8.48% of all LL-cache accesses
+   536.879651597         15,608,997      LLC-loads                                                   
+   536.879651597          1,330,085      LLC-load-misses           #    8.52% of all LL-cache accesses
+   537.880882572         13,747,737      LLC-loads                                                   
+   537.880882572          1,223,690      LLC-load-misses           #    8.90% of all LL-cache accesses
+   538.882116206         11,777,601      LLC-loads                                                   
+   538.882116206          1,060,736      LLC-load-misses           #    9.01% of all LL-cache accesses
+   539.883381137         13,699,383      LLC-loads                                                   
+   539.883381137          1,080,123      LLC-load-misses           #    7.88% of all LL-cache accesses
+   540.884619479         16,056,154      LLC-loads                                                   
+   540.884619479          1,160,272      LLC-load-misses           #    7.23% of all LL-cache accesses
+   541.885809802         19,506,466      LLC-loads                                                   
+   541.885809802          1,357,534      LLC-load-misses           #    6.96% of all LL-cache accesses
+   542.887004583         19,318,171      LLC-loads                                                   
+   542.887004583          1,682,579      LLC-load-misses           #    8.71% of all LL-cache accesses
+   543.888165976         17,544,489      LLC-loads                                                   
+   543.888165976          1,616,964      LLC-load-misses           #    9.22% of all LL-cache accesses
+   544.888539714         12,078,438      LLC-loads                                                   
+   544.888539714          1,052,188      LLC-load-misses           #    8.71% of all LL-cache accesses
+   545.889811398         14,899,271      LLC-loads                                                   
+   545.889811398          1,278,487      LLC-load-misses           #    8.58% of all LL-cache accesses
+   546.891047491         16,468,918      LLC-loads                                                   
+   546.891047491          1,471,229      LLC-load-misses           #    8.93% of all LL-cache accesses
+   547.892245518         16,102,963      LLC-loads                                                   
+   547.892245518          1,221,137      LLC-load-misses           #    7.58% of all LL-cache accesses
+   548.893480265         16,671,197      LLC-loads                                                   
+   548.893480265          1,287,184      LLC-load-misses           #    7.72% of all LL-cache accesses
+   549.894489496         19,947,336      LLC-loads                                                   
+   549.894489496          1,684,880      LLC-load-misses           #    8.45% of all LL-cache accesses
+   550.895701671         16,349,175      LLC-loads                                                   
+   550.895701671          1,463,945      LLC-load-misses           #    8.95% of all LL-cache accesses
+#           time             counts unit events
+   551.896941879         18,935,440      LLC-loads                                                   
+   551.896941879          1,782,506      LLC-load-misses           #    9.41% of all LL-cache accesses
+   552.898139118         18,635,899      LLC-loads                                                   
+   552.898139118          1,430,637      LLC-load-misses           #    7.68% of all LL-cache accesses
+   553.899337500         17,398,008      LLC-loads                                                   
+   553.899337500          1,293,356      LLC-load-misses           #    7.43% of all LL-cache accesses
+   554.900537399         16,286,786      LLC-loads                                                   
+   554.900537399          1,205,526      LLC-load-misses           #    7.40% of all LL-cache accesses
+   555.900931322         17,009,634      LLC-loads                                                   
+   555.900931322          1,287,879      LLC-load-misses           #    7.57% of all LL-cache accesses
+   556.902158693         15,248,908      LLC-loads                                                   
+   556.902158693          1,216,165      LLC-load-misses           #    7.98% of all LL-cache accesses
+   557.903348662         12,299,634      LLC-loads                                                   
+   557.903348662            935,916      LLC-load-misses           #    7.61% of all LL-cache accesses
+   558.904545331          8,443,396      LLC-loads                                                   
+   558.904545331            671,606      LLC-load-misses           #    7.95% of all LL-cache accesses
+   559.905738379          6,072,574      LLC-loads                                                   
+   559.905738379            485,125      LLC-load-misses           #    7.99% of all LL-cache accesses
+   560.906938266          5,286,121      LLC-loads                                                   
+   560.906938266            389,284      LLC-load-misses           #    7.36% of all LL-cache accesses
+   561.908135050          3,119,105      LLC-loads                                                   
+   561.908135050            267,126      LLC-load-misses           #    8.56% of all LL-cache accesses
+   562.909385517            181,488      LLC-loads                                                   
+   562.909385517             10,112      LLC-load-misses           #    5.57% of all LL-cache accesses
+   563.910657198          3,142,389      LLC-loads                                                   
+   563.910657198            970,232      LLC-load-misses           #   30.88% of all LL-cache accesses
