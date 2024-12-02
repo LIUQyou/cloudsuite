@@ -56,6 +56,21 @@ function get_container_pid() {
     return 1
 }
 
+function get_container_cgroup() {
+    local container_name=$1
+    local pid=$(docker inspect --format '{{.State.Pid}}' $container_name)
+    if [ -z "$pid" ] || [ "$pid" -eq 0 ]; then
+        echo "Error: Could not get PID for container $container_name" >&2
+        return 1
+    fi
+    local cgroup=$(cat /proc/$pid/cgroup | grep '^0::' | cut -d':' -f3)
+    if [ -z "$cgroup" ]; then
+        echo "Error: Could not determine cgroup for container $container_name" >&2
+        return 1
+    fi
+    echo "$cgroup"
+}
+
 function get_container_cpu_affinity() {
     local pid=$1
     if [ -e "/proc/$pid" ]; then
@@ -88,30 +103,26 @@ function stop_container_logging() {
 # Update monitor_container function to improve output formatting
 function monitor_container() {
     local container_name=$1
-    
+    local container_id=$(docker inspect --format '{{.Id}}' $container_name)
+
     echo -e "\nStarting monitoring for container: $container_name" | tee -a $LOG_FILE
-    
+
     # Start real-time logging
     start_container_logging "$container_name"
-    
+
     # Wait for container to be running
     if ! wait_for_container "$container_name"; then
         echo -e "\nError: Container $container_name failed to start" >&2
         return 1
     fi
-    
-    # Get container PID
-    local pid=$(get_container_pid "$container_name")
-    if [ -z "$pid" ] || [ "$pid" -eq 0 ]; then
-        echo -e "\nError: Could not get PID for container $container_name" >&2
+
+    # Get cgroup path
+    local cgroup_path=$(get_container_cgroup "$container_id")
+    if [ $? -ne 0 ]; then
+        echo -e "\nError: Could not get cgroup path for container $container_name" >&2
         return 1
     fi
-    
-    local cpu_affinity=$(get_container_cpu_affinity $pid)
-    
-    CONTAINER_PIDS+=($pid)
-    CONTAINER_CPUS+=($cpu_affinity)
-    
+
     # Select events based on group
     local events
     case $SELECTED_GROUP in
@@ -123,12 +134,12 @@ function monitor_container() {
         6) events=$EVENT_GROUP_6 ;;
         *) events=$EVENT_GROUP_1 ;;
     esac
-    
-    # Start perf monitoring for this container
+
+    # Start perf monitoring for this container using cgroup
     local perf_output="$PERF_DATA_DIR/${container_name}_group${SELECTED_GROUP}.txt"
-    if sudo perf stat -e $events -p $pid -I $MONITOR_INTERVAL -o $perf_output 2>/dev/null & then
+    if sudo perf stat -e $events -a --cgroup $cgroup_path -I $MONITOR_INTERVAL -o $perf_output 2>/dev/null & then
         PERF_PIDS+=($!)
-        echo -e "\nStarted monitoring container $container_name (PID: $pid)" | tee -a $LOG_FILE
+        echo -e "\nStarted monitoring container $container_name (Cgroup: $cgroup_path)" | tee -a $LOG_FILE
     else
         echo -e "\nError: Failed to start perf monitoring for container $container_name" >&2
         return 1
@@ -662,60 +673,67 @@ function run_data_analytics() {
     echo "Running Data Analytics benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "data_analytics"
     
-    # Create dataset
+    # Step 1: Create the dataset container
     docker create --name wikimedia-dataset cloudsuite/wikimedia-pages-dataset
+    # Step 1.5: Create a User-Defined Network
+    docker network create hadoop-net
 
-    # Monitor dataset container
-    monitor_container "wikimedia-dataset"
-    
-    # Start master with minimal configuration
-    docker run -d --net host --volumes-from wikimedia-dataset --name data-master \
+    # Step 2: Start the Hadoop master node with desired configurations
+    docker run -d --net hadoop-net --volumes-from wikimedia-dataset --name data-master \
         cloudsuite/data-analytics --master \
         --hdfs-block-size=64 \
-        --yarn-cores=2 \
-        --mapreduce-mem=2048
-        
+        --yarn-cores=4 \
+        --mapreduce-mem=4096
+
     if ! wait_for_container "data-master"; then
         echo "Error: Data Analytics master failed to start" >&2
         return 1
     fi
 
-    # Monitor master container
+    # Monitor the master container
     monitor_container "data-master"
     
-    # Start one worker
-    docker run -d --net host --name data-slave01 \
-        cloudsuite/data-analytics --slave --master-ip=127.0.0.1
+    # Step 3: Start the Hadoop slave nodes
+    NUM_SLAVES=4  # Adjust based on your resources
+    for i in $(seq 1 $NUM_SLAVES); do
+        docker run -d --net hadoop-net --name data-slave0$i \
+            cloudsuite/data-analytics --slave --master-ip=data-master
+        if ! wait_for_container "data-slave0$i"; then
+            echo "Error: Data Analytics slave data-slave0$i failed to start" >&2
+            return 1
+        fi
+        # Monitor each slave container
+        monitor_container "data-slave0$i"
+    done
 
-    # Monitor worker container
-    monitor_container "data-slave01"
-    
-    sleep 30  # Wait for initialization
-    
-    # Run benchmark inside master container
-    docker exec data-master benchmark &
+    # Step 4: Wait briefly to ensure the cluster is fully initialized
+    sleep 30  # Adjust the sleep time as needed
 
-    # Monitor benchmark process
-    monitor_container "data-master"  # Already monitored
+    # Step 5: Run the benchmark inside the master container
+    echo "Starting benchmark inside the master container..." | tee -a $LOG_FILE
+    docker exec data-master benchmark
 
-    # Wait for benchmark to complete
-    wait
-
+    # Step 6: Collect logs and performance data
     stop_perf_record
-    # analyze_perf_data "data_analytics"
-
-    # Collect logs from master
     collect_container_logs "data-master"
-    docker rm -f data-master
 
-    # Collect logs from worker
-    collect_container_logs "data-slave01"
-    docker rm -f data-slave01
+    for i in $(seq 1 $NUM_SLAVES); do
+        collect_container_logs "data-slave0$i"
+    done
 
-    # Collect logs from dataset container if needed
     collect_container_logs "wikimedia-dataset"
+
+    # Step 7: Clean up the containers
+    docker rm -f data-master
+    for i in $(seq 1 $NUM_SLAVES); do
+        docker rm -f data-slave0$i
+    done
     docker rm -f wikimedia-dataset
+    docker network rm hadoop-net
+
+    echo "Data Analytics benchmark completed." | tee -a $LOG_FILE
 }
+
 
 # Update cleanup function to ensure clean output
 function cleanup() {

@@ -1,0 +1,1288 @@
+# started on Mon Dec  2 07:38:17 2024
+
+#           time             counts unit events
+     1.001071553          4,419,106      dTLB-loads                                                  
+     1.001071553             82,188      dTLB-load-misses          #    1.86% of all dTLB cache accesses
+     2.002519724          1,771,986      dTLB-loads                                                  
+     2.002519724             75,232      dTLB-load-misses          #    4.25% of all dTLB cache accesses
+     3.004031624          1,516,257      dTLB-loads                                                  
+     3.004031624             72,948      dTLB-load-misses          #    4.81% of all dTLB cache accesses
+     4.005560210          1,484,807      dTLB-loads                                                  
+     4.005560210             72,767      dTLB-load-misses          #    4.90% of all dTLB cache accesses
+     5.006988766          1,545,752      dTLB-loads                                                  
+     5.006988766             73,305      dTLB-load-misses          #    4.74% of all dTLB cache accesses
+     6.008394364          1,489,803      dTLB-loads                                                  
+     6.008394364             72,459      dTLB-load-misses          #    4.86% of all dTLB cache accesses
+     7.009826799          1,489,893      dTLB-loads                                                  
+     7.009826799             72,334      dTLB-load-misses          #    4.85% of all dTLB cache accesses
+     8.011339732          1,934,944      dTLB-loads                                                  
+     8.011339732             79,789      dTLB-load-misses          #    4.12% of all dTLB cache accesses
+     9.012765607          6,608,527      dTLB-loads                                                  
+     9.012765607            129,075      dTLB-load-misses          #    1.95% of all dTLB cache accesses
+    10.014197951          1,580,098      dTLB-loads                                                  
+    10.014197951             73,079      dTLB-load-misses          #    4.62% of all dTLB cache accesses
+    11.015603189          1,471,638      dTLB-loads                                                  
+    11.015603189             71,683      dTLB-load-misses          #    4.87% of all dTLB cache accesses
+    12.017036620          1,482,896      dTLB-loads                                                  
+    12.017036620             71,842      dTLB-load-misses          #    4.84% of all dTLB cache accesses
+    13.018515336          2,195,539      dTLB-loads                                                  
+    13.018515336             75,514      dTLB-load-misses          #    3.44% of all dTLB cache accesses
+    14.020027866          1,478,498      dTLB-loads                                                  
+    14.020027866             72,199      dTLB-load-misses          #    4.88% of all dTLB cache accesses
+    15.021444079          1,765,575      dTLB-loads                                                  
+    15.021444079             75,596      dTLB-load-misses          #    4.28% of all dTLB cache accesses
+    16.022858236          1,534,415      dTLB-loads                                                  
+    16.022858236             73,431      dTLB-load-misses          #    4.79% of all dTLB cache accesses
+    17.024269527          1,764,657      dTLB-loads                                                  
+    17.024269527             78,481      dTLB-load-misses          #    4.45% of all dTLB cache accesses
+    18.025677722          1,499,411      dTLB-loads                                                  
+    18.025677722             72,473      dTLB-load-misses          #    4.83% of all dTLB cache accesses
+    19.027152277          1,789,377      dTLB-loads                                                  
+    19.027152277             80,699      dTLB-load-misses          #    4.51% of all dTLB cache accesses
+    20.028596095          2,321,495      dTLB-loads                                                  
+    20.028596095             76,293      dTLB-load-misses          #    3.29% of all dTLB cache accesses
+    21.030047144          1,469,101      dTLB-loads                                                  
+    21.030047144             71,613      dTLB-load-misses          #    4.87% of all dTLB cache accesses
+    22.031460660          3,514,675      dTLB-loads                                                  
+    22.031460660             73,220      dTLB-load-misses          #    2.08% of all dTLB cache accesses
+    23.032893995          1,655,915      dTLB-loads                                                  
+    23.032893995             74,437      dTLB-load-misses          #    4.50% of all dTLB cache accesses
+    24.034307618          1,720,584      dTLB-loads                                                  
+    24.034307618             74,765      dTLB-load-misses          #    4.35% of all dTLB cache accesses
+    25.035819489         78,454,967      dTLB-loads                                                  
+    25.035819489            325,641      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+#           time             counts unit events
+    26.037335423        190,544,583      dTLB-loads                                                  
+    26.037335423            687,385      dTLB-load-misses          #    0.36% of all dTLB cache accesses
+    27.038848281         86,051,264      dTLB-loads                                                  
+    27.038848281            479,222      dTLB-load-misses          #    0.56% of all dTLB cache accesses
+    28.040348366        333,650,157      dTLB-loads                                                  
+    28.040348366          1,036,702      dTLB-load-misses          #    0.31% of all dTLB cache accesses
+    29.041855210        348,080,982      dTLB-loads                                                  
+    29.041855210          1,069,696      dTLB-load-misses          #    0.31% of all dTLB cache accesses
+    30.043356071        604,913,802      dTLB-loads                                                  
+    30.043356071          1,381,131      dTLB-load-misses          #    0.23% of all dTLB cache accesses
+    31.044893110         33,790,106      dTLB-loads                                                  
+    31.044893110            109,183      dTLB-load-misses          #    0.32% of all dTLB cache accesses
+    32.046369081          1,478,149      dTLB-loads                                                  
+    32.046369081             72,166      dTLB-load-misses          #    4.88% of all dTLB cache accesses
+    33.047797651         10,368,147      dTLB-loads                                                  
+    33.047797651             90,397      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+    34.049218728          2,555,708      dTLB-loads                                                  
+    34.049218728             87,086      dTLB-load-misses          #    3.41% of all dTLB cache accesses
+    35.050629219         36,646,179      dTLB-loads                                                  
+    35.050629219            130,213      dTLB-load-misses          #    0.36% of all dTLB cache accesses
+    36.051865785          1,649,871      dTLB-loads                                                  
+    36.051865785             82,996      dTLB-load-misses          #    5.03% of all dTLB cache accesses
+    37.053337187          2,905,530      dTLB-loads                                                  
+    37.053337187             86,829      dTLB-load-misses          #    2.99% of all dTLB cache accesses
+    38.054777522        380,353,235      dTLB-loads                                                  
+    38.054777522          1,533,821      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+    39.056324496         33,964,883      dTLB-loads                                                  
+    39.056324496            328,836      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+    40.057819086          1,707,544      dTLB-loads                                                  
+    40.057819086             84,224      dTLB-load-misses          #    4.93% of all dTLB cache accesses
+    41.059232108          1,682,787      dTLB-loads                                                  
+    41.059232108             84,485      dTLB-load-misses          #    5.02% of all dTLB cache accesses
+    42.059859550      1,167,957,603      dTLB-loads                                                  
+    42.059859550          3,359,019      dTLB-load-misses          #    0.29% of all dTLB cache accesses
+    43.061407668        797,825,802      dTLB-loads                                                  
+    43.061407668          2,192,062      dTLB-load-misses          #    0.27% of all dTLB cache accesses
+    44.062926993         67,290,285      dTLB-loads                                                  
+    44.062926993            165,544      dTLB-load-misses          #    0.25% of all dTLB cache accesses
+    45.064410397          1,795,551      dTLB-loads                                                  
+    45.064410397             79,950      dTLB-load-misses          #    4.45% of all dTLB cache accesses
+    46.065852832          5,876,359      dTLB-loads                                                  
+    46.065852832             87,731      dTLB-load-misses          #    1.49% of all dTLB cache accesses
+    47.067285181          1,787,000      dTLB-loads                                                  
+    47.067285181             78,774      dTLB-load-misses          #    4.41% of all dTLB cache accesses
+    48.068716333        330,249,782      dTLB-loads                                                  
+    48.068716333            599,465      dTLB-load-misses          #    0.18% of all dTLB cache accesses
+    49.070175758         15,881,124      dTLB-loads                                                  
+    49.070175758            197,030      dTLB-load-misses          #    1.24% of all dTLB cache accesses
+    50.071660450      2,982,462,075      dTLB-loads                                                  
+    50.071660450         11,712,756      dTLB-load-misses          #    0.39% of all dTLB cache accesses
+#           time             counts unit events
+    51.073233807      6,338,868,734      dTLB-loads                                                    (100.00%)
+    51.073233807         18,433,124      dTLB-load-misses          #    0.29% of all dTLB cache accesses  (100.00%)
+    52.074790649      7,407,166,983      dTLB-loads                                                  
+    52.074790649         18,001,029      dTLB-load-misses          #    0.24% of all dTLB cache accesses
+    53.075827535        709,045,074      dTLB-loads                                                  
+    53.075827535          6,392,121      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+    54.077498340        606,345,985      dTLB-loads                                                  
+    54.077498340          6,192,704      dTLB-load-misses          #    1.02% of all dTLB cache accesses
+    55.079023126        669,281,290      dTLB-loads                                                  
+    55.079023126          5,407,121      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+    56.079821454        917,526,228      dTLB-loads                                                  
+    56.079821454          5,501,486      dTLB-load-misses          #    0.60% of all dTLB cache accesses
+    57.081434751        658,052,256      dTLB-loads                                                  
+    57.081434751          5,856,969      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+    58.083059568      1,140,142,485      dTLB-loads                                                  
+    58.083059568          6,874,464      dTLB-load-misses          #    0.60% of all dTLB cache accesses
+    59.083848086        592,668,920      dTLB-loads                                                  
+    59.083848086          4,562,270      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+    60.085479559        637,916,598      dTLB-loads                                                  
+    60.085479559          4,201,159      dTLB-load-misses          #    0.66% of all dTLB cache accesses
+    61.087087966        619,978,131      dTLB-loads                                                  
+    61.087087966          3,896,870      dTLB-load-misses          #    0.63% of all dTLB cache accesses
+    62.087849595        627,488,464      dTLB-loads                                                  
+    62.087849595          4,652,842      dTLB-load-misses          #    0.74% of all dTLB cache accesses
+    63.089384207        569,220,699      dTLB-loads                                                  
+    63.089384207          4,460,982      dTLB-load-misses          #    0.78% of all dTLB cache accesses
+    64.090981640        494,473,850      dTLB-loads                                                  
+    64.090981640          3,784,752      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+    65.091846335        504,207,365      dTLB-loads                                                  
+    65.091846335          3,710,240      dTLB-load-misses          #    0.74% of all dTLB cache accesses
+    66.093406346        601,780,520      dTLB-loads                                                  
+    66.093406346          4,519,146      dTLB-load-misses          #    0.75% of all dTLB cache accesses
+    67.094965392        611,448,069      dTLB-loads                                                  
+    67.094965392          4,239,049      dTLB-load-misses          #    0.69% of all dTLB cache accesses
+    68.095844681        654,557,004      dTLB-loads                                                  
+    68.095844681          4,352,482      dTLB-load-misses          #    0.66% of all dTLB cache accesses
+    69.097410389      1,447,885,184      dTLB-loads                                                  
+    69.097410389          6,303,974      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+    70.098905071      1,989,881,384      dTLB-loads                                                  
+    70.098905071          7,848,714      dTLB-load-misses          #    0.39% of all dTLB cache accesses
+    71.099846993        882,106,988      dTLB-loads                                                  
+    71.099846993          5,338,519      dTLB-load-misses          #    0.61% of all dTLB cache accesses
+    72.101404092        578,531,631      dTLB-loads                                                  
+    72.101404092          4,725,684      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+    73.103013039        583,946,728      dTLB-loads                                                  
+    73.103013039          5,506,292      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+    74.103852109        593,319,819      dTLB-loads                                                  
+    74.103852109          5,256,639      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+    75.105419047        619,290,440      dTLB-loads                                                  
+    75.105419047          5,442,299      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+#           time             counts unit events
+    76.107027646        572,177,089      dTLB-loads                                                  
+    76.107027646          5,533,522      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+    77.107821972        577,728,015      dTLB-loads                                                  
+    77.107821972          5,048,096      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+    78.108437252        545,606,008      dTLB-loads                                                  
+    78.108437252          4,746,125      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+    79.109281141        609,156,626      dTLB-loads                                                  
+    79.109281141          5,742,964      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+    80.110913809        661,392,210      dTLB-loads                                                  
+    80.110913809          5,807,914      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+    81.111833529      1,645,937,079      dTLB-loads                                                  
+    81.111833529          8,204,035      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+    82.112375104        716,346,178      dTLB-loads                                                  
+    82.112375104          6,500,912      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+    83.113877483        680,671,585      dTLB-loads                                                  
+    83.113877483          6,318,793      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+    84.115359663        551,919,021      dTLB-loads                                                  
+    84.115359663          5,328,371      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+    85.116982987        558,185,572      dTLB-loads                                                  
+    85.116982987          5,493,754      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+    86.118592367        558,234,951      dTLB-loads                                                  
+    86.118592367          5,438,137      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+    87.119872466      3,232,719,106      dTLB-loads                                                  
+    87.119872466         11,884,799      dTLB-load-misses          #    0.37% of all dTLB cache accesses
+    88.121442176      2,903,746,267      dTLB-loads                                                  
+    88.121442176         10,394,474      dTLB-load-misses          #    0.36% of all dTLB cache accesses
+    89.122927956      1,706,540,357      dTLB-loads                                                  
+    89.122927956          9,392,383      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+    90.123861733      1,968,337,867      dTLB-loads                                                  
+    90.123861733          8,255,629      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+    91.124439359        713,422,445      dTLB-loads                                                  
+    91.124439359          5,368,568      dTLB-load-misses          #    0.75% of all dTLB cache accesses
+    92.125118709        606,540,560      dTLB-loads                                                  
+    92.125118709          4,456,269      dTLB-load-misses          #    0.73% of all dTLB cache accesses
+    93.126492909        630,385,353      dTLB-loads                                                  
+    93.126492909          4,668,215      dTLB-load-misses          #    0.74% of all dTLB cache accesses
+    94.127820635        624,853,596      dTLB-loads                                                  
+    94.127820635          5,124,303      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+    95.129534799        631,180,860      dTLB-loads                                                  
+    95.129534799          5,386,561      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+    96.131189933        571,853,199      dTLB-loads                                                  
+    96.131189933          5,149,260      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+    97.132840338        581,377,319      dTLB-loads                                                  
+    97.132840338          5,487,751      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+    98.134027267        602,341,972      dTLB-loads                                                  
+    98.134027267          5,900,396      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+    99.135577139        687,773,463      dTLB-loads                                                  
+    99.135577139          5,893,593      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   100.137185044        747,208,914      dTLB-loads                                                  
+   100.137185044          6,876,437      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+#           time             counts unit events
+   101.138768094      1,909,695,950      dTLB-loads                                                  
+   101.138768094          9,316,658      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   102.139817375        757,642,382      dTLB-loads                                                  
+   102.139817375          6,265,208      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   103.140814851        734,118,651      dTLB-loads                                                  
+   103.140814851          6,494,710      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   104.142548616        614,741,785      dTLB-loads                                                  
+   104.142548616          5,230,428      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   105.144076225        702,150,070      dTLB-loads                                                  
+   105.144076225          5,769,342      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   106.145551382        689,314,217      dTLB-loads                                                  
+   106.145551382          6,279,803      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   107.147271472        628,154,676      dTLB-loads                                                  
+   107.147271472          5,769,122      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   108.148864091        537,213,463      dTLB-loads                                                  
+   108.148864091          4,900,939      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   109.149454499        558,353,983      dTLB-loads                                                  
+   109.149454499          5,207,326      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   110.151200650        612,516,436      dTLB-loads                                                  
+   110.151200650          6,009,086      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   111.151858798        617,515,746      dTLB-loads                                                  
+   111.151858798          5,749,885      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   112.153426027      1,770,993,427      dTLB-loads                                                  
+   112.153426027          9,212,043      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   113.155185286        578,517,476      dTLB-loads                                                  
+   113.155185286          5,833,957      dTLB-load-misses          #    1.01% of all dTLB cache accesses
+   114.155854536        596,081,379      dTLB-loads                                                  
+   114.155854536          5,648,152      dTLB-load-misses          #    0.95% of all dTLB cache accesses
+   115.156567291        554,046,548      dTLB-loads                                                  
+   115.156567291          5,423,342      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   116.158165302        575,331,326      dTLB-loads                                                  
+   116.158165302          5,831,785      dTLB-load-misses          #    1.01% of all dTLB cache accesses
+   117.159041048        606,843,111      dTLB-loads                                                  
+   117.159041048          5,451,848      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   118.159855454        592,635,061      dTLB-loads                                                  
+   118.159855454          5,159,906      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   119.160846632        923,961,625      dTLB-loads                                                  
+   119.160846632          6,999,572      dTLB-load-misses          #    0.76% of all dTLB cache accesses
+   120.162415044      2,525,569,619      dTLB-loads                                                  
+   120.162415044         10,024,279      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   121.163855299      1,763,716,915      dTLB-loads                                                  
+   121.163855299          8,902,796      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   122.165332606      2,522,716,671      dTLB-loads                                                  
+   122.165332606         10,150,574      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   123.166880671        676,476,309      dTLB-loads                                                  
+   123.166880671          5,342,423      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   124.167813719        857,702,357      dTLB-loads                                                  
+   124.167813719          6,180,270      dTLB-load-misses          #    0.72% of all dTLB cache accesses
+   125.169335880        751,638,945      dTLB-loads                                                  
+   125.169335880          6,303,870      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+#           time             counts unit events
+   126.170845029        731,467,055      dTLB-loads                                                  
+   126.170845029          6,023,560      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   127.171852329        743,033,959      dTLB-loads                                                  
+   127.171852329          6,512,385      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   128.173363971        721,272,765      dTLB-loads                                                  
+   128.173363971          6,425,385      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   129.174843297        704,189,942      dTLB-loads                                                  
+   129.174843297          6,205,221      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   130.175854055        562,426,782      dTLB-loads                                                  
+   130.175854055          5,792,324      dTLB-load-misses          #    1.03% of all dTLB cache accesses
+   131.177456712        636,865,171      dTLB-loads                                                  
+   131.177456712          5,357,449      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   132.179045442      1,834,739,730      dTLB-loads                                                  
+   132.179045442          7,507,148      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   133.180607864        589,268,061      dTLB-loads                                                  
+   133.180607864          5,257,058      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   134.182172227        679,199,483      dTLB-loads                                                  
+   134.182172227          6,069,346      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   135.183745255        613,214,082      dTLB-loads                                                  
+   135.183745255          5,460,895      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   136.185328280        701,829,591      dTLB-loads                                                  
+   136.185328280          6,101,374      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   137.186088090        720,806,295      dTLB-loads                                                  
+   137.186088090          6,066,467      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   138.187625413        731,689,531      dTLB-loads                                                  
+   138.187625413          6,382,654      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   139.189132239        718,830,386      dTLB-loads                                                  
+   139.189132239          6,346,617      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   140.190712158        661,221,858      dTLB-loads                                                  
+   140.190712158          5,586,035      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   141.192230918        725,196,535      dTLB-loads                                                  
+   141.192230918          6,589,076      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   142.193818184      1,716,210,203      dTLB-loads                                                  
+   142.193818184          7,371,033      dTLB-load-misses          #    0.43% of all dTLB cache accesses
+   143.195330626        733,511,307      dTLB-loads                                                  
+   143.195330626          6,116,417      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   144.195852811        686,972,270      dTLB-loads                                                  
+   144.195852811          6,144,660      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   145.197411256        649,036,222      dTLB-loads                                                  
+   145.197411256          4,950,928      dTLB-load-misses          #    0.76% of all dTLB cache accesses
+   146.198328575        598,869,528      dTLB-loads                                                    (99.99%)
+   146.198328575          4,921,614      dTLB-load-misses          #    0.82% of all dTLB cache accesses  (99.99%)
+   147.199852008        615,953,149      dTLB-loads                                                    (100.00%)
+   147.199852008          5,637,804      dTLB-load-misses          #    0.92% of all dTLB cache accesses  (100.00%)
+   148.201414339      1,090,248,229      dTLB-loads                                                  
+   148.201414339          6,558,864      dTLB-load-misses          #    0.60% of all dTLB cache accesses
+   149.202005386      1,807,899,398      dTLB-loads                                                  
+   149.202005386          8,674,498      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   150.203577977      1,788,279,802      dTLB-loads                                                  
+   150.203577977          8,963,711      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+#           time             counts unit events
+   151.205089152      2,298,668,227      dTLB-loads                                                  
+   151.205089152          8,915,874      dTLB-load-misses          #    0.39% of all dTLB cache accesses
+   152.206679846        716,291,748      dTLB-loads                                                  
+   152.206679846          5,403,385      dTLB-load-misses          #    0.75% of all dTLB cache accesses
+   153.207826020        558,183,062      dTLB-loads                                                  
+   153.207826020          5,458,288      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   154.209474330        599,811,076      dTLB-loads                                                  
+   154.209474330          5,431,265      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   155.211082485        627,994,486      dTLB-loads                                                  
+   155.211082485          5,495,334      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   156.211854806        620,868,221      dTLB-loads                                                  
+   156.211854806          6,199,780      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   157.213434187        626,098,024      dTLB-loads                                                  
+   157.213434187          5,638,530      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   158.214988738        713,817,339      dTLB-loads                                                  
+   158.214988738          5,930,431      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   159.215849334        714,903,998      dTLB-loads                                                  
+   159.215849334          6,610,019      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   160.217364857        659,180,709      dTLB-loads                                                  
+   160.217364857          7,039,123      dTLB-load-misses          #    1.07% of all dTLB cache accesses
+   161.218877803      1,821,653,803      dTLB-loads                                                  
+   161.218877803          9,802,853      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   162.220472894        548,737,711      dTLB-loads                                                  
+   162.220472894          6,288,619      dTLB-load-misses          #    1.15% of all dTLB cache accesses
+   163.222113579        551,191,066      dTLB-loads                                                  
+   163.222113579          6,130,393      dTLB-load-misses          #    1.11% of all dTLB cache accesses
+   164.223702696        562,247,515      dTLB-loads                                                  
+   164.223702696          5,834,552      dTLB-load-misses          #    1.04% of all dTLB cache accesses
+   165.225177537        586,155,878      dTLB-loads                                                  
+   165.225177537          5,706,683      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+   166.226756691        664,868,324      dTLB-loads                                                  
+   166.226756691          5,961,984      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   167.228281446        715,580,095      dTLB-loads                                                  
+   167.228281446          7,040,850      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   168.229805684        709,693,379      dTLB-loads                                                  
+   168.229805684          6,570,331      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   169.231332139        710,511,021      dTLB-loads                                                  
+   169.231332139          6,273,566      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   170.232051660        840,283,787      dTLB-loads                                                  
+   170.232051660          7,402,213      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   171.233486264        700,480,936      dTLB-loads                                                  
+   171.233486264          6,561,034      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+   172.234816081      1,749,666,205      dTLB-loads                                                  
+   172.234816081          7,801,748      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   173.235845378        736,374,593      dTLB-loads                                                    (100.00%)
+   173.235845378          5,931,501      dTLB-load-misses          #    0.81% of all dTLB cache accesses  (100.00%)
+   174.237377973        749,077,935      dTLB-loads                                                  
+   174.237377973          6,225,297      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   175.238906766        757,841,983      dTLB-loads                                                  
+   175.238906766          6,021,015      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+#           time             counts unit events
+   176.239845245        732,242,798      dTLB-loads                                                  
+   176.239845245          5,864,355      dTLB-load-misses          #    0.80% of all dTLB cache accesses
+   177.241396712      1,625,783,789      dTLB-loads                                                  
+   177.241396712          7,125,805      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   178.242921487      1,829,461,937      dTLB-loads                                                  
+   178.242921487          7,261,461      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   179.243825421      1,977,546,741      dTLB-loads                                                  
+   179.243825421          7,495,467      dTLB-load-misses          #    0.38% of all dTLB cache accesses
+   180.245721367      1,316,241,136      dTLB-loads                                                  
+   180.245721367          6,595,559      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   181.247233771      4,819,123,120      dTLB-loads                                                  
+   181.247233771         16,330,932      dTLB-load-misses          #    0.34% of all dTLB cache accesses
+   182.247824417      2,134,013,039      dTLB-loads                                                  
+   182.247824417         10,160,885      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   183.249386102      1,903,020,067      dTLB-loads                                                  
+   183.249386102          9,980,430      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   184.250966172      2,837,432,425      dTLB-loads                                                  
+   184.250966172         11,457,692      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   185.251812310      1,967,891,500      dTLB-loads                                                  
+   185.251812310         10,614,276      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   186.253281740      1,834,306,036      dTLB-loads                                                  
+   186.253281740          9,991,754      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   187.254821868      1,897,374,299      dTLB-loads                                                  
+   187.254821868          8,798,574      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   188.255854528      2,164,514,527      dTLB-loads                                                  
+   188.255854528          9,079,972      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+   189.257377251      1,640,353,088      dTLB-loads                                                  
+   189.257377251          8,444,196      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   190.257952165      1,827,022,527      dTLB-loads                                                  
+   190.257952165          9,760,204      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   191.259509193      1,777,453,047      dTLB-loads                                                  
+   191.259509193          9,811,708      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   192.261049491      2,249,895,954      dTLB-loads                                                  
+   192.261049491         10,290,218      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   193.262569786      1,811,180,044      dTLB-loads                                                  
+   193.262569786          9,585,249      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   194.263823924      1,860,313,060      dTLB-loads                                                  
+   194.263823924          9,953,874      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   195.265409253      1,784,483,614      dTLB-loads                                                  
+   195.265409253          9,875,283      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   196.266993024      1,807,724,291      dTLB-loads                                                  
+   196.266993024          7,933,306      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   197.268562046      1,581,592,530      dTLB-loads                                                  
+   197.268562046          9,354,701      dTLB-load-misses          #    0.59% of all dTLB cache accesses
+   198.283839045      1,741,872,364      dTLB-loads                                                  
+   198.283839045          9,305,571      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   199.285345960      1,947,668,521      dTLB-loads                                                  
+   199.285345960          9,288,707      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   200.286938684      1,478,017,643      dTLB-loads                                                  
+   200.286938684          7,820,312      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+#           time             counts unit events
+   201.288087692      1,489,651,290      dTLB-loads                                                  
+   201.288087692          7,118,904      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   202.289663495        984,374,767      dTLB-loads                                                  
+   202.289663495          5,508,975      dTLB-load-misses          #    0.56% of all dTLB cache accesses
+   203.291206378      1,338,833,802      dTLB-loads                                                  
+   203.291206378          7,166,120      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   204.292767777      1,817,342,291      dTLB-loads                                                  
+   204.292767777          8,044,309      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   205.294359949      1,798,396,731      dTLB-loads                                                  
+   205.294359949          9,054,578      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   206.295824655        629,670,981      dTLB-loads                                                  
+   206.295824655          5,128,393      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   207.297368386        639,198,455      dTLB-loads                                                  
+   207.297368386          5,450,589      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   208.298964395        582,949,449      dTLB-loads                                                  
+   208.298964395          4,928,108      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   209.299827855        538,199,764      dTLB-loads                                                  
+   209.299827855          4,728,526      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   210.300678593      1,422,401,901      dTLB-loads                                                  
+   210.300678593          7,153,391      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   211.302168912        650,457,850      dTLB-loads                                                  
+   211.302168912          5,241,917      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   212.303830827        754,540,026      dTLB-loads                                                  
+   212.303830827          6,358,557      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   213.305462202        729,329,351      dTLB-loads                                                  
+   213.305462202          6,017,485      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   214.306945016        712,486,679      dTLB-loads                                                  
+   214.306945016          6,789,312      dTLB-load-misses          #    0.95% of all dTLB cache accesses
+   215.307820796        688,053,541      dTLB-loads                                                  
+   215.307820796          5,977,672      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   216.309375246        695,567,123      dTLB-loads                                                  
+   216.309375246          6,317,963      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   217.310879090        622,874,062      dTLB-loads                                                  
+   217.310879090          6,036,943      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+   218.311859048        610,274,453      dTLB-loads                                                  
+   218.311859048          5,490,805      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   219.313484004        532,060,551      dTLB-loads                                                  
+   219.313484004          5,249,191      dTLB-load-misses          #    0.99% of all dTLB cache accesses
+   220.315076080        739,711,956      dTLB-loads                                                  
+   220.315076080          6,028,912      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   221.317115029      1,572,231,786      dTLB-loads                                                  
+   221.317115029          6,427,963      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   222.318857415        566,522,051      dTLB-loads                                                  
+   222.318857415          4,590,008      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   223.319829299        562,006,645      dTLB-loads                                                  
+   223.319829299          5,275,768      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+   224.321460943        529,093,731      dTLB-loads                                                  
+   224.321460943          4,881,679      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   225.323050819        558,971,625      dTLB-loads                                                  
+   225.323050819          4,265,425      dTLB-load-misses          #    0.76% of all dTLB cache accesses
+#           time             counts unit events
+   226.323818935        575,112,537      dTLB-loads                                                  
+   226.323818935          4,958,854      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   227.324546138        561,454,860      dTLB-loads                                                  
+   227.324546138          4,871,601      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   228.326431595        577,248,569      dTLB-loads                                                  
+   228.326431595          4,956,049      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   229.327826344        576,216,594      dTLB-loads                                                  
+   229.327826344          4,558,112      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   230.329474078        595,847,558      dTLB-loads                                                  
+   230.329474078          5,134,340      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   231.331088458        568,019,007      dTLB-loads                                                  
+   231.331088458          4,514,872      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   232.331825637      1,693,621,760      dTLB-loads                                                  
+   232.331825637          6,700,948      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   233.333443645        513,438,999      dTLB-loads                                                  
+   233.333443645          4,866,905      dTLB-load-misses          #    0.95% of all dTLB cache accesses
+   234.335090419        495,262,054      dTLB-loads                                                  
+   234.335090419          4,625,158      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   235.335848133      1,522,898,722      dTLB-loads                                                  
+   235.335848133          7,014,157      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   236.337419548      1,681,961,578      dTLB-loads                                                  
+   236.337419548          7,570,995      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   237.339112161      1,633,293,419      dTLB-loads                                                  
+   237.339112161          7,219,134      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   238.339852909        549,991,827      dTLB-loads                                                  
+   238.339852909          4,791,898      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   239.341404919        724,702,978      dTLB-loads                                                  
+   239.341404919          5,227,718      dTLB-load-misses          #    0.72% of all dTLB cache accesses
+   240.343033761        546,750,055      dTLB-loads                                                  
+   240.343033761          4,516,447      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   241.343856524        510,851,207      dTLB-loads                                                  
+   241.343856524          4,189,963      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   242.345457638        548,737,257      dTLB-loads                                                  
+   242.345457638          4,096,538      dTLB-load-misses          #    0.75% of all dTLB cache accesses
+   243.347057622      1,566,553,115      dTLB-loads                                                  
+   243.347057622          6,952,840      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   244.347862220        545,277,078      dTLB-loads                                                  
+   244.347862220          5,096,725      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   245.348609448        512,332,020      dTLB-loads                                                  
+   245.348609448          4,392,100      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   246.350148745        542,539,989      dTLB-loads                                                  
+   246.350148745          4,801,995      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   247.351801298        569,401,676      dTLB-loads                                                  
+   247.351801298          4,804,786      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   248.353390498        608,257,173      dTLB-loads                                                  
+   248.353390498          5,040,823      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   249.354988599        553,412,369      dTLB-loads                                                  
+   249.354988599          5,402,167      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   250.355846053        659,403,507      dTLB-loads                                                  
+   250.355846053          5,224,139      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+#           time             counts unit events
+   251.357344478        740,374,372      dTLB-loads                                                  
+   251.357344478          5,707,506      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+   252.358865809        713,750,656      dTLB-loads                                                  
+   252.358865809          6,478,271      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   253.359827838        981,713,122      dTLB-loads                                                  
+   253.359827838          6,392,533      dTLB-load-misses          #    0.65% of all dTLB cache accesses
+   254.361682545      1,611,779,925      dTLB-loads                                                  
+   254.361682545          7,228,957      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   255.363215673        746,942,894      dTLB-loads                                                  
+   255.363215673          5,588,948      dTLB-load-misses          #    0.75% of all dTLB cache accesses
+   256.363822572        747,682,736      dTLB-loads                                                  
+   256.363822572          5,560,804      dTLB-load-misses          #    0.74% of all dTLB cache accesses
+   257.365331858        708,059,273      dTLB-loads                                                  
+   257.365331858          6,082,621      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   258.366866890        719,977,654      dTLB-loads                                                  
+   258.366866890          5,489,495      dTLB-load-misses          #    0.76% of all dTLB cache accesses
+   259.367848418        759,719,516      dTLB-loads                                                  
+   259.367848418          6,146,185      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   260.369369217        750,264,975      dTLB-loads                                                  
+   260.369369217          5,506,697      dTLB-load-misses          #    0.73% of all dTLB cache accesses
+   261.370874579        732,780,419      dTLB-loads                                                  
+   261.370874579          5,441,677      dTLB-load-misses          #    0.74% of all dTLB cache accesses
+   262.371838958      1,775,623,920      dTLB-loads                                                  
+   262.371838958          7,422,222      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+   263.373283980        761,146,013      dTLB-loads                                                  
+   263.373283980          5,575,988      dTLB-load-misses          #    0.73% of all dTLB cache accesses
+   264.374782164      1,278,596,054      dTLB-loads                                                  
+   264.374782164          7,121,399      dTLB-load-misses          #    0.56% of all dTLB cache accesses
+   265.375841806      1,744,639,955      dTLB-loads                                                  
+   265.375841806          7,603,415      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   266.377329299      1,805,723,850      dTLB-loads                                                  
+   266.377329299          7,549,106      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+   267.378887772        766,502,323      dTLB-loads                                                  
+   267.378887772          5,552,738      dTLB-load-misses          #    0.72% of all dTLB cache accesses
+   268.380500662        493,158,289      dTLB-loads                                                  
+   268.380500662          4,562,139      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   269.382164759        558,234,203      dTLB-loads                                                  
+   269.382164759          4,378,205      dTLB-load-misses          #    0.78% of all dTLB cache accesses
+   270.383806248        506,248,669      dTLB-loads                                                  
+   270.383806248          4,701,590      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   271.385391433        571,189,931      dTLB-loads                                                  
+   271.385391433          5,108,370      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   272.387031093      2,948,246,467      dTLB-loads                                                  
+   272.387031093          9,094,482      dTLB-load-misses          #    0.31% of all dTLB cache accesses
+   273.387825626      1,532,130,051      dTLB-loads                                                  
+   273.387825626         10,659,217      dTLB-load-misses          #    0.70% of all dTLB cache accesses
+   274.389148162      1,678,609,894      dTLB-loads                                                  
+   274.389148162         10,436,838      dTLB-load-misses          #    0.62% of all dTLB cache accesses
+   275.389776876      1,771,585,269      dTLB-loads                                                  
+   275.389776876         10,904,732      dTLB-load-misses          #    0.62% of all dTLB cache accesses
+#           time             counts unit events
+   276.391345487      1,787,739,461      dTLB-loads                                                  
+   276.391345487          9,823,219      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   277.392558452      1,729,655,116      dTLB-loads                                                  
+   277.392558452         10,115,764      dTLB-load-misses          #    0.58% of all dTLB cache accesses
+   278.393430488      1,690,068,464      dTLB-loads                                                  
+   278.393430488         10,587,498      dTLB-load-misses          #    0.63% of all dTLB cache accesses
+   279.394075417      1,713,304,453      dTLB-loads                                                  
+   279.394075417          9,762,052      dTLB-load-misses          #    0.57% of all dTLB cache accesses
+   280.394640369      1,752,363,258      dTLB-loads                                                  
+   280.394640369          9,671,486      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   281.395822736      2,784,181,724      dTLB-loads                                                  
+   281.395822736         11,474,456      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   282.397356312      2,418,750,252      dTLB-loads                                                  
+   282.397356312          7,493,334      dTLB-load-misses          #    0.31% of all dTLB cache accesses
+   283.397932100      2,047,874,201      dTLB-loads                                                  
+   283.397932100          7,231,260      dTLB-load-misses          #    0.35% of all dTLB cache accesses
+   284.399467841      2,240,271,224      dTLB-loads                                                  
+   284.399467841          7,927,880      dTLB-load-misses          #    0.35% of all dTLB cache accesses
+   285.401039458      1,722,202,866      dTLB-loads                                                    (100.00%)
+   285.401039458          6,516,276      dTLB-load-misses          #    0.38% of all dTLB cache accesses  (100.00%)
+   286.402663313        604,233,029      dTLB-loads                                                  
+   286.402663313          5,449,868      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   287.403824155        585,427,081      dTLB-loads                                                  
+   287.403824155          4,512,839      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+   288.405496285        606,528,041      dTLB-loads                                                  
+   288.405496285          4,811,390      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   289.407046216        597,552,743      dTLB-loads                                                  
+   289.407046216          5,270,422      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   290.408877124        615,376,721      dTLB-loads                                                  
+   290.408877124          4,881,093      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   291.410561532        619,190,129      dTLB-loads                                                  
+   291.410561532          4,786,059      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+   292.411847155      1,473,858,234      dTLB-loads                                                  
+   292.411847155          6,055,556      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   293.413515350        987,004,192      dTLB-loads                                                  
+   293.413515350          5,166,851      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   294.415145557      1,755,428,243      dTLB-loads                                                  
+   294.415145557          6,984,754      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   295.416708554      1,781,656,795      dTLB-loads                                                  
+   295.416708554          7,251,487      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   296.418216036      1,054,201,897      dTLB-loads                                                  
+   296.418216036          5,739,789      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   297.419824098        648,496,789      dTLB-loads                                                  
+   297.419824098          5,958,443      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   298.421490174        958,207,824      dTLB-loads                                                  
+   298.421490174          6,357,481      dTLB-load-misses          #    0.66% of all dTLB cache accesses
+   299.423196650      1,164,046,547      dTLB-loads                                                  
+   299.423196650          6,788,798      dTLB-load-misses          #    0.58% of all dTLB cache accesses
+   300.424784034      3,171,990,730      dTLB-loads                                                  
+   300.424784034          9,605,092      dTLB-load-misses          #    0.30% of all dTLB cache accesses
+#           time             counts unit events
+   301.426405790      2,869,365,172      dTLB-loads                                                  
+   301.426405790         10,297,256      dTLB-load-misses          #    0.36% of all dTLB cache accesses
+   302.427815023      2,006,205,773      dTLB-loads                                                  
+   302.427815023          9,157,544      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   303.429487746      1,474,308,995      dTLB-loads                                                  
+   303.429487746          8,539,466      dTLB-load-misses          #    0.58% of all dTLB cache accesses
+   304.431008381      2,360,879,701      dTLB-loads                                                  
+   304.431008381          9,259,631      dTLB-load-misses          #    0.39% of all dTLB cache accesses
+   305.432516221      1,856,953,118      dTLB-loads                                                  
+   305.432516221          8,385,975      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   306.434032604      1,815,485,252      dTLB-loads                                                  
+   306.434032604          8,351,653      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   307.435528254      2,112,651,108      dTLB-loads                                                  
+   307.435528254          8,940,503      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+   308.437039144      4,594,653,931      dTLB-loads                                                  
+   308.437039144         13,463,257      dTLB-load-misses          #    0.29% of all dTLB cache accesses
+   309.438578996      1,870,548,735      dTLB-loads                                                  
+   309.438578996          8,730,662      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   310.439825258      1,842,318,660      dTLB-loads                                                  
+   310.439825258          8,852,499      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   311.441392400      2,088,012,069      dTLB-loads                                                  
+   311.441392400          9,424,596      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   312.442896926      1,779,799,910      dTLB-loads                                                  
+   312.442896926          8,559,816      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   313.443808128      1,677,064,976      dTLB-loads                                                  
+   313.443808128          7,841,204      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   314.445350980      1,703,100,133      dTLB-loads                                                  
+   314.445350980          8,366,242      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   315.446869332      2,099,741,788      dTLB-loads                                                  
+   315.446869332          8,798,291      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+   316.447843786      1,847,309,231      dTLB-loads                                                  
+   316.447843786          7,773,859      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+   317.448624906        777,340,893      dTLB-loads                                                  
+   317.448624906          5,758,690      dTLB-load-misses          #    0.74% of all dTLB cache accesses
+   318.449714816        854,943,560      dTLB-loads                                                  
+   318.449714816          5,331,251      dTLB-load-misses          #    0.62% of all dTLB cache accesses
+   319.451295084        593,931,686      dTLB-loads                                                  
+   319.451295084          5,027,579      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   320.452926892        558,012,364      dTLB-loads                                                  
+   320.452926892          4,792,332      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   321.454533930        558,256,145      dTLB-loads                                                  
+   321.454533930          4,622,252      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   322.455836444        821,513,972      dTLB-loads                                                  
+   322.455836444          6,372,724      dTLB-load-misses          #    0.78% of all dTLB cache accesses
+   323.457446662      1,071,145,467      dTLB-loads                                                  
+   323.457446662          6,546,461      dTLB-load-misses          #    0.61% of all dTLB cache accesses
+   324.459082756      1,671,797,511      dTLB-loads                                                  
+   324.459082756          6,550,835      dTLB-load-misses          #    0.39% of all dTLB cache accesses
+   325.460749598      1,712,226,801      dTLB-loads                                                  
+   325.460749598          7,690,210      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+#           time             counts unit events
+   326.462229944      1,510,506,835      dTLB-loads                                                  
+   326.462229944          8,600,208      dTLB-load-misses          #    0.57% of all dTLB cache accesses
+   327.463815635        744,260,696      dTLB-loads                                                  
+   327.463815635          6,109,432      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   328.465443545        672,314,122      dTLB-loads                                                  
+   328.465443545          5,602,706      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   329.467065460        543,363,742      dTLB-loads                                                  
+   329.467065460          5,180,136      dTLB-load-misses          #    0.95% of all dTLB cache accesses
+   330.468699420        556,858,322      dTLB-loads                                                  
+   330.468699420          5,080,649      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   331.470327472        561,968,814      dTLB-loads                                                  
+   331.470327472          5,607,115      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   332.471951562        550,167,443      dTLB-loads                                                  
+   332.471951562          5,227,840      dTLB-load-misses          #    0.95% of all dTLB cache accesses
+   333.473583453        561,791,134      dTLB-loads                                                  
+   333.473583453          5,216,206      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   334.475217645      1,440,818,732      dTLB-loads                                                  
+   334.475217645          6,270,005      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   335.476831649        558,154,106      dTLB-loads                                                  
+   335.476831649          5,591,990      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   336.478454133        611,480,001      dTLB-loads                                                  
+   336.478454133          5,433,931      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   337.479989222        595,606,825      dTLB-loads                                                  
+   337.479989222          5,533,273      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   338.480851888        612,095,077      dTLB-loads                                                  
+   338.480851888          6,044,052      dTLB-load-misses          #    0.99% of all dTLB cache accesses
+   339.482490122        580,097,807      dTLB-loads                                                  
+   339.482490122          5,452,419      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+   340.484060158        628,414,941      dTLB-loads                                                  
+   340.484060158          5,787,401      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   341.485644301        665,750,466      dTLB-loads                                                  
+   341.485644301          6,807,273      dTLB-load-misses          #    1.02% of all dTLB cache accesses
+   342.487196055        628,076,965      dTLB-loads                                                  
+   342.487196055          7,185,825      dTLB-load-misses          #    1.14% of all dTLB cache accesses
+   343.488731379        643,775,108      dTLB-loads                                                  
+   343.488731379          6,932,502      dTLB-load-misses          #    1.08% of all dTLB cache accesses
+   344.490247706        646,836,477      dTLB-loads                                                  
+   344.490247706          7,493,376      dTLB-load-misses          #    1.16% of all dTLB cache accesses
+   345.491805637      1,544,847,425      dTLB-loads                                                  
+   345.491805637          7,055,512      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   346.493294621        673,239,899      dTLB-loads                                                  
+   346.493294621          6,082,239      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   347.494786458        715,931,815      dTLB-loads                                                  
+   347.494786458          6,113,450      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   348.495812156        722,420,015      dTLB-loads                                                  
+   348.495812156          6,111,788      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   349.496430855        724,282,162      dTLB-loads                                                  
+   349.496430855          5,973,303      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   350.497950281        714,086,822      dTLB-loads                                                  
+   350.497950281          6,424,654      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+#           time             counts unit events
+   351.499445515        765,180,134      dTLB-loads                                                  
+   351.499445515          6,950,539      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   352.501158807      1,766,748,861      dTLB-loads                                                  
+   352.501158807          8,193,160      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   353.502818733      2,566,213,693      dTLB-loads                                                  
+   353.502818733          8,085,886      dTLB-load-misses          #    0.32% of all dTLB cache accesses
+   354.503823074      1,749,271,848      dTLB-loads                                                  
+   354.503823074          7,756,881      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   355.505427628        770,162,606      dTLB-loads                                                  
+   355.505427628          6,064,899      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   356.507028804        784,092,232      dTLB-loads                                                  
+   356.507028804          6,884,444      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   357.508091759        729,124,214      dTLB-loads                                                  
+   357.508091759          6,302,727      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   358.509601723        706,496,546      dTLB-loads                                                  
+   358.509601723          6,812,961      dTLB-load-misses          #    0.96% of all dTLB cache accesses
+   359.511097590        713,873,764      dTLB-loads                                                  
+   359.511097590          6,020,725      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   360.512597676        726,402,647      dTLB-loads                                                  
+   360.512597676          5,985,176      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   361.514075608        748,507,354      dTLB-loads                                                  
+   361.514075608          6,637,121      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   362.514598544      1,551,023,269      dTLB-loads                                                  
+   362.514598544          5,931,452      dTLB-load-misses          #    0.38% of all dTLB cache accesses
+   363.515846352        677,398,387      dTLB-loads                                                  
+   363.515846352          5,365,445      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   364.517324714        637,763,947      dTLB-loads                                                  
+   364.517324714          5,479,855      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   365.519036264        553,261,574      dTLB-loads                                                  
+   365.519036264          4,949,788      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   366.520778585        606,049,230      dTLB-loads                                                  
+   366.520778585          4,764,209      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   367.522342179        636,797,469      dTLB-loads                                                  
+   367.522342179          5,693,998      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   368.523920656        692,573,497      dTLB-loads                                                  
+   368.523920656          6,011,431      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   369.525443895        738,531,518      dTLB-loads                                                  
+   369.525443895          6,018,965      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   370.526966790        728,592,417      dTLB-loads                                                  
+   370.526966790          5,984,797      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   371.527853181        759,543,615      dTLB-loads                                                  
+   371.527853181          6,037,951      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   372.529657353      1,567,493,263      dTLB-loads                                                  
+   372.529657353          6,901,345      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   373.531174576        687,400,011      dTLB-loads                                                  
+   373.531174576          5,737,505      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   374.532688786        710,073,008      dTLB-loads                                                  
+   374.532688786          6,380,049      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   375.534213770        672,396,053      dTLB-loads                                                  
+   375.534213770          5,752,654      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+#           time             counts unit events
+   376.535743730        711,817,793      dTLB-loads                                                  
+   376.535743730          5,975,008      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   377.537252726        733,658,865      dTLB-loads                                                  
+   377.537252726          6,735,456      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   378.538736954      1,318,461,469      dTLB-loads                                                  
+   378.538736954          7,393,184      dTLB-load-misses          #    0.56% of all dTLB cache accesses
+   379.540311885      1,815,462,171      dTLB-loads                                                  
+   379.540311885          7,388,544      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   380.541855206      2,507,613,048      dTLB-loads                                                  
+   380.541855206          7,917,925      dTLB-load-misses          #    0.32% of all dTLB cache accesses
+   381.543329315        970,162,648      dTLB-loads                                                  
+   381.543329315          6,017,716      dTLB-load-misses          #    0.62% of all dTLB cache accesses
+   382.543843969        778,184,975      dTLB-loads                                                  
+   382.543843969          5,699,486      dTLB-load-misses          #    0.73% of all dTLB cache accesses
+   383.545364170        695,657,917      dTLB-loads                                                  
+   383.545364170          5,505,486      dTLB-load-misses          #    0.79% of all dTLB cache accesses
+   384.546843915        644,592,920      dTLB-loads                                                  
+   384.546843915          6,222,626      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+   385.547823664        653,057,874      dTLB-loads                                                  
+   385.547823664          5,372,612      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   386.549459343        612,904,416      dTLB-loads                                                  
+   386.549459343          5,163,725      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   387.551129055        537,074,361      dTLB-loads                                                  
+   387.551129055          5,277,276      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   388.552734374        557,751,890      dTLB-loads                                                  
+   388.552734374          4,700,687      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   389.554410076        520,828,862      dTLB-loads                                                  
+   389.554410076          5,087,086      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   390.556007622      1,490,612,138      dTLB-loads                                                  
+   390.556007622          5,847,963      dTLB-load-misses          #    0.39% of all dTLB cache accesses
+   391.557602959        588,359,943      dTLB-loads                                                  
+   391.557602959          5,473,281      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   392.559185691        589,640,238      dTLB-loads                                                  
+   392.559185691          5,407,682      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   393.560830774        575,264,983      dTLB-loads                                                  
+   393.560830774          5,342,297      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   394.562404762        558,379,484      dTLB-loads                                                  
+   394.562404762          5,578,260      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   395.563844543        638,612,941      dTLB-loads                                                  
+   395.563844543          5,159,764      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   396.565366589        685,485,264      dTLB-loads                                                  
+   396.565366589          5,789,435      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   397.566683589        734,921,365      dTLB-loads                                                  
+   397.566683589          6,412,157      dTLB-load-misses          #    0.87% of all dTLB cache accesses
+   398.567819568        729,937,179      dTLB-loads                                                  
+   398.567819568          6,221,306      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   399.569342855        727,774,253      dTLB-loads                                                  
+   399.569342855          6,398,212      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   400.570835492      1,693,478,233      dTLB-loads                                                  
+   400.570835492          6,838,963      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+#           time             counts unit events
+   401.572364510        781,036,537      dTLB-loads                                                  
+   401.572364510          6,277,158      dTLB-load-misses          #    0.80% of all dTLB cache accesses
+   402.573876026        744,272,646      dTLB-loads                                                  
+   402.573876026          5,757,027      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+   403.574467375        739,970,024      dTLB-loads                                                  
+   403.574467375          5,712,042      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+   404.575818740        734,130,537      dTLB-loads                                                  
+   404.575818740          6,217,414      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   405.577433392        720,937,784      dTLB-loads                                                  
+   405.577433392          6,078,854      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   406.578919543      1,067,817,445      dTLB-loads                                                  
+   406.578919543          7,599,925      dTLB-load-misses          #    0.71% of all dTLB cache accesses
+   407.579813914      1,674,843,325      dTLB-loads                                                  
+   407.579813914          8,798,399      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   408.581355322      2,526,505,281      dTLB-loads                                                  
+   408.581355322          9,294,627      dTLB-load-misses          #    0.37% of all dTLB cache accesses
+   409.582295676      1,298,821,655      dTLB-loads                                                  
+   409.582295676          7,889,483      dTLB-load-misses          #    0.61% of all dTLB cache accesses
+   410.583809450        787,026,263      dTLB-loads                                                  
+   410.583809450          5,938,413      dTLB-load-misses          #    0.75% of all dTLB cache accesses
+   411.585300658        964,724,924      dTLB-loads                                                  
+   411.585300658          7,833,777      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   412.586858146      1,698,109,069      dTLB-loads                                                  
+   412.586858146          8,663,962      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   413.588396465      1,859,193,543      dTLB-loads                                                  
+   413.588396465          7,998,098      dTLB-load-misses          #    0.43% of all dTLB cache accesses
+   414.589928394      2,781,492,044      dTLB-loads                                                  
+   414.589928394          9,843,893      dTLB-load-misses          #    0.35% of all dTLB cache accesses
+   415.591492905      1,851,214,008      dTLB-loads                                                  
+   415.591492905          7,873,092      dTLB-load-misses          #    0.43% of all dTLB cache accesses
+   416.592984547      1,716,165,057      dTLB-loads                                                    (100.00%)
+   416.592984547          9,069,204      dTLB-load-misses          #    0.53% of all dTLB cache accesses  (100.00%)
+   417.594480748      1,753,922,409      dTLB-loads                                                  
+   417.594480748          9,042,353      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   418.596039207      2,380,392,425      dTLB-loads                                                  
+   418.596039207          8,596,662      dTLB-load-misses          #    0.36% of all dTLB cache accesses
+   419.597557080      1,826,288,073      dTLB-loads                                                  
+   419.597557080          8,967,005      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   420.598094603      1,738,166,158      dTLB-loads                                                  
+   420.598094603          8,642,157      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   421.599620723      1,717,934,408      dTLB-loads                                                  
+   421.599620723          9,684,271      dTLB-load-misses          #    0.56% of all dTLB cache accesses
+   422.601150173      2,190,101,126      dTLB-loads                                                  
+   422.601150173          9,194,725      dTLB-load-misses          #    0.42% of all dTLB cache accesses
+   423.602676058      1,696,146,073      dTLB-loads                                                  
+   423.602676058          8,115,980      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   424.603849477      1,805,229,387      dTLB-loads                                                  
+   424.603849477          8,547,789      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   425.604405599      1,741,394,770      dTLB-loads                                                  
+   425.604405599          8,372,992      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+#           time             counts unit events
+   426.605935810      2,225,082,781      dTLB-loads                                                  
+   426.605935810          8,805,722      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   427.607452088      1,770,734,980      dTLB-loads                                                  
+   427.607452088          8,472,370      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   428.608897399      1,776,626,551      dTLB-loads                                                  
+   428.608897399          8,093,558      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   429.610422758      1,641,024,582      dTLB-loads                                                  
+   429.610422758          8,507,205      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   430.611909663      1,249,977,724      dTLB-loads                                                  
+   430.611909663          6,468,634      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   431.613414525      1,022,507,798      dTLB-loads                                                  
+   431.613414525          6,504,495      dTLB-load-misses          #    0.64% of all dTLB cache accesses
+   432.614272363        888,061,684      dTLB-loads                                                  
+   432.614272363          6,815,487      dTLB-load-misses          #    0.77% of all dTLB cache accesses
+   433.615816486      1,229,291,383      dTLB-loads                                                  
+   433.615816486          6,321,799      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   434.617390955      1,267,910,379      dTLB-loads                                                  
+   434.617390955          6,905,507      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   435.618934405      1,246,570,741      dTLB-loads                                                  
+   435.618934405          7,448,707      dTLB-load-misses          #    0.60% of all dTLB cache accesses
+   436.620456631      1,175,222,882      dTLB-loads                                                  
+   436.620456631          7,324,150      dTLB-load-misses          #    0.62% of all dTLB cache accesses
+   437.622038593      1,192,777,139      dTLB-loads                                                  
+   437.622038593          6,941,757      dTLB-load-misses          #    0.58% of all dTLB cache accesses
+   438.623596381      2,767,208,405      dTLB-loads                                                  
+   438.623596381          8,982,322      dTLB-load-misses          #    0.32% of all dTLB cache accesses
+   439.625160323      1,547,812,305      dTLB-loads                                                  
+   439.625160323          9,850,124      dTLB-load-misses          #    0.64% of all dTLB cache accesses
+   440.626713806      1,577,668,340      dTLB-loads                                                  
+   440.626713806         10,266,320      dTLB-load-misses          #    0.65% of all dTLB cache accesses
+   441.628269468      1,666,862,042      dTLB-loads                                                  
+   441.628269468          9,712,722      dTLB-load-misses          #    0.58% of all dTLB cache accesses
+   442.629788704      1,680,544,437      dTLB-loads                                                  
+   442.629788704          8,988,961      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   443.631340670      3,176,081,614      dTLB-loads                                                  
+   443.631340670          8,104,384      dTLB-load-misses          #    0.26% of all dTLB cache accesses
+   444.632921240      2,087,556,075      dTLB-loads                                                  
+   444.632921240          7,667,708      dTLB-load-misses          #    0.37% of all dTLB cache accesses
+   445.634472550      2,747,649,484      dTLB-loads                                                  
+   445.634472550          7,004,461      dTLB-load-misses          #    0.25% of all dTLB cache accesses
+   446.636028210      1,743,911,090      dTLB-loads                                                  
+   446.636028210          6,706,496      dTLB-load-misses          #    0.38% of all dTLB cache accesses
+   447.637604249        603,090,367      dTLB-loads                                                  
+   447.637604249          4,861,243      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   448.639229202      1,486,110,500      dTLB-loads                                                  
+   448.639229202          6,679,161      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   449.640802243        649,872,765      dTLB-loads                                                  
+   449.640802243          5,422,089      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+   450.642392720        593,011,477      dTLB-loads                                                  
+   450.642392720          4,963,811      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+#           time             counts unit events
+   451.644014912        562,713,093      dTLB-loads                                                  
+   451.644014912          5,702,192      dTLB-load-misses          #    1.01% of all dTLB cache accesses
+   452.645689471        566,149,226      dTLB-loads                                                  
+   452.645689471          5,662,821      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   453.647313111        581,985,215      dTLB-loads                                                  
+   453.647313111          4,939,430      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   454.647978916        545,023,493      dTLB-loads                                                  
+   454.647978916          5,286,377      dTLB-load-misses          #    0.97% of all dTLB cache accesses
+   455.649580464        535,029,545      dTLB-loads                                                  
+   455.649580464          4,877,840      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   456.651243070        563,060,185      dTLB-loads                                                  
+   456.651243070          5,197,815      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   457.652891278        568,030,593      dTLB-loads                                                  
+   457.652891278          5,551,627      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   458.654531318        603,507,798      dTLB-loads                                                  
+   458.654531318          5,288,613      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   459.656184944        593,712,467      dTLB-loads                                                  
+   459.656184944          5,275,341      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   460.657737860      1,554,215,689      dTLB-loads                                                  
+   460.657737860          6,223,952      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   461.659244634        727,123,462      dTLB-loads                                                  
+   461.659244634          6,083,687      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   462.659849189      1,096,220,232      dTLB-loads                                                  
+   462.659849189          7,269,474      dTLB-load-misses          #    0.66% of all dTLB cache accesses
+   463.661343347      1,336,556,844      dTLB-loads                                                  
+   463.661343347          7,674,936      dTLB-load-misses          #    0.57% of all dTLB cache accesses
+   464.661759117      1,284,548,256      dTLB-loads                                                  
+   464.661759117          6,891,030      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   465.663311604      1,285,435,581      dTLB-loads                                                  
+   465.663311604          7,451,904      dTLB-load-misses          #    0.58% of all dTLB cache accesses
+   466.664837730      1,594,189,619      dTLB-loads                                                  
+   466.664837730          8,207,371      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   467.666369887        705,651,690      dTLB-loads                                                  
+   467.666369887          6,471,289      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   468.667825569      1,376,150,875      dTLB-loads                                                    (100.00%)
+   468.667825569          6,294,826      dTLB-load-misses          #    0.46% of all dTLB cache accesses  (100.00%)
+   469.669414222        546,739,563      dTLB-loads                                                  
+   469.669414222          4,385,241      dTLB-load-misses          #    0.80% of all dTLB cache accesses
+   470.671087593        502,599,237      dTLB-loads                                                  
+   470.671087593          4,421,443      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   471.672751575        506,899,566      dTLB-loads                                                  
+   471.672751575          4,514,734      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   472.674374744        508,854,352      dTLB-loads                                                  
+   472.674374744          5,124,357      dTLB-load-misses          #    1.01% of all dTLB cache accesses
+   473.676004037        505,999,520      dTLB-loads                                                  
+   473.676004037          4,536,239      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   474.677661138        505,291,839      dTLB-loads                                                  
+   474.677661138          4,544,220      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   475.679326708        507,173,649      dTLB-loads                                                  
+   475.679326708          4,580,086      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+#           time             counts unit events
+   476.681034283        522,624,857      dTLB-loads                                                  
+   476.681034283          5,204,331      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   477.682696529        502,711,743      dTLB-loads                                                  
+   477.682696529          4,837,667      dTLB-load-misses          #    0.96% of all dTLB cache accesses
+   478.683824881        564,833,400      dTLB-loads                                                  
+   478.683824881          4,729,060      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   479.685426592        534,746,116      dTLB-loads                                                  
+   479.685426592          5,051,347      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+   480.687040606        512,203,804      dTLB-loads                                                  
+   480.687040606          4,670,251      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   481.687855684      1,476,133,674      dTLB-loads                                                  
+   481.687855684          5,655,930      dTLB-load-misses          #    0.38% of all dTLB cache accesses
+   482.689426747        527,486,078      dTLB-loads                                                  
+   482.689426747          5,306,691      dTLB-load-misses          #    1.01% of all dTLB cache accesses
+   483.691042357        551,511,163      dTLB-loads                                                  
+   483.691042357          5,029,515      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   484.691859360        609,476,653      dTLB-loads                                                  
+   484.691859360          5,251,890      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   485.692600033        593,864,502      dTLB-loads                                                  
+   485.692600033          5,229,384      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   486.694219845        584,718,358      dTLB-loads                                                  
+   486.694219845          5,580,730      dTLB-load-misses          #    0.95% of all dTLB cache accesses
+   487.695835438        556,012,521      dTLB-loads                                                  
+   487.695835438          5,632,161      dTLB-load-misses          #    1.01% of all dTLB cache accesses
+   488.697455710        555,143,464      dTLB-loads                                                  
+   488.697455710          5,533,634      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   489.699043898        593,033,803      dTLB-loads                                                  
+   489.699043898          5,362,822      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   490.699829653        591,468,378      dTLB-loads                                                  
+   490.699829653          4,755,773      dTLB-load-misses          #    0.80% of all dTLB cache accesses
+   491.701653551        592,470,648      dTLB-loads                                                  
+   491.701653551          4,805,719      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   492.703235168        583,049,036      dTLB-loads                                                  
+   492.703235168          5,277,214      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   493.704868745      1,526,256,283      dTLB-loads                                                  
+   493.704868745          6,135,891      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   494.706451341        723,616,929      dTLB-loads                                                  
+   494.706451341          5,528,214      dTLB-load-misses          #    0.76% of all dTLB cache accesses
+   495.707825690        682,854,452      dTLB-loads                                                  
+   495.707825690          5,617,986      dTLB-load-misses          #    0.82% of all dTLB cache accesses
+   496.709420929      1,622,202,905      dTLB-loads                                                  
+   496.709420929          7,933,062      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   497.710973969      1,807,229,320      dTLB-loads                                                  
+   497.710973969          8,202,848      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   498.711824577      1,635,266,221      dTLB-loads                                                  
+   498.711824577          8,210,901      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   499.713177950        755,555,794      dTLB-loads                                                  
+   499.713177950          6,157,303      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   500.722817208        778,270,557      dTLB-loads                                                  
+   500.722817208          6,461,855      dTLB-load-misses          #    0.83% of all dTLB cache accesses
+#           time             counts unit events
+   501.724147205      1,547,358,074      dTLB-loads                                                  
+   501.724147205          7,230,230      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   502.725693788        571,948,118      dTLB-loads                                                  
+   502.725693788          5,027,289      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   503.727301566        588,281,789      dTLB-loads                                                  
+   503.727301566          5,289,152      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   504.728914678        588,183,962      dTLB-loads                                                  
+   504.728914678          5,172,846      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   505.730490584        585,834,465      dTLB-loads                                                  
+   505.730490584          5,209,734      dTLB-load-misses          #    0.89% of all dTLB cache accesses
+   506.732094163        594,296,226      dTLB-loads                                                  
+   506.732094163          5,394,035      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   507.733718288        599,701,309      dTLB-loads                                                  
+   507.733718288          5,535,307      dTLB-load-misses          #    0.92% of all dTLB cache accesses
+   508.735283524        585,298,301      dTLB-loads                                                  
+   508.735283524          5,325,758      dTLB-load-misses          #    0.91% of all dTLB cache accesses
+   509.736879360        643,096,647      dTLB-loads                                                  
+   509.736879360          5,680,544      dTLB-load-misses          #    0.88% of all dTLB cache accesses
+   510.738492624        616,734,915      dTLB-loads                                                  
+   510.738492624          5,003,919      dTLB-load-misses          #    0.81% of all dTLB cache accesses
+   511.740075412        578,611,318      dTLB-loads                                                  
+   511.740075412          5,674,696      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   512.741634791      1,416,568,678      dTLB-loads                                                  
+   512.741634791          7,742,304      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   513.743559042        874,786,852      dTLB-loads                                                  
+   513.743559042          5,861,329      dTLB-load-misses          #    0.67% of all dTLB cache accesses
+   514.745102072        632,218,089      dTLB-loads                                                  
+   514.745102072          5,373,961      dTLB-load-misses          #    0.85% of all dTLB cache accesses
+   515.746670055        593,166,312      dTLB-loads                                                  
+   515.746670055          5,545,854      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   516.747851013        592,055,379      dTLB-loads                                                  
+   516.747851013          4,973,844      dTLB-load-misses          #    0.84% of all dTLB cache accesses
+   517.749440418        633,579,293      dTLB-loads                                                  
+   517.749440418          5,437,304      dTLB-load-misses          #    0.86% of all dTLB cache accesses
+   518.750975643        624,689,967      dTLB-loads                                                  
+   518.750975643          5,826,384      dTLB-load-misses          #    0.93% of all dTLB cache accesses
+   519.751832252        517,759,955      dTLB-loads                                                  
+   519.751832252          5,156,897      dTLB-load-misses          #    1.00% of all dTLB cache accesses
+   520.752981393        515,731,551      dTLB-loads                                                  
+   520.752981393          5,101,950      dTLB-load-misses          #    0.99% of all dTLB cache accesses
+   521.753617731        514,813,851      dTLB-loads                                                  
+   521.753617731          5,065,125      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   522.754291938        512,283,624      dTLB-loads                                                  
+   522.754291938          5,298,259      dTLB-load-misses          #    1.03% of all dTLB cache accesses
+   523.755827807        509,120,358      dTLB-loads                                                  
+   523.755827807          5,045,829      dTLB-load-misses          #    0.99% of all dTLB cache accesses
+   524.757451371        739,596,846      dTLB-loads                                                  
+   524.757451371          5,471,954      dTLB-load-misses          #    0.74% of all dTLB cache accesses
+   525.759229309      1,221,139,325      dTLB-loads                                                  
+   525.759229309          6,951,642      dTLB-load-misses          #    0.57% of all dTLB cache accesses
+#           time             counts unit events
+   526.759987731        595,901,119      dTLB-loads                                                  
+   526.759987731          5,334,059      dTLB-load-misses          #    0.90% of all dTLB cache accesses
+   527.761561677      1,363,116,809      dTLB-loads                                                  
+   527.761561677          6,918,948      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   528.763082419      1,756,613,971      dTLB-loads                                                  
+   528.763082419          8,347,765      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   529.763847512      1,857,974,127      dTLB-loads                                                  
+   529.763847512          8,463,476      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   530.765363477        698,189,622      dTLB-loads                                                  
+   530.765363477          6,597,142      dTLB-load-misses          #    0.94% of all dTLB cache accesses
+   531.766990387      1,223,549,046      dTLB-loads                                                  
+   531.766990387          7,962,215      dTLB-load-misses          #    0.65% of all dTLB cache accesses
+   532.768529955      2,462,306,548      dTLB-loads                                                  
+   532.768529955          9,362,904      dTLB-load-misses          #    0.38% of all dTLB cache accesses
+   533.770015590      1,715,275,288      dTLB-loads                                                  
+   533.770015590          9,416,408      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   534.771579867      1,775,807,249      dTLB-loads                                                  
+   534.771579867          9,583,841      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   535.773225792      1,846,732,677      dTLB-loads                                                  
+   535.773225792          8,981,025      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   536.774813976      2,387,827,220      dTLB-loads                                                  
+   536.774813976          9,799,066      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   537.776313081      1,841,326,758      dTLB-loads                                                  
+   537.776313081          9,314,889      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   538.777836458      1,744,230,609      dTLB-loads                                                  
+   538.777836458          9,443,878      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   539.779411165      1,849,816,672      dTLB-loads                                                  
+   539.779411165          8,500,075      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   540.780996475      2,196,159,316      dTLB-loads                                                  
+   540.780996475          8,976,999      dTLB-load-misses          #    0.41% of all dTLB cache accesses
+   541.782559581      1,780,634,814      dTLB-loads                                                  
+   541.782559581          8,438,687      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   542.784130801      1,465,951,578      dTLB-loads                                                  
+   542.784130801          5,079,856      dTLB-load-misses          #    0.35% of all dTLB cache accesses
+   543.785631458      1,229,051,365      dTLB-loads                                                  
+   543.785631458          4,715,439      dTLB-load-misses          #    0.38% of all dTLB cache accesses
+   544.787128944      1,274,826,595      dTLB-loads                                                  
+   544.787128944          3,584,543      dTLB-load-misses          #    0.28% of all dTLB cache accesses
+   545.787953429      1,526,262,102      dTLB-loads                                                  
+   545.787953429          3,752,172      dTLB-load-misses          #    0.25% of all dTLB cache accesses
+   546.789451137      1,070,969,296      dTLB-loads                                                  
+   546.789451137          2,293,631      dTLB-load-misses          #    0.21% of all dTLB cache accesses
+   547.790871488      1,030,951,000      dTLB-loads                                                  
+   547.790871488          2,135,614      dTLB-load-misses          #    0.21% of all dTLB cache accesses
+   548.792344566      1,019,654,047      dTLB-loads                                                  
+   548.792344566          2,221,348      dTLB-load-misses          #    0.22% of all dTLB cache accesses
+   549.793827675        684,682,596      dTLB-loads                                                  
+   549.793827675          1,456,213      dTLB-load-misses          #    0.21% of all dTLB cache accesses
+   550.795382945          6,219,655      dTLB-loads                                                  
+   550.795382945             74,593      dTLB-load-misses          #    1.20% of all dTLB cache accesses
+#           time             counts unit events
+   551.796803880          9,742,870      dTLB-loads                                                  
+   551.796803880             95,066      dTLB-load-misses          #    0.98% of all dTLB cache accesses
+   552.798363725        716,539,133      dTLB-loads                                                  
+   552.798363725          1,317,245      dTLB-load-misses          #    0.18% of all dTLB cache accesses
+   553.799822450      1,499,180,680      dTLB-loads                                                  
+   553.799822450          4,263,240      dTLB-load-misses          #    0.28% of all dTLB cache accesses
+   554.800240943      5,581,420,767      dTLB-loads                                                  
+   554.800240943         22,175,308      dTLB-load-misses          #    0.40% of all dTLB cache accesses
+   555.801799058      5,506,503,151      dTLB-loads                                                    (100.00%)
+   555.801799058         19,584,276      dTLB-load-misses          #    0.36% of all dTLB cache accesses  (100.00%)
+   556.803127116      4,922,764,470      dTLB-loads                                                  
+   556.803127116         14,368,906      dTLB-load-misses          #    0.29% of all dTLB cache accesses
+   557.803821592      1,650,522,402      dTLB-loads                                                  
+   557.803821592          7,279,006      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   558.805313646      1,313,760,829      dTLB-loads                                                  
+   558.805313646          6,900,721      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   559.805696042      1,263,270,057      dTLB-loads                                                  
+   559.805696042          6,999,182      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   560.806393104      1,529,062,909      dTLB-loads                                                    (100.00%)
+   560.806393104          8,663,948      dTLB-load-misses          #    0.57% of all dTLB cache accesses  (100.00%)
+   561.807913642      1,258,897,444      dTLB-loads                                                  
+   561.807913642          7,673,821      dTLB-load-misses          #    0.61% of all dTLB cache accesses
+   562.809210372      1,539,044,825      dTLB-loads                                                  
+   562.809210372          7,795,783      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   563.810207570      1,398,262,780      dTLB-loads                                                  
+   563.810207570          7,301,072      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   564.811731953      1,364,796,034      dTLB-loads                                                  
+   564.811731953          7,355,133      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   565.813278443      1,480,776,602      dTLB-loads                                                  
+   565.813278443          7,632,783      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   566.814808803      1,463,452,416      dTLB-loads                                                  
+   566.814808803          7,800,808      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   567.816346862      1,403,339,273      dTLB-loads                                                  
+   567.816346862          7,414,968      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   568.817896585      1,382,344,734      dTLB-loads                                                  
+   568.817896585          7,770,382      dTLB-load-misses          #    0.56% of all dTLB cache accesses
+   569.819431757      1,472,398,509      dTLB-loads                                                  
+   569.819431757          7,652,574      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   570.820966771      1,388,878,134      dTLB-loads                                                  
+   570.820966771          7,459,367      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   571.822482487      1,498,555,268      dTLB-loads                                                  
+   571.822482487          7,984,821      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   572.823853153      1,392,848,082      dTLB-loads                                                  
+   572.823853153          7,712,524      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   573.825376387      1,540,252,346      dTLB-loads                                                  
+   573.825376387          7,942,973      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   574.826890471      1,832,733,797      dTLB-loads                                                  
+   574.826890471          8,703,856      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   575.827849358      1,556,376,712      dTLB-loads                                                  
+   575.827849358          7,896,136      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+#           time             counts unit events
+   576.829378069      1,561,910,915      dTLB-loads                                                  
+   576.829378069          8,219,863      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   577.829928927      1,545,279,217      dTLB-loads                                                  
+   577.829928927          7,883,795      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   578.831421836      1,457,365,662      dTLB-loads                                                  
+   578.831421836          7,667,903      dTLB-load-misses          #    0.53% of all dTLB cache accesses
+   579.833054667      1,444,698,404      dTLB-loads                                                  
+   579.833054667          7,902,681      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   580.834578079      1,443,272,656      dTLB-loads                                                  
+   580.834578079          7,915,996      dTLB-load-misses          #    0.55% of all dTLB cache accesses
+   581.836074318      1,725,761,365      dTLB-loads                                                  
+   581.836074318          8,400,251      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   582.837589159      1,454,168,146      dTLB-loads                                                  
+   582.837589159          7,825,916      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   583.839112333      1,460,139,444      dTLB-loads                                                  
+   583.839112333          7,875,265      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   584.840642076      1,514,957,785      dTLB-loads                                                  
+   584.840642076          7,860,658      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   585.842130090      1,592,259,114      dTLB-loads                                                  
+   585.842130090          7,886,116      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   586.843721048      1,498,415,153      dTLB-loads                                                  
+   586.843721048          7,798,687      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   587.845401915      1,566,400,786      dTLB-loads                                                  
+   587.845401915          8,391,605      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   588.846938931      1,516,015,129      dTLB-loads                                                  
+   588.846938931          7,943,827      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   589.848599993      1,658,732,250      dTLB-loads                                                  
+   589.848599993          7,979,105      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   590.850226559      1,539,637,342      dTLB-loads                                                  
+   590.850226559          7,856,362      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   591.850753979      1,535,062,243      dTLB-loads                                                  
+   591.850753979          7,766,194      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   592.852283535      1,640,613,114      dTLB-loads                                                  
+   592.852283535          8,146,294      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   593.853798736      1,750,876,740      dTLB-loads                                                  
+   593.853798736          8,009,257      dTLB-load-misses          #    0.46% of all dTLB cache accesses
+   594.855313211      1,558,108,518      dTLB-loads                                                  
+   594.855313211          7,924,038      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   595.856845728      1,502,150,475      dTLB-loads                                                  
+   595.856845728          7,685,391      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   596.858481610      1,356,582,602      dTLB-loads                                                  
+   596.858481610          7,091,932      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+   597.859994026      1,623,306,252      dTLB-loads                                                  
+   597.859994026          8,157,443      dTLB-load-misses          #    0.50% of all dTLB cache accesses
+   598.860591633      1,563,804,917      dTLB-loads                                                  
+   598.860591633          7,543,248      dTLB-load-misses          #    0.48% of all dTLB cache accesses
+   599.862131683      1,466,383,526      dTLB-loads                                                  
+   599.862131683          7,457,485      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   600.863634352      1,476,228,799      dTLB-loads                                                  
+   600.863634352          7,628,816      dTLB-load-misses          #    0.52% of all dTLB cache accesses
+#           time             counts unit events
+   601.865271714      1,513,273,120      dTLB-loads                                                  
+   601.865271714          8,096,833      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   602.866793058      1,552,410,707      dTLB-loads                                                  
+   602.866793058          8,337,251      dTLB-load-misses          #    0.54% of all dTLB cache accesses
+   603.867876627      1,641,505,604      dTLB-loads                                                  
+   603.867876627          8,392,834      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   604.869411969      1,723,902,114      dTLB-loads                                                  
+   604.869411969          8,424,013      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   605.870947686      1,625,917,757      dTLB-loads                                                  
+   605.870947686          7,950,992      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   606.872482871      1,555,166,418      dTLB-loads                                                  
+   606.872482871          7,896,931      dTLB-load-misses          #    0.51% of all dTLB cache accesses
+   607.874009265      1,648,391,324      dTLB-loads                                                  
+   607.874009265          8,016,682      dTLB-load-misses          #    0.49% of all dTLB cache accesses
+   608.875549618      1,829,101,499      dTLB-loads                                                  
+   608.875549618          8,063,056      dTLB-load-misses          #    0.44% of all dTLB cache accesses
+   609.876226160      1,787,223,981      dTLB-loads                                                  
+   609.876226160          7,970,550      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   610.877748455      1,574,689,003      dTLB-loads                                                  
+   610.877748455          7,379,006      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   611.878313666      1,577,269,042      dTLB-loads                                                  
+   611.878313666          7,412,611      dTLB-load-misses          #    0.47% of all dTLB cache accesses
+   612.879812712      1,775,196,878      dTLB-loads                                                  
+   612.879812712          7,936,524      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   613.881325935      1,679,008,497      dTLB-loads                                                  
+   613.881325935          7,595,648      dTLB-load-misses          #    0.45% of all dTLB cache accesses
+   614.882787793      1,376,184,176      dTLB-loads                                                  
+   614.882787793          4,680,573      dTLB-load-misses          #    0.34% of all dTLB cache accesses
+   615.884274424      1,277,073,927      dTLB-loads                                                  
+   615.884274424          4,235,715      dTLB-load-misses          #    0.33% of all dTLB cache accesses
+   616.885688122      1,468,983,959      dTLB-loads                                                  
+   616.885688122          4,465,543      dTLB-load-misses          #    0.30% of all dTLB cache accesses
+   617.887188318      1,645,767,785      dTLB-loads                                                  
+   617.887188318          4,846,134      dTLB-load-misses          #    0.29% of all dTLB cache accesses
+   618.888586066      1,376,426,759      dTLB-loads                                                  
+   618.888586066          4,344,571      dTLB-load-misses          #    0.32% of all dTLB cache accesses
+   619.890096764      1,274,016,775      dTLB-loads                                                  
+   619.890096764          4,312,638      dTLB-load-misses          #    0.34% of all dTLB cache accesses
+   620.891598203      1,349,984,723      dTLB-loads                                                  
+   620.891598203          4,447,695      dTLB-load-misses          #    0.33% of all dTLB cache accesses
+   621.893084498      1,570,874,651      dTLB-loads                                                  
+   621.893084498          4,994,549      dTLB-load-misses          #    0.32% of all dTLB cache accesses
+   622.894598777      1,632,806,812      dTLB-loads                                                  
+   622.894598777          4,810,787      dTLB-load-misses          #    0.29% of all dTLB cache accesses
+   623.896025557      1,443,198,354      dTLB-loads                                                  
+   623.896025557          5,142,932      dTLB-load-misses          #    0.36% of all dTLB cache accesses
+   624.897565080      1,321,451,231      dTLB-loads                                                  
+   624.897565080          4,391,517      dTLB-load-misses          #    0.33% of all dTLB cache accesses
+   625.899100055      1,769,725,724      dTLB-loads                                                  
+   625.899100055          4,818,292      dTLB-load-misses          #    0.27% of all dTLB cache accesses
+#           time             counts unit events
+   626.900631086      2,178,181,678      dTLB-loads                                                  
+   626.900631086          6,697,581      dTLB-load-misses          #    0.31% of all dTLB cache accesses
+   627.902174207      2,395,767,787      dTLB-loads                                                  
+   627.902174207          8,092,165      dTLB-load-misses          #    0.34% of all dTLB cache accesses
+   628.903764003      1,595,437,613      dTLB-loads                                                  
+   628.903764003          5,894,731      dTLB-load-misses          #    0.37% of all dTLB cache accesses
+   629.905310457      1,225,573,110      dTLB-loads                                                  
+   629.905310457          2,026,786      dTLB-load-misses          #    0.17% of all dTLB cache accesses
+   630.906772788         84,124,818      dTLB-loads                                                  
+   630.906772788             13,696      dTLB-load-misses          #    0.02% of all dTLB cache accesses

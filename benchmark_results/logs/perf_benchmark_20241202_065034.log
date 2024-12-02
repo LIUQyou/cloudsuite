@@ -90,3 +90,57 @@ Starting monitoring for container: cassandra-client-warmup
 Started real-time logging for cassandra-client-warmup to benchmark_results/container_logs/cassandra-client-warmup.log
 
 Started monitoring container cassandra-client-warmup (PID: 463312)
+
+Starting monitoring for container: cassandra-client-load
+
+Started real-time logging for cassandra-client-load to benchmark_results/container_logs/cassandra-client-load.log
+
+Started monitoring container cassandra-client-load (PID: 464196)
+
+=== Running event group 5 ===
+
+Running Data Serving benchmark with performance monitoring...
+
+Starting Cassandra server...
+
+Starting monitoring for container: cassandra-server
+
+Started real-time logging for cassandra-server to benchmark_results/container_logs/cassandra-server.log
+
+Started monitoring container cassandra-server (PID: 465042)
+
+Starting monitoring for container: cassandra-client-warmup
+
+Started real-time logging for cassandra-client-warmup to benchmark_results/container_logs/cassandra-client-warmup.log
+
+Started monitoring container cassandra-client-warmup (PID: 465414)
+
+Starting monitoring for container: cassandra-client-load
+
+Started real-time logging for cassandra-client-load to benchmark_results/container_logs/cassandra-client-load.log
+
+Started monitoring container cassandra-client-load (PID: 466225)
+
+=== Running event group 6 ===
+
+Running Data Serving benchmark with performance monitoring...
+
+Starting Cassandra server...
+
+Starting monitoring for container: cassandra-server
+
+Started real-time logging for cassandra-server to benchmark_results/container_logs/cassandra-server.log
+
+Started monitoring container cassandra-server (PID: 466956)
+
+Starting monitoring for container: cassandra-client-warmup
+
+Started real-time logging for cassandra-client-warmup to benchmark_results/container_logs/cassandra-client-warmup.log
+
+Started monitoring container cassandra-client-warmup (PID: 467311)
+
+Starting monitoring for container: cassandra-client-load
+
+Started real-time logging for cassandra-client-load to benchmark_results/container_logs/cassandra-client-load.log
+
+Started monitoring container cassandra-client-load (PID: 468093)
