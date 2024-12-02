@@ -1,0 +1,50 @@
+
+Running all event groups sequentially
+
+=== Running event group 1 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: /system.slice/docker-b339050143653adb4f091a3a98a86775eea0f15cb2da98cd8f7f04f9591b6b3c.scope)
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: )
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )
+
+=== Running event group 2 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: /system.slice/docker-1880eac9d707e57d9b7767a6c32b5074fbb97cc1c751a48603f1bdef6bdb08b9.scope)
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: )
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )
+
+=== Running event group 3 ===
+
+Running Data Serving Relational benchmark with performance monitoring...

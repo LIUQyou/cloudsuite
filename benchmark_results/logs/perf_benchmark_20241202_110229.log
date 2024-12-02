@@ -1,0 +1,248 @@
+
+Running all event groups sequentially
+
+=== Running event group 1 ===
+Running Data Analytics benchmark with performance monitoring...
+
+Starting monitoring for container: data-master
+
+Started real-time logging for data-master to benchmark_results/container_logs/data-master.log
+
+Started monitoring container data-master (Cgroup: /system.slice/docker-69aacf9a4dbc3744f31e922eb011d931869b7293a4b34665fb19cbbe1458dadd.scope)
+
+Starting monitoring for container: data-slave01
+
+Started real-time logging for data-slave01 to benchmark_results/container_logs/data-slave01.log
+
+Started monitoring container data-slave01 (Cgroup: /system.slice/docker-bc34d130d05cd2099a269422b5968f3e781f470f9e01e5bf4a56dfd60e6e4183.scope)
+
+Starting monitoring for container: data-slave02
+
+Started real-time logging for data-slave02 to benchmark_results/container_logs/data-slave02.log
+
+Started monitoring container data-slave02 (Cgroup: /system.slice/docker-4af12f9d5c1f119194545aeaaff267ec02c9edf92b296516fbc13f0a2b7a6d34.scope)
+
+Starting monitoring for container: data-slave03
+
+Started real-time logging for data-slave03 to benchmark_results/container_logs/data-slave03.log
+
+Started monitoring container data-slave03 (Cgroup: /system.slice/docker-0ef0552c3cd0305d52d1f03567ae74d79853033bbd3bf3c1812330dcc4786da0.scope)
+
+Starting monitoring for container: data-slave04
+
+Started real-time logging for data-slave04 to benchmark_results/container_logs/data-slave04.log
+
+Started monitoring container data-slave04 (Cgroup: /system.slice/docker-dccbc2c9005b686ab493f27db1761687652d20da3538b97495b2db3b73757097.scope)
+Starting benchmark inside the master container...
+Collected logs for data-master into benchmark_results/container_logs/data-master.log
+Collected logs for data-slave01 into benchmark_results/container_logs/data-slave01.log
+Collected logs for data-slave02 into benchmark_results/container_logs/data-slave02.log
+Collected logs for data-slave03 into benchmark_results/container_logs/data-slave03.log
+Collected logs for data-slave04 into benchmark_results/container_logs/data-slave04.log
+Collected logs for wikimedia-dataset into benchmark_results/container_logs/wikimedia-dataset.log
+Data Analytics benchmark completed.
+
+=== Running event group 2 ===
+Running Data Analytics benchmark with performance monitoring...
+
+Starting monitoring for container: data-master
+
+Started real-time logging for data-master to benchmark_results/container_logs/data-master.log
+
+Started monitoring container data-master (Cgroup: /system.slice/docker-b3fd44f83ae558dad41429f9a1659b03e9cef4481a83258679812fd6c950ad4d.scope)
+
+Starting monitoring for container: data-slave01
+
+Started real-time logging for data-slave01 to benchmark_results/container_logs/data-slave01.log
+
+Started monitoring container data-slave01 (Cgroup: /system.slice/docker-97adfd0fa899bbe29c2da75fbc0126133dabf6ad273523f33c98ca5627ad86ba.scope)
+
+Starting monitoring for container: data-slave02
+
+Started real-time logging for data-slave02 to benchmark_results/container_logs/data-slave02.log
+
+Started monitoring container data-slave02 (Cgroup: /system.slice/docker-0cdba67ea9128b14f09aba5f2cf8828b10a93ea5562c86f8962aa2ee8dc62d26.scope)
+
+Starting monitoring for container: data-slave03
+
+Started real-time logging for data-slave03 to benchmark_results/container_logs/data-slave03.log
+
+Started monitoring container data-slave03 (Cgroup: /system.slice/docker-0c7230340d3901ba63a9f756e4ed77249fa0fc9b8b74856856135430e3ada557.scope)
+
+Starting monitoring for container: data-slave04
+
+Started real-time logging for data-slave04 to benchmark_results/container_logs/data-slave04.log
+
+Started monitoring container data-slave04 (Cgroup: /system.slice/docker-779f98f90ea1a4e8bdb4e6f0cfc8f7ec539b97f4ba5fb1e1f12d632a58f12603.scope)
+Starting benchmark inside the master container...
+Collected logs for data-master into benchmark_results/container_logs/data-master.log
+Collected logs for data-slave01 into benchmark_results/container_logs/data-slave01.log
+Collected logs for data-slave02 into benchmark_results/container_logs/data-slave02.log
+Collected logs for data-slave03 into benchmark_results/container_logs/data-slave03.log
+Collected logs for data-slave04 into benchmark_results/container_logs/data-slave04.log
+Collected logs for wikimedia-dataset into benchmark_results/container_logs/wikimedia-dataset.log
+Data Analytics benchmark completed.
+
+=== Running event group 3 ===
+Running Data Analytics benchmark with performance monitoring...
+
+Starting monitoring for container: data-master
+
+Started real-time logging for data-master to benchmark_results/container_logs/data-master.log
+
+Started monitoring container data-master (Cgroup: /system.slice/docker-51d1438e12b9cd59e27ecbac67a39da9cb0868edaa39928c38030112a5ec7d96.scope)
+
+Starting monitoring for container: data-slave01
+
+Started real-time logging for data-slave01 to benchmark_results/container_logs/data-slave01.log
+
+Started monitoring container data-slave01 (Cgroup: /system.slice/docker-342f7896938edd9a8b2387ca6564754ddac491137be8d7377ca230508d9a6d3e.scope)
+
+Starting monitoring for container: data-slave02
+
+Started real-time logging for data-slave02 to benchmark_results/container_logs/data-slave02.log
+
+Started monitoring container data-slave02 (Cgroup: /system.slice/docker-277afac3047e6a80b47860582498dea00dd88583c89241e6f610d8149857e2ec.scope)
+
+Starting monitoring for container: data-slave03
+
+Started real-time logging for data-slave03 to benchmark_results/container_logs/data-slave03.log
+
+Started monitoring container data-slave03 (Cgroup: /system.slice/docker-afb84350854d83f7fbc3b240436ff8db0c59a2469eba3e634af464332be2dbbc.scope)
+
+Starting monitoring for container: data-slave04
+
+Started real-time logging for data-slave04 to benchmark_results/container_logs/data-slave04.log
+
+Started monitoring container data-slave04 (Cgroup: /system.slice/docker-d1943f7a74d0d95669061b490129138f3beeae67bdf260bd1444bc80f83ddad4.scope)
+Starting benchmark inside the master container...
+Collected logs for data-master into benchmark_results/container_logs/data-master.log
+Collected logs for data-slave01 into benchmark_results/container_logs/data-slave01.log
+Collected logs for data-slave02 into benchmark_results/container_logs/data-slave02.log
+Collected logs for data-slave03 into benchmark_results/container_logs/data-slave03.log
+Collected logs for data-slave04 into benchmark_results/container_logs/data-slave04.log
+Collected logs for wikimedia-dataset into benchmark_results/container_logs/wikimedia-dataset.log
+Data Analytics benchmark completed.
+
+=== Running event group 4 ===
+Running Data Analytics benchmark with performance monitoring...
+
+Starting monitoring for container: data-master
+
+Started real-time logging for data-master to benchmark_results/container_logs/data-master.log
+
+Started monitoring container data-master (Cgroup: /system.slice/docker-7b1c3b0e8525d02ac67c66407526b1234b04dddadc93bc3fb1fd733bb9acbe87.scope)
+
+Starting monitoring for container: data-slave01
+
+Started real-time logging for data-slave01 to benchmark_results/container_logs/data-slave01.log
+
+Started monitoring container data-slave01 (Cgroup: /system.slice/docker-368e55de2f624aff8d16b708b141d5decb2cab6fa5c6fc8f620c9913fe8044b5.scope)
+
+Starting monitoring for container: data-slave02
+
+Started real-time logging for data-slave02 to benchmark_results/container_logs/data-slave02.log
+
+Started monitoring container data-slave02 (Cgroup: /system.slice/docker-5bd7bbbcf07a1e07c2a3bbe43cd427d533c27e03a63ad737faf8af5497c432fe.scope)
+
+Starting monitoring for container: data-slave03
+
+Started real-time logging for data-slave03 to benchmark_results/container_logs/data-slave03.log
+
+Started monitoring container data-slave03 (Cgroup: /system.slice/docker-9f86169789e453a13215b769875cf2ada73bd0f5a1474e5b16eb7a78d3618816.scope)
+
+Starting monitoring for container: data-slave04
+
+Started real-time logging for data-slave04 to benchmark_results/container_logs/data-slave04.log
+
+Started monitoring container data-slave04 (Cgroup: /system.slice/docker-43ff269d187d5e3890908f927b4b48142018cc102953a6e5290cb38524e4cf55.scope)
+Starting benchmark inside the master container...
+Collected logs for data-master into benchmark_results/container_logs/data-master.log
+Collected logs for data-slave01 into benchmark_results/container_logs/data-slave01.log
+Collected logs for data-slave02 into benchmark_results/container_logs/data-slave02.log
+Collected logs for data-slave03 into benchmark_results/container_logs/data-slave03.log
+Collected logs for data-slave04 into benchmark_results/container_logs/data-slave04.log
+Collected logs for wikimedia-dataset into benchmark_results/container_logs/wikimedia-dataset.log
+Data Analytics benchmark completed.
+
+=== Running event group 5 ===
+Running Data Analytics benchmark with performance monitoring...
+
+Starting monitoring for container: data-master
+
+Started real-time logging for data-master to benchmark_results/container_logs/data-master.log
+
+Started monitoring container data-master (Cgroup: /system.slice/docker-d4293254ca5a13dcd3af4d9998e6791ba45abfdc16a51adf552ba297aa840ab7.scope)
+
+Starting monitoring for container: data-slave01
+
+Started real-time logging for data-slave01 to benchmark_results/container_logs/data-slave01.log
+
+Started monitoring container data-slave01 (Cgroup: /system.slice/docker-5819405c216bbdca4f2fd8a352493e2d732e1141fae138ac47db99345985948c.scope)
+
+Starting monitoring for container: data-slave02
+
+Started real-time logging for data-slave02 to benchmark_results/container_logs/data-slave02.log
+
+Started monitoring container data-slave02 (Cgroup: /system.slice/docker-d031d2fe77b38270c4f5589e71d82d81cd85484454038a03c57625fc33b814c2.scope)
+
+Starting monitoring for container: data-slave03
+
+Started real-time logging for data-slave03 to benchmark_results/container_logs/data-slave03.log
+
+Started monitoring container data-slave03 (Cgroup: /system.slice/docker-f4eb8ed7de2574fad290a85ff992db1b8a389effd98548426325bbadcd84f382.scope)
+
+Starting monitoring for container: data-slave04
+
+Started real-time logging for data-slave04 to benchmark_results/container_logs/data-slave04.log
+
+Started monitoring container data-slave04 (Cgroup: /system.slice/docker-5ad30afb39dcc8608bd45e7f8e99c4c4072f13d33b3eb3ef038fa47fede6b7e0.scope)
+Starting benchmark inside the master container...
+Collected logs for data-master into benchmark_results/container_logs/data-master.log
+Collected logs for data-slave01 into benchmark_results/container_logs/data-slave01.log
+Collected logs for data-slave02 into benchmark_results/container_logs/data-slave02.log
+Collected logs for data-slave03 into benchmark_results/container_logs/data-slave03.log
+Collected logs for data-slave04 into benchmark_results/container_logs/data-slave04.log
+Collected logs for wikimedia-dataset into benchmark_results/container_logs/wikimedia-dataset.log
+Data Analytics benchmark completed.
+
+=== Running event group 6 ===
+Running Data Analytics benchmark with performance monitoring...
+
+Starting monitoring for container: data-master
+
+Started real-time logging for data-master to benchmark_results/container_logs/data-master.log
+
+Started monitoring container data-master (Cgroup: /system.slice/docker-d012cdbf15f7f4b263209f7a0ca107cbef894dc3495e387623633cdf5d60a6a7.scope)
+
+Starting monitoring for container: data-slave01
+
+Started real-time logging for data-slave01 to benchmark_results/container_logs/data-slave01.log
+
+Started monitoring container data-slave01 (Cgroup: /system.slice/docker-1a73555ed4ad352f0ea4811240bb0a739ccb24883b34f8972158bcdb9902e2b3.scope)
+
+Starting monitoring for container: data-slave02
+
+Started real-time logging for data-slave02 to benchmark_results/container_logs/data-slave02.log
+
+Started monitoring container data-slave02 (Cgroup: /system.slice/docker-a416ce0e62308fcc64e006172776cda5395b8dbc50735696d22b83a64e83edaf.scope)
+
+Starting monitoring for container: data-slave03
+
+Started real-time logging for data-slave03 to benchmark_results/container_logs/data-slave03.log
+
+Started monitoring container data-slave03 (Cgroup: /system.slice/docker-fd26e3f3a8a0e02d4eb24caa584526d3df6cfaa11f4d9a8ecaf2ce18b96d21ec.scope)
+
+Starting monitoring for container: data-slave04
+
+Started real-time logging for data-slave04 to benchmark_results/container_logs/data-slave04.log
+
+Started monitoring container data-slave04 (Cgroup: /system.slice/docker-2fad5eef27d126c42ce94bf183f983109873160b39837c81166c15d299bba7fa.scope)
+Starting benchmark inside the master container...
+Collected logs for data-master into benchmark_results/container_logs/data-master.log
+Collected logs for data-slave01 into benchmark_results/container_logs/data-slave01.log
+Collected logs for data-slave02 into benchmark_results/container_logs/data-slave02.log
+Collected logs for data-slave03 into benchmark_results/container_logs/data-slave03.log
+Collected logs for data-slave04 into benchmark_results/container_logs/data-slave04.log
+Collected logs for wikimedia-dataset into benchmark_results/container_logs/wikimedia-dataset.log
+Data Analytics benchmark completed.

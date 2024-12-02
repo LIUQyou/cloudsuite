@@ -1,0 +1,158 @@
+
+Running all event groups sequentially
+
+=== Running event group 1 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Waiting for PostgreSQL to initialize...
+
+PostgreSQL is ready to accept connections
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: /system.slice/docker-301247d460ebbec5e7073b66635e9898bcd7d093ad03eb46b42d7e10dde6ff2f.scope)
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: /system.slice/docker-65d0a9dab592de7712834e391e4b8e75d0841cc9e9722ebc6a65db7028545af3.scope)
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )
+
+=== Running event group 2 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Waiting for PostgreSQL to initialize...
+
+PostgreSQL is ready to accept connections
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: /system.slice/docker-7a40a9d9725b8eef7aa9335750f36d74e608cb35e71d3e3633ba13f6451d6e38.scope)
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: /system.slice/docker-7a94a0e36f3f96103d1c4f6bfe77c88c42af82b2c63812465dd9b4b367c5ec0f.scope)
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )
+
+=== Running event group 3 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Waiting for PostgreSQL to initialize...
+
+PostgreSQL is ready to accept connections
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: )
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: )
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )
+
+=== Running event group 4 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Waiting for PostgreSQL to initialize...
+
+PostgreSQL is ready to accept connections
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: )
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: )
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )
+
+=== Running event group 5 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Waiting for PostgreSQL to initialize...
+
+PostgreSQL is ready to accept connections
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: /system.slice/docker-e69d6a8dd53d8acac956459ed6f83c9c3b2bb9ae524d628663f845a53d4cb517.scope)
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: )
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )
+
+=== Running event group 6 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Waiting for PostgreSQL to initialize...
+
+PostgreSQL is ready to accept connections
+
+Starting monitoring for container: postgresql-server
+
+Started real-time logging for postgresql-server to benchmark_results/container_logs/postgresql-server.log
+
+Started monitoring container postgresql-server (Cgroup: /system.slice/docker-edc78e84f00fbaeb8731174ef333336e1d907925ff14515a6e6f865fc10b980b.scope)
+
+Starting monitoring for container: sysbench-client-warmup
+
+Started real-time logging for sysbench-client-warmup to benchmark_results/container_logs/sysbench-client-warmup.log
+
+Started monitoring container sysbench-client-warmup (Cgroup: /system.slice/docker-82ac22303f096dd856131455a5d9aab21cf8450227baaa06f10ff243d19be4de.scope)
+
+Starting monitoring for container: sysbench-client-load
+
+Started real-time logging for sysbench-client-load to benchmark_results/container_logs/sysbench-client-load.log
+
+Started monitoring container sysbench-client-load (Cgroup: )

@@ -1,0 +1,8 @@
+
+Running all event groups sequentially
+
+=== Running event group 1 ===
+
+Running Data Serving Relational benchmark with performance monitoring...
+
+Waiting for PostgreSQL to initialize...

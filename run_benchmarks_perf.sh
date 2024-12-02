@@ -350,390 +350,402 @@ function run_data_serving() {
 }
 
 function run_data_serving_relational() {
-    echo "Running Data Serving Relational benchmark with performance monitoring..."
+    echo -e "\nRunning Data Serving Relational benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "data_serving_relational"
 
-    # Start server
-    docker run -d --name postgresql-server --net host cloudsuite/data-serving-relational:server
+    # Start the PostgreSQL server with -dit to keep it running in background
+    docker run -dit --name postgresql-server --net host cloudsuite/data-serving-relational:server
+
+    # Wait for PostgreSQL to initialize and start accepting connections
+    echo -e "\nWaiting for PostgreSQL to initialize..." | tee -a $LOG_FILE
+    sleep 10
+
     if ! wait_for_container "postgresql-server"; then
-        echo "Error: PostgreSQL server failed to start" >&2
+        echo -e "\nError: PostgreSQL server failed to start" >&2
         return 1
     fi
 
-    # Monitor server
-    if ! monitor_container "postgresql-server"; then
-        echo "Error: Failed to monitor PostgreSQL server" >&2
-        return 1
-    fi
+    # Verify PostgreSQL is accepting connections
+    for i in {1..30}; do
+        if docker exec postgresql-server pg_isready -h localhost; then
+            echo -e "\nPostgreSQL is ready to accept connections" | tee -a $LOG_FILE
+            break
+        fi
+        echo -e "\nWaiting for PostgreSQL to accept connections... (attempt $i/30)" | tee -a $LOG_FILE
+        sleep 2
+    done
 
-    sleep 30  # Wait for server to initialize
+    # Monitor the server container
+    monitor_container "postgresql-server"
 
     # Run warmup client in detached mode
-    docker run -d --name sysbench-client --net host cloudsuite/data-serving-relational:client \
+    docker run -d --name sysbench-client-warmup --net host cloudsuite/data-serving-relational:client \
         --warmup --tpcc --server-ip=127.0.0.1
-
-    # Monitor warmup client container
-    monitor_container "sysbench-client"
+    monitor_container "sysbench-client-warmup"
 
     # Wait for warmup to complete
-    docker wait sysbench-client
+    docker wait sysbench-client-warmup
 
-    # Collect logs from warmup client before removing it
-    collect_container_logs "sysbench-client"
-    docker rm sysbench-client
+    # Stop logging and remove warmup client
+    stop_container_logging "sysbench-client-warmup"
+    docker rm sysbench-client-warmup
 
     # Run load client in detached mode
-    docker run -d --name sysbench-client-run --net host cloudsuite/data-serving-relational:client \
+    docker run -d --name sysbench-client-load --net host cloudsuite/data-serving-relational:client \
         --run --tpcc --server-ip=127.0.0.1
-
-    # Monitor load client container
-    monitor_container "sysbench-client-run"
+    monitor_container "sysbench-client-load"
 
     # Wait for load to complete
-    docker wait sysbench-client-run
+    docker wait sysbench-client-load
 
-    # Collect logs from load client before removing it
-    collect_container_logs "sysbench-client-run"
-    docker rm sysbench-client-run
+    # Stop logging and remove load client
+    stop_container_logging "sysbench-client-load"
+    docker rm sysbench-client-load
 
-    stop_perf_record
-
-    # Collect logs from server before removing it
-    collect_container_logs "postgresql-server"
-    docker rm -f postgresql-server 2>/dev/null || true
-}
-
-function run_data_caching() {
-    echo "Running Data Caching benchmark with performance monitoring..." | tee -a $LOG_FILE
-    start_perf_record "data_caching"
-
-    # Start server
-    docker run -d --name dc-server --net host cloudsuite/data-caching:server -t 4 -m 10240 -n 550
-    if ! wait_for_container "dc-server"; then
-        echo "Error: Data Caching server failed to start" >&2
-        return 1
-    fi
-
-    # Monitor server
-    if ! monitor_container "dc-server"; then
-        echo "Error: Failed to monitor Data Caching server" >&2
-        return 1
-    fi
-
-    # Create server config
-    mkdir -p docker_servers
-    echo "127.0.0.1, 11211" > docker_servers/docker_servers.txt
-
-    # Start client in detached mode
-    docker run -d --name dc-client --net host \
-        -v $PWD/docker_servers:/usr/src/memcached/memcached_client/docker_servers/ \
-        cloudsuite/data-caching:client
-    if ! wait_for_container "dc-client"; then
-        echo "Error: Data Caching client failed to start" >&2
-        return 1
-    fi
-
-    # Monitor client container
-    monitor_container "dc-client"
-
-    # Scale, warmup and run
-    docker exec -it dc-client /bin/bash /entrypoint.sh --m="S&W" --S=28 --D=10240 --w=8 --T=1
-    docker exec -it dc-client /bin/bash /entrypoint.sh --m="RPS" --S=28 --g=0.8 --c=200 --w=8 --T=1 --r=100000
+    # Stop logging and cleanup server
+    stop_container_logging "postgresql-server"
+    docker stop postgresql-server
+    docker rm postgresql-server
 
     stop_perf_record
-    # analyze_perf_data "data_caching"
 
-    # Collect logs from client before removing it
-    collect_container_logs "dc-client"
-    docker rm -f dc-client
+    # Collect and append results to the report file
+    echo "Data Serving Relational Warmup Results:" >> $REPORT_FILE
+    docker logs sysbench-client-warmup 2>&1 | grep -E "transactions|queries" >> $REPORT_FILE
 
-    # Collect logs from server before removing it
-    collect_container_logs "dc-server"
-    docker rm -f dc-server
+    echo "Data Serving Relational Load Results:" >> $REPORT_FILE
+    docker logs sysbench-client-load 2>&1 | grep -E "transactions|queries" >> $REPORT_FILE
 }
-
 
 function run_graph_analytics() {
-    echo "Running Graph Analytics benchmark with performance monitoring..."
+    echo -e "\nRunning Graph Analytics benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "graph_analytics"
-    
-    # Create dataset
-    docker create --name twitter-data cloudsuite/twitter-dataset-graph
 
-    # Monitor dataset container
+    # Create dataset container
+    docker create --name twitter-data cloudsuite/twitter-dataset-graph
     monitor_container "twitter-data"
-    
+
     # Run benchmark in detached mode
     docker run -d --name graph-analytics --volumes-from twitter-data -e WORKLOAD_NAME=pr \
         cloudsuite/graph-analytics --driver-memory 8g --executor-memory 8g
-
-    # Monitor benchmark container
     monitor_container "graph-analytics"
 
     # Wait for benchmark to complete
     docker wait graph-analytics
 
-    # Collect logs from benchmark container
-    collect_container_logs "graph-analytics"
+    # Stop logging and remove benchmark container
+    stop_container_logging "graph-analytics"
     docker rm graph-analytics
 
-    stop_perf_record
-    # analyze_perf_data "graph_analytics"
+    # Stop logging and remove dataset container
+    stop_container_logging "twitter-data"
+    docker rm twitter-data
 
-    # Collect logs from dataset container if needed
-    collect_container_logs "twitter-data"
-    docker rm -f twitter-data 2>/dev/null || true
+    stop_perf_record
+
+    # Collect and append results to the report file
+    echo "Graph Analytics Results:" >> $REPORT_FILE
+    docker logs graph-analytics 2>&1 | grep -E "Time taken|Iterations" >> $REPORT_FILE
 }
 
 function run_in_memory_analytics() {
-    echo "Running In-Memory Analytics benchmark with performance monitoring..."
+    echo -e "\nRunning In-Memory Analytics benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "in_memory_analytics"
-    
-    # Create dataset
-    docker create --name movielens-data cloudsuite/movielens-dataset
 
-    # Monitor dataset container
+    # Create dataset container
+    docker create --name movielens-data cloudsuite/movielens-dataset
     monitor_container "movielens-data"
-    
+
     # Run benchmark in detached mode
     docker run -d --name in-memory-analytics --volumes-from movielens-data \
         cloudsuite/in-memory-analytics /data/ml-latest-small /data/myratings.csv \
         --driver-memory 4g --executor-memory 4g
-
-    # Monitor benchmark container
     monitor_container "in-memory-analytics"
 
     # Wait for benchmark to complete
     docker wait in-memory-analytics
 
-    # Collect logs from benchmark container
-    collect_container_logs "in-memory-analytics"
+    # Stop logging and remove benchmark container
+    stop_container_logging "in-memory-analytics"
     docker rm in-memory-analytics
 
-    stop_perf_record
-    # analyze_perf_data "in_memory_analytics"
+    # Stop logging and remove dataset container
+    stop_container_logging "movielens-data"
+    docker rm movielens-data
 
-    # Collect logs from dataset container if needed
-    collect_container_logs "movielens-data"
-    docker rm -f movielens-data 2>/dev/null || true
+    stop_perf_record
+
+    # Collect and append results to the report file
+    echo "In-Memory Analytics Results:" >> $REPORT_FILE
+    docker logs in-memory-analytics 2>&1 | grep -E "RMSE|Time" >> $REPORT_FILE
 }
 
 function run_media_streaming() {
-    echo "Running Media Streaming benchmark with performance monitoring..."
+    echo -e "\nRunning Media Streaming benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "media_streaming"
-    
-    # Start dataset and server
-    docker run --name streaming_dataset cloudsuite/media-streaming:dataset 5 10
 
-    # Monitor dataset container
+    # Start dataset container
+    docker run --name streaming_dataset cloudsuite/media-streaming:dataset 5 10
     monitor_container "streaming_dataset"
-    
+
+    # Start server container
     docker run -d --name streaming_server --volumes-from streaming_dataset \
         --net host cloudsuite/media-streaming:server 4
-
-    # Monitor server container
     monitor_container "streaming_server"
-    
+
     sleep 30  # Wait for server to initialize
-    
+
     # Start client in detached mode
     docker run -d --name streaming_client --net host \
         cloudsuite/media-streaming:client localhost 10
-
-    # Monitor client container
     monitor_container "streaming_client"
 
     # Wait for client to finish
     docker wait streaming_client
 
-    stop_perf_record
-    # analyze_perf_data "media_streaming"
-
-    # Collect logs from client
-    collect_container_logs "streaming_client"
+    # Stop logging and remove client container
+    stop_container_logging "streaming_client"
     docker rm streaming_client
 
-    # Collect logs from server
-    collect_container_logs "streaming_server"
+    # Stop logging and remove server container
+    stop_container_logging "streaming_server"
     docker stop streaming_server
     docker rm streaming_server
 
-    # Collect logs from dataset container if needed
-    collect_container_logs "streaming_dataset"
-    docker rm -f streaming_dataset 2>/dev/null || true
+    # Stop logging and remove dataset container
+    stop_container_logging "streaming_dataset"
+    docker rm streaming_dataset
+
+    stop_perf_record
+
+    # Collect and append results to the report file
+    echo "Media Streaming Results:" >> $REPORT_FILE
+    docker logs streaming_client 2>&1 | grep -E "Throughput|Latency" >> $REPORT_FILE
 }
 
 function run_web_search() {
-    echo "Running Web Search benchmark with performance monitoring..."
+    echo -e "\nRunning Web Search benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "web_search"
-    
-    # Setup dataset and server
-    docker run --name web_search_dataset cloudsuite/web-search:dataset
 
-    # Monitor dataset container
+    # Create dataset container
+    docker run --name web_search_dataset cloudsuite/web-search:dataset
     monitor_container "web_search_dataset"
-    
+
+    # Start server container
     docker run -d --name server --volumes-from web_search_dataset \
         --net host cloudsuite/web-search:server 14g 1
-
-    # Monitor server container
     monitor_container "server"
-    
+
     sleep 30  # Wait for server to initialize
-    
-    # Run client in detached mode
+
+    # Start client in detached mode
     docker run -d --name web_search_client --net host \
         cloudsuite/web-search:client localhost 8
-
-    # Monitor client container
     monitor_container "web_search_client"
 
     # Wait for client to finish
     docker wait web_search_client
 
-    stop_perf_record
-    # analyze_perf_data "web_search"
-
-    # Collect logs from client
-    collect_container_logs "web_search_client"
+    # Stop logging and remove client container
+    stop_container_logging "web_search_client"
     docker rm web_search_client
 
-    # Collect logs from server
-    collect_container_logs "server"
+    # Stop logging and remove server container
+    stop_container_logging "server"
     docker stop server
     docker rm server
 
-    # Collect logs from dataset container if needed
-    collect_container_logs "web_search_dataset"
-    docker rm -f web_search_dataset 2>/dev/null || true
+    # Stop logging and remove dataset container
+    stop_container_logging "web_search_dataset"
+    docker rm web_search_dataset
+
+    stop_perf_record
+
+    # Collect and append results to the report file
+    echo "Web Search Results:" >> $REPORT_FILE
+    docker logs web_search_client 2>&1 | grep -E "Queries per second|Latency" >> $REPORT_FILE
 }
 
 function run_web_serving() {
-    echo "Running Web Serving benchmark with performance monitoring..."
+    echo -e "\nRunning Web Serving benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "web_serving"
-    
+
     # Start database server
     docker run -d --name database_server --net host \
         cloudsuite/web-serving:db_server
-
-    # Monitor database server
     monitor_container "database_server"
-    
+
     # Start memcached server
     docker run -d --name memcache_server --net host \
         cloudsuite/web-serving:memcached_server
-
-    # Monitor memcached server
     monitor_container "memcache_server"
-    
+
     # Start web server
     docker run -d --name web_server --net host \
         cloudsuite/web-serving:web_server /etc/bootstrap.sh \
         http localhost localhost localhost 4 auto
-
-    # Monitor web server
     monitor_container "web_server"
-    
+
     sleep 30  # Wait for services to initialize
-    
-    # Run client in detached mode
+
+    # Start client in detached mode
     docker run -d --name faban_client --net host \
         cloudsuite/web-serving:faban_client localhost 1
-
-    # Monitor client container
     monitor_container "faban_client"
 
     # Wait for client to finish
     docker wait faban_client
 
-    stop_perf_record
-    # analyze_perf_data "web_serving"
-
-    # Collect logs from client
-    collect_container_logs "faban_client"
+    # Stop logging and remove client container
+    stop_container_logging "faban_client"
     docker rm faban_client
 
-    # Collect logs from web server
-    collect_container_logs "web_server"
+    # Stop logging and remove web server
+    stop_container_logging "web_server"
     docker stop web_server
     docker rm web_server
 
-    # Collect logs from memcache server
-    collect_container_logs "memcache_server"
+    # Stop logging and remove memcache server
+    stop_container_logging "memcache_server"
     docker stop memcache_server
     docker rm memcache_server
 
-    # Collect logs from database server
-    collect_container_logs "database_server"
+    # Stop logging and remove database server
+    stop_container_logging "database_server"
     docker stop database_server
     docker rm database_server
+
+    stop_perf_record
+
+    # Collect and append results to the report file
+    echo "Web Serving Results:" >> $REPORT_FILE
+    docker logs faban_client 2>&1 | grep -E "Throughput|Response Time" >> $REPORT_FILE
 }
 
 function run_data_analytics() {
-    echo "Running Data Analytics benchmark with performance monitoring..." | tee -a $LOG_FILE
+    echo -e "\nRunning Data Analytics benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "data_analytics"
-    
-    # Step 1: Create the dataset container
+
+    # Create dataset container
     docker create --name wikimedia-dataset cloudsuite/wikimedia-pages-dataset
-    # Step 1.5: Create a User-Defined Network
+    monitor_container "wikimedia-dataset"
+
+    # Create a User-Defined Network
     docker network create hadoop-net
 
-    # Step 2: Start the Hadoop master node with desired configurations
+    # Start the Hadoop master node
     docker run -d --net hadoop-net --volumes-from wikimedia-dataset --name data-master \
         cloudsuite/data-analytics --master \
         --hdfs-block-size=64 \
         --yarn-cores=4 \
         --mapreduce-mem=4096
-
     if ! wait_for_container "data-master"; then
-        echo "Error: Data Analytics master failed to start" >&2
+        echo -e "\nError: Data Analytics master failed to start" >&2
         return 1
     fi
-
-    # Monitor the master container
     monitor_container "data-master"
-    
-    # Step 3: Start the Hadoop slave nodes
-    NUM_SLAVES=4  # Adjust based on your resources
+
+    # Start Hadoop slave nodes
+    NUM_SLAVES=4
     for i in $(seq 1 $NUM_SLAVES); do
         docker run -d --net hadoop-net --name data-slave0$i \
             cloudsuite/data-analytics --slave --master-ip=data-master
         if ! wait_for_container "data-slave0$i"; then
-            echo "Error: Data Analytics slave data-slave0$i failed to start" >&2
+            echo -e "\nError: Data Analytics slave data-slave0$i failed to start" >&2
             return 1
         fi
-        # Monitor each slave container
         monitor_container "data-slave0$i"
     done
 
-    # Step 4: Wait briefly to ensure the cluster is fully initialized
-    sleep 30  # Adjust the sleep time as needed
+    sleep 30  # Wait for the cluster to initialize
 
-    # Step 5: Run the benchmark inside the master container
-    echo "Starting benchmark inside the master container..." | tee -a $LOG_FILE
+    # Run the benchmark inside the master container
     docker exec data-master benchmark
 
-    # Step 6: Collect logs and performance data
-    stop_perf_record
-    collect_container_logs "data-master"
+    # Stop logging and remove master container
+    stop_container_logging "data-master"
+    docker rm data-master
 
+    # Stop logging and remove slave containers
     for i in $(seq 1 $NUM_SLAVES); do
-        collect_container_logs "data-slave0$i"
+        stop_container_logging "data-slave0$i"
+        docker rm data-slave0$i
     done
 
-    collect_container_logs "wikimedia-dataset"
+    # Stop logging and remove dataset container
+    stop_container_logging "wikimedia-dataset"
+    docker rm wikimedia-dataset
 
-    # Step 7: Clean up the containers
-    docker rm -f data-master
-    for i in $(seq 1 $NUM_SLAVES); do
-        docker rm -f data-slave0$i
-    done
-    docker rm -f wikimedia-dataset
+    # Remove the network
     docker network rm hadoop-net
 
-    echo "Data Analytics benchmark completed." | tee -a $LOG_FILE
+    stop_perf_record
+
+    # Collect and append results to the report file
+    echo "Data Analytics Results:" >> $REPORT_FILE
+    # Add commands to extract relevant results from the master container logs
 }
 
+function run_data_caching() {
+    echo -e "\nRunning Data Caching benchmark with performance monitoring..." | tee -a $LOG_FILE
+    start_perf_record "data_caching"
+
+    # Start Memcached server
+    docker run -d --name dc-server --net host cloudsuite/data-caching:server -t 4 -m 10240 -n 550
+    if ! wait_for_container "dc-server"; then
+        echo -e "\nError: Memcached server failed to start" >&2
+        return 1
+    fi
+    monitor_container "dc-server"
+
+    # Wait for server to initialize
+    sleep 10
+
+    # Create client configuration directory and file
+    mkdir -p docker_servers
+    echo "127.0.0.1, 11211" > docker_servers/docker_servers.txt
+
+    # Start client container
+    docker run -d --name dc-client --net host -v "$PWD/docker_servers":/usr/src/memcached/memcached_client/docker_servers/ \
+        cloudsuite/data-caching:client
+    if ! wait_for_container "dc-client"; then
+        echo -e "\nError: Data Caching client failed to start" >&2
+        return 1
+    fi
+    monitor_container "dc-client"
+
+    # Warm up the server
+    echo -e "\nWarming up the server..." | tee -a $LOG_FILE
+    docker exec dc-client /bin/bash /entrypoint.sh --m="S&W" --S=28 --D=10240 --w=8 --T=1
+
+    # Run the benchmark
+    echo -e "\nRunning the benchmark..." | tee -a $LOG_FILE
+    # Determine the maximum throughput
+    MAX_THROUGHPUT=$(docker exec dc-client /bin/bash /entrypoint.sh --m="TH" --S=28 --g=0.8 --c=200 --w=8 --T=1)
+
+    # Run the benchmark with target RPS (e.g., 90% of MAX_THROUGHPUT)
+    TARGET_RPS=$(echo "$MAX_THROUGHPUT" | awk '{printf "%.0f", $1 * 0.9}')
+    docker exec dc-client timeout 60 /bin/bash /entrypoint.sh --m="RPS" --S=28 --g=0.8 --c=200 --w=8 --T=1 --r="$TARGET_RPS"
+
+    # Stop logging and remove client container
+    stop_container_logging "dc-client"
+    docker stop dc-client
+    docker rm dc-client
+
+    # Stop logging and remove server container
+    stop_container_logging "dc-server"
+    docker stop dc-server
+    docker rm dc-server
+
+    # Remove client configuration directory
+    rm -rf docker_servers
+
+    stop_perf_record
+
+    # Collect and append results to the report file
+    echo "Data Caching Results:" >> $REPORT_FILE
+    docker logs dc-client 2>&1 | grep -E "Total Statistics|Average Latency|99th" >> $REPORT_FILE
+}
 
 # Update cleanup function to ensure clean output
 function cleanup() {
@@ -822,10 +834,6 @@ if [ $# -lt 1 ]; then
     print_usage
     exit 1
 fi
-
-# Set event group if specified
-if [ $# -ge 2 ]; then
-    if ( [ "$2" = "all" ] || [ "$2" = "ALL" ] ); then
         echo -e "\nRunning all event groups sequentially" | tee -a $LOG_FILE
         for group in {1..6}; do
             SELECTED_GROUP=$group
@@ -950,5 +958,7 @@ fi
 echo -e "\nBenchmark completed! Results available in:"
 echo "- Logs: $LOG_FILE"
 echo "- Performance Data: $PERF_DATA_DIR"
+echo "- Analysis: $ANALYSIS_DIR"
+echo "- Summary Report: $REPORT_FILE"echo "- Performance Data: $PERF_DATA_DIR"
 echo "- Analysis: $ANALYSIS_DIR"
 echo "- Summary Report: $REPORT_FILE"
