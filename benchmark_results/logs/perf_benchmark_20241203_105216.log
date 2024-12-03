@@ -1,0 +1,68 @@
+
+Running all event groups sequentially
+
+=== Running event group 1 ===
+
+Running Graph Analytics benchmark with performance monitoring...
+de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8
+
+Starting monitoring for container: graph-analytics
+
+Started real-time logging for graph-analytics to benchmark_results/container_logs/graph-analytics.log
+
+Started monitoring container graph-analytics (Cgroup: /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope)
+
+=== Running event group 2 ===
+
+Running Graph Analytics benchmark with performance monitoring...
+30722ee2f1ae8332831716c14c7f6f7237cefad0eedd19032030d999ce1fbc45
+
+Starting monitoring for container: graph-analytics
+
+Started real-time logging for graph-analytics to benchmark_results/container_logs/graph-analytics.log
+
+Started monitoring container graph-analytics (Cgroup: /system.slice/docker-30722ee2f1ae8332831716c14c7f6f7237cefad0eedd19032030d999ce1fbc45.scope)
+
+=== Running event group 3 ===
+
+Running Graph Analytics benchmark with performance monitoring...
+9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1
+
+Starting monitoring for container: graph-analytics
+
+Started real-time logging for graph-analytics to benchmark_results/container_logs/graph-analytics.log
+
+Started monitoring container graph-analytics (Cgroup: /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope)
+
+=== Running event group 4 ===
+
+Running Graph Analytics benchmark with performance monitoring...
+3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248
+
+Starting monitoring for container: graph-analytics
+
+Started real-time logging for graph-analytics to benchmark_results/container_logs/graph-analytics.log
+
+Started monitoring container graph-analytics (Cgroup: /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope)
+
+=== Running event group 5 ===
+
+Running Graph Analytics benchmark with performance monitoring...
+f9c2ea36c35c37edc3eccff8e861617285fdef047438737808371e94a971b446
+
+Starting monitoring for container: graph-analytics
+
+Started real-time logging for graph-analytics to benchmark_results/container_logs/graph-analytics.log
+
+Started monitoring container graph-analytics (Cgroup: /system.slice/docker-f9c2ea36c35c37edc3eccff8e861617285fdef047438737808371e94a971b446.scope)
+
+=== Running event group 6 ===
+
+Running Graph Analytics benchmark with performance monitoring...
+286760d6b4e373922803dd7335fa8cd347201718218b667dfe94e1ebc2daa625
+
+Starting monitoring for container: graph-analytics
+
+Started real-time logging for graph-analytics to benchmark_results/container_logs/graph-analytics.log
+
+Started monitoring container graph-analytics (Cgroup: /system.slice/docker-286760d6b4e373922803dd7335fa8cd347201718218b667dfe94e1ebc2daa625.scope)

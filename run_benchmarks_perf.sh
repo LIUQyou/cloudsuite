@@ -628,61 +628,49 @@ function run_web_serving() {
     echo -e "\nRunning Web Serving benchmark with performance monitoring..." | tee -a $LOG_FILE
     start_perf_record "web_serving"
 
-    # Start database server
-    docker run -dit --name database_server --net host \
-        cloudsuite/web-serving:db_server \
-        2>&1 | tee -a $LOG_FILE
+    # Set variables
+    WEB_SERVER_IP="127.0.0.1"
+    DATABASE_SERVER_IP="127.0.0.1"
+    MEMCACHED_SERVER_IP="127.0.0.1"
+    PROTOCOL="http"
+    MAX_PM_CHILDREN=4
+    WORKER_PROCESS="auto"
+    LOAD_SCALE=1
 
-    sleep 300  # Wait for database to initialize
+    # Start database server
+    docker run -d --net=host --name=database_server cloudsuite/web-serving:db_server
 
     # Start memcached server
-    docker run -dt --name memcache_server --net host \
-        cloudsuite/web-serving:memcached_server \
-        2>&1 | tee -a $LOG_FILE
-    monitor_container "memcache_server"
+    docker run -d --net=host --name=memcached_server cloudsuite/web-serving:memcached_server
 
     # Start web server
-    docker run -dt --name web_server --net host \
-        cloudsuite/web-serving:web_server /etc/bootstrap.sh \
-        http localhost localhost localhost 4 auto \
-        2>&1 | tee -a $LOG_FILE
+    docker run -d --net=host --name=web_server cloudsuite/web-serving:web_server \
+        /etc/bootstrap.sh $PROTOCOL $WEB_SERVER_IP $DATABASE_SERVER_IP $MEMCACHED_SERVER_IP \
+        $MAX_PM_CHILDREN $WORKER_PROCESS
+
+    # Monitor containers
     monitor_container "web_server"
+    monitor_container "database_server"
+    monitor_container "memcached_server"
 
-    sleep 30  # Wait for services to initialize
+    # Wait for web server to be ready
+    sleep 30
 
-    # Start client in detached mode
-    docker run -d --name faban_client --net host \
-        cloudsuite/web-serving:faban_client localhost 1 \
-        2>&1 | tee -a $LOG_FILE
-    monitor_container "faban_client"
+    # Start client with correct web server IP
+    docker run --net=host --name=faban_client cloudsuite/web-serving:faban_client \
+        $WEB_SERVER_IP $LOAD_SCALE
 
-    # Wait for client to finish
-    docker wait faban_client
+    # Collect client logs
+    collect_container_logs "faban_client"
 
-    # Stop logging and remove client container
-    stop_container_logging "faban_client"
-    docker rm faban_client
-
-    # Stop logging and remove web server
-    stop_container_logging "web_server"
-    docker stop web_server
-    docker rm web_server
-
-    # Stop logging and remove memcache server
-    stop_container_logging "memcache_server"
-    docker stop memcache_server
-    docker rm memcache_server
-
-    # Stop logging and remove database server
-    stop_container_logging "database_server"
-    docker stop database_server
-    docker rm database_server
+    # Stop and remove containers
+    docker stop faban_client web_server memcached_server database_server
+    docker rm faban_client web_server memcached_server database_server
 
     stop_perf_record
 
     # Collect and append results to the report file
     echo "Web Serving Results:" >> $REPORT_FILE
-    docker logs faban_client 2>&1 | grep -E "Throughput|Response Time" >> $REPORT_FILE
 }
 
 function run_data_analytics() {

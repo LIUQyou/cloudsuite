@@ -1,0 +1,194 @@
+# started on Tue Dec  3 10:58:11 2024
+
+#           time             counts unit events
+     1.001066741          3,952,329      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     1.001066741          3,042,213      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   76.97% of all iTLB cache accesses
+     2.005232160         37,913,686      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     2.005232160         11,157,632      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   29.43% of all iTLB cache accesses
+     3.007801003          2,055,719      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     3.007801003          2,363,938      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  114.99% of all iTLB cache accesses
+     4.040953573            504,785      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     4.040953573          1,397,352      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  276.82% of all iTLB cache accesses
+     5.045459816            384,873      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     5.045459816          1,082,167      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  281.18% of all iTLB cache accesses
+     6.047807847            483,618      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     6.047807847          1,231,233      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  254.59% of all iTLB cache accesses
+     7.055811081          4,735,851      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     7.055811081          3,164,410      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   66.82% of all iTLB cache accesses
+     8.058737310          4,207,858      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     8.058737310          4,985,850      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  118.49% of all iTLB cache accesses
+     9.061680119          2,600,090      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+     9.061680119          4,100,501      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  157.71% of all iTLB cache accesses
+    10.063836449          4,002,468      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    10.063836449          2,694,923      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   67.33% of all iTLB cache accesses
+    11.066243040          2,683,227      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    11.066243040          2,052,860      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   76.51% of all iTLB cache accesses
+    12.068818646          2,300,449      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    12.068818646          1,951,641      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   84.84% of all iTLB cache accesses
+    13.071544045            449,992      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    13.071544045            925,036      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  205.57% of all iTLB cache accesses
+    14.074513409            248,247      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    14.074513409          1,131,173      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  455.66% of all iTLB cache accesses
+    15.077637565            214,607      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    15.077637565            527,113      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  245.62% of all iTLB cache accesses
+    16.081610137          4,887,990      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    16.081610137          4,605,164      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   94.21% of all iTLB cache accesses
+    17.083820515         31,930,520      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    17.083820515         12,961,294      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   40.59% of all iTLB cache accesses
+    18.086444898         11,604,278      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    18.086444898          6,601,276      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   56.89% of all iTLB cache accesses
+    19.088517788         10,572,212      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    19.088517788          6,109,019      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   57.78% of all iTLB cache accesses
+    20.091232806          5,554,439      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    20.091232806          3,622,450      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   65.22% of all iTLB cache accesses
+    21.095152396            119,530      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    21.095152396            122,196      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  102.23% of all iTLB cache accesses
+    22.099383720            108,794      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    22.099383720            121,847      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  112.00% of all iTLB cache accesses
+    23.103633227          1,761,858      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    23.103633227          1,219,614      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   69.22% of all iTLB cache accesses
+    24.106623367         11,348,974      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    24.106623367          6,030,795      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   53.14% of all iTLB cache accesses
+    25.109442734          7,573,546      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    25.109442734          5,991,722      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   79.11% of all iTLB cache accesses
+#           time             counts unit events
+    26.111810854         10,052,088      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    26.111810854          5,756,141      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   57.26% of all iTLB cache accesses
+    27.114436144         13,202,536      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    27.114436144          9,470,906      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   71.74% of all iTLB cache accesses
+    28.117199753         11,119,365      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    28.117199753          7,907,216      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   71.11% of all iTLB cache accesses
+    29.119826815          4,581,438      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    29.119826815          4,444,650      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   97.01% of all iTLB cache accesses
+    30.122986926            487,712      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    30.122986926            648,691      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  133.01% of all iTLB cache accesses
+    31.126261108            811,171      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    31.126261108            872,588      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  107.57% of all iTLB cache accesses
+    32.129734011            469,816      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    32.129734011            731,324      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  155.66% of all iTLB cache accesses
+    33.133040096            879,701      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    33.133040096          1,092,404      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  124.18% of all iTLB cache accesses
+    34.136848556          3,103,251      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    34.136848556          2,565,588      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   82.67% of all iTLB cache accesses
+    35.139520903          7,446,070      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    35.139520903          4,043,109      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   54.30% of all iTLB cache accesses
+    36.142205559          4,943,826      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    36.142205559          7,284,934      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  147.35% of all iTLB cache accesses
+    37.145336671          3,790,682      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    37.145336671          4,370,783      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  115.30% of all iTLB cache accesses
+    38.147848147          1,380,286      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    38.147848147          1,916,886      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  138.88% of all iTLB cache accesses
+    39.150486924            921,186      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    39.150486924          1,302,993      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  141.45% of all iTLB cache accesses
+    40.153171270          1,096,788      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    40.153171270          1,385,976      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  126.37% of all iTLB cache accesses
+    41.155830502            619,450      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    41.155830502          1,028,369      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  166.01% of all iTLB cache accesses
+    42.158438705            785,633      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    42.158438705          1,211,990      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  154.27% of all iTLB cache accesses
+    43.160881224          1,955,496      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    43.160881224          2,141,179      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  109.50% of all iTLB cache accesses
+    44.163839107          1,085,057      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    44.163839107          1,196,966      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  110.31% of all iTLB cache accesses
+    45.167176827          8,138,175      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    45.167176827          4,684,437      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   57.56% of all iTLB cache accesses
+    46.169707301            911,792      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    46.169707301          2,073,533      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  227.41% of all iTLB cache accesses
+    47.171832881            465,246      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    47.171832881            873,059      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  187.66% of all iTLB cache accesses
+    48.174304585            451,455      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    48.174304585            910,060      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  201.58% of all iTLB cache accesses
+    49.176891218            809,264      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    49.176891218          1,195,918      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  147.78% of all iTLB cache accesses
+    50.185038936          1,820,835      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    50.185038936          1,870,975      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  102.75% of all iTLB cache accesses
+#           time             counts unit events
+    51.187920168          1,491,183      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    51.187920168          1,579,713      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  105.94% of all iTLB cache accesses
+    52.191448813          1,899,623      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    52.191448813          1,554,290      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   81.82% of all iTLB cache accesses
+    53.194046049         15,324,202      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    53.194046049          2,467,826      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   16.10% of all iTLB cache accesses
+    54.195796000         57,356,109      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    54.195796000          4,053,132      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    7.07% of all iTLB cache accesses
+    55.198268780          2,267,881      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    55.198268780          1,547,253      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   68.22% of all iTLB cache accesses
+    56.201383530          2,821,331      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    56.201383530          2,944,118      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  104.35% of all iTLB cache accesses
+    57.203813799            719,818      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    57.203813799          1,157,441      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  160.80% of all iTLB cache accesses
+    58.206298339            747,193      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    58.206298339          1,061,847      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  142.11% of all iTLB cache accesses
+    59.209087206            902,454      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    59.209087206          1,263,811      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  140.04% of all iTLB cache accesses
+    60.211716510            783,729      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    60.211716510          1,206,204      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  153.91% of all iTLB cache accesses
+    61.214456576            734,014      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    61.214456576          1,116,220      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  152.07% of all iTLB cache accesses
+    62.217201653          1,160,702      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    62.217201653          1,798,433      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  154.94% of all iTLB cache accesses
+    63.219800620            983,846      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    63.219800620          1,335,792      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  135.77% of all iTLB cache accesses
+    64.223682091          6,321,449      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    64.223682091          3,696,559      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   58.48% of all iTLB cache accesses
+    65.226020706          1,071,989      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    65.226020706          1,697,460      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  158.35% of all iTLB cache accesses
+    66.227825190            776,742      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    66.227825190          1,830,943      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  235.72% of all iTLB cache accesses
+    67.230366677          1,111,062      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    67.230366677          1,803,419      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  162.31% of all iTLB cache accesses
+    68.232920205            627,457      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    68.232920205            984,729      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  156.94% of all iTLB cache accesses
+    69.235502073            730,179      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    69.235502073          1,147,571      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  157.16% of all iTLB cache accesses
+    70.238019478          2,069,532      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    70.238019478          2,283,994      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  110.36% of all iTLB cache accesses
+    71.240612169          1,773,409      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    71.240612169          2,188,365      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  123.40% of all iTLB cache accesses
+    72.257786669         13,134,221      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    72.257786669          1,934,640      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   14.73% of all iTLB cache accesses
+    73.259818823         26,044,268      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    73.259818823          2,282,564      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    8.76% of all iTLB cache accesses
+    74.262294910         68,368,556      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    74.262294910          2,902,759      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    4.25% of all iTLB cache accesses
+    75.264923152         60,523,576      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    75.264923152          3,320,621      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    5.49% of all iTLB cache accesses
+#           time             counts unit events
+    76.267196720          2,219,184      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    76.267196720          1,866,593      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   84.11% of all iTLB cache accesses
+    77.270484729          2,090,058      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    77.270484729          2,361,809      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  113.00% of all iTLB cache accesses
+    78.273475730            622,156      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    78.273475730          1,846,691      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  296.82% of all iTLB cache accesses
+    79.275825842            884,966      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    79.275825842          1,295,424      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  146.38% of all iTLB cache accesses
+    80.278378425            819,761      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    80.278378425          1,258,048      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  153.47% of all iTLB cache accesses
+    81.281075617            519,665      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    81.281075617            928,728      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  178.72% of all iTLB cache accesses
+    82.283699961            941,474      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    82.283699961          1,673,501      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  177.75% of all iTLB cache accesses
+    83.286316798            954,991      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    83.286316798          1,618,434      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  169.47% of all iTLB cache accesses
+    84.288934956            960,157      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    84.288934956          1,786,034      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  186.01% of all iTLB cache accesses
+    85.291830528         30,691,315      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    85.291830528          2,205,648      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    7.19% of all iTLB cache accesses
+    86.294801925         38,562,663      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    86.294801925          2,725,335      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    7.07% of all iTLB cache accesses
+    87.297712775         67,670,153      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    87.297712775          2,905,185      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    4.29% of all iTLB cache accesses
+    88.299822695         65,375,887      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    88.299822695          2,752,657      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    4.21% of all iTLB cache accesses
+    89.302440281         67,170,567      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    89.302440281          3,134,875      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    4.67% of all iTLB cache accesses
+    90.305115273          3,255,464      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    90.305115273          1,348,262      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #   41.42% of all iTLB cache accesses
+    91.308560356          1,072,721      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    91.308560356          1,268,634      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  118.26% of all iTLB cache accesses
+    92.311844907          4,070,227      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    92.311844907          9,016,771      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #  221.53% of all iTLB cache accesses
+    93.315224261              3,166      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    93.315224261                110      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope #    3.47% of all iTLB cache accesses
+    93.705222037      <not counted>      iTLB-loads                /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   
+    93.705222037      <not counted>      iTLB-load-misses          /system.slice/docker-3e11f9847c7d109a305c36ce034f2feafbc29dda2274b94dcd32fa8b3d783248.scope                                   

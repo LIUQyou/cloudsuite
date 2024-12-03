@@ -1,0 +1,68 @@
+
+Running all event groups sequentially
+
+=== Running event group 1 ===
+
+Running In-Memory Analytics benchmark with performance monitoring...
+2be2c77821a5373f1901c67203f067bc39d2970b6613616e019b020887c631da
+
+Starting monitoring for container: in-memory-analytics
+
+Started real-time logging for in-memory-analytics to benchmark_results/container_logs/in-memory-analytics.log
+
+Started monitoring container in-memory-analytics (Cgroup: /system.slice/docker-2be2c77821a5373f1901c67203f067bc39d2970b6613616e019b020887c631da.scope)
+
+=== Running event group 2 ===
+
+Running In-Memory Analytics benchmark with performance monitoring...
+abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0
+
+Starting monitoring for container: in-memory-analytics
+
+Started real-time logging for in-memory-analytics to benchmark_results/container_logs/in-memory-analytics.log
+
+Started monitoring container in-memory-analytics (Cgroup: /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope)
+
+=== Running event group 3 ===
+
+Running In-Memory Analytics benchmark with performance monitoring...
+146a3e4d8d156a08558938edd77a8f59ed6237e8b4185daefe53ea1f66204496
+
+Starting monitoring for container: in-memory-analytics
+
+Started real-time logging for in-memory-analytics to benchmark_results/container_logs/in-memory-analytics.log
+
+Started monitoring container in-memory-analytics (Cgroup: /system.slice/docker-146a3e4d8d156a08558938edd77a8f59ed6237e8b4185daefe53ea1f66204496.scope)
+
+=== Running event group 4 ===
+
+Running In-Memory Analytics benchmark with performance monitoring...
+20cf0f4589728511fba018c438d81770bc5b1c15f4223228f15aa51c9b4dcb1d
+
+Starting monitoring for container: in-memory-analytics
+
+Started real-time logging for in-memory-analytics to benchmark_results/container_logs/in-memory-analytics.log
+
+Started monitoring container in-memory-analytics (Cgroup: /system.slice/docker-20cf0f4589728511fba018c438d81770bc5b1c15f4223228f15aa51c9b4dcb1d.scope)
+
+=== Running event group 5 ===
+
+Running In-Memory Analytics benchmark with performance monitoring...
+3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb
+
+Starting monitoring for container: in-memory-analytics
+
+Started real-time logging for in-memory-analytics to benchmark_results/container_logs/in-memory-analytics.log
+
+Started monitoring container in-memory-analytics (Cgroup: /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope)
+
+=== Running event group 6 ===
+
+Running In-Memory Analytics benchmark with performance monitoring...
+efc0cf306227bf8dd4bf402b7794a4c6d1590bf8ccc6bff5315dcea4aff9c250
+
+Starting monitoring for container: in-memory-analytics
+
+Started real-time logging for in-memory-analytics to benchmark_results/container_logs/in-memory-analytics.log
+
+Started monitoring container in-memory-analytics (Cgroup: /system.slice/docker-efc0cf306227bf8dd4bf402b7794a4c6d1590bf8ccc6bff5315dcea4aff9c250.scope)

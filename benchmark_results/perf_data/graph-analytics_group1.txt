@@ -1,0 +1,374 @@
+# started on Tue Dec  3 10:52:29 2024
+
+#           time             counts unit events
+     1.001036144      5,387,134,929      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     1.001036144      5,557,351,897      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.03  insn per cycle         
+     1.001036144      1,092,676,232      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     1.001036144         50,263,587      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    4.60% of all branches        
+     2.017643165     52,183,524,532      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     2.017643165     36,798,076,595      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.71  insn per cycle         
+     2.017643165      7,011,575,359      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     2.017643165        114,203,585      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.63% of all branches        
+     3.019725293     75,741,389,299      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     3.019725293     91,413,635,111      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.21  insn per cycle         
+     3.019725293     16,547,238,306      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     3.019725293         39,870,387      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.24% of all branches        
+     4.022663769     74,235,801,661      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     4.022663769     99,847,386,040      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.35  insn per cycle         
+     4.022663769     17,687,529,486      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     4.022663769         29,013,204      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.16% of all branches        
+     5.025567696     73,279,544,545      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     5.025567696    100,594,423,632      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.37  insn per cycle         
+     5.025567696     17,663,492,243      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     5.025567696         27,362,067      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.15% of all branches        
+     6.028274579     74,860,887,477      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     6.028274579    101,789,700,690      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.36  insn per cycle         
+     6.028274579     18,259,110,641      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     6.028274579         28,690,639      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.16% of all branches        
+     7.031145524     75,774,522,810      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     7.031145524     92,490,735,911      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.22  insn per cycle         
+     7.031145524     16,481,345,343      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     7.031145524         36,585,551      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.22% of all branches        
+     8.033978212     73,644,745,882      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     8.033978212     93,470,950,720      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.27  insn per cycle         
+     8.033978212     16,140,463,787      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     8.033978212        187,585,336      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.16% of all branches        
+     9.036731025     78,794,151,191      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     9.036731025     97,135,492,362      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.23  insn per cycle         
+     9.036731025     16,387,378,065      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+     9.036731025        184,566,182      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.13% of all branches        
+    10.039410922     75,988,987,581      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    10.039410922     94,559,197,766      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.24  insn per cycle         
+    10.039410922     16,612,051,279      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    10.039410922        149,834,441      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.90% of all branches        
+    11.042171276     76,693,222,892      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    11.042171276     80,498,530,189      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.05  insn per cycle         
+    11.042171276     13,949,486,172      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    11.042171276        100,894,394      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.72% of all branches        
+    12.045058180     65,530,273,020      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    12.045058180     62,386,798,819      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.95  insn per cycle         
+    12.045058180     10,393,626,227      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    12.045058180         44,480,632      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.43% of all branches        
+    13.047730691     37,161,519,312      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    13.047730691     66,380,496,999      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.79  insn per cycle         
+    13.047730691     11,484,089,975      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    13.047730691         27,511,169      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.24% of all branches        
+    14.050641429     27,238,211,050      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    14.050641429     39,298,847,917      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.44  insn per cycle         
+    14.050641429      6,664,100,446      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    14.050641429         53,676,558      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.81% of all branches        
+    15.054422308     15,835,932,981      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    15.054422308     12,627,119,627      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.80  insn per cycle         
+    15.054422308      2,103,147,329      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    15.054422308         35,899,752      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.71% of all branches        
+    16.056874986     57,322,789,759      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    16.056874986     37,430,221,319      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.65  insn per cycle         
+    16.056874986      7,023,360,720      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    16.056874986        131,990,170      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.88% of all branches        
+    17.059697402     69,415,195,130      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    17.059697402     57,499,996,083      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.83  insn per cycle         
+    17.059697402     11,436,913,340      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    17.059697402        139,421,621      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.22% of all branches        
+    18.062418194     78,637,997,743      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    18.062418194     72,784,574,222      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.93  insn per cycle         
+    18.062418194     14,796,596,890      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    18.062418194        112,006,295      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.76% of all branches        
+    19.065254004     54,015,846,943      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    19.065254004     65,609,064,086      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.21  insn per cycle         
+    19.065254004     13,433,267,096      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    19.065254004         82,821,060      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.62% of all branches        
+    20.068852000     40,627,806,125      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    20.068852000     21,655,561,412      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.53  insn per cycle         
+    20.068852000      4,522,083,866      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    20.068852000         79,141,107      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.75% of all branches        
+    21.071709495     82,193,526,575      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    21.071709495     50,409,170,550      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.61  insn per cycle         
+    21.071709495     11,152,463,904      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    21.071709495         38,338,513      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.34% of all branches        
+    22.074496771     79,784,398,602      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    22.074496771     52,679,231,591      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.66  insn per cycle         
+    22.074496771     11,139,559,754      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    22.074496771         86,429,202      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.78% of all branches        
+    23.077407626     68,267,150,656      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    23.077407626     27,676,527,361      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.41  insn per cycle         
+    23.077407626      5,355,551,379      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    23.077407626         98,012,258      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.83% of all branches        
+    24.079655885     47,670,280,055      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    24.079655885     40,660,869,600      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.85  insn per cycle         
+    24.079655885      8,143,465,073      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    24.079655885         85,227,672      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.05% of all branches        
+    25.082391741     73,620,565,544      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    25.082391741     53,465,947,777      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.73  insn per cycle         
+    25.082391741      9,862,011,036      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    25.082391741         81,294,892      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.82% of all branches        
+#           time             counts unit events
+    26.085312660     75,052,251,670      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    26.085312660     82,687,056,573      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.10  insn per cycle         
+    26.085312660     16,157,749,828      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    26.085312660         84,347,171      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.52% of all branches        
+    27.087754187     36,477,078,294      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    27.087754187     74,010,720,238      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    2.03  insn per cycle         
+    27.087754187     13,415,809,501      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    27.087754187         32,374,659      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.24% of all branches        
+    28.090538441     34,576,935,040      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    28.090538441     72,296,028,201      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    2.09  insn per cycle         
+    28.090538441     13,050,906,413      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    28.090538441         50,809,783      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.39% of all branches        
+    29.093621961     33,329,684,449      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    29.093621961     40,830,931,279      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.23  insn per cycle         
+    29.093621961      6,556,009,119      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    29.093621961         70,650,441      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.08% of all branches        
+    30.095690415     27,002,259,595      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    30.095690415     33,300,986,684      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.23  insn per cycle         
+    30.095690415      5,935,177,520      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    30.095690415         29,704,943      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.50% of all branches        
+    31.101505797     37,803,016,724      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    31.101505797     51,142,187,968      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.35  insn per cycle         
+    31.101505797     11,574,488,786      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    31.101505797         25,685,994      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.22% of all branches        
+    32.103725170     78,749,704,125      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    32.103725170     73,715,411,871      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.94  insn per cycle         
+    32.103725170     15,965,814,875      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    32.103725170         85,438,974      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.54% of all branches        
+    33.106574353     74,493,966,051      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    33.106574353     41,401,409,863      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.56  insn per cycle         
+    33.106574353      8,544,971,147      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    33.106574353         67,174,518      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.79% of all branches        
+    34.109220543     34,361,105,699      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    34.109220543     46,836,416,627      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.36  insn per cycle         
+    34.109220543      9,419,324,374      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    34.109220543         45,608,910      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.48% of all branches        
+    35.111726486     70,361,818,299      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    35.111726486     87,221,020,128      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.24  insn per cycle         
+    35.111726486     15,754,906,456      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    35.111726486         40,247,019      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.26% of all branches        
+    36.114571274     67,184,145,037      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    36.114571274    102,142,332,969      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.52  insn per cycle         
+    36.114571274     18,321,838,709      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    36.114571274         32,560,811      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.18% of all branches        
+    37.117435272     65,713,547,632      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    37.117435272    102,557,156,868      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.56  insn per cycle         
+    37.117435272     18,316,398,576      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    37.117435272         30,873,819      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.17% of all branches        
+    38.119698146     67,304,695,753      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    38.119698146    103,203,352,613      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.53  insn per cycle         
+    38.119698146     18,324,237,590      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    38.119698146         54,151,310      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.30% of all branches        
+    39.122386213     68,865,134,492      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    39.122386213     90,434,427,646      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.31  insn per cycle         
+    39.122386213     15,929,471,364      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    39.122386213        169,637,093      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.06% of all branches        
+    40.125129266     64,559,662,004      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    40.125129266     79,250,442,619      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.23  insn per cycle         
+    40.125129266     13,377,679,393      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    40.125129266        115,304,288      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.86% of all branches        
+    41.127839934     47,345,384,404      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    41.127839934     51,782,804,474      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.09  insn per cycle         
+    41.127839934      8,764,526,444      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    41.127839934         67,310,197      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.77% of all branches        
+    42.130776872     23,621,598,373      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    42.130776872     24,728,978,472      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.05  insn per cycle         
+    42.130776872      4,232,649,005      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    42.130776872         29,559,945      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.70% of all branches        
+    43.133712369     75,984,789,716      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    43.133712369     88,925,253,338      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.17  insn per cycle         
+    43.133712369     16,930,643,502      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    43.133712369         53,678,212      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.32% of all branches        
+    44.135725111     59,893,575,865      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    44.135725111     98,211,023,607      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.64  insn per cycle         
+    44.135725111     17,796,008,868      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    44.135725111         35,916,577      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.20% of all branches        
+    45.138615405     56,358,892,274      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    45.138615405     97,035,372,113      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.72  insn per cycle         
+    45.138615405     17,315,165,418      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    45.138615405         28,613,741      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.17% of all branches        
+    46.141397138     57,577,735,916      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    46.141397138     97,235,020,083      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.69  insn per cycle         
+    46.141397138     17,258,852,866      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    46.141397138         77,577,833      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.45% of all branches        
+    47.143725696     62,208,147,180      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    47.143725696     84,035,184,502      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.35  insn per cycle         
+    47.143725696     14,243,912,088      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    47.143725696        145,456,072      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.02% of all branches        
+    48.146518485     58,384,761,439      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    48.146518485     55,020,408,468      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.94  insn per cycle         
+    48.146518485      9,170,072,891      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    48.146518485         67,832,922      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.74% of all branches        
+    49.149032120     41,518,337,629      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    49.149032120     48,980,705,563      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.18  insn per cycle         
+    49.149032120      8,934,686,011      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    49.149032120         40,834,120      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.46% of all branches        
+    50.151736753      6,758,127,471      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    50.151736753      9,413,627,097      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.39  insn per cycle         
+    50.151736753      1,733,447,719      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    50.151736753          8,200,253      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.47% of all branches        
+#           time             counts unit events
+    51.155701201     62,177,126,892      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    51.155701201     73,627,994,827      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.18  insn per cycle         
+    51.155701201     16,357,810,834      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    51.155701201         51,689,913      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.32% of all branches        
+    52.158454501     78,320,826,985      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    52.158454501     83,915,377,768      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.07  insn per cycle         
+    52.158454501     18,617,508,008      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    52.158454501         72,654,904      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.39% of all branches        
+    53.161412954     46,807,751,451      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    53.161412954     58,996,219,098      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.26  insn per cycle         
+    53.161412954     12,746,597,670      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    53.161412954         57,828,950      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.45% of all branches        
+    54.165201950     34,013,705,666      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    54.165201950     39,516,207,908      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.16  insn per cycle         
+    54.165201950      7,944,652,087      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    54.165201950         40,899,105      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.51% of all branches        
+    55.167717796     63,378,544,551      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    55.167717796     92,181,602,379      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.45  insn per cycle         
+    55.167717796     16,695,389,113      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    55.167717796         33,720,900      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.20% of all branches        
+    56.170478066     67,504,110,026      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    56.170478066     99,553,792,090      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.47  insn per cycle         
+    56.170478066     17,836,404,772      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    56.170478066         34,065,535      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.19% of all branches        
+    57.173330270     70,649,418,527      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    57.173330270    100,011,366,853      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.42  insn per cycle         
+    57.173330270     18,007,230,598      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    57.173330270         34,002,705      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.19% of all branches        
+    58.175704773     71,406,499,795      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    58.175704773     98,173,478,851      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.37  insn per cycle         
+    58.175704773     17,484,557,784      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    58.175704773         56,148,359      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.32% of all branches        
+    59.178526970     71,571,199,590      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    59.178526970     97,663,099,414      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.36  insn per cycle         
+    59.178526970     17,205,673,448      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    59.178526970        115,204,023      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.67% of all branches        
+    60.181840937     67,849,948,673      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    60.181840937     79,802,588,535      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.18  insn per cycle         
+    60.181840937     13,741,886,081      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    60.181840937        174,167,645      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.27% of all branches        
+    61.184712883     57,892,572,035      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    61.184712883     50,064,616,954      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.86  insn per cycle         
+    61.184712883      8,323,835,924      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    61.184712883         45,050,705      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.54% of all branches        
+    62.187533867     31,886,718,262      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    62.187533867     33,422,622,701      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.05  insn per cycle         
+    62.187533867      5,699,327,554      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    62.187533867         34,599,219      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.61% of all branches        
+    63.191556431     64,507,720,278      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    63.191556431     73,037,524,784      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.13  insn per cycle         
+    63.191556431     13,772,550,412      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    63.191556431         55,014,588      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.40% of all branches        
+    64.194419283     62,893,946,969      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    64.194419283     90,581,351,654      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.44  insn per cycle         
+    64.194419283     16,762,246,965      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    64.194419283         46,498,874      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.28% of all branches        
+    65.197583083     57,126,380,255      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    65.197583083     99,052,212,706      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.73  insn per cycle         
+    65.197583083     17,895,328,087      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    65.197583083         30,126,926      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.17% of all branches        
+    66.199708080     56,798,672,230      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    66.199708080     95,979,633,457      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.69  insn per cycle         
+    66.199708080     17,164,588,663      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    66.199708080         49,069,535      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.29% of all branches        
+    67.202586104     56,145,901,154      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    67.202586104     75,224,812,361      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.34  insn per cycle         
+    67.202586104     13,093,184,484      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    67.202586104        149,943,634      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.15% of all branches        
+    68.205276513     59,451,001,160      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    68.205276513     62,024,480,769      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.04  insn per cycle         
+    68.205276513     10,542,979,421      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    68.205276513         75,860,359      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.72% of all branches        
+    69.207749010     42,142,905,432      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    69.207749010     46,332,204,544      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.10  insn per cycle         
+    69.207749010      8,194,087,757      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    69.207749010         39,939,100      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.49% of all branches        
+    70.211170936     13,744,814,758      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    70.211170936     19,035,030,953      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.38  insn per cycle         
+    70.211170936      3,682,725,644      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    70.211170936         26,758,591      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.73% of all branches        
+    71.215387559     54,474,797,324      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    71.215387559     68,072,855,683      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.25  insn per cycle         
+    71.215387559     15,312,054,038      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    71.215387559         38,845,691      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.25% of all branches        
+    72.218264970     77,265,385,524      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    72.218264970     81,271,642,935      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.05  insn per cycle         
+    72.218264970     17,763,637,309      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    72.218264970         59,854,038      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.34% of all branches        
+    73.221163155     80,004,365,889      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    73.221163155     89,543,554,697      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.12  insn per cycle         
+    73.221163155     20,038,950,482      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    73.221163155         56,275,832      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.28% of all branches        
+    74.224055442     44,887,446,734      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    74.224055442     59,068,628,684      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.32  insn per cycle         
+    74.224055442     12,758,939,293      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    74.224055442         59,955,495      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.47% of all branches        
+    75.227684631     24,309,874,719      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    75.227684631     40,960,581,169      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.68  insn per cycle         
+    75.227684631      8,792,324,448      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    75.227684631         29,459,987      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.34% of all branches        
+#           time             counts unit events
+    76.230220157     63,658,636,809      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    76.230220157     94,228,677,130      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.48  insn per cycle         
+    76.230220157     17,174,083,980      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    76.230220157         35,702,715      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.21% of all branches        
+    77.233062361     65,471,011,361      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    77.233062361    103,000,140,214      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.57  insn per cycle         
+    77.233062361     18,518,505,392      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    77.233062361         33,431,950      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.18% of all branches        
+    78.235709442     67,312,972,678      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    78.235709442    103,934,491,729      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.54  insn per cycle         
+    78.235709442     18,540,786,744      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    78.235709442         32,320,508      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.17% of all branches        
+    79.238421929     68,061,432,883      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    79.238421929    100,707,121,194      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.48  insn per cycle         
+    79.238421929     18,008,323,444      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    79.238421929         73,820,194      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.41% of all branches        
+    80.241260492     66,242,130,226      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    80.241260492     88,395,595,532      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.33  insn per cycle         
+    80.241260492     15,558,080,910      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    80.241260492        159,889,899      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.03% of all branches        
+    81.243693421     65,421,406,127      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    81.243693421     73,662,031,626      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.13  insn per cycle         
+    81.243693421     12,401,893,553      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    81.243693421        106,648,345      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.86% of all branches        
+    82.246371601     45,837,054,039      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    82.246371601     54,085,735,311      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.18  insn per cycle         
+    82.246371601      9,027,715,088      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    82.246371601         57,308,351      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.63% of all branches        
+    83.249390691     43,614,478,467      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    83.249390691     57,098,446,710      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.31  insn per cycle         
+    83.249390691     12,620,126,816      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    83.249390691         26,745,136      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.21% of all branches        
+    84.251716993     78,601,813,927      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    84.251716993     81,148,842,018      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.03  insn per cycle         
+    84.251716993     17,649,943,833      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    84.251716993         66,134,497      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.37% of all branches        
+    85.254420653     80,414,254,172      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    85.254420653     89,458,981,001      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.11  insn per cycle         
+    85.254420653     19,805,772,121      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    85.254420653         57,172,514      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.29% of all branches        
+    86.257401670     80,255,737,767      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    86.257401670     88,730,916,948      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.11  insn per cycle         
+    86.257401670     19,692,064,863      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    86.257401670         59,883,596      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.30% of all branches        
+    87.260314185     75,414,094,924      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    87.260314185     85,968,636,792      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.14  insn per cycle         
+    87.260314185     19,194,549,341      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    87.260314185         52,082,398      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.27% of all branches        
+    88.263590942     22,704,027,489      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    88.263590942     46,621,830,367      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    2.05  insn per cycle         
+    88.263590942     10,309,501,927      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    88.263590942         24,143,394      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.23% of all branches        
+    89.266660550     21,269,404,160      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    89.266660550     42,336,288,924      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.99  insn per cycle         
+    89.266660550      9,385,862,466      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    89.266660550         22,055,675      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.23% of all branches        
+    90.273326936     26,962,083,277      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    90.273326936     17,849,538,753      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.66  insn per cycle         
+    90.273326936      3,457,433,157      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    90.273326936         42,919,031      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.24% of all branches        
+    91.277293068        605,836,458      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    91.277293068      1,010,042,186      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    1.67  insn per cycle         
+    91.277293068        152,308,012      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    91.277293068            848,504      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope #    0.56% of all branches        
+    91.322798121      <not counted>      cycles                    /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    91.322798121      <not counted>      instructions              /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    91.322798121      <not counted>      branch-instructions       /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   
+    91.322798121      <not counted>      branch-misses             /system.slice/docker-de91b2b3db910c3ab46a5bbcdf714d74fc78f4124d7b7f49e7793fe551483ab8.scope                                   

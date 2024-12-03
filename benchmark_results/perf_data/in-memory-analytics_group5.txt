@@ -1,0 +1,90 @@
+# started on Tue Dec  3 13:36:39 2024
+
+#           time             counts unit events
+     1.001074917      2,118,959,051      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     1.001074917          7,906,835      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.37% of all dTLB cache accesses
+     2.004727684      5,743,967,996      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     2.004727684         14,747,516      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.26% of all dTLB cache accesses
+     3.008230705      4,084,569,596      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     3.008230705         10,606,846      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.26% of all dTLB cache accesses
+     4.011031146      5,843,265,157      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     4.011031146         13,224,008      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.23% of all dTLB cache accesses
+     5.014455562      4,020,271,010      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     5.014455562         12,510,460      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.31% of all dTLB cache accesses
+     6.017835776      5,126,916,645      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     6.017835776         18,084,227      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.35% of all dTLB cache accesses
+     7.020795640      5,457,680,507      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     7.020795640         32,711,338      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.60% of all dTLB cache accesses
+     8.023227238      8,897,474,760      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     8.023227238         48,656,275      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.55% of all dTLB cache accesses
+     9.026006347      8,573,296,271      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+     9.026006347         54,315,662      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.63% of all dTLB cache accesses
+    10.029377228      4,748,136,211      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    10.029377228         21,143,684      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.45% of all dTLB cache accesses
+    11.032028309      2,698,558,310      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    11.032028309         15,880,305      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.59% of all dTLB cache accesses
+    12.033997393      7,260,737,554      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    12.033997393         67,698,186      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.93% of all dTLB cache accesses
+    13.035905254      7,639,709,099      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    13.035905254         62,933,113      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.82% of all dTLB cache accesses
+    14.037952410      7,183,970,449      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    14.037952410         47,546,227      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.66% of all dTLB cache accesses
+    15.040272088      2,144,751,667      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    15.040272088          8,614,135      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.40% of all dTLB cache accesses
+    16.044053577      6,556,637,519      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    16.044053577         59,988,155      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.91% of all dTLB cache accesses
+    17.045995092      6,408,511,891      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    17.045995092         44,828,743      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.70% of all dTLB cache accesses
+    18.049177993      1,231,005,041      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    18.049177993          5,980,878      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.49% of all dTLB cache accesses
+    19.053031705      5,076,581,188      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    19.053031705         51,463,763      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    1.01% of all dTLB cache accesses
+    20.055418726      6,688,616,582      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    20.055418726         63,828,000      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.95% of all dTLB cache accesses
+    21.057516102      7,339,319,192      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    21.057516102         50,803,504      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.69% of all dTLB cache accesses
+    22.059821972      2,742,028,520      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    22.059821972         13,235,705      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.48% of all dTLB cache accesses
+    23.063675159      5,941,044,581      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    23.063675159         55,601,914      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.94% of all dTLB cache accesses
+    24.065699553      5,587,474,476      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    24.065699553         36,467,994      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.65% of all dTLB cache accesses
+    25.083447388      1,738,451,692      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    25.083447388          7,308,168      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.42% of all dTLB cache accesses
+#           time             counts unit events
+    26.087375957      5,271,736,716      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    26.087375957         50,308,205      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.95% of all dTLB cache accesses
+    27.089175690      7,546,896,624      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    27.089175690         61,916,421      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.82% of all dTLB cache accesses
+    28.091380535      7,103,655,377      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    28.091380535         60,130,539      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.85% of all dTLB cache accesses
+    29.093483030      4,846,319,982      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    29.093483030         26,654,226      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.55% of all dTLB cache accesses
+    30.096365235      3,602,437,192      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    30.096365235         29,455,673      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.82% of all dTLB cache accesses
+    31.097994207      7,153,847,468      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    31.097994207         55,278,318      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.77% of all dTLB cache accesses
+    32.100742692      3,301,145,250      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    32.100742692         17,938,119      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.54% of all dTLB cache accesses
+    33.103958664      4,256,377,123      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    33.103958664         38,266,649      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.90% of all dTLB cache accesses
+    34.105993423      7,007,831,460      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    34.105993423         65,814,376      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.94% of all dTLB cache accesses
+    35.107999120      7,102,734,632      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    35.107999120         56,776,174      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.80% of all dTLB cache accesses
+    36.114050270      5,716,143,519      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    36.114050270         26,194,831      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.46% of all dTLB cache accesses
+    37.117585860         38,081,576      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    37.117585860            530,576      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    1.39% of all dTLB cache accesses
+    38.121499675         70,895,901      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    38.121499675            520,839      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.73% of all dTLB cache accesses
+    39.125545123         22,176,250      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    39.125545123            345,937      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    1.56% of all dTLB cache accesses
+    40.129794664         32,146,489      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    40.129794664            495,611      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    1.54% of all dTLB cache accesses
+    41.133964237        530,682,502      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    41.133964237          2,215,041      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope #    0.42% of all dTLB cache accesses
+    42.137499665      <not counted>      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    42.137499665      <not counted>      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    42.159948533      <not counted>      dTLB-loads                /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   
+    42.159948533      <not counted>      dTLB-load-misses          /system.slice/docker-3bef81898fe76e551d26ad8d211caaa0d421c1e945a02bfbe1923119d884e0eb.scope                                   

@@ -1,0 +1,190 @@
+# started on Tue Dec  3 10:56:16 2024
+
+#           time             counts unit events
+     1.001064101         38,681,490      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     1.001064101          3,038,714      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #    7.86% of all LL-cache accesses
+     2.010610664        236,841,231      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     2.010610664         44,362,852      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   18.73% of all LL-cache accesses
+     3.014604032        260,791,617      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     3.014604032         56,243,739      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   21.57% of all LL-cache accesses
+     4.078333071        291,012,384      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     4.078333071         64,832,742      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   22.28% of all LL-cache accesses
+     5.124603118        269,684,848      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     5.124603118         60,246,987      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   22.34% of all LL-cache accesses
+     6.126617889        270,878,550      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     6.126617889         56,429,095      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   20.83% of all LL-cache accesses
+     7.129269529        291,627,299      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     7.129269529         52,295,615      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   17.93% of all LL-cache accesses
+     8.132216042        269,669,752      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     8.132216042         84,682,121      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   31.40% of all LL-cache accesses
+     9.134601422        122,891,961      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+     9.134601422         41,688,346      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   33.92% of all LL-cache accesses
+    10.137341186        211,935,912      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    10.137341186         86,032,781      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   40.59% of all LL-cache accesses
+    11.140379825        329,671,249      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    11.140379825        194,531,521      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   59.01% of all LL-cache accesses
+    12.142616149        298,560,816      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    12.142616149        151,966,999      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   50.90% of all LL-cache accesses
+    13.145363727        165,435,116      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    13.145363727         60,465,352      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   36.55% of all LL-cache accesses
+    14.148626647        125,672,849      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    14.148626647         51,830,242      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   41.24% of all LL-cache accesses
+    15.151885777         91,695,028      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    15.151885777         43,441,592      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   47.38% of all LL-cache accesses
+    16.155760783        169,399,152      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    16.155760783         51,020,436      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   30.12% of all LL-cache accesses
+    17.158460456        394,119,425      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    17.158460456        102,108,619      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   25.91% of all LL-cache accesses
+    18.161080834        357,685,733      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    18.161080834        149,009,426      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   41.66% of all LL-cache accesses
+    19.163709850        327,544,003      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    19.163709850        148,604,844      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   45.37% of all LL-cache accesses
+    20.166264057        130,911,326      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    20.166264057         47,923,078      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   36.61% of all LL-cache accesses
+    21.169899943        215,854,077      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    21.169899943         48,477,208      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   22.46% of all LL-cache accesses
+    22.172570640        176,304,508      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    22.172570640         73,452,217      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   41.66% of all LL-cache accesses
+    23.174590924        241,061,646      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    23.174590924         82,762,358      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   34.33% of all LL-cache accesses
+    24.177066184        216,530,589      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    24.177066184         74,151,230      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   34.25% of all LL-cache accesses
+    25.179960710        349,064,342      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    25.179960710        174,703,856      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   50.05% of all LL-cache accesses
+#           time             counts unit events
+    26.182602067        246,281,801      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    26.182602067         78,897,669      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   32.04% of all LL-cache accesses
+    27.185811529        146,546,074      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    27.185811529         49,314,590      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   33.65% of all LL-cache accesses
+    28.189099485        126,167,774      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    28.189099485         45,370,851      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   35.96% of all LL-cache accesses
+    29.192472933        131,456,422      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    29.192472933         69,825,507      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.12% of all LL-cache accesses
+    30.195907587         76,949,265      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    30.195907587         43,934,459      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   57.10% of all LL-cache accesses
+    31.199813096         73,376,429      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    31.199813096         23,846,605      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   32.50% of all LL-cache accesses
+    32.202328598        244,752,976      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    32.202328598        121,994,012      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   49.84% of all LL-cache accesses
+    33.205009899        151,200,693      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    33.205009899         54,205,663      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   35.85% of all LL-cache accesses
+    34.208319280        167,832,714      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    34.208319280         59,697,429      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   35.57% of all LL-cache accesses
+    35.210614857        246,220,301      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    35.210614857         85,787,315      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   34.84% of all LL-cache accesses
+    36.213260799        233,841,376      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    36.213260799         64,223,334      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   27.46% of all LL-cache accesses
+    37.215906955        237,134,756      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    37.215906955         70,818,058      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   29.86% of all LL-cache accesses
+    38.218497406        203,338,428      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    38.218497406         70,912,340      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   34.87% of all LL-cache accesses
+    39.221168598        159,184,617      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    39.221168598         64,887,213      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   40.76% of all LL-cache accesses
+    40.223764503        241,952,650      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    40.223764503        135,455,197      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   55.98% of all LL-cache accesses
+    41.226303447        107,465,574      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    41.226303447         57,578,309      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.58% of all LL-cache accesses
+    42.229935434        269,560,609      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    42.229935434        102,702,600      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   38.10% of all LL-cache accesses
+    43.232545420        242,724,872      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    43.232545420         74,011,425      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   30.49% of all LL-cache accesses
+    44.234624687        223,472,531      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    44.234624687         69,585,660      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   31.14% of all LL-cache accesses
+    45.237180171        213,257,246      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    45.237180171         71,844,682      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   33.69% of all LL-cache accesses
+    46.239719866        185,874,112      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    46.239719866         82,119,867      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   44.18% of all LL-cache accesses
+    47.242259333        228,786,098      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    47.242259333        128,258,012      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   56.06% of all LL-cache accesses
+    48.244789959        174,135,214      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    48.244789959         93,667,802      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.79% of all LL-cache accesses
+    49.248216381         59,210,745      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    49.248216381         22,450,766      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   37.92% of all LL-cache accesses
+    50.250626452        181,283,038      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    50.250626452         87,616,514      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   48.33% of all LL-cache accesses
+#           time             counts unit events
+    51.253297483        261,904,370      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    51.253297483        132,566,550      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   50.62% of all LL-cache accesses
+    52.255860161         92,262,601      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    52.255860161         34,117,266      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   36.98% of all LL-cache accesses
+    53.258611314        257,299,830      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    53.258611314         75,201,587      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   29.23% of all LL-cache accesses
+    54.261253018        240,697,840      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    54.261253018         68,491,075      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   28.46% of all LL-cache accesses
+    55.263983083        240,829,601      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    55.263983083         70,171,459      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   29.14% of all LL-cache accesses
+    56.266617549        234,534,687      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    56.266617549         65,157,813      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   27.78% of all LL-cache accesses
+    57.269222712        199,921,819      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    57.269222712         65,355,633      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   32.69% of all LL-cache accesses
+    58.271898070        178,905,228      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    58.271898070         84,481,231      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   47.22% of all LL-cache accesses
+    59.274616792        229,275,600      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    59.274616792        129,911,757      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   56.66% of all LL-cache accesses
+    60.277618430        198,105,524      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    60.277618430        110,639,007      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   55.85% of all LL-cache accesses
+    61.280608706         53,804,468      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    61.280608706         28,255,567      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   52.52% of all LL-cache accesses
+    62.283721214        267,824,370      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    62.283721214         99,223,431      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   37.05% of all LL-cache accesses
+    63.286365157        244,298,866      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    63.286365157         71,953,530      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   29.45% of all LL-cache accesses
+    64.288997617        228,447,467      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    64.288997617         73,306,418      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   32.09% of all LL-cache accesses
+    65.290589427        220,405,094      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    65.290589427         74,160,263      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   33.65% of all LL-cache accesses
+    66.293158479        204,934,098      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    66.293158479         76,998,733      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   37.57% of all LL-cache accesses
+    67.296046341        239,158,847      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    67.296046341        127,027,648      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.11% of all LL-cache accesses
+    68.298585962        231,874,459      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    68.298585962        133,597,833      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   57.62% of all LL-cache accesses
+    69.301249462         73,219,171      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    69.301249462         39,107,384      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.41% of all LL-cache accesses
+    70.305332298         81,764,237      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    70.305332298         31,633,437      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   38.69% of all LL-cache accesses
+    71.308392331        223,245,418      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    71.308392331        117,641,464      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   52.70% of all LL-cache accesses
+    72.310609994        247,487,248      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    72.310609994        134,905,501      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   54.51% of all LL-cache accesses
+    73.313286661        172,427,613      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    73.313286661         82,029,177      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   47.57% of all LL-cache accesses
+    74.316693781         99,258,220      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    74.316693781         40,452,488      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   40.75% of all LL-cache accesses
+    75.320297028        228,042,757      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    75.320297028         71,917,337      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   31.54% of all LL-cache accesses
+#           time             counts unit events
+    76.322617999        238,941,667      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    76.322617999         67,899,245      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   28.42% of all LL-cache accesses
+    77.325135862        238,560,941      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    77.325135862         67,009,152      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   28.09% of all LL-cache accesses
+    78.327785033        242,449,407      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    78.327785033         70,830,564      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   29.21% of all LL-cache accesses
+    79.330232719        206,051,043      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    79.330232719         68,821,152      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   33.40% of all LL-cache accesses
+    80.332761773        147,392,250      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    80.332761773         62,235,182      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   42.22% of all LL-cache accesses
+    81.334593552        279,623,652      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    81.334593552        166,463,149      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   59.53% of all LL-cache accesses
+    82.336684539        276,451,274      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    82.336684539        147,946,131      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.52% of all LL-cache accesses
+    83.339657237         69,003,325      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    83.339657237         29,046,404      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   42.09% of all LL-cache accesses
+    84.342316671        171,743,911      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    84.342316671         87,996,332      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   51.24% of all LL-cache accesses
+    85.345391078        248,779,135      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    85.345391078        132,927,416      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.43% of all LL-cache accesses
+    86.348124735        245,943,049      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    86.348124735        130,902,718      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   53.22% of all LL-cache accesses
+    87.350611829        244,813,634      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    87.350611829        133,106,322      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   54.37% of all LL-cache accesses
+    88.353248858        131,437,083      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    88.353248858         46,453,424      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   35.34% of all LL-cache accesses
+    89.356503629        103,107,829      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    89.356503629         42,206,046      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   40.93% of all LL-cache accesses
+    90.359837318        110,456,055      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    90.359837318         27,749,857      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   25.12% of all LL-cache accesses
+    91.363946749         20,149,163      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    91.363946749          3,692,939      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope #   18.33% of all LL-cache accesses
+    91.882191423      <not counted>      LLC-loads                 /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   
+    91.882191423      <not counted>      LLC-load-misses           /system.slice/docker-9b3154c1509b6cf0ff8cc4afc8755e91a008d760da2e2c2d5f8ac2e5a717c2b1.scope                                   

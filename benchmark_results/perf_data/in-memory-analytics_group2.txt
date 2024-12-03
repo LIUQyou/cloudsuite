@@ -1,0 +1,86 @@
+# started on Tue Dec  3 13:32:53 2024
+
+#           time             counts unit events
+     1.001068238      2,106,862,771      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     1.001068238        137,902,531      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    6.55% of all L1-dcache accesses
+     2.005380998      5,726,495,795      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     2.005380998        413,679,196      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.22% of all L1-dcache accesses
+     3.009161314      5,122,937,680      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     3.009161314        334,446,582      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    6.53% of all L1-dcache accesses
+     4.012501958      6,104,512,601      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     4.012501958        444,001,243      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.27% of all L1-dcache accesses
+     5.015986036      3,597,607,861      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     5.015986036        323,703,932      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    9.00% of all L1-dcache accesses
+     6.019538002      4,857,094,270      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     6.019538002        462,728,298      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    9.53% of all L1-dcache accesses
+     7.023041975      7,099,812,519      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     7.023041975        657,521,563      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    9.26% of all L1-dcache accesses
+     8.025435979     10,048,126,886      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     8.025435979        845,809,604      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.42% of all L1-dcache accesses
+     9.027189373      7,426,552,030      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+     9.027189373        619,305,792      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.34% of all L1-dcache accesses
+    10.030238016      4,478,573,937      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    10.030238016        435,872,386      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    9.73% of all L1-dcache accesses
+    11.048421754      2,520,731,008      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    11.048421754        218,129,080      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.65% of all L1-dcache accesses
+    12.051224466      6,882,435,271      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    12.051224466        565,902,499      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.22% of all L1-dcache accesses
+    13.053397792      7,817,370,762      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    13.053397792        655,144,553      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.38% of all L1-dcache accesses
+    14.055166027      7,267,161,653      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    14.055166027        542,542,908      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.47% of all L1-dcache accesses
+    15.058995177      2,074,363,030      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    15.058995177        284,114,940      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #   13.70% of all L1-dcache accesses
+    16.062119397      6,644,917,716      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    16.062119397        533,985,838      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.04% of all L1-dcache accesses
+    17.064227912      5,561,206,431      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    17.064227912        448,895,932      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.07% of all L1-dcache accesses
+    18.067830588      1,052,063,175      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    18.067830588        137,930,964      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #   13.11% of all L1-dcache accesses
+    19.071350563      4,294,912,387      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    19.071350563        377,437,569      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.79% of all L1-dcache accesses
+    20.073985560      6,616,394,215      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    20.073985560        540,108,494      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.16% of all L1-dcache accesses
+    21.076167553      7,038,351,188      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    21.076167553        579,027,517      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.23% of all L1-dcache accesses
+    22.078294082      4,757,850,583      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    22.078294082        432,265,513      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    9.09% of all L1-dcache accesses
+    23.082038537      4,113,987,354      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    23.082038537        338,165,688      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.22% of all L1-dcache accesses
+    24.084309460      7,099,812,145      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    24.084309460        555,909,850      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.83% of all L1-dcache accesses
+    25.086426934      3,367,559,847      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    25.086426934        363,526,974      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #   10.79% of all L1-dcache accesses
+#           time             counts unit events
+    26.089359170      2,334,695,713      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    26.089359170        187,887,220      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    8.05% of all L1-dcache accesses
+    27.091158746      6,614,670,663      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    27.091158746        519,826,125      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.86% of all L1-dcache accesses
+    28.093604915      8,486,579,842      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    28.093604915        667,915,359      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.87% of all L1-dcache accesses
+    29.096011801      6,509,798,565      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    29.096011801        466,990,804      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.17% of all L1-dcache accesses
+    30.099204878      1,784,508,480      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    30.099204878        261,768,238      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #   14.67% of all L1-dcache accesses
+    31.102409013      6,172,571,720      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    31.102409013        476,539,922      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.72% of all L1-dcache accesses
+    32.104755516      5,231,723,596      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    32.104755516        413,290,781      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.90% of all L1-dcache accesses
+    33.108183602      3,030,470,090      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    33.108183602        293,276,887      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    9.68% of all L1-dcache accesses
+    34.110749803      6,567,092,570      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    34.110749803        503,459,559      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.67% of all L1-dcache accesses
+    35.113282264      7,084,412,693      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    35.113282264        557,998,283      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.88% of all L1-dcache accesses
+    36.115181435      6,651,972,354      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    36.115181435        450,473,564      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    6.77% of all L1-dcache accesses
+    37.117530844      1,573,008,287      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    37.117530844        109,211,283      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    6.94% of all L1-dcache accesses
+    38.122193711         31,877,830      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    38.122193711          2,237,255      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    7.02% of all L1-dcache accesses
+    39.126251137         28,292,242      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    39.126251137          1,893,335      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    6.69% of all L1-dcache accesses
+    40.130390430        528,194,875      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    40.130390430         23,188,662      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope #    4.39% of all L1-dcache accesses
+    41.102767636      <not counted>      L1-dcache-loads           /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
+    41.102767636      <not counted>      L1-dcache-load-misses     /system.slice/docker-abadd22e9d7bc560765f0f2aff732dc31f5b7d8c277c477673b04601498f29c0.scope                                   
