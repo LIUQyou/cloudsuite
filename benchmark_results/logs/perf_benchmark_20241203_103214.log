@@ -1,0 +1,24 @@
+
+Running Web Serving benchmark with performance monitoring...
+386b0e50e555cd426fa958f03c497f4c600c5e845836506cf74694c46b1a73d3
+224cdaaeddf1c22268ff1214fbe2164fafea9d0e3fd9b0b9bc8d84a3480d241f
+
+Starting monitoring for container: memcache_server
+
+Started real-time logging for memcache_server to benchmark_results/container_logs/memcache_server.log
+
+Started monitoring container memcache_server (Cgroup: /system.slice/docker-224cdaaeddf1c22268ff1214fbe2164fafea9d0e3fd9b0b9bc8d84a3480d241f.scope)
+7f65e90197db31d3f99e84b5cebf56ecb33e5cb2f60366853ad7c3ff013fbd2b
+
+Starting monitoring for container: web_server
+
+Started real-time logging for web_server to benchmark_results/container_logs/web_server.log
+
+Started monitoring container web_server (Cgroup: /system.slice/docker-7f65e90197db31d3f99e84b5cebf56ecb33e5cb2f60366853ad7c3ff013fbd2b.scope)
+971612b07581632041a52d4a9159b9ea29a038830d7b483727cb18a066aa31ee
+
+Starting monitoring for container: faban_client
+
+Started real-time logging for faban_client to benchmark_results/container_logs/faban_client.log
+
+Started monitoring container faban_client (Cgroup: /system.slice/docker-971612b07581632041a52d4a9159b9ea29a038830d7b483727cb18a066aa31ee.scope)

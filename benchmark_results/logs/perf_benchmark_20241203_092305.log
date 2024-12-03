@@ -1,0 +1,236 @@
+
+Running Media Streaming benchmark with performance monitoring...
+gcc -Wall -g -o make_zipf make_zipf.c -lm
+gcc -Wall -g -o gen_fileset gen_fileset.c -lm
+quality = 240p
+ 10
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 0.50 MB
+file bit rate = 0.419 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 199 MB
+total size of viewed videos = 35 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 11.1 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      2       22.2   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 2.9 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5     20     0.2
+   10     40     0.1
+   20     80     0.0
+   50    200     0.0
+  100    400     0.0
+  200    800     0.0
+  500   2000     0.0
+  750   3000     0.0
+  900   3600     0.0
+quality = 360p
+ 1
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 1.25 MB
+file bit rate = 1.049 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 498 MB
+total size of viewed videos = 88 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 27.7 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      2       55.5   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 7.2 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5     50     0.2
+   10    100     0.1
+   20    200     0.0
+   50    500     0.0
+  100   1000     0.0
+  200   2000     0.0
+  500   5000     0.0
+  750   7500     0.0
+  900   9000     0.0
+quality = 480p
+ 2
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 3.12 MB
+file bit rate = 2.621 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 1246 MB
+total size of viewed videos = 221 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 69.4 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      2      138.7   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 18.1 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5    125     0.2
+   10    250     0.1
+   20    500     0.0
+   50   1250     0.0
+  100   2500     0.0
+  200   5000     0.0
+  500  12500     0.0
+  750  18750     0.0
+  900  22500     0.0
+quality = 720p
+ 5
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 6.25 MB
+file bit rate = 5.243 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 2491 MB
+total size of viewed videos = 442 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 138.7 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      2      277.4   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 36.2 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5    250     0.2
+   10    500     0.1
+   20   1000     0.0
+   50   2500     0.0
+  100   5000     0.0
+  200  10000     0.0
+  500  25000     0.0
+  750  37500     0.0
+  900  45000     0.0
+[mp4 @ 0x55fca016d880] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+[mp4 @ 0x5654bfede280] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+[mp4 @ 0x55dbda5afa00] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+[mp4 @ 0x560a04064b40] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+
+Starting monitoring for container: streaming_dataset
+
+Started real-time logging for streaming_dataset to benchmark_results/container_logs/streaming_dataset.log
+12e68f3832773588acd7873596c5a698549243cbbbee9c3298ba3109fbb60aa0
+
+Starting monitoring for container: streaming_server
+
+Started real-time logging for streaming_server to benchmark_results/container_logs/streaming_server.log
+
+Started monitoring container streaming_server (Cgroup: )
+c53d11f3c33bacdd9ada86c8118627c461d5464420cc1b2a7e4051f090475fe2
+
+Starting monitoring for container: streaming_client
+
+Started real-time logging for streaming_client to benchmark_results/container_logs/streaming_client.log

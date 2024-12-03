@@ -1,0 +1,436 @@
+--2024-12-03 16:32:15--  http://datasets.epfl.ch/cloudsuite/ELGG_DB.tar.gz
+Resolving datasets.epfl.ch (datasets.epfl.ch)... 128.178.218.27, 2001:620:618:1da:7:80b2:da1b:1
+Connecting to datasets.epfl.ch (datasets.epfl.ch)|128.178.218.27|:80... connected.
+HTTP request sent, awaiting response... 308 Permanent Redirect
+Location: https://datasets.epfl.ch/cloudsuite/ELGG_DB.tar.gz [following]
+--2024-12-03 16:32:15--  https://datasets.epfl.ch/cloudsuite/ELGG_DB.tar.gz
+Connecting to datasets.epfl.ch (datasets.epfl.ch)|128.178.218.27|:443... connected.
+WARNING: cannot verify datasets.epfl.ch's certificate, issued by 'CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1,O=DigiCert Inc,C=US':
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 200 OK
+Length: 494824703 (472M) [application/x-gzip]
+Saving to: 'STDOUT'
+
+-                     0%[                    ]       0  --.-KB/s               -                     0%[                    ]  41.58K   205KB/s               -                     0%[                    ] 171.59K   423KB/s               backup/
+backup/ibdata1
+-                     0%[                    ] 580.44K   818KB/s               -                     0%[                    ]   1.05M  1.15MB/s               backup/ib_buffer_pool
+backup/ib_logfile0
+backup/performance_schema/
+backup/performance_schema/db.opt
+backup/aria_log.00000001
+backup/xtrabackup_info
+backup/mysql/
+backup/mysql/help_topic.MYI
+backup/mysql/func.MYI
+backup/mysql/help_relation.frm
+backup/mysql/procs_priv.frm
+backup/mysql/help_category.MYI
+backup/mysql/event.frm
+backup/mysql/func.frm
+backup/mysql/help_category.frm
+backup/mysql/innodb_table_stats.frm
+backup/mysql/help_keyword.MYI
+backup/mysql/plugin.MYI
+backup/mysql/user.MYI
+backup/mysql/host.frm
+backup/mysql/help_relation.MYD
+backup/mysql/roles_mapping.MYI
+backup/mysql/columns_priv.MYI
+backup/mysql/host.MYD
+backup/mysql/roles_mapping.frm
+backup/mysql/gtid_slave_pos.ibd
+backup/mysql/event.MYI
+backup/mysql/columns_priv.MYD
+backup/mysql/proxies_priv.MYI
+backup/mysql/index_stats.frm
+backup/mysql/host.MYI
+backup/mysql/tables_priv.MYI
+backup/mysql/proc.frm
+backup/mysql/help_relation.MYI
+backup/mysql/slow_log.frm
+backup/mysql/time_zone_transition_type.frm
+backup/mysql/proc.MYI
+backup/mysql/db.MYD
+backup/mysql/time_zone_name.MYD
+backup/mysql/time_zone_leap_second.MYI
+backup/mysql/help_keyword.frm
+backup/mysql/time_zone_transition_type.MYI
+backup/mysql/time_zone_transition.MYD
+backup/mysql/time_zone.MYD
+backup/mysql/servers.frm
+backup/mysql/column_stats.MYI
+backup/mysql/help_category.MYD
+backup/mysql/transaction_registry.ibd
+backup/mysql/time_zone.MYI
+backup/mysql/help_topic.frm
+backup/mysql/user.MYD
+backup/mysql/innodb_index_stats.frm
+backup/mysql/roles_mapping.MYD
+backup/mysql/help_keyword.MYD
+backup/mysql/tables_priv.MYD
+backup/mysql/columns_priv.frm
+backup/mysql/index_stats.MYI
+backup/mysql/time_zone_name.MYI
+backup/mysql/tables_priv.frm
+backup/mysql/innodb_index_stats.ibd
+backup/mysql/column_stats.MYD
+backup/mysql/general_log.CSM
+backup/mysql/innodb_table_stats.ibd
+backup/mysql/general_log.CSV
+backup/mysql/time_zone_leap_second.frm
+backup/mysql/slow_log.CSV
+backup/mysql/column_stats.frm
+backup/mysql/proxies_priv.frm
+-                     0%[                    ]   1.64M  1.18MB/s               backup/mysql/help_topic.MYD
+backup/mysql/general_log.frm
+backup/mysql/gtid_slave_pos.frm
+backup/mysql/table_stats.MYI
+backup/mysql/time_zone_leap_second.MYD
+backup/mysql/db.opt
+backup/mysql/event.MYD
+backup/mysql/proc.MYD
+backup/mysql/user.frm
+backup/mysql/servers.MYD
+backup/mysql/table_stats.frm
+backup/mysql/time_zone_transition.frm
+backup/mysql/db.MYI
+backup/mysql/plugin.frm
+backup/mysql/table_stats.MYD
+backup/mysql/time_zone.frm
+backup/mysql/transaction_registry.frm
+backup/mysql/plugin.MYD
+backup/mysql/procs_priv.MYI
+backup/mysql/index_stats.MYD
+backup/mysql/time_zone_transition_type.MYD
+backup/mysql/time_zone_name.frm
+backup/mysql/proxies_priv.MYD
+backup/mysql/procs_priv.MYD
+backup/mysql/slow_log.CSM
+backup/mysql/servers.MYI
+backup/mysql/time_zone_transition.MYI
+backup/mysql/func.MYD
+backup/mysql/db.frm
+backup/backup-my.cnf
+backup/xtrabackup_checkpoints
+backup/aria_log_control
+backup/ELGG_DB/
+backup/ELGG_DB/elgg_delayed_email_queue.frm
+backup/ELGG_DB/elgg_api_users.frm
+backup/ELGG_DB/elgg_queue.frm
+backup/ELGG_DB/elgg_access_collections.ibd
+-                     0%[                    ]   3.26M  2.05MB/s               backup/ELGG_DB/elgg_annotations.frm
+backup/ELGG_DB/elgg_access_collection_membership.frm
+backup/ELGG_DB/elgg_api_users.ibd
+backup/ELGG_DB/elgg_entities.ibd
+-                     0%[                    ]   3.84M  2.14MB/s               -                     0%[                    ]   4.43M  2.22MB/s               -                     1%[                    ]   5.04M  2.27MB/s               -                     1%[                    ]   5.66M  2.33MB/s               -                     1%[                    ]   6.27M  2.38MB/s               -                     1%[                    ]   6.91M  2.44MB/s               -                     1%[                    ]   7.53M  2.48MB/s    eta 3m 7s  -                     1%[                    ]   8.17M  2.52MB/s    eta 3m 7s  -                     1%[                    ]   8.82M  2.56MB/s    eta 3m 7s  -                     2%[                    ]   9.46M  2.60MB/s    eta 3m 7s  -                     2%[                    ]  10.11M  2.76MB/s    eta 3m 7s  -                     2%[                    ]  10.77M  2.91MB/s    eta 2m 53s -                     2%[                    ]  11.42M  3.06MB/s    eta 2m 53s -                     2%[                    ]  12.07M  3.40MB/s    eta 2m 53s -                     2%[                    ]  12.73M  3.10MB/s    eta 2m 53s -                     2%[                    ]  13.38M  3.12MB/s    eta 2m 53s -                     2%[                    ]  14.05M  3.16MB/s    eta 2m 45s -                     3%[                    ]  14.70M  3.16MB/s    eta 2m 45s -                     3%[                    ]  15.36M  3.18MB/s    eta 2m 45s -                     3%[                    ]  16.03M  3.21MB/s    eta 2m 45s -                     3%[                    ]  16.68M  3.20MB/s    eta 2m 45s -                     3%[                    ]  17.33M  3.22MB/s    eta 2m 39s -                     3%[                    ]  17.99M  3.22MB/s    eta 2m 39s -                     3%[                    ]  18.66M  3.23MB/s    eta 2m 39s -                     4%[                    ]  19.31M  3.24MB/s    eta 2m 39s -                     4%[                    ]  19.96M  3.23MB/s    eta 2m 39s -                     4%[                    ]  20.62M  3.23MB/s    eta 2m 35s -                     4%[                    ]  21.29M  3.24MB/s    eta 2m 35s -                     4%[                    ]  21.94M  3.24MB/s    eta 2m 35s -                     4%[                    ]  22.61M  3.24MB/s    eta 2m 35s -                     4%[                    ]  23.28M  3.25MB/s    eta 2m 35s -                     5%[>                   ]  23.95M  3.25MB/s    eta 2m 32s -                     5%[>                   ]  24.62M  3.25MB/s    eta 2m 32s -                     5%[>                   ]  25.29M  3.26MB/s    eta 2m 32s -                     5%[>                   ]  25.97M  3.27MB/s    eta 2m 32s -                     5%[>                   ]  26.66M  3.27MB/s    eta 2m 32s -                     5%[>                   ]  27.36M  3.29MB/s    eta 2m 28s -                     5%[>                   ]  28.06M  3.30MB/s    eta 2m 28s -                     6%[>                   ]  28.76M  3.32MB/s    eta 2m 28s -                     6%[>                   ]  29.49M  3.34MB/s    eta 2m 28s -                     6%[>                   ]  30.21M  3.37MB/s    eta 2m 28s -                     6%[>                   ]  30.94M  3.38MB/s    eta 2m 24s -                     6%[>                   ]  31.68M  3.42MB/s    eta 2m 24s -                     6%[>                   ]  32.46M  3.44MB/s    eta 2m 24s -                     7%[>                   ]  33.24M  3.49MB/s    eta 2m 24s -                     7%[>                   ]  34.03M  3.53MB/s    eta 2m 24s -                     7%[>                   ]  34.84M  3.56MB/s    eta 2m 20s -                     7%[>                   ]  35.67M  3.63MB/s    eta 2m 20s -                     7%[>                   ]  36.52M  3.68MB/s    eta 2m 20s -                     7%[>                   ]  37.33M  3.71MB/s    eta 2m 20s backup/ELGG_DB/elgg_users_apisessions.frm
+backup/ELGG_DB/elgg_entity_relationships.frm
+backup/ELGG_DB/elgg_users_sessions.ibd
+-                     8%[>                   ]  37.96M  3.65MB/s    eta 2m 20s -                     8%[>                   ]  38.59M  3.64MB/s    eta 2m 17s -                     8%[>                   ]  39.26M  3.63MB/s    eta 2m 17s -                     8%[>                   ]  39.96M  3.62MB/s    eta 2m 17s -                     8%[>                   ]  40.66M  3.62MB/s    eta 2m 17s backup/ELGG_DB/elgg_hmac_cache.frm
+backup/ELGG_DB/elgg_access_collections.frm
+backup/ELGG_DB/elgg_entity_relationships.ibd
+-                     8%[>                   ]  41.40M  3.62MB/s    eta 2m 17s -                     8%[>                   ]  42.14M  3.63MB/s    eta 2m 15s -                     9%[>                   ]  42.86M  3.52MB/s    eta 2m 15s -                     9%[>                   ]  43.79M  3.47MB/s    eta 2m 15s -                     9%[>                   ]  44.48M  3.43MB/s    eta 2m 15s -                     9%[>                   ]  44.88M  3.34MB/s    eta 2m 15s -                     9%[>                   ]  45.29M  3.24MB/s    eta 2m 15s -                     9%[>                   ]  45.71M  3.15MB/s    eta 2m 15s -                     9%[>                   ]  46.14M  3.05MB/s    eta 2m 15s -                     9%[>                   ]  46.56M  2.91MB/s    eta 2m 15s -                     9%[>                   ]  47.01M  2.91MB/s    eta 2m 18s -                    10%[=>                  ]  47.45M  2.74MB/s    eta 2m 18s -                    10%[=>                  ]  47.90M  2.71MB/s    eta 2m 18s -                    10%[=>                  ]  48.35M  2.67MB/s    eta 2m 18s -                    10%[=>                  ]  48.82M  2.58MB/s    eta 2m 18s -                    10%[=>                  ]  49.29M  2.53MB/s    eta 2m 19s -                    10%[=>                  ]  49.75M  2.49MB/s    eta 2m 19s -                    10%[=>                  ]  50.22M  2.40MB/s    eta 2m 19s -                    10%[=>                  ]  50.69M  2.34MB/s    eta 2m 19s -                    10%[=>                  ]  51.15M  2.20MB/s    eta 2m 19s -                    10%[=>                  ]  51.62M  2.19MB/s    eta 2m 21s -                    11%[=>                  ]  52.09M  2.24MB/s    eta 2m 21s -                    11%[=>                  ]  52.56M  2.24MB/s    eta 2m 21s -                    11%[=>                  ]  53.02M  2.24MB/s    eta 2m 21s -                    11%[=>                  ]  53.49M  2.27MB/s    eta 2m 21s -                    11%[=>                  ]  53.96M  2.28MB/s    eta 2m 22s -                    11%[=>                  ]  54.42M  2.30MB/s    eta 2m 22s -                    11%[=>                  ]  54.89M  2.29MB/s    eta 2m 22s -                    11%[=>                  ]  55.36M  2.32MB/s    eta 2m 22s -                    11%[=>                  ]  55.82M  2.30MB/s    eta 2m 22s -                    11%[=>                  ]  56.29M  2.30MB/s    eta 2m 22s -                    12%[=>                  ]  56.76M  2.31MB/s    eta 2m 22s -                    12%[=>                  ]  57.24M  2.33MB/s    eta 2m 22s -                    12%[=>                  ]  57.71M  2.31MB/s    eta 2m 22s -                    12%[=>                  ]  58.19M  2.33MB/s    eta 2m 22s -                    12%[=>                  ]  58.66M  2.33MB/s    eta 2m 23s -                    12%[=>                  ]  59.14M  2.32MB/s    eta 2m 23s -                    12%[=>                  ]  59.62M  2.34MB/s    eta 2m 23s -                    12%[=>                  ]  60.12M  2.35MB/s    eta 2m 23s -                    12%[=>                  ]  60.62M  2.34MB/s    eta 2m 23s -                    12%[=>                  ]  61.12M  2.36MB/s    eta 2m 23s -                    13%[=>                  ]  61.63M  2.38MB/s    eta 2m 23s -                    13%[=>                  ]  62.14M  2.38MB/s    eta 2m 23s -                    13%[=>                  ]  62.66M  2.39MB/s    eta 2m 23s -                    13%[=>                  ]  63.20M  2.42MB/s    eta 2m 23s -                    13%[=>                  ]  63.75M  2.46MB/s    eta 2m 23s -                    13%[=>                  ]  64.31M  2.46MB/s    eta 2m 23s -                    13%[=>                  ]  64.88M  2.50MB/s    eta 2m 23s -                    13%[=>                  ]  65.47M  2.54MB/s    eta 2m 23s -                    13%[=>                  ]  66.06M  2.59MB/s    eta 2m 23s -                    14%[=>                  ]  66.69M  2.65MB/s    eta 2m 22s -                    14%[=>                  ]  67.33M  2.67MB/s    eta 2m 22s -                    14%[=>                  ]  67.98M  2.74MB/s    eta 2m 22s -                    14%[=>                  ]  68.66M  2.82MB/s    eta 2m 22s -                    14%[=>                  ]  69.36M  2.86MB/s    eta 2m 22s -                    14%[=>                  ]  70.10M  2.94MB/s    eta 2m 20s -                    15%[==>                 ]  70.84M  3.04MB/s    eta 2m 20s -                    15%[==>                 ]  71.64M  3.10MB/s    eta 2m 20s -                    15%[==>                 ]  72.45M  3.20MB/s    eta 2m 20s -                    15%[==>                 ]  73.29M  3.32MB/s    eta 2m 20s -                    15%[==>                 ]  74.14M  3.39MB/s    eta 2m 16s -                    15%[==>                 ]  74.67M  3.37MB/s    eta 2m 16s -                    16%[==>                 ]  75.81M  3.55MB/s    eta 2m 16s backup/ELGG_DB/elgg_users_remember_me_cookies.ibd
+backup/ELGG_DB/elgg_users_remember_me_cookies.frm
+backup/ELGG_DB/elgg_delayed_email_queue.ibd
+backup/ELGG_DB/elgg_river.frm
+backup/ELGG_DB/elgg_metadata.ibd
+-                    16%[==>                 ]  76.45M  3.55MB/s    eta 2m 16s -                    16%[==>                 ]  76.84M  3.50MB/s    eta 2m 16s -                    16%[==>                 ]  77.60M  3.52MB/s    eta 2m 14s -                    16%[==>                 ]  78.11M  3.50MB/s    eta 2m 14s -                    16%[==>                 ]  78.25M  3.32MB/s    eta 2m 14s -                    16%[==>                 ]  78.97M  3.35MB/s    eta 2m 14s -                    16%[==>                 ]  79.34M  3.25MB/s    eta 2m 14s -                    16%[==>                 ]  79.73M  3.18MB/s    eta 2m 15s -                    16%[==>                 ]  80.12M  3.08MB/s    eta 2m 15s -                    17%[==>                 ]  80.52M  2.98MB/s    eta 2m 15s -                    17%[==>                 ]  80.93M  2.91MB/s    eta 2m 15s -                    17%[==>                 ]  81.33M  2.80MB/s    eta 2m 15s -                    17%[==>                 ]  81.75M  2.73MB/s    eta 2m 16s -                    17%[==>                 ]  82.17M  2.62MB/s    eta 2m 16s -                    17%[==>                 ]  82.61M  2.46MB/s    eta 2m 16s -                    17%[==>                 ]  83.03M  2.38MB/s    eta 2m 16s -                    17%[==>                 ]  83.47M  2.40MB/s    eta 2m 16s -                    17%[==>                 ]  83.90M  2.22MB/s    eta 2m 16s -                    17%[==>                 ]  84.34M  2.22MB/s    eta 2m 16s -                    17%[==>                 ]  84.77M  2.10MB/s    eta 2m 16s -                    18%[==>                 ]  85.21M  2.07MB/s    eta 2m 16s -                    18%[==>                 ]  85.64M  2.07MB/s    eta 2m 16s -                    18%[==>                 ]  86.10M  2.07MB/s    eta 2m 17s -                    18%[==>                 ]  86.53M  2.08MB/s    eta 2m 17s -                    18%[==>                 ]  86.98M  2.11MB/s    eta 2m 17s -                    18%[==>                 ]  87.42M  2.11MB/s    eta 2m 17s -                    18%[==>                 ]  87.85M  2.13MB/s    eta 2m 17s -                    18%[==>                 ]  88.29M  2.13MB/s    eta 2m 17s -                    18%[==>                 ]  88.73M  2.15MB/s    eta 2m 17s -                    18%[==>                 ]  89.16M  2.15MB/s    eta 2m 17s -                    18%[==>                 ]  89.60M  2.14MB/s    eta 2m 17s -                    19%[==>                 ]  90.03M  2.15MB/s    eta 2m 17s -                    19%[==>                 ]  90.47M  2.14MB/s    eta 2m 17s -                    19%[==>                 ]  90.92M  2.16MB/s    eta 2m 17s -                    19%[==>                 ]  91.36M  2.16MB/s    eta 2m 17s -                    19%[==>                 ]  91.81M  2.15MB/s    eta 2m 17s -                    19%[==>                 ]  92.26M  2.17MB/s    eta 2m 17s -                    19%[==>                 ]  92.71M  2.18MB/s    eta 2m 17s -                    19%[==>                 ]  93.16M  2.18MB/s    eta 2m 17s -                    19%[==>                 ]  93.63M  2.18MB/s    eta 2m 17s -                    19%[==>                 ]  94.10M  2.19MB/s    eta 2m 17s -                    20%[===>                ]  94.58M  2.21MB/s    eta 2m 17s -                    20%[===>                ]  95.06M  2.21MB/s    eta 2m 17s -                    20%[===>                ]  95.54M  2.23MB/s    eta 2m 17s -                    20%[===>                ]  96.04M  2.25MB/s    eta 2m 17s -                    20%[===>                ]  96.55M  2.27MB/s    eta 2m 17s -                    20%[===>                ]  97.07M  2.30MB/s    eta 2m 17s -                    20%[===>                ]  97.61M  2.32MB/s    eta 2m 17s -                    20%[===>                ]  98.16M  2.36MB/s    eta 2m 17s -                    20%[===>                ]  98.72M  2.40MB/s    eta 2m 17s -                    21%[===>                ]  99.29M  2.43MB/s    eta 2m 17s -                    21%[===>                ]  99.90M  2.49MB/s    eta 2m 17s -                    21%[===>                ] 100.51M  2.54MB/s    eta 2m 15s -                    21%[===>                ] 101.15M  2.59MB/s    eta 2m 15s -                    21%[===>                ] 101.80M  2.67MB/s    eta 2m 15s -                    21%[===>                ] 102.48M  2.73MB/s    eta 2m 15s -                    21%[===>                ] 103.20M  2.82MB/s    eta 2m 15s -                    22%[===>                ] 103.93M  2.88MB/s    eta 2m 13s -                    22%[===>                ] 104.69M  2.98MB/s    eta 2m 13s -                    22%[===>                ] 105.49M  3.07MB/s    eta 2m 13s -                    22%[===>                ] 106.31M  3.16MB/s    eta 2m 13s -                    22%[===>                ] 107.17M  3.25MB/s    eta 2m 13s -                    22%[===>                ] 108.07M  3.40MB/s    eta 2m 10s -                    23%[===>                ] 109.01M  3.53MB/s    eta 2m 10s -                    23%[===>                ] 109.99M  3.65MB/s    eta 2m 10s -                    23%[===>                ] 111.00M  3.81MB/s    eta 2m 10s -                    23%[===>                ] 112.06M  3.94MB/s    eta 2m 10s -                    23%[===>                ] 113.18M  4.09MB/s    eta 2m 6s  -                    24%[===>                ] 114.33M  4.30MB/s    eta 2m 6s  -                    24%[===>                ] 115.54M  4.44MB/s    eta 2m 6s  -                    24%[===>                ] 116.80M  4.63MB/s    eta 2m 6s  -                    25%[====>               ] 118.13M  4.87MB/s    eta 2m 6s  -                    25%[====>               ] 119.42M  4.95MB/s    eta 2m 0s  -                    25%[====>               ] 120.82M  5.06MB/s    eta 2m 0s  -                    25%[====>               ] 122.11M  5.17MB/s    eta 2m 0s  -                    26%[====>               ] 122.84M  5.15MB/s    eta 2m 0s  -                    26%[====>               ] 123.59M  5.10MB/s    eta 2m 0s  -                    26%[====>               ] 124.35M  5.08MB/s    eta 1m 57s -                    26%[====>               ] 125.13M  5.01MB/s    eta 1m 57s -                    26%[====>               ] 125.92M  4.97MB/s    eta 1m 57s -                    26%[====>               ] 126.72M  4.91MB/s    eta 1m 57s -                    27%[====>               ] 127.53M  4.81MB/s    eta 1m 57s -                    27%[====>               ] 128.35M  4.76MB/s    eta 1m 55s -                    27%[====>               ] 129.18M  4.63MB/s    eta 1m 55s -                    27%[====>               ] 130.02M  4.53MB/s    eta 1m 55s -                    27%[====>               ] 130.86M  4.45MB/s    eta 1m 55s -                    27%[====>               ] 131.70M  4.23MB/s    eta 1m 55s -                    28%[====>               ] 132.55M  4.11MB/s    eta 1m 52s -                    28%[====>               ] 133.41M  4.23MB/s    eta 1m 52s -                    28%[====>               ] 134.27M  4.13MB/s    eta 1m 52s -                    28%[====>               ] 135.12M  4.02MB/s    eta 1m 52s -                    28%[====>               ] 135.98M  4.04MB/s    eta 1m 52s -                    28%[====>               ] 136.85M  4.08MB/s    eta 1m 50s -                    29%[====>               ] 137.72M  4.12MB/s    eta 1m 50s -                    29%[====>               ] 138.59M  4.14MB/s    eta 1m 50s -                    29%[====>               ] 139.46M  4.16MB/s    eta 1m 50s -                    29%[====>               ] 140.24M  4.14MB/s    eta 1m 50s -                    29%[====>               ] 140.87M  4.10MB/s    eta 1m 48s -                    29%[====>               ] 141.50M  4.01MB/s    eta 1m 48s -                    30%[=====>              ] 142.17M  3.99MB/s    eta 1m 48s -                    30%[=====>              ] 142.86M  3.93MB/s    eta 1m 48s -                    30%[=====>              ] 143.57M  3.88MB/s    eta 1m 48s -                    30%[=====>              ] 144.29M  3.88MB/s    eta 1m 47s -                    30%[=====>              ] 145.04M  3.84MB/s    eta 1m 47s -                    30%[=====>              ] 145.78M  3.78MB/s    eta 1m 47s -                    31%[=====>              ] 146.56M  3.78MB/s    eta 1m 47s -                    31%[=====>              ] 147.34M  3.75MB/s    eta 1m 47s -                    31%[=====>              ] 148.13M  3.71MB/s    eta 1m 45s -                    31%[=====>              ] 148.94M  3.71MB/s    eta 1m 45s -                    31%[=====>              ] 149.77M  3.71MB/s    eta 1m 45s -                    31%[=====>              ] 150.59M  3.67MB/s    eta 1m 45s -                    32%[=====>              ] 151.15M  3.73MB/s    eta 1m 45s -                    32%[=====>              ] 151.96M  3.62MB/s    eta 1m 43s -                    32%[=====>              ] 152.57M  3.59MB/s    eta 1m 43s -                    32%[=====>              ] 153.18M  3.59MB/s    eta 1m 43s -                    32%[=====>              ] 153.80M  3.58MB/s    eta 1m 43s -                    32%[=====>              ] 154.45M  3.55MB/s    eta 1m 43s -                    32%[=====>              ] 155.09M  3.53MB/s    eta 1m 42s -                    33%[=====>              ] 155.74M  3.52MB/s    eta 1m 42s -                    33%[=====>              ] 156.41M  3.48MB/s    eta 1m 42s -                    33%[=====>              ] 157.08M  3.44MB/s    eta 1m 42s -                    33%[=====>              ] 157.77M  3.43MB/s    eta 1m 42s -                    33%[=====>              ] 158.45M  3.39MB/s    eta 1m 41s -                    33%[=====>              ] 159.14M  3.38MB/s    eta 1m 41s -                    33%[=====>              ] 159.84M  3.33MB/s    eta 1m 41s -                    34%[=====>              ] 160.54M  3.29MB/s    eta 1m 41s -                    34%[=====>              ] 161.24M  3.27MB/s    eta 1m 41s -                    34%[=====>              ] 161.94M  3.25MB/s    eta 1m 40s -                    34%[=====>              ] 162.64M  3.29MB/s    eta 1m 40s -                    34%[=====>              ] 163.34M  3.30MB/s    eta 1m 40s -                    34%[=====>              ] 164.04M  3.33MB/s    eta 1m 40s -                    34%[=====>              ] 164.76M  3.37MB/s    eta 1m 40s -                    35%[======>             ] 165.46M  3.37MB/s    eta 98s    -                    35%[======>             ] 166.16M  3.39MB/s    eta 98s    -                    35%[======>             ] 166.87M  3.42MB/s    eta 98s    -                    35%[======>             ] 167.57M  3.41MB/s    eta 98s    -                    35%[======>             ] 168.27M  3.44MB/s    eta 98s    -                    35%[======>             ] 168.97M  3.45MB/s    eta 97s    -                    35%[======>             ] 169.69M  3.45MB/s    eta 97s    -                    36%[======>             ] 170.39M  3.46MB/s    eta 97s    -                    36%[======>             ] 171.09M  3.47MB/s    eta 97s    -                    36%[======>             ] 171.81M  3.46MB/s    eta 97s    -                    36%[======>             ] 172.52M  3.47MB/s    eta 96s    -                    36%[======>             ] 173.22M  3.47MB/s    eta 96s    -                    36%[======>             ] 173.94M  3.47MB/s    eta 96s    -                    37%[======>             ] 174.64M  3.47MB/s    eta 96s    -                    37%[======>             ] 175.36M  3.48MB/s    eta 96s    -                    37%[======>             ] 176.07M  3.48MB/s    eta 94s    -                    37%[======>             ] 176.79M  3.48MB/s    eta 94s    -                    37%[======>             ] 177.52M  3.50MB/s    eta 94s    -                    37%[======>             ] 178.25M  3.50MB/s    eta 94s    -                    37%[======>             ] 178.98M  3.51MB/s    eta 94s    -                    38%[======>             ] 179.73M  3.53MB/s    eta 93s    -                    38%[======>             ] 180.48M  3.54MB/s    eta 93s    -                    38%[======>             ] 181.24M  3.56MB/s    eta 93s    -                    38%[======>             ] 182.00M  3.58MB/s    eta 93s    -                    38%[======>             ] 182.78M  3.60MB/s    eta 93s    -                    38%[======>             ] 183.56M  3.63MB/s    eta 91s    -                    39%[======>             ] 184.37M  3.66MB/s    eta 91s    -                    39%[======>             ] 185.19M  3.69MB/s    eta 91s    -                    39%[======>             ] 186.03M  3.74MB/s    eta 91s    -                    39%[======>             ] 186.89M  3.79MB/s    eta 91s    -                    39%[======>             ] 187.76M  3.83MB/s    eta 89s    -                    39%[======>             ] 188.65M  3.90MB/s    eta 89s    -                    40%[=======>            ] 189.57M  3.95MB/s    eta 89s    -                    40%[=======>            ] 190.51M  4.02MB/s    eta 89s    -                    40%[=======>            ] 191.48M  4.10MB/s    eta 89s    -                    40%[=======>            ] 192.46M  4.16MB/s    eta 87s    -                    40%[=======>            ] 193.47M  4.25MB/s    eta 87s    -                    41%[=======>            ] 194.23M  4.19MB/s    eta 87s    -                    41%[=======>            ] 195.60M  4.37MB/s    eta 87s    -                    41%[=======>            ] 196.38M  4.37MB/s    eta 87s    -                    41%[=======>            ] 197.18M  4.35MB/s    eta 85s    -                    41%[=======>            ] 198.02M  4.38MB/s    eta 85s    -                    42%[=======>            ] 198.86M  4.39MB/s    eta 85s    -                    42%[=======>            ] 199.73M  4.40MB/s    eta 85s    -                    42%[=======>            ] 200.63M  4.42MB/s    eta 85s    -                    42%[=======>            ] 201.55M  4.45MB/s    eta 83s    -                    42%[=======>            ] 202.47M  4.45MB/s    eta 83s    -                    43%[=======>            ] 203.39M  4.45MB/s    eta 83s    -                    43%[=======>            ] 204.20M  4.25MB/s    eta 83s    -                    43%[=======>            ] 205.50M  4.38MB/s    eta 83s    -                    43%[=======>            ] 206.19M  4.29MB/s    eta 82s    -                    43%[=======>            ] 206.90M  4.14MB/s    eta 82s    -                    43%[=======>            ] 207.63M  4.22MB/s    eta 82s    -                    44%[=======>            ] 208.37M  4.04MB/s    eta 82s    -                    44%[=======>            ] 209.04M  3.99MB/s    eta 82s    -                    44%[=======>            ] 209.56M  3.90MB/s    eta 81s    -                    44%[=======>            ] 210.11M  3.84MB/s    eta 81s    -                    44%[=======>            ] 210.67M  3.74MB/s    eta 81s    -                    44%[=======>            ] 211.25M  3.66MB/s    eta 81s    -                    44%[=======>            ] 211.82M  3.60MB/s    eta 81s    backup/ELGG_DB/elgg_migrations.frm
+backup/ELGG_DB/elgg_system_log.frm
+backup/ELGG_DB/elgg_users_sessions.frm
+backup/ELGG_DB/elgg_config.frm
+backup/ELGG_DB/elgg_entities.frm
+backup/ELGG_DB/elgg_private_settings.frm
+backup/ELGG_DB/elgg_private_settings.ibd
+-                    45%[========>           ] 212.40M  3.41MB/s    eta 80s    -                    45%[========>           ] 213.18M  3.34MB/s    eta 80s    -                    45%[========>           ] 213.66M  3.27MB/s    eta 80s    -                    45%[========>           ] 214.08M  3.11MB/s    eta 80s    -                    45%[========>           ] 214.51M  2.99MB/s    eta 80s    -                    45%[========>           ] 214.97M  2.87MB/s    eta 79s    -                    45%[========>           ] 215.43M  2.79MB/s    eta 79s    -                    45%[========>           ] 215.90M  2.75MB/s    eta 79s    backup/ELGG_DB/elgg_migrations.ibd
+backup/ELGG_DB/db.opt
+backup/ELGG_DB/elgg_config.ibd
+backup/ELGG_DB/elgg_annotations.ibd
+-                    45%[========>           ] 216.38M  2.70MB/s    eta 79s    -                    45%[========>           ] 216.86M  2.63MB/s    eta 79s    -                    46%[========>           ] 217.36M  2.59MB/s    eta 79s    backup/ELGG_DB/elgg_queue.ibd
+-                    46%[========>           ] 217.86M  2.51MB/s    eta 79s    -                    46%[========>           ] 218.36M  2.50MB/s    eta 79s    -                    46%[========>           ] 218.86M  2.49MB/s    eta 79s    backup/ELGG_DB/elgg_metadata.frm
+backup/ELGG_DB/elgg_system_log.ibd
+-                    46%[========>           ] 219.37M  2.48MB/s    eta 79s    -                    46%[========>           ] 219.88M  2.47MB/s    eta 78s    -                    46%[========>           ] 220.40M  2.45MB/s    eta 78s    -                    46%[========>           ] 220.91M  2.47MB/s    eta 78s    -                    46%[========>           ] 221.42M  2.42MB/s    eta 78s    -                    47%[========>           ] 221.94M  2.46MB/s    eta 78s    -                    47%[========>           ] 222.45M  2.42MB/s    eta 78s    -                    47%[========>           ] 222.96M  2.44MB/s    eta 78s    -                    47%[========>           ] 223.46M  2.43MB/s    eta 78s    -                    47%[========>           ] 223.98M  2.47MB/s    eta 78s    -                    47%[========>           ] 224.49M  2.46MB/s    eta 78s    -                    47%[========>           ] 225.00M  2.49MB/s    eta 77s    -                    47%[========>           ] 225.52M  2.51MB/s    eta 77s    -                    47%[========>           ] 226.03M  2.49MB/s    eta 77s    -                    48%[========>           ] 226.54M  2.52MB/s    eta 77s    -                    48%[========>           ] 227.06M  2.53MB/s    eta 77s    -                    48%[========>           ] 227.59M  2.51MB/s    eta 77s    -                    48%[========>           ] 228.10M  2.54MB/s    eta 77s    -                    48%[========>           ] 228.62M  2.53MB/s    eta 77s    -                    48%[========>           ] 229.14M  2.54MB/s    eta 77s    -                    48%[========>           ] 229.67M  2.54MB/s    eta 77s    -                    48%[========>           ] 230.19M  2.55MB/s    eta 76s    -                    48%[========>           ] 230.72M  2.52MB/s    eta 76s    -                    49%[========>           ] 231.26M  2.56MB/s    eta 76s    -                    49%[========>           ] 231.79M  2.56MB/s    eta 76s    -                    49%[========>           ] 232.33M  2.58MB/s    eta 76s    -                    49%[========>           ] 232.90M  2.56MB/s    eta 75s    -                    49%[========>           ] 233.46M  2.60MB/s    eta 75s    -                    49%[========>           ] 234.02M  2.62MB/s    eta 75s    -                    49%[========>           ] 234.59M  2.62MB/s    eta 75s    -                    49%[========>           ] 235.18M  2.66MB/s    eta 75s    -                    49%[========>           ] 235.79M  2.69MB/s    eta 75s    -                    50%[=========>          ] 236.40M  2.70MB/s    eta 75s    -                    50%[=========>          ] 237.02M  2.75MB/s    eta 75s    -                    50%[=========>          ] 237.67M  2.80MB/s    eta 75s    -                    50%[=========>          ] 238.33M  2.82MB/s    eta 75s    -                    50%[=========>          ] 239.00M  2.88MB/s    eta 74s    -                    50%[=========>          ] 239.70M  2.95MB/s    eta 74s    -                    50%[=========>          ] 240.41M  2.98MB/s    eta 74s    -                    51%[=========>          ] 241.14M  3.06MB/s    eta 74s    -                    51%[=========>          ] 241.91M  3.13MB/s    eta 74s    -                    51%[=========>          ] 242.70M  3.19MB/s    eta 72s    -                    51%[=========>          ] 243.51M  3.28MB/s    eta 72s    -                    51%[=========>          ] 244.35M  3.39MB/s    eta 72s    -                    51%[=========>          ] 245.19M  3.37MB/s    eta 72s    -                    52%[=========>          ] 246.30M  3.52MB/s    eta 72s    -                    52%[=========>          ] 246.96M  3.54MB/s    eta 71s    -                    52%[=========>          ] 247.65M  3.52MB/s    eta 71s    -                    52%[=========>          ] 248.37M  3.57MB/s    eta 71s    -                    52%[=========>          ] 249.08M  3.60MB/s    eta 71s    -                    52%[=========>          ] 249.77M  3.58MB/s    eta 71s    -                    53%[=========>          ] 250.30M  3.56MB/s    eta 70s    -                    53%[=========>          ] 250.84M  3.50MB/s    eta 70s    -                    53%[=========>          ] 251.38M  3.45MB/s    eta 70s    -                    53%[=========>          ] 251.96M  3.42MB/s    eta 70s    -                    53%[=========>          ] 252.54M  3.35MB/s    eta 70s    -                    53%[=========>          ] 253.13M  3.28MB/s    eta 69s    -                    53%[=========>          ] 253.70M  3.25MB/s    eta 69s    -                    53%[=========>          ] 254.31M  3.17MB/s    eta 69s    -                    54%[=========>          ] 254.90M  3.06MB/s    eta 69s    -                    54%[=========>          ] 255.53M  3.16MB/s    eta 69s    -                    54%[=========>          ] 256.13M  3.01MB/s    eta 68s    -                    54%[=========>          ] 256.75M  2.99MB/s    eta 68s    -                    54%[=========>          ] 257.38M  2.99MB/s    eta 68s    -                    54%[=========>          ] 258.00M  2.96MB/s    eta 68s    -                    54%[=========>          ] 258.62M  3.04MB/s    eta 68s    -                    54%[=========>          ] 259.25M  2.93MB/s    eta 67s    -                    55%[==========>         ] 259.88M  2.96MB/s    eta 67s    -                    55%[==========>         ] 260.51M  3.00MB/s    eta 67s    -                    55%[==========>         ] 261.14M  3.00MB/s    eta 67s    -                    55%[==========>         ] 261.78M  3.04MB/s    eta 67s    -                    55%[==========>         ] 262.40M  3.06MB/s    eta 66s    -                    55%[==========>         ] 263.04M  3.05MB/s    eta 66s    -                    55%[==========>         ] 263.67M  3.08MB/s    eta 66s    -                    56%[==========>         ] 264.30M  3.07MB/s    eta 66s    -                    56%[==========>         ] 264.93M  3.07MB/s    eta 66s    -                    56%[==========>         ] 265.56M  3.10MB/s    eta 65s    -                    56%[==========>         ] 266.19M  3.08MB/s    eta 65s    -                    56%[==========>         ] 266.82M  3.09MB/s    eta 65s    -                    56%[==========>         ] 267.45M  3.11MB/s    eta 65s    -                    56%[==========>         ] 268.08M  3.09MB/s    eta 65s    -                    56%[==========>         ] 268.72M  3.10MB/s    eta 64s    -                    57%[==========>         ] 269.35M  3.12MB/s    eta 64s    -                    57%[==========>         ] 269.98M  3.10MB/s    eta 64s    -                    57%[==========>         ] 270.64M  3.10MB/s    eta 64s    -                    57%[==========>         ] 271.28M  3.13MB/s    eta 64s    -                    57%[==========>         ] 271.91M  3.11MB/s    eta 63s    -                    57%[==========>         ] 272.57M  3.13MB/s    eta 63s    -                    57%[==========>         ] 273.24M  3.12MB/s    eta 63s    -                    58%[==========>         ] 273.91M  3.16MB/s    eta 63s    -                    58%[==========>         ] 274.58M  3.17MB/s    eta 63s    -                    58%[==========>         ] 275.24M  3.16MB/s    eta 62s    -                    58%[==========>         ] 275.95M  3.20MB/s    eta 62s    -                    58%[==========>         ] 276.65M  3.23MB/s    eta 62s    -                    58%[==========>         ] 277.35M  3.23MB/s    eta 62s    -                    58%[==========>         ] 278.06M  3.28MB/s    eta 62s    -                    59%[==========>         ] 278.81M  3.32MB/s    eta 61s    -                    59%[==========>         ] 279.56M  3.33MB/s    eta 61s    -                    59%[==========>         ] 280.32M  3.38MB/s    eta 61s    -                    59%[==========>         ] 281.10M  3.44MB/s    eta 61s    -                    59%[==========>         ] 281.89M  3.46MB/s    eta 61s    -                    59%[==========>         ] 282.71M  3.54MB/s    eta 59s    -                    60%[===========>        ] 283.56M  3.62MB/s    eta 59s    -                    60%[===========>        ] 283.96M  3.49MB/s    eta 59s    -                    60%[===========>        ] 284.82M  3.52MB/s    eta 59s    -                    60%[===========>        ] 285.66M  3.52MB/s    eta 59s    -                    60%[===========>        ] 286.11M  3.47MB/s    eta 58s    -                    60%[===========>        ] 286.58M  3.41MB/s    eta 58s    -                    60%[===========>        ] 287.04M  3.32MB/s    eta 58s    -                    60%[===========>        ] 287.52M  3.28MB/s    eta 58s    -                    61%[===========>        ] 288.02M  3.21MB/s    eta 58s    -                    61%[===========>        ] 288.50M  3.11MB/s    eta 58s    -                    61%[===========>        ] 289.02M  3.09MB/s    eta 58s    -                    61%[===========>        ] 289.52M  2.99MB/s    eta 58s    -                    61%[===========>        ] 290.03M  2.89MB/s    eta 58s    -                    61%[===========>        ] 290.54M  2.86MB/s    eta 58s    -                    61%[===========>        ] 291.06M  2.77MB/s    eta 57s    -                    61%[===========>        ] 291.59M  2.64MB/s    eta 57s    -                    61%[===========>        ] 292.12M  2.59MB/s    eta 57s    -                    62%[===========>        ] 292.63M  2.62MB/s    eta 57s    -                    62%[===========>        ] 293.16M  2.46MB/s    eta 57s    -                    62%[===========>        ] 293.69M  2.49MB/s    eta 56s    -                    62%[===========>        ] 294.22M  2.51MB/s    eta 56s    -                    62%[===========>        ] 294.75M  2.53MB/s    eta 56s    -                    62%[===========>        ] 295.28M  2.55MB/s    eta 56s    -                    62%[===========>        ] 295.80M  2.56MB/s    eta 56s    -                    62%[===========>        ] 296.33M  2.58MB/s    eta 56s    -                    62%[===========>        ] 296.86M  2.58MB/s    eta 56s    -                    63%[===========>        ] 297.39M  2.59MB/s    eta 56s    -                    63%[===========>        ] 297.92M  2.60MB/s    eta 56s    -                    63%[===========>        ] 298.45M  2.60MB/s    eta 56s    -                    63%[===========>        ] 298.98M  2.60MB/s    eta 55s    -                    63%[===========>        ] 299.51M  2.60MB/s    eta 55s    -                    63%[===========>        ] 300.04M  2.60MB/s    eta 55s    -                    63%[===========>        ] 300.57M  2.61MB/s    eta 55s    -                    63%[===========>        ] 301.11M  2.61MB/s    eta 55s    -                    63%[===========>        ] 301.64M  2.61MB/s    eta 54s    -                    64%[===========>        ] 302.19M  2.62MB/s    eta 54s    -                    64%[===========>        ] 302.73M  2.62MB/s    eta 54s    -                    64%[===========>        ] 303.28M  2.62MB/s    eta 54s    -                    64%[===========>        ] 303.84M  2.64MB/s    eta 54s    -                    64%[===========>        ] 304.38M  2.64MB/s    eta 53s    -                    64%[===========>        ] 304.94M  2.65MB/s    eta 53s    -                    64%[===========>        ] 305.52M  2.67MB/s    eta 53s    -                    64%[===========>        ] 306.09M  2.68MB/s    eta 53s    -                    64%[===========>        ] 306.68M  2.69MB/s    eta 53s    -                    65%[============>       ] 307.28M  2.72MB/s    eta 53s    -                    65%[============>       ] 307.88M  2.74MB/s    eta 53s    -                    65%[============>       ] 308.50M  2.77MB/s    eta 53s    -                    65%[============>       ] 309.13M  2.79MB/s    eta 53s    -                    65%[============>       ] 309.78M  2.84MB/s    eta 53s    -                    65%[============>       ] 310.45M  2.88MB/s    eta 52s    -                    65%[============>       ] 311.12M  2.92MB/s    eta 52s    -                    66%[============>       ] 311.82M  2.98MB/s    eta 52s    -                    66%[============>       ] 312.54M  3.03MB/s    eta 52s    -                    66%[============>       ] 313.28M  3.08MB/s    eta 52s    -                    66%[============>       ] 314.05M  3.16MB/s    eta 50s    -                    66%[============>       ] 314.84M  3.23MB/s    eta 50s    -                    66%[============>       ] 315.65M  3.29MB/s    eta 50s    -                    67%[============>       ] 316.49M  3.40MB/s    eta 50s    -                    67%[============>       ] 317.36M  3.48MB/s    eta 50s    -                    67%[============>       ] 318.26M  3.57MB/s    eta 49s    -                    67%[============>       ] 319.21M  3.71MB/s    eta 49s    -                    67%[============>       ] 320.18M  3.81MB/s    eta 49s    -                    68%[============>       ] 321.19M  3.91MB/s    eta 49s    -                    68%[============>       ] 322.25M  4.07MB/s    eta 49s    -                    68%[============>       ] 323.34M  4.20MB/s    eta 47s    -                    68%[============>       ] 324.49M  4.36MB/s    eta 47s    -                    69%[============>       ] 325.67M  4.55MB/s    eta 47s    -                    69%[============>       ] 326.90M  4.70MB/s    eta 47s    -                    69%[============>       ] 328.18M  4.86MB/s    eta 47s    -                    69%[============>       ] 329.52M  5.09MB/s    eta 45s    -                    70%[=============>      ] 330.92M  5.26MB/s    eta 45s    -                    70%[=============>      ] 332.36M  5.45MB/s    eta 45s    -                    70%[=============>      ] 333.87M  5.72MB/s    eta 45s    -                    71%[=============>      ] 335.46M  5.91MB/s    eta 45s    -                    71%[=============>      ] 337.11M  6.14MB/s    eta 42s    -                    71%[=============>      ] 338.31M  6.15MB/s    eta 42s    -                    72%[=============>      ] 340.46M  6.49MB/s    eta 42s    -                    72%[=============>      ] 341.72M  6.56MB/s    eta 42s    -                    72%[=============>      ] 343.03M  6.61MB/s    eta 42s    -                    72%[=============>      ] 344.36M  6.74MB/s    eta 39s    -                    73%[=============>      ] 345.75M  6.81MB/s    eta 39s    -                    73%[=============>      ] 346.90M  6.65MB/s    eta 39s    -                    73%[=============>      ] 348.43M  6.57MB/s    eta 39s    -                    74%[=============>      ] 349.70M  6.37MB/s    eta 37s    -                    74%[=============>      ] 350.28M  6.13MB/s    eta 37s    -                    74%[=============>      ] 350.98M  5.87MB/s    eta 37s    -                    74%[=============>      ] 351.34M  5.60MB/s    eta 37s    -                    74%[=============>      ] 351.71M  5.22MB/s    eta 37s    -                    74%[=============>      ] 352.10M  4.90MB/s    eta 37s    -                    74%[=============>      ] 352.49M  4.61MB/s    eta 37s    -                    74%[=============>      ] 352.89M  4.29MB/s    eta 37s    -                    74%[=============>      ] 353.30M  3.83MB/s    eta 37s    -                    74%[=============>      ] 353.70M  3.62MB/s    eta 37s    -                    75%[==============>     ] 354.11M  3.40MB/s    eta 36s    -                    75%[==============>     ] 354.53M  3.03MB/s    eta 36s    -                    75%[==============>     ] 354.96M  2.81MB/s    eta 36s    -                    75%[==============>     ] 355.38M  2.59MB/s    eta 36s    -                    75%[==============>     ] 355.80M  2.56MB/s    eta 36s    -                    75%[==============>     ] 356.24M  2.06MB/s    eta 36s    -                    75%[==============>     ] 356.66M  2.09MB/s    eta 36s    -                    75%[==============>     ] 357.10M  2.08MB/s    eta 36s    -                    75%[==============>     ] 357.52M  2.01MB/s    eta 36s    -                    75%[==============>     ] 357.95M  2.04MB/s    eta 36s    -                    75%[==============>     ] 358.37M  2.04MB/s    eta 35s    -                    76%[==============>     ] 358.81M  2.07MB/s    eta 35s    -                    76%[==============>     ] 359.23M  2.08MB/s    eta 35s    -                    76%[==============>     ] 359.66M  2.09MB/s    eta 35s    -                    76%[==============>     ] 360.10M  2.08MB/s    eta 35s    -                    76%[==============>     ] 360.52M  2.10MB/s    eta 34s    -                    76%[==============>     ] 360.96M  2.11MB/s    eta 34s    -                    76%[==============>     ] 361.38M  2.10MB/s    eta 34s    -                    76%[==============>     ] 361.81M  2.11MB/s    eta 34s    -                    76%[==============>     ] 362.23M  2.11MB/s    eta 34s    -                    76%[==============>     ] 362.67M  2.11MB/s    eta 34s    -                    76%[==============>     ] 363.10M  2.12MB/s    eta 34s    -                    77%[==============>     ] 363.54M  2.12MB/s    eta 34s    -                    77%[==============>     ] 363.99M  2.11MB/s    eta 34s    -                    77%[==============>     ] 364.44M  2.13MB/s    eta 34s    -                    77%[==============>     ] 364.89M  2.14MB/s    eta 33s    -                    77%[==============>     ] 365.34M  2.15MB/s    eta 33s    -                    77%[==============>     ] 365.80M  2.15MB/s    eta 33s    -                    77%[==============>     ] 366.26M  2.17MB/s    eta 33s    -                    77%[==============>     ] 366.73M  2.18MB/s    eta 33s    -                    77%[==============>     ] 367.21M  2.19MB/s    eta 33s    -                    77%[==============>     ] 367.71M  2.22MB/s    eta 33s    -                    78%[==============>     ] 368.21M  2.24MB/s    eta 33s    -                    78%[==============>     ] 368.72M  2.27MB/s    eta 33s    -                    78%[==============>     ] 369.24M  2.29MB/s    eta 33s    -                    78%[==============>     ] 369.78M  2.33MB/s    eta 32s    -                    78%[==============>     ] 370.34M  2.38MB/s    eta 32s    -                    78%[==============>     ] 370.92M  2.42MB/s    eta 32s    -                    78%[==============>     ] 371.51M  2.46MB/s    eta 32s    -                    78%[==============>     ] 372.11M  2.52MB/s    eta 32s    -                    78%[==============>     ] 372.75M  2.58MB/s    eta 31s    -                    79%[==============>     ] 373.30M  2.60MB/s    eta 31s    -                    79%[==============>     ] 373.75M  2.60MB/s    eta 31s    -                    79%[==============>     ] 374.23M  2.59MB/s    eta 31s    -                    79%[==============>     ] 374.73M  2.60MB/s    eta 31s    -                    79%[==============>     ] 375.24M  2.63MB/s    eta 30s    -                    79%[==============>     ] 375.79M  2.62MB/s    eta 30s    -                    79%[==============>     ] 376.33M  2.65MB/s    eta 30s    -                    79%[==============>     ] 376.89M  2.68MB/s    eta 30s    -                    79%[==============>     ] 377.45M  2.68MB/s    eta 30s    -                    80%[===============>    ] 378.03M  2.70MB/s    eta 29s    -                    80%[===============>    ] 378.62M  2.72MB/s    eta 29s    -                    80%[===============>    ] 379.23M  2.73MB/s    eta 29s    -                    80%[===============>    ] 379.83M  2.74MB/s    eta 29s    -                    80%[===============>    ] 380.44M  2.75MB/s    eta 29s    -                    80%[===============>    ] 381.06M  2.76MB/s    eta 28s    -                    80%[===============>    ] 381.69M  2.87MB/s    eta 28s    -                    81%[===============>    ] 382.31M  2.80MB/s    eta 28s    -                    81%[===============>    ] 382.95M  2.86MB/s    eta 28s    -                    81%[===============>    ] 383.58M  2.92MB/s    eta 28s    -                    81%[===============>    ] 384.22M  2.94MB/s    eta 28s    -                    81%[===============>    ] 384.86M  2.99MB/s    eta 28s    -                    81%[===============>    ] 385.39M  3.00MB/s    eta 28s    -                    81%[===============>    ] 385.87M  2.95MB/s    eta 28s    -                    81%[===============>    ] 386.34M  2.94MB/s    eta 28s    -                    81%[===============>    ] 386.82M  2.89MB/s    eta 27s    -                    82%[===============>    ] 387.30M  2.86MB/s    eta 27s    -                    82%[===============>    ] 387.80M  2.84MB/s    eta 27s    -                    82%[===============>    ] 388.32M  2.80MB/s    eta 27s    -                    82%[===============>    ] 388.81M  2.76MB/s    eta 27s    -                    82%[===============>    ] 389.34M  2.74MB/s    eta 26s    -                    82%[===============>    ] 389.86M  2.71MB/s    eta 26s    -                    82%[===============>    ] 390.39M  2.67MB/s    eta 26s    -                    82%[===============>    ] 390.93M  2.66MB/s    eta 26s    -                    82%[===============>    ] 391.46M  2.62MB/s    eta 26s    -                    83%[===============>    ] 391.99M  2.57MB/s    eta 25s    -                    83%[===============>    ] 392.53M  2.56MB/s    eta 25s    -                    83%[===============>    ] 393.08M  2.53MB/s    eta 25s    -                    83%[===============>    ] 393.62M  2.59MB/s    eta 25s    -                    83%[===============>    ] 394.17M  2.55MB/s    eta 25s    -                    83%[===============>    ] 394.71M  2.59MB/s    eta 24s    -                    83%[===============>    ] 395.26M  2.59MB/s    eta 24s    -                    83%[===============>    ] 395.80M  2.62MB/s    eta 24s    -                    83%[===============>    ] 396.35M  2.64MB/s    eta 24s    -                    84%[===============>    ] 396.89M  2.64MB/s    eta 24s    -                    84%[===============>    ] 397.44M  2.66MB/s    eta 24s    -                    84%[===============>    ] 397.98M  2.67MB/s    eta 24s    -                    84%[===============>    ] 398.53M  2.67MB/s    eta 24s    -                    84%[===============>    ] 399.07M  2.69MB/s    eta 24s    -                    84%[===============>    ] 399.62M  2.67MB/s    eta 24s    -                    84%[===============>    ] 400.16M  2.68MB/s    eta 23s    -                    84%[===============>    ] 400.71M  2.69MB/s    eta 23s    -                    85%[================>   ] 401.25M  2.70MB/s    eta 23s    -                    85%[================>   ] 401.81M  2.69MB/s    eta 23s    -                    85%[================>   ] 402.36M  2.69MB/s    eta 23s    -                    85%[================>   ] 402.92M  2.69MB/s    eta 22s    -                    85%[================>   ] 403.48M  2.69MB/s    eta 22s    -                    85%[================>   ] 404.04M  2.71MB/s    eta 22s    -                    85%[================>   ] 404.61M  2.71MB/s    eta 22s    -                    85%[================>   ] 405.19M  2.72MB/s    eta 22s    -                    85%[================>   ] 405.76M  2.73MB/s    eta 21s    -                    86%[================>   ] 406.36M  2.74MB/s    eta 21s    -                    86%[================>   ] 406.95M  2.77MB/s    eta 21s    -                    86%[================>   ] 407.55M  2.78MB/s    eta 21s    -                    86%[================>   ] 408.16M  2.80MB/s    eta 21s    -                    86%[================>   ] 408.78M  2.81MB/s    eta 20s    -                    86%[================>   ] 409.42M  2.85MB/s    eta 20s    -                    86%[================>   ] 410.08M  2.89MB/s    eta 20s    -                    87%[================>   ] 410.74M  2.91MB/s    eta 20s    -                    87%[================>   ] 411.41M  2.96MB/s    eta 20s    -                    87%[================>   ] 412.11M  2.99MB/s    eta 19s    -                    87%[================>   ] 412.83M  3.05MB/s    eta 19s    -                    87%[================>   ] 413.56M  3.11MB/s    eta 19s    -                    87%[================>   ] 414.32M  3.16MB/s    eta 19s    -                    87%[================>   ] 415.10M  3.25MB/s    eta 19s    -                    88%[================>   ] 415.90M  3.30MB/s    eta 18s    -                    88%[================>   ] 416.74M  3.37MB/s    eta 18s    -                    88%[================>   ] 417.59M  3.47MB/s    eta 18s    -                    88%[================>   ] 418.48M  3.56MB/s    eta 18s    -                    88%[================>   ] 419.40M  3.65MB/s    eta 18s    -                    89%[================>   ] 420.36M  3.77MB/s    eta 16s    -                    89%[================>   ] 421.14M  3.83MB/s    eta 16s    -                    89%[================>   ] 421.90M  3.84MB/s    eta 16s    -                    89%[================>   ] 422.64M  3.86MB/s    eta 16s    -                    89%[================>   ] 423.40M  3.91MB/s    eta 16s    -                    89%[================>   ] 424.18M  3.96MB/s    eta 15s    -                    90%[=================>  ] 424.97M  3.96MB/s    eta 15s    -                    90%[=================>  ] 425.79M  4.00MB/s    eta 15s    -                    90%[=================>  ] 426.64M  4.02MB/s    eta 15s    -                    90%[=================>  ] 427.49M  4.05MB/s    eta 15s    -                    90%[=================>  ] 428.36M  4.08MB/s    eta 14s    -                    90%[=================>  ] 429.25M  4.11MB/s    eta 14s    -                    91%[=================>  ] 430.12M  3.96MB/s    eta 14s    -                    91%[=================>  ] 431.26M  4.04MB/s    eta 14s    -                    91%[=================>  ] 431.91M  3.97MB/s    eta 14s    -                    91%[=================>  ] 432.58M  3.90MB/s    eta 12s    -                    91%[=================>  ] 433.27M  3.98MB/s    eta 12s    -                    91%[=================>  ] 433.97M  3.80MB/s    eta 12s    -                    92%[=================>  ] 434.67M  3.79MB/s    eta 12s    -                    92%[=================>  ] 435.40M  3.80MB/s    eta 12s    -                    92%[=================>  ] 436.13M  3.76MB/s    eta 11s    -                    92%[=================>  ] 436.86M  3.74MB/s    eta 11s    -                    92%[=================>  ] 437.59M  3.72MB/s    eta 11s    -                    92%[=================>  ] 438.34M  3.68MB/s    eta 11s    -                    93%[=================>  ] 439.09M  3.67MB/s    eta 11s    -                    93%[=================>  ] 439.85M  3.62MB/s    eta 10s    -                    93%[=================>  ] 440.61M  3.60MB/s    eta 10s    -                    93%[=================>  ] 441.37M  3.57MB/s    eta 10s    -                    93%[=================>  ] 442.14M  3.55MB/s    eta 10s    -                    93%[=================>  ] 442.90M  3.60MB/s    eta 10s    -                    94%[=================>  ] 443.66M  3.62MB/s    eta 9s     -                    94%[=================>  ] 444.44M  3.66MB/s    eta 9s     -                    94%[=================>  ] 445.20M  3.67MB/s    eta 9s     -                    94%[=================>  ] 445.98M  3.70MB/s    eta 9s     -                    94%[=================>  ] 446.74M  3.72MB/s    eta 9s     -                    94%[=================>  ] 447.52M  3.73MB/s    eta 8s     -                    94%[=================>  ] 448.30M  3.75MB/s    eta 8s     -                    95%[==================> ] 449.06M  3.76MB/s    eta 8s     -                    95%[==================> ] 449.83M  3.76MB/s    eta 8s     -                    95%[==================> ] 450.59M  3.77MB/s    eta 8s     -                    95%[==================> ] 451.37M  3.78MB/s    eta 6s     -                    95%[==================> ] 452.13M  3.78MB/s    eta 6s     -                    95%[==================> ] 452.91M  3.79MB/s    eta 6s     -                    96%[==================> ] 453.64M  3.76MB/s    eta 6s     -                    96%[==================> ] 454.40M  3.77MB/s    eta 6s     -                    96%[==================> ] 455.18M  3.77MB/s    eta 5s     -                    96%[==================> ] 455.96M  3.77MB/s    eta 5s     -                    96%[==================> ] 456.61M  3.74MB/s    eta 5s     -                    96%[==================> ] 457.25M  3.69MB/s    eta 5s     -                    97%[==================> ] 457.83M  3.64MB/s    eta 5s     -                    97%[==================> ] 458.43M  3.58MB/s    eta 4s     -                    97%[==================> ] 459.05M  3.52MB/s    eta 4s     -                    97%[==================> ] 459.69M  3.48MB/s    eta 4s     -                    97%[==================> ] 460.35M  3.43MB/s    eta 4s     -                    97%[==================> ] 460.97M  3.39MB/s    eta 4s     -                    97%[==================> ] 461.65M  3.37MB/s    eta 3s     -                    97%[==================> ] 462.35M  3.34MB/s    eta 3s     -                    98%[==================> ] 463.07M  3.32MB/s    eta 3s     -                    98%[==================> ] 463.79M  3.32MB/s    eta 3s     -                    98%[==================> ] 464.52M  3.31MB/s    eta 3s     -                    98%[==================> ] 465.08M  3.17MB/s    eta 2s     -                    98%[==================> ] 465.69M  3.10MB/s    eta 2s     -                    98%[==================> ] 466.32M  3.17MB/s    eta 2s     -                    98%[==================> ] 466.71M  2.98MB/s    eta 2s     backup/ELGG_DB/elgg_access_collection_membership.ibd
+-                    98%[==================> ] 467.10M  2.89MB/s    eta 2s     backup/ELGG_DB/elgg_river.ibd
+-                    99%[==================> ] 467.39M  2.75MB/s    eta 1s     -                    99%[==================> ] 467.86M  2.71MB/s    eta 1s     -                    99%[==================> ] 468.10M  2.50MB/s    eta 1s     -                    99%[==================> ] 468.50M  2.47MB/s    eta 1s     -                    99%[==================> ] 468.74M  2.35MB/s    eta 1s     -                    99%[==================> ] 468.97M  2.23MB/s    eta 1s     -                    99%[==================> ] 469.20M  2.12MB/s    eta 1s     -                    99%[==================> ] 469.44M  2.01MB/s    eta 1s     -                    99%[==================> ] 469.69M  1.90MB/s    eta 1s     -                    99%[==================> ] 469.92M  1.80MB/s    eta 1s     -                    99%[==================> ] 470.17M  1.69MB/s    eta 1s     -                    99%[==================> ] 470.42M  1.59MB/s    eta 1s     -                    99%[==================> ] 470.67M  1.49MB/s    eta 1s     -                    99%[==================> ] 470.92M  1.50MB/s    eta 1s     -                    99%[==================> ] 471.18M  1.41MB/s    eta 1s     -                    99%[==================> ] 471.43M  1.30MB/s    eta 0s     -                    99%[==================> ] 471.68M  1.28MB/s    eta 0s     -                   100%[===================>] 471.90M  1.31MB/s    in 2m 30s  
+
+2024-12-03 16:34:45 (3.15 MB/s) - written to stdout [494824703/494824703]
+
+ * Stopping MariaDB database server mariadbd       [80G [74G[ OK ]
+mariabackup based on MariaDB server 10.6.12-MariaDB debian-linux-gnu (x86_64)
+[00] 2024-12-03 16:34:51 cd to /backup/
+[00] 2024-12-03 16:34:51 open files limit requested 0, set to 1048576
+[00] 2024-12-03 16:34:51 This target seems to be already prepared.
+[00] 2024-12-03 16:34:51 mariabackup: using the following InnoDB configuration for recovery:
+[00] 2024-12-03 16:34:51 innodb_data_home_dir = .
+[00] 2024-12-03 16:34:51 innodb_data_file_path = ibdata1:12M:autoextend
+[00] 2024-12-03 16:34:51 innodb_log_group_home_dir = .
+[00] 2024-12-03 16:34:51 Starting InnoDB instance for recovery.
+[00] 2024-12-03 16:34:51 mariabackup: Using 104857600 bytes for buffer pool (set by --use-memory parameter)
+2024-12-03 16:34:51 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2024-12-03 16:34:51 0 [Note] InnoDB: Number of pools: 1
+2024-12-03 16:34:51 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-12-03 16:34:51 0 [Note] InnoDB: Initializing buffer pool, total size = 104857600, chunk size = 104857600
+2024-12-03 16:34:51 0 [Note] InnoDB: Completed initialization of buffer pool
+[00] 2024-12-03 16:34:51 Last binlog file , position 0
+[00] 2024-12-03 16:34:51 completed OK!
+mariabackup based on MariaDB server 10.6.12-MariaDB debian-linux-gnu (x86_64)
+[01] 2024-12-03 16:34:51 Moving ibdata1 to /var/lib/mysql/./ibdata1
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./performance_schema/db.opt to /var/lib/mysql/performance_schema/db.opt
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./xtrabackup_info to /var/lib/mysql/xtrabackup_info
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./aria_log.00000001 to /var/lib/mysql/aria_log.00000001
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_transition.MYD to /var/lib/mysql/mysql/time_zone_transition.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/procs_priv.MYD to /var/lib/mysql/mysql/procs_priv.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_transition_type.frm to /var/lib/mysql/mysql/time_zone_transition_type.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone.MYD to /var/lib/mysql/mysql/time_zone.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/index_stats.frm to /var/lib/mysql/mysql/index_stats.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/procs_priv.frm to /var/lib/mysql/mysql/procs_priv.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/servers.frm to /var/lib/mysql/mysql/servers.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/event.frm to /var/lib/mysql/mysql/event.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_keyword.frm to /var/lib/mysql/mysql/help_keyword.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/columns_priv.frm to /var/lib/mysql/mysql/columns_priv.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/plugin.MYI to /var/lib/mysql/mysql/plugin.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/slow_log.CSV to /var/lib/mysql/mysql/slow_log.CSV
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_leap_second.MYD to /var/lib/mysql/mysql/time_zone_leap_second.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/index_stats.MYD to /var/lib/mysql/mysql/index_stats.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/table_stats.MYI to /var/lib/mysql/mysql/table_stats.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/user.frm to /var/lib/mysql/mysql/user.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_keyword.MYD to /var/lib/mysql/mysql/help_keyword.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_category.frm to /var/lib/mysql/mysql/help_category.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/user.MYD to /var/lib/mysql/mysql/user.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_transition.frm to /var/lib/mysql/mysql/time_zone_transition.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_name.MYI to /var/lib/mysql/mysql/time_zone_name.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone.MYI to /var/lib/mysql/mysql/time_zone.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_transition_type.MYI to /var/lib/mysql/mysql/time_zone_transition_type.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/func.frm to /var/lib/mysql/mysql/func.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone.frm to /var/lib/mysql/mysql/time_zone.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/proc.MYI to /var/lib/mysql/mysql/proc.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/innodb_index_stats.frm to /var/lib/mysql/mysql/innodb_index_stats.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/transaction_registry.frm to /var/lib/mysql/mysql/transaction_registry.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/tables_priv.frm to /var/lib/mysql/mysql/tables_priv.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/proxies_priv.MYI to /var/lib/mysql/mysql/proxies_priv.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/db.MYI to /var/lib/mysql/mysql/db.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/roles_mapping.MYD to /var/lib/mysql/mysql/roles_mapping.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/event.MYD to /var/lib/mysql/mysql/event.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/tables_priv.MYD to /var/lib/mysql/mysql/tables_priv.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/host.MYD to /var/lib/mysql/mysql/host.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_category.MYI to /var/lib/mysql/mysql/help_category.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/general_log.frm to /var/lib/mysql/mysql/general_log.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/columns_priv.MYD to /var/lib/mysql/mysql/columns_priv.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/transaction_registry.ibd to /var/lib/mysql/mysql/transaction_registry.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_keyword.MYI to /var/lib/mysql/mysql/help_keyword.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_category.MYD to /var/lib/mysql/mysql/help_category.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/innodb_table_stats.frm to /var/lib/mysql/mysql/innodb_table_stats.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/host.MYI to /var/lib/mysql/mysql/host.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_topic.MYD to /var/lib/mysql/mysql/help_topic.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/plugin.frm to /var/lib/mysql/mysql/plugin.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/proc.frm to /var/lib/mysql/mysql/proc.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/procs_priv.MYI to /var/lib/mysql/mysql/procs_priv.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_relation.frm to /var/lib/mysql/mysql/help_relation.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/index_stats.MYI to /var/lib/mysql/mysql/index_stats.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/servers.MYD to /var/lib/mysql/mysql/servers.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/db.MYD to /var/lib/mysql/mysql/db.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/innodb_index_stats.ibd to /var/lib/mysql/mysql/innodb_index_stats.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/general_log.CSV to /var/lib/mysql/mysql/general_log.CSV
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/gtid_slave_pos.ibd to /var/lib/mysql/mysql/gtid_slave_pos.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/columns_priv.MYI to /var/lib/mysql/mysql/columns_priv.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/table_stats.frm to /var/lib/mysql/mysql/table_stats.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/general_log.CSM to /var/lib/mysql/mysql/general_log.CSM
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_transition_type.MYD to /var/lib/mysql/mysql/time_zone_transition_type.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/column_stats.frm to /var/lib/mysql/mysql/column_stats.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/host.frm to /var/lib/mysql/mysql/host.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/slow_log.CSM to /var/lib/mysql/mysql/slow_log.CSM
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_transition.MYI to /var/lib/mysql/mysql/time_zone_transition.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/innodb_table_stats.ibd to /var/lib/mysql/mysql/innodb_table_stats.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_leap_second.MYI to /var/lib/mysql/mysql/time_zone_leap_second.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_topic.frm to /var/lib/mysql/mysql/help_topic.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/tables_priv.MYI to /var/lib/mysql/mysql/tables_priv.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_name.MYD to /var/lib/mysql/mysql/time_zone_name.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/plugin.MYD to /var/lib/mysql/mysql/plugin.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_name.frm to /var/lib/mysql/mysql/time_zone_name.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_relation.MYI to /var/lib/mysql/mysql/help_relation.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_relation.MYD to /var/lib/mysql/mysql/help_relation.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/servers.MYI to /var/lib/mysql/mysql/servers.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/gtid_slave_pos.frm to /var/lib/mysql/mysql/gtid_slave_pos.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/user.MYI to /var/lib/mysql/mysql/user.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/func.MYD to /var/lib/mysql/mysql/func.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/proc.MYD to /var/lib/mysql/mysql/proc.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/table_stats.MYD to /var/lib/mysql/mysql/table_stats.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/event.MYI to /var/lib/mysql/mysql/event.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/roles_mapping.MYI to /var/lib/mysql/mysql/roles_mapping.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/db.frm to /var/lib/mysql/mysql/db.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/proxies_priv.frm to /var/lib/mysql/mysql/proxies_priv.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/slow_log.frm to /var/lib/mysql/mysql/slow_log.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/column_stats.MYI to /var/lib/mysql/mysql/column_stats.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/db.opt to /var/lib/mysql/mysql/db.opt
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/func.MYI to /var/lib/mysql/mysql/func.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/help_topic.MYI to /var/lib/mysql/mysql/help_topic.MYI
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/time_zone_leap_second.frm to /var/lib/mysql/mysql/time_zone_leap_second.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/proxies_priv.MYD to /var/lib/mysql/mysql/proxies_priv.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/roles_mapping.frm to /var/lib/mysql/mysql/roles_mapping.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./mysql/column_stats.MYD to /var/lib/mysql/mysql/column_stats.MYD
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./aria_log_control to /var/lib/mysql/aria_log_control
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_private_settings.ibd to /var/lib/mysql/ELGG_DB/elgg_private_settings.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_entity_relationships.frm to /var/lib/mysql/ELGG_DB/elgg_entity_relationships.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_delayed_email_queue.frm to /var/lib/mysql/ELGG_DB/elgg_delayed_email_queue.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_entities.ibd to /var/lib/mysql/ELGG_DB/elgg_entities.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_config.ibd to /var/lib/mysql/ELGG_DB/elgg_config.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_queue.ibd to /var/lib/mysql/ELGG_DB/elgg_queue.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_river.ibd to /var/lib/mysql/ELGG_DB/elgg_river.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_migrations.ibd to /var/lib/mysql/ELGG_DB/elgg_migrations.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_users_apisessions.frm to /var/lib/mysql/ELGG_DB/elgg_users_apisessions.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_entities.frm to /var/lib/mysql/ELGG_DB/elgg_entities.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_metadata.ibd to /var/lib/mysql/ELGG_DB/elgg_metadata.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_users_remember_me_cookies.ibd to /var/lib/mysql/ELGG_DB/elgg_users_remember_me_cookies.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_annotations.frm to /var/lib/mysql/ELGG_DB/elgg_annotations.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_entity_relationships.ibd to /var/lib/mysql/ELGG_DB/elgg_entity_relationships.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_access_collections.ibd to /var/lib/mysql/ELGG_DB/elgg_access_collections.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_access_collections.frm to /var/lib/mysql/ELGG_DB/elgg_access_collections.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_access_collection_membership.frm to /var/lib/mysql/ELGG_DB/elgg_access_collection_membership.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_metadata.frm to /var/lib/mysql/ELGG_DB/elgg_metadata.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_migrations.frm to /var/lib/mysql/ELGG_DB/elgg_migrations.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_annotations.ibd to /var/lib/mysql/ELGG_DB/elgg_annotations.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_queue.frm to /var/lib/mysql/ELGG_DB/elgg_queue.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_private_settings.frm to /var/lib/mysql/ELGG_DB/elgg_private_settings.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_river.frm to /var/lib/mysql/ELGG_DB/elgg_river.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_system_log.ibd to /var/lib/mysql/ELGG_DB/elgg_system_log.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_config.frm to /var/lib/mysql/ELGG_DB/elgg_config.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_users_sessions.ibd to /var/lib/mysql/ELGG_DB/elgg_users_sessions.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_users_remember_me_cookies.frm to /var/lib/mysql/ELGG_DB/elgg_users_remember_me_cookies.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_system_log.frm to /var/lib/mysql/ELGG_DB/elgg_system_log.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_access_collection_membership.ibd to /var/lib/mysql/ELGG_DB/elgg_access_collection_membership.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_api_users.ibd to /var/lib/mysql/ELGG_DB/elgg_api_users.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_hmac_cache.frm to /var/lib/mysql/ELGG_DB/elgg_hmac_cache.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_delayed_email_queue.ibd to /var/lib/mysql/ELGG_DB/elgg_delayed_email_queue.ibd
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/db.opt to /var/lib/mysql/ELGG_DB/db.opt
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_users_sessions.frm to /var/lib/mysql/ELGG_DB/elgg_users_sessions.frm
+[01] 2024-12-03 16:34:51         ...done
+[01] 2024-12-03 16:34:51 Moving ./ELGG_DB/elgg_api_users.frm to /var/lib/mysql/ELGG_DB/elgg_api_users.frm
+[01] 2024-12-03 16:34:51         ...done
+[00] 2024-12-03 16:34:51 completed OK!
+ * Starting MariaDB database server mariadbd       [80G [74G[ OK ]

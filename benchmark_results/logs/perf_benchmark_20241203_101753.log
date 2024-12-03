@@ -1,0 +1,17 @@
+
+Running Web Serving benchmark with performance monitoring...
+3ba32efea31a37225b131160ff799066b73c47d4370f24258df2b3c03b869ba3
+fd1cd722210eed52113491d7a024396629bc75f526d63656147ffb4246078ec6
+
+Starting monitoring for container: memcache_server
+
+Started real-time logging for memcache_server to benchmark_results/container_logs/memcache_server.log
+
+Started monitoring container memcache_server (Cgroup: /system.slice/docker-fd1cd722210eed52113491d7a024396629bc75f526d63656147ffb4246078ec6.scope)
+c3c06c2b237564122b132b19ac1202e9b3de38c869d76ac3ab31b02e66b25e93
+
+Starting monitoring for container: web_server
+
+Started real-time logging for web_server to benchmark_results/container_logs/web_server.log
+
+Started monitoring container web_server (Cgroup: /system.slice/docker-c3c06c2b237564122b132b19ac1202e9b3de38c869d76ac3ab31b02e66b25e93.scope)

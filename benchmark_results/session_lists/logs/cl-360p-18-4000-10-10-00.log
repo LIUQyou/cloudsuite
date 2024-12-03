@@ -1,0 +1,92 @@
+# random seed = 40
+# Zipf exponent = -0.8000
+# number of videos in library = 18
+# number of sessions = 10 (1 x 10)
+# seconds of video per client request = 10.00 s
+# size of client requests = 1.25 MB
+# file bit rate = 1.049 Mbps
+# timeout for request delivery = 10.00 s
+# number of unpaced requests at session start = 3
+# total number of unique videos = 5
+# total size of library = 498 MB
+# total size of viewed videos = 88 MB
+# percentage of single-request videos = 60.0 %
+# average views per video = 2.0
+# average duration of videos = 141.6 s
+# average size of videos = 27.7 MB
+# maximum session time = 161 s
+# maximum number of client requests in session = 16
+# total number of client requests = 58
+# average duration of session = 54.2 s
+# average size of session = 7.2 MB
+# average client requests per session = 5.800
+# number of chunks in log file = 58
+# average chunks per session in log file = 5.80
+/full-360p-00012.mp4 timeout=10 headers='Range: bytes=0-1036530'
+
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=1310720-2621439'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=2621440-3932159'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=3932160-5242879'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=5242880-6540032'
+
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=1310720-2621439'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=2621440-3932159'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=3932160-5242879'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=5242880-6553599'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=6553600-7864319'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=7864320-8273695'
+
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=1310720-2317286'
+
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=1310720-2621439'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=2621440-3932159'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=3932160-4472741'
+
+/full-360p-00017.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00017.mp4 timeout=10 headers='Range: bytes=1310720-2621439'
+/full-360p-00017.mp4 timeout=10 headers='Range: bytes=2621440-3680084'
+
+/full-360p-00008.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00008.mp4 timeout=10 headers='Range: bytes=1310720-2328224'
+
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=1310720-2621439'
+/full-360p-00001.mp4 timeout=10 headers='Range: bytes=2621440-3932159'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=3932160-5242879'
+/full-360p-00001.mp4 pace_time=10 timeout=10 headers='Range: bytes=5242880-6094843'
+
+/full-360p-00017.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00017.mp4 timeout=10 headers='Range: bytes=1310720-2621439'
+/full-360p-00017.mp4 timeout=10 headers='Range: bytes=2621440-3932159'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=3932160-5242879'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=5242880-6553599'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=6553600-7864319'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=7864320-9175039'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=9175040-10485759'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=10485760-11796479'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=11796480-13107199'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=13107200-14417919'
+/full-360p-00017.mp4 pace_time=10 timeout=10 headers='Range: bytes=14417920-15136722'
+
+/full-360p-00010.mp4 timeout=10 headers='Range: bytes=0-1310719'
+/full-360p-00010.mp4 timeout=10 headers='Range: bytes=1310720-2621439'
+/full-360p-00010.mp4 timeout=10 headers='Range: bytes=2621440-3932159'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=3932160-5242879'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=5242880-6553599'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=6553600-7864319'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=7864320-9175039'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=9175040-10485759'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=10485760-11796479'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=11796480-13107199'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=13107200-14417919'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=14417920-15728639'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=15728640-17039359'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=17039360-18350079'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=18350080-19660799'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=19660800-20971519'
+/full-360p-00010.mp4 pace_time=10 timeout=10 headers='Range: bytes=20971520-21131905'
+

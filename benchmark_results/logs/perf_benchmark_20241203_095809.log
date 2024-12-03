@@ -1,0 +1,9 @@
+
+Running Media Streaming benchmark with performance monitoring...
+docker: Error response from daemon: Conflict. The container name "/streaming_dataset" is already in use by container "57b60c7e9de092876906684f8dd6d39a65f37eebf1726507644123dd40d06721". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+17f40c9e6ff72cb6a8a4265ed990412fb43bbf29a38ab53afacaf1ebba5e5f16
+
+Starting monitoring for container: streaming_server
+
+Started real-time logging for streaming_server to benchmark_results/container_logs/streaming_server.log

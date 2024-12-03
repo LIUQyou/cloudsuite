@@ -294,127 +294,142 @@ function collect_container_logs() {
 
 # Update run_data_serving (and similar functions) to improve output formatting
 function run_data_serving() {
-    echo -e "\nRunning Data Serving benchmark with performance monitoring..." | tee -a $LOG_FILE
-    start_perf_record "data_serving"
+    {
+        echo -e "\nRunning Data Serving benchmark with performance monitoring..."
 
-    echo -e "\nStarting Cassandra server..." | tee -a $LOG_FILE
-    # Start server
-    docker run -d --name cassandra-server --net host cloudsuite/data-serving:server
-    sleep 30  # Wait for server to initialize
+        start_perf_record "data_serving"
 
-    # Monitor and start logging server
-    monitor_container "cassandra-server"
+        echo -e "\nStarting Cassandra server..."
+        # Start server and redirect output to log file
+        docker run -d --name cassandra-server --net host \
+            -v "$CONTAINER_LOGS_DIR:/var/log/cassandra" \
+            cloudsuite/data-serving:server \
+            2>&1 | tee -a $LOG_FILE
+        sleep 30  # Wait for server to initialize
 
-    # Run warmup to populate the database in detached mode
-    docker run -d --name cassandra-client-warmup --net host cloudsuite/data-serving:client \
-        bash -c "./warmup.sh localhost 5000000 4"
+        # Monitor and start logging server
+        monitor_container "cassandra-server"
 
-    # Monitor and start logging warmup client
-    monitor_container "cassandra-client-warmup"
+        # Run warmup to populate the database in detached mode
+        docker run -d --name cassandra-client-warmup --net host cloudsuite/data-serving:client \
+            bash -c "./warmup.sh localhost 5000000 4" \
+            2>&1 | tee -a $LOG_FILE
 
-    # Wait for warmup to complete
-    docker wait cassandra-client-warmup
+        # Monitor and start logging warmup client
+        monitor_container "cassandra-client-warmup"
 
-    # Stop logging and remove warmup client
-    stop_container_logging "cassandra-client-warmup"
-    docker rm cassandra-client-warmup
+        # Wait for warmup to complete
+        docker wait cassandra-client-warmup
 
-    # Run load to apply workload in detached mode
-    docker run -d --name cassandra-client-load --net host cloudsuite/data-serving:client \
-        bash -c "./load.sh localhost 5000000 5000 4"
+        # Stop logging and remove warmup client
+        stop_container_logging "cassandra-client-warmup"
+        docker rm cassandra-client-warmup
 
-    # Monitor and start logging load client
-    monitor_container "cassandra-client-load"
+        # Run load to apply workload in detached mode
+        docker run -d --name cassandra-client-load --net host cloudsuite/data-serving:client \
+            bash -c "./load.sh localhost 5000000 5000 4" \
+            > "$LOG_DIR/cassandra-client-load.log" 2>&1
 
-    # Wait for load to complete
-    docker wait cassandra-client-load
+        # Monitor and start logging load client
+        monitor_container "cassandra-client-load"
 
-    # Stop logging and remove load client
-    stop_container_logging "cassandra-client-load"
-    docker rm cassandra-client-load
+        # Wait for load to complete
+        docker wait cassandra-client-load
 
-    # Stop logging and cleanup server
-    stop_container_logging "cassandra-server"
-    docker stop cassandra-server
-    docker rm cassandra-server
+        # Stop logging and remove load client
+        stop_container_logging "cassandra-client-load"
+        docker rm cassandra-client-load
 
-    stop_perf_record
+        # Stop logging and cleanup server
+        stop_container_logging "cassandra-server"
+        docker stop cassandra-server
+        docker rm cassandra-server
 
-    # Collect warmup results
-    echo "Data Serving Warmup Results:" >> $REPORT_FILE
-    docker logs cassandra-client-warmup 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+        stop_perf_record
 
-    # Collect load results
-    echo "Data Serving Load Results:" >> $REPORT_FILE
-    docker logs cassandra-client-load 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+        # Collect warmup results
+        echo "Data Serving Warmup Results:" >> $REPORT_FILE
+        docker logs cassandra-client-warmup 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+
+        # Collect load results
+        echo "Data Serving Load Results:" >> $REPORT_FILE
+        docker logs cassandra-client-load 2>&1 | grep -E "Throughput|AverageLatency" >> $REPORT_FILE
+    } 2>&1 | tee -a $LOG_FILE
 }
 
 function run_data_serving_relational() {
-    echo -e "\nRunning Data Serving Relational benchmark with performance monitoring..." | tee -a $LOG_FILE
-    start_perf_record "data_serving_relational"
+    {
+        echo -e "\nRunning Data Serving Relational benchmark with performance monitoring..."
 
-    # Start the PostgreSQL server with -dit to keep it running in background
-    docker run -dit --name postgresql-server --net host cloudsuite/data-serving-relational:server
+        start_perf_record "data_serving_relational"
 
-    # Wait for PostgreSQL to initialize and start accepting connections
-    echo -e "\nWaiting for PostgreSQL to initialize..." | tee -a $LOG_FILE
-    sleep 10
+        # Start the PostgreSQL server with -dit to keep it running in background
+        docker run -dit --name postgresql-server --net host \
+            -v "$CONTAINER_LOGS_DIR:/var/log/postgresql" \
+            cloudsuite/data-serving-relational:server
 
-    if ! wait_for_container "postgresql-server"; then
-        echo -e "\nError: PostgreSQL server failed to start" >&2
-        return 1
-    fi
+        # Wait for PostgreSQL to initialize and start accepting connections
+        echo -e "\nWaiting for PostgreSQL to initialize..." | tee -a $LOG_FILE
+        sleep 10
 
-    # Verify PostgreSQL is accepting connections
-    for i in {1..30}; do
-        if docker exec postgresql-server pg_isready -h localhost; then
-            echo -e "\nPostgreSQL is ready to accept connections" | tee -a $LOG_FILE
-            break
+        if ! wait_for_container "postgresql-server"; then
+            echo -e "\nError: PostgreSQL server failed to start" >&2
+            return 1
         fi
-        echo -e "\nWaiting for PostgreSQL to accept connections... (attempt $i/30)" | tee -a $LOG_FILE
-        sleep 2
-    done
 
-    # Monitor the server container
-    monitor_container "postgresql-server"
+        # Verify PostgreSQL is accepting connections
+        for i in {1..30}; do
+            if docker exec postgresql-server pg_isready -h localhost; then
+                echo -e "\nPostgreSQL is ready to accept connections" | tee -a $LOG_FILE
+                break
+            fi
+            echo -e "\nWaiting for PostgreSQL to accept connections... (attempt $i/30)" | tee -a $LOG_FILE
+            sleep 2
+        done
 
-    # Run warmup client in detached mode
-    docker run -d --name sysbench-client-warmup --net host cloudsuite/data-serving-relational:client \
-        --warmup --tpcc --server-ip=127.0.0.1
-    monitor_container "sysbench-client-warmup"
+        # Monitor the server container
+        monitor_container "postgresql-server"
 
-    # Wait for warmup to complete
-    docker wait sysbench-client-warmup
+        # Run warmup client in detached mode
+        docker run -d --name sysbench-client-warmup --net host cloudsuite/data-serving-relational:client \
+            --warmup --tpcc --server-ip=127.0.0.1 \
+            2>&1 | tee -a $LOG_FILE
+        monitor_container "sysbench-client-warmup"
 
-    # Stop logging and remove warmup client
-    stop_container_logging "sysbench-client-warmup"
-    docker rm sysbench-client-warmup
+        # Wait for warmup to complete
+        docker wait sysbench-client-warmup
 
-    # Run load client in detached mode
-    docker run -d --name sysbench-client-load --net host cloudsuite/data-serving-relational:client \
-        --run --tpcc --server-ip=127.0.0.1
-    monitor_container "sysbench-client-load"
+        # Stop logging and remove warmup client
+        stop_container_logging "sysbench-client-warmup"
+        docker rm sysbench-client-warmup
 
-    # Wait for load to complete
-    docker wait sysbench-client-load
+        # Run load client in detached mode
+        docker run -d --name sysbench-client-load --net host cloudsuite/data-serving-relational:client \
+            --run --tpcc --server-ip=127.0.0.1 \
+            > "$LOG_DIR/sysbench-client-warmup.log" 2>&1
+        monitor_container "sysbench-client-load"
 
-    # Stop logging and remove load client
-    stop_container_logging "sysbench-client-load"
-    docker rm sysbench-client-load
+        # Wait for load to complete
+        docker wait sysbench-client-load
 
-    # Stop logging and cleanup server
-    stop_container_logging "postgresql-server"
-    docker stop postgresql-server
-    docker rm postgresql-server
+        # Stop logging and remove load client
+        stop_container_logging "sysbench-client-load"
+        docker rm sysbench-client-load
 
-    stop_perf_record
+        # Stop logging and cleanup server
+        stop_container_logging "postgresql-server"
+        docker stop postgresql-server
+        docker rm postgresql-server
 
-    # Collect and append results to the report file
-    echo "Data Serving Relational Warmup Results:" >> $REPORT_FILE
-    docker logs sysbench-client-warmup 2>&1 | grep -E "transactions|queries" >> $REPORT_FILE
+        stop_perf_record
 
-    echo "Data Serving Relational Load Results:" >> $REPORT_FILE
-    docker logs sysbench-client-load 2>&1 | grep -E "transactions|queries" >> $REPORT_FILE
+        # Collect and append results to the report file
+        echo "Data Serving Relational Warmup Results:" >> $REPORT_FILE
+        docker logs sysbench-client-warmup 2>&1 | grep -E "transactions|queries" >> $REPORT_FILE
+
+        echo "Data Serving Relational Load Results:" >> $REPORT_FILE
+        docker logs sysbench-client-load 2>&1 | grep -E "transactions|queries" >> $REPORT_FILE
+    } 2>&1 | tee -a $LOG_FILE
 }
 
 function run_graph_analytics() {
@@ -423,11 +438,11 @@ function run_graph_analytics() {
 
     # Create dataset container
     docker create --name twitter-data cloudsuite/twitter-dataset-graph
-    monitor_container "twitter-data"
 
-    # Run benchmark in detached mode
+    # Run benchmark in detached mode and redirect output to log file
     docker run -d --name graph-analytics --volumes-from twitter-data -e WORKLOAD_NAME=pr \
-        cloudsuite/graph-analytics --driver-memory 8g --executor-memory 8g
+        cloudsuite/graph-analytics --driver-memory 8g --executor-memory 8g \
+        2>&1 | tee -a $LOG_FILE
     monitor_container "graph-analytics"
 
     # Wait for benchmark to complete
@@ -437,8 +452,7 @@ function run_graph_analytics() {
     stop_container_logging "graph-analytics"
     docker rm graph-analytics
 
-    # Stop logging and remove dataset container
-    stop_container_logging "twitter-data"
+    # Stop and remove dataset container
     docker rm twitter-data
 
     stop_perf_record
@@ -454,12 +468,13 @@ function run_in_memory_analytics() {
 
     # Create dataset container
     docker create --name movielens-data cloudsuite/movielens-dataset
-    monitor_container "movielens-data"
+    sleep 10  # Wait for dataset to initialize
 
-    # Run benchmark in detached mode
+    # Run benchmark in detached mode and redirect output to log file
     docker run -d --name in-memory-analytics --volumes-from movielens-data \
         cloudsuite/in-memory-analytics /data/ml-latest-small /data/myratings.csv \
-        --driver-memory 4g --executor-memory 4g
+        --driver-memory 4g --executor-memory 4g \
+        2>&1 | tee -a $LOG_FILE
     monitor_container "in-memory-analytics"
 
     # Wait for benchmark to complete
@@ -469,8 +484,7 @@ function run_in_memory_analytics() {
     stop_container_logging "in-memory-analytics"
     docker rm in-memory-analytics
 
-    # Stop logging and remove dataset container
-    stop_container_logging "movielens-data"
+    # Stop and remove dataset container
     docker rm movielens-data
 
     stop_perf_record
@@ -481,89 +495,133 @@ function run_in_memory_analytics() {
 }
 
 function run_media_streaming() {
-    echo -e "\nRunning Media Streaming benchmark with performance monitoring..." | tee -a $LOG_FILE
-    start_perf_record "media_streaming"
+    {
+        echo -e "\nRunning Media Streaming benchmark with performance monitoring..."
 
-    # Start dataset container
-    docker run --name streaming_dataset cloudsuite/media-streaming:dataset 5 10
-    monitor_container "streaming_dataset"
+        start_perf_record "media_streaming"
 
-    # Start server container
-    docker run -d --name streaming_server --volumes-from streaming_dataset \
-        --net host cloudsuite/media-streaming:server 4
-    monitor_container "streaming_server"
+        # Define variables
+        DATASET_SIZE=5            # GB, adjust as needed
+        SESSION_COUNT=10          # Number of sessions per resolution
+        NGINX_WORKERS=2000        # Adjust based on server resources
+        SERVER_IP="localhost"
+        VIDEOPERF_PROCESSES=4     # Number of videoperf processes
+        VIDEO_COUNT=1000          # Total number of videos to request
+        RATE=10                   # Videos per second
+        ENCRYPTION_MODE="PT"      # "PT" for plain text or "TLS" for TLS encryption
 
-    sleep 30  # Wait for server to initialize
+        # Start dataset container
+        docker run --name streaming_dataset cloudsuite/media-streaming:dataset $DATASET_SIZE $SESSION_COUNT \
+            2>&1 | tee -a $LOG_FILE
+        if ! monitor_container "streaming_dataset"; then
+            echo -e "\nError: Failed to monitor streaming_dataset" >&2
+            return 1
+        fi
 
-    # Start client in detached mode
-    docker run -d --name streaming_client --net host \
-        cloudsuite/media-streaming:client localhost 10
-    monitor_container "streaming_client"
+        # Wait for dataset to initialize
+        sleep 25
 
-    # Wait for client to finish
-    docker wait streaming_client
+        # Start server container
+        docker run -d --name streaming_server --volumes-from streaming_dataset \
+            --net host \
+            -v "$CONTAINER_LOGS_DIR:/var/log/nginx" \
+            cloudsuite/media-streaming:server $NGINX_WORKERS \
+            2>&1 | tee -a $LOG_FILE
+        if ! monitor_container "streaming_server"; then
+            echo -e "\nError: Failed to monitor streaming_server" >&2
+            return 1
+        fi
 
-    # Stop logging and remove client container
-    stop_container_logging "streaming_client"
-    docker rm streaming_client
+        sleep 30  # Wait for server to initialize
 
-    # Stop logging and remove server container
-    stop_container_logging "streaming_server"
-    docker stop streaming_server
-    docker rm streaming_server
+        # Copy session lists from dataset container to local directory
+        SESSION_LIST_DIR="$(pwd)/$OUTPUT_DIR/session_lists"
+        mkdir -p "$SESSION_LIST_DIR"
+        docker cp streaming_dataset:/videos/logs "$SESSION_LIST_DIR"
 
-    # Stop logging and remove dataset container
-    stop_container_logging "streaming_dataset"
-    docker rm streaming_dataset
+        # Start client container
+        RESULTS_DIR="$(pwd)/$OUTPUT_DIR/client_results"
+        mkdir -p "$RESULTS_DIR"
+        docker run -t --name streaming_client \
+            -v "${SESSION_LIST_DIR}/logs:/videos/logs" \
+            -v "${RESULTS_DIR}:/output" \
+            --net host cloudsuite/media-streaming:client \
+            $SERVER_IP $VIDEOPERF_PROCESSES $VIDEO_COUNT $RATE $ENCRYPTION_MODE \
+            > "$LOG_DIR/streaming_client.log" 2>&1
+        if ! monitor_container "streaming_client"; then
+            echo -e "\nError: Failed to monitor streaming_client" >&2
+            return 1
+        fi
 
-    stop_perf_record
+        # Wait for client to finish
+        docker wait streaming_client
 
-    # Collect and append results to the report file
-    echo "Media Streaming Results:" >> $REPORT_FILE
-    docker logs streaming_client 2>&1 | grep -E "Throughput|Latency" >> $REPORT_FILE
+        # Stop logging and remove client container
+        stop_container_logging "streaming_client"
+        docker rm streaming_client
+
+        # Stop logging and remove server container
+        stop_container_logging "streaming_server"
+        docker stop streaming_server
+        docker rm streaming_server
+
+        # Stop logging and remove dataset container
+        stop_container_logging "streaming_dataset"
+        docker rm streaming_dataset
+
+        stop_perf_record
+
+        # Collect and append results to the report file
+        echo "Media Streaming Results:" >> $REPORT_FILE
+        docker logs streaming_client 2>&1 | grep -E "Throughput|Latency" >> $REPORT_FILE
+    } 2>&1 | tee -a $LOG_FILE
 }
 
 function run_web_search() {
-    echo -e "\nRunning Web Search benchmark with performance monitoring..." | tee -a $LOG_FILE
-    start_perf_record "web_search"
+    {
+        echo -e "\nRunning Web Search benchmark with performance monitoring..."
 
-    # Create dataset container
-    docker run --name web_search_dataset cloudsuite/web-search:dataset
-    monitor_container "web_search_dataset"
+        start_perf_record "web_search"
 
-    # Start server container
-    docker run -d --name server --volumes-from web_search_dataset \
-        --net host cloudsuite/web-search:server 14g 1
-    monitor_container "server"
+        # Create dataset container
+        docker run --name web_search_dataset cloudsuite/web-search:dataset \
+            2>&1 | tee -a $LOG_FILE
 
-    sleep 30  # Wait for server to initialize
+        # Start server container
+        docker run -d --name server --volumes-from web_search_dataset \
+            --net host cloudsuite/web-search:server 14g 1 \
+            2>&1 | tee -a $LOG_FILE
+        monitor_container "server"
 
-    # Start client in detached mode
-    docker run -d --name web_search_client --net host \
-        cloudsuite/web-search:client localhost 8
-    monitor_container "web_search_client"
+        sleep 30  # Wait for server to initialize
 
-    # Wait for client to finish
-    docker wait web_search_client
+        # Start client in detached mode
+        docker run -d --name web_search_client --net host \
+            cloudsuite/web-search:client localhost 8 \
+            2>&1 | tee -a $LOG_FILE
+        monitor_container "web_search_client"
 
-    # Stop logging and remove client container
-    stop_container_logging "web_search_client"
-    docker rm web_search_client
+        # Wait for client to finish
+        docker wait web_search_client
 
-    # Stop logging and remove server container
-    stop_container_logging "server"
-    docker stop server
-    docker rm server
+        # Stop logging and remove client container
+        stop_container_logging "web_search_client"
+        docker rm web_search_client
 
-    # Stop logging and remove dataset container
-    stop_container_logging "web_search_dataset"
-    docker rm web_search_dataset
+        # Stop logging and remove server container
+        stop_container_logging "server"
+        docker stop server
+        docker rm server
 
-    stop_perf_record
+        # Stop and remove dataset container
+        docker rm web_search_dataset
 
-    # Collect and append results to the report file
-    echo "Web Search Results:" >> $REPORT_FILE
-    docker logs web_search_client 2>&1 | grep -E "Queries per second|Latency" >> $REPORT_FILE
+        stop_perf_record
+
+        # Collect and append results to the report file
+        echo "Web Search Results:" >> $REPORT_FILE
+        docker logs web_search_client 2>&1 | grep -E "Queries per second|Latency" >> $REPORT_FILE
+    } 2>&1 | tee -a $LOG_FILE
 }
 
 function run_web_serving() {
@@ -571,26 +629,31 @@ function run_web_serving() {
     start_perf_record "web_serving"
 
     # Start database server
-    docker run -d --name database_server --net host \
-        cloudsuite/web-serving:db_server
-    monitor_container "database_server"
+    docker run -dit --name database_server --net host \
+        cloudsuite/web-serving:db_server \
+        2>&1 | tee -a $LOG_FILE
+
+    sleep 300  # Wait for database to initialize
 
     # Start memcached server
-    docker run -d --name memcache_server --net host \
-        cloudsuite/web-serving:memcached_server
+    docker run -dt --name memcache_server --net host \
+        cloudsuite/web-serving:memcached_server \
+        2>&1 | tee -a $LOG_FILE
     monitor_container "memcache_server"
 
     # Start web server
-    docker run -d --name web_server --net host \
+    docker run -dt --name web_server --net host \
         cloudsuite/web-serving:web_server /etc/bootstrap.sh \
-        http localhost localhost localhost 4 auto
+        http localhost localhost localhost 4 auto \
+        2>&1 | tee -a $LOG_FILE
     monitor_container "web_server"
 
     sleep 30  # Wait for services to initialize
 
     # Start client in detached mode
     docker run -d --name faban_client --net host \
-        cloudsuite/web-serving:faban_client localhost 1
+        cloudsuite/web-serving:faban_client localhost 1 \
+        2>&1 | tee -a $LOG_FILE
     monitor_container "faban_client"
 
     # Wait for client to finish
@@ -627,7 +690,8 @@ function run_data_analytics() {
     start_perf_record "data_analytics"
 
     # Create dataset container
-    docker create --name wikimedia-dataset cloudsuite/wikimedia-pages-dataset
+    docker create --name wikimedia-dataset cloudsuite/wikimedia-pages-dataset \
+        2>&1 | tee -a $LOG_FILE
     monitor_container "wikimedia-dataset"
 
     # Create a User-Defined Network
@@ -638,7 +702,8 @@ function run_data_analytics() {
         cloudsuite/data-analytics --master \
         --hdfs-block-size=64 \
         --yarn-cores=4 \
-        --mapreduce-mem=4096
+        --mapreduce-mem=4096 \
+        2>&1 | tee -a $LOG_FILE
     if ! wait_for_container "data-master"; then
         echo -e "\nError: Data Analytics master failed to start" >&2
         return 1
@@ -649,7 +714,8 @@ function run_data_analytics() {
     NUM_SLAVES=4
     for i in $(seq 1 $NUM_SLAVES); do
         docker run -d --net hadoop-net --name data-slave0$i \
-            cloudsuite/data-analytics --slave --master-ip=data-master
+            cloudsuite/data-analytics --slave --master-ip=data-master \
+            2>&1 | tee -a $LOG_FILE
         if ! wait_for_container "data-slave0$i"; then
             echo -e "\nError: Data Analytics slave data-slave0$i failed to start" >&2
             return 1
@@ -691,7 +757,8 @@ function run_data_caching() {
     start_perf_record "data_caching"
 
     # Start Memcached server
-    docker run -d --name dc-server --net host cloudsuite/data-caching:server -t 4 -m 10240 -n 550
+    docker run -d --name dc-server --net host cloudsuite/data-caching:server -t 4 -m 10240 -n 550 \
+        2>&1 | tee -a $LOG_FILE
     if ! wait_for_container "dc-server"; then
         echo -e "\nError: Memcached server failed to start" >&2
         return 1
@@ -706,26 +773,33 @@ function run_data_caching() {
     echo "127.0.0.1, 11211" > docker_servers/docker_servers.txt
 
     # Start client container
-    docker run -d --name dc-client --net host -v "$PWD/docker_servers":/usr/src/memcached/memcached_client/docker_servers/ \
-        cloudsuite/data-caching:client
+    docker run -idt --name dc-client --net host -v "$PWD/docker_servers":/usr/src/memcached/memcached_client/docker_servers/ \
+        cloudsuite/data-caching:client \
+        2>&1 | tee -a $LOG_FILE
     if ! wait_for_container "dc-client"; then
         echo -e "\nError: Data Caching client failed to start" >&2
         return 1
     fi
+    sleep 20
     monitor_container "dc-client"
 
     # Warm up the server
     echo -e "\nWarming up the server..." | tee -a $LOG_FILE
-    docker exec dc-client /bin/bash /entrypoint.sh --m="S&W" --S=28 --D=10240 --w=8 --T=1
+    docker exec dc-client /bin/bash /entrypoint.sh --m="S&W" --S=28 --D=10240 --w=8 --T=1 | tee -a $LOG_FILE
 
-    # Run the benchmark
-    echo -e "\nRunning the benchmark..." | tee -a $LOG_FILE
-    # Determine the maximum throughput
-    MAX_THROUGHPUT=$(docker exec dc-client /bin/bash /entrypoint.sh --m="TH" --S=28 --g=0.8 --c=200 --w=8 --T=1)
+    # Run the benchmark to determine maximum throughput
+    echo -e "\nDetermining maximum throughput..." | tee -a $LOG_FILE
+    THROUGHPUT_OUTPUT=$(docker exec dc-client timeout 120 /bin/bash /entrypoint.sh --m="TH" --S=28 --g=0.8 --c=200 --w=8 --T=1 | tee -a $LOG_FILE)
 
-    # Run the benchmark with target RPS (e.g., 90% of MAX_THROUGHPUT)
-    TARGET_RPS=$(echo "$MAX_THROUGHPUT" | awk '{printf "%.0f", $1 * 0.9}')
-    docker exec dc-client timeout 60 /bin/bash /entrypoint.sh --m="RPS" --S=28 --g=0.8 --c=200 --w=8 --T=1 --r="$TARGET_RPS"
+    # Extract MAX_THROUGHPUT from the output by finding the maximum 'rps' value
+    MAX_THROUGHPUT=$(echo "$THROUGHPUT_OUTPUT" | awk -F', *' '/^[0-9]+,/ {print $3}' | sort -n | tail -1)
+
+    # Calculate TARGET_RPS as 90% of MAX_THROUGHPUT
+    TARGET_RPS=$(echo "$MAX_THROUGHPUT * 0.9" | bc | awk '{printf "%.0f", $0}')
+
+    # Run the benchmark with TARGET_RPS
+    echo -e "\nRunning the benchmark with TARGET_RPS=$TARGET_RPS..." | tee -a $LOG_FILE
+    docker exec dc-client timeout 60 /bin/bash /entrypoint.sh --m="RPS" --S=28 --g=0.8 --c=200 --w=8 --T=1 --r="$TARGET_RPS" | tee -a $LOG_FILE
 
     # Stop logging and remove client container
     stop_container_logging "dc-client"
@@ -834,6 +908,9 @@ if [ $# -lt 1 ]; then
     print_usage
     exit 1
 fi
+
+if [ $# -ge 2 ]; then
+    if [ "$2" == "all" ]; then
         echo -e "\nRunning all event groups sequentially" | tee -a $LOG_FILE
         for group in {1..6}; do
             SELECTED_GROUP=$group
@@ -917,6 +994,7 @@ fi
         esac
     fi
 else
+    SELECTED_GROUP=1  # Default group
     # Run with default group
     case $1 in
         "data-serving")

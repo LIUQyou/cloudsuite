@@ -1,0 +1,35 @@
+
+Running Media Streaming benchmark with performance monitoring...
+f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99
+
+Starting monitoring for container: streaming_dataset
+
+Started real-time logging for streaming_dataset to benchmark_results/container_logs/streaming_dataset.log
+
+Started monitoring container streaming_dataset (Cgroup: /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope)
+37dbdf69ae07e320418189d9f36993b517ebfcabfb8a437f3272e314391b2726
+
+Starting monitoring for container: streaming_server
+
+Started real-time logging for streaming_server to benchmark_results/container_logs/streaming_server.log
+
+Started monitoring container streaming_server (Cgroup: /system.slice/docker-37dbdf69ae07e320418189d9f36993b517ebfcabfb8a437f3272e314391b2726.scope)
+Total clients = 4
+Total number of sessions = 1000
+Launching 4 clients on localhost
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result1.log --num-sessions=250 --rate=2.50 2>>/output/bt1.trace
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result2.log --num-sessions=250 --rate=2.50 2>>/output/bt2.trace
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result3.log --num-sessions=250 --rate=2.50 2>>/output/bt3.trace
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result4.log --num-sessions=250 --rate=2.50 2>>/output/bt4.trace
+sizeof(fd_set) = 128
+sizeof(fd_set) = 128
+sizeof(fd_set) = 128
+sizeof(fd_set) = 128
+No log is found from the log folder: /output
+Please check the the folder exists, or whether any request is sent during the test
+No log is found from the log folder: /output
+Please check the the folder exists, or whether any request is sent during the test
+
+Starting monitoring for container: streaming_client
+
+Started real-time logging for streaming_client to benchmark_results/container_logs/streaming_client.log

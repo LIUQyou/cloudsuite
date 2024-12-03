@@ -1,0 +1,22 @@
+
+Running Media Streaming benchmark with performance monitoring...
+b109f7b655bd250776893b7bafbed8a0d62f004558c745d8ceb9585fbe8d94da
+
+Starting monitoring for container: streaming_dataset
+
+Started real-time logging for streaming_dataset to benchmark_results/container_logs/streaming_dataset.log
+
+Started monitoring container streaming_dataset (Cgroup: /system.slice/docker-b109f7b655bd250776893b7bafbed8a0d62f004558c745d8ceb9585fbe8d94da.scope)
+da1e1953739bb6668c672390d852c09711c8c6c1bff2f26cc3be8939ef3c2a34
+
+Starting monitoring for container: streaming_server
+
+Started real-time logging for streaming_server to benchmark_results/container_logs/streaming_server.log
+
+Started monitoring container streaming_server (Cgroup: /system.slice/docker-da1e1953739bb6668c672390d852c09711c8c6c1bff2f26cc3be8939ef3c2a34.scope)
+docker: Error response from daemon: create benchmark_results/session_lists/logs: "benchmark_results/session_lists/logs" includes invalid characters for a local volume name, only "[a-zA-Z0-9][a-zA-Z0-9_.-]" are allowed. If you intended to pass a host directory, use absolute path.
+See 'docker run --help'.
+
+Starting monitoring for container: streaming_client
+
+Started real-time logging for streaming_client to benchmark_results/container_logs/streaming_client.log

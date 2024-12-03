@@ -1,0 +1,685 @@
+# started on Tue Dec  3 09:45:15 2024
+
+#           time             counts unit events
+     1.001069458      2,954,387,852      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     1.001069458      5,074,160,722      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.72  insn per cycle         
+     1.001069458        975,669,288      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     1.001069458         10,286,013      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.05% of all branches        
+     2.005169750      2,997,813,385      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     2.005169750      4,656,713,957      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.55  insn per cycle         
+     2.005169750        902,847,713      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     2.005169750          9,865,279      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.09% of all branches        
+     3.009099476      2,842,292,265      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     3.009099476      4,688,181,816      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.65  insn per cycle         
+     3.009099476        875,412,569      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     3.009099476         11,496,596      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.31% of all branches        
+     4.013099957      2,914,277,699      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     4.013099957      4,581,821,736      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.57  insn per cycle         
+     4.013099957        846,496,359      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     4.013099957         11,275,819      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.33% of all branches        
+     5.017145124      3,140,874,318      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     5.017145124      5,300,885,024      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.69  insn per cycle         
+     5.017145124        984,341,419      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     5.017145124         11,800,615      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.20% of all branches        
+     6.021322330      2,993,872,827      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     6.021322330      4,938,657,689      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.65  insn per cycle         
+     6.021322330        897,585,917      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     6.021322330         12,351,278      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.38% of all branches        
+     7.025249514      3,028,270,176      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     7.025249514      4,504,752,187      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.49  insn per cycle         
+     7.025249514        811,988,105      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     7.025249514         12,930,168      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.59% of all branches        
+     8.029082560      3,048,618,213      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     8.029082560      4,592,972,776      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.51  insn per cycle         
+     8.029082560        830,885,865      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     8.029082560         13,084,690      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.57% of all branches        
+     9.032963549      3,027,122,944      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     9.032963549      4,888,638,843      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.61  insn per cycle         
+     9.032963549        933,874,329      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+     9.032963549          9,373,920      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.00% of all branches        
+    10.037118275      3,125,358,899      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    10.037118275      5,199,336,387      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.66  insn per cycle         
+    10.037118275        983,509,774      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    10.037118275         10,252,801      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.04% of all branches        
+    11.041224087      2,898,899,070      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    11.041224087      4,464,744,816      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.54  insn per cycle         
+    11.041224087        810,813,757      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    11.041224087         11,695,196      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.44% of all branches        
+    12.045400493      3,158,032,236      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    12.045400493      5,415,256,135      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.71  insn per cycle         
+    12.045400493        980,336,142      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    12.045400493         12,662,670      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.29% of all branches        
+    13.049538264      2,905,476,052      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    13.049538264      4,741,932,337      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.63  insn per cycle         
+    13.049538264        878,518,538      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    13.049538264         10,225,655      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.16% of all branches        
+    14.053588035      2,875,140,149      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    14.053588035      4,557,012,895      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.58  insn per cycle         
+    14.053588035        871,228,229      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    14.053588035          9,131,594      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.05% of all branches        
+    15.057538639      2,864,393,863      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    15.057538639      4,508,957,760      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.57  insn per cycle         
+    15.057538639        843,836,647      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    15.057538639          9,980,849      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.18% of all branches        
+    16.061598120      3,023,652,322      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    16.061598120      4,844,639,820      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.60  insn per cycle         
+    16.061598120        890,434,779      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    16.061598120         11,454,223      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.29% of all branches        
+    17.065654556      1,833,179,784      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    17.065654556      2,829,689,961      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.54  insn per cycle         
+    17.065654556        544,316,930      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    17.065654556          5,201,975      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    0.96% of all branches        
+    18.070118541      2,061,625,221      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    18.070118541      2,870,662,145      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.39  insn per cycle         
+    18.070118541        479,638,052      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    18.070118541         10,424,029      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    2.17% of all branches        
+    19.073570779      2,995,170,456      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    19.073570779      4,419,958,447      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.48  insn per cycle         
+    19.073570779        829,952,621      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    19.073570779         10,327,171      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.24% of all branches        
+    20.077584414      3,061,845,298      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    20.077584414      4,666,659,609      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.52  insn per cycle         
+    20.077584414        788,221,611      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    20.077584414         15,054,108      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.91% of all branches        
+    21.081741435      3,068,572,233      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    21.081741435      5,015,395,556      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.63  insn per cycle         
+    21.081741435        950,720,313      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    21.081741435          9,437,093      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    0.99% of all branches        
+    22.085584514      3,179,837,382      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    22.085584514      4,981,629,628      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.57  insn per cycle         
+    22.085584514        955,651,563      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    22.085584514          8,883,713      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    0.93% of all branches        
+    23.089736776      3,070,224,805      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    23.089736776      4,561,467,549      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.49  insn per cycle         
+    23.089736776        793,553,403      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    23.089736776         12,902,749      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.63% of all branches        
+    24.093774240      3,126,867,247      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    24.093774240      4,685,521,534      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.50  insn per cycle         
+    24.093774240        804,086,955      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    24.093774240         14,523,207      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.81% of all branches        
+    25.097873005      2,976,500,775      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    25.097873005      4,372,577,600      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.47  insn per cycle         
+    25.097873005        764,038,787      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    25.097873005         13,427,179      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.76% of all branches        
+#           time             counts unit events
+    26.101927819      2,796,820,602      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    26.101927819      4,129,263,491      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.48  insn per cycle         
+    26.101927819        758,879,989      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    26.101927819          9,516,897      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.25% of all branches        
+    27.105586108      3,173,122,325      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    27.105586108      4,942,214,705      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.56  insn per cycle         
+    27.105586108        833,617,904      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    27.105586108         14,815,223      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.78% of all branches        
+    28.109600452        803,215,756      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    28.109600452      1,247,943,357      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.55  insn per cycle         
+    28.109600452        220,206,812      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    28.109600452          3,320,814      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope #    1.51% of all branches        
+    29.114011479      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    29.114011479      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    29.114011479      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    29.114011479      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    30.118557044      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    30.118557044      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    30.118557044      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    30.118557044      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    31.123172285      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    31.123172285      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    31.123172285      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    31.123172285      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    32.127572599      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    32.127572599      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    32.127572599      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    32.127572599      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    33.131984314      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    33.131984314      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    33.131984314      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    33.131984314      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    34.136369642      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    34.136369642      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    34.136369642      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    34.136369642      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    35.140843879      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    35.140843879      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    35.140843879      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    35.140843879      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    36.145308709      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    36.145308709      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    36.145308709      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    36.145308709      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    37.149803543      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    37.149803543      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    37.149803543      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    37.149803543      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    38.154196851      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    38.154196851      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    38.154196851      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    38.154196851      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    39.158484682      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    39.158484682      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    39.158484682      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    39.158484682      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    40.162460399      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    40.162460399      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    40.162460399      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    40.162460399      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    41.168862462      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    41.168862462      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    41.168862462      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    41.168862462      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    42.173280591      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    42.173280591      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    42.173280591      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    42.173280591      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    43.177574496      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    43.177574496      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    43.177574496      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    43.177574496      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    44.181910030      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    44.181910030      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    44.181910030      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    44.181910030      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    45.186220213      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    45.186220213      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    45.186220213      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    45.186220213      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    46.190568407      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    46.190568407      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    46.190568407      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    46.190568407      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    47.194907187      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    47.194907187      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    47.194907187      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    47.194907187      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    48.199255635      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    48.199255635      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    48.199255635      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    48.199255635      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    49.203623434      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    49.203623434      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    49.203623434      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    49.203623434      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    50.208016566      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    50.208016566      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    50.208016566      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    50.208016566      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+#           time             counts unit events
+    51.212328068      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    51.212328068      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    51.212328068      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    51.212328068      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    52.216679894      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    52.216679894      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    52.216679894      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    52.216679894      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    53.220996288      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    53.220996288      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    53.220996288      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    53.220996288      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    54.225323461      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    54.225323461      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    54.225323461      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    54.225323461      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    55.229687224      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    55.229687224      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    55.229687224      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    55.229687224      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    56.234011341      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    56.234011341      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    56.234011341      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    56.234011341      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    57.238355104      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    57.238355104      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    57.238355104      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    57.238355104      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    58.242687677      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    58.242687677      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    58.242687677      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    58.242687677      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    59.247039183      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    59.247039183      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    59.247039183      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    59.247039183      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    60.251362161      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    60.251362161      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    60.251362161      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    60.251362161      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    61.255728892      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    61.255728892      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    61.255728892      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    61.255728892      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    62.260066506      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    62.260066506      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    62.260066506      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    62.260066506      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    63.264387947      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    63.264387947      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    63.264387947      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    63.264387947      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    64.268653969      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    64.268653969      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    64.268653969      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    64.268653969      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    65.273060195      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    65.273060195      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    65.273060195      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    65.273060195      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    66.277396062      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    66.277396062      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    66.277396062      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    66.277396062      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    67.281755718      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    67.281755718      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    67.281755718      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    67.281755718      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    68.286098666      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    68.286098666      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    68.286098666      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    68.286098666      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    69.290410208      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    69.290410208      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    69.290410208      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    69.290410208      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    70.294786112      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    70.294786112      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    70.294786112      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    70.294786112      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    71.299142523      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    71.299142523      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    71.299142523      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    71.299142523      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    72.303521566      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    72.303521566      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    72.303521566      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    72.303521566      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    73.307866752      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    73.307866752      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    73.307866752      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    73.307866752      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    74.312218465      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    74.312218465      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    74.312218465      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    74.312218465      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    75.316667828      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    75.316667828      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    75.316667828      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    75.316667828      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+#           time             counts unit events
+    76.321063885      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    76.321063885      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    76.321063885      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    76.321063885      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    77.325452856      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    77.325452856      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    77.325452856      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    77.325452856      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    78.329241862      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    78.329241862      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    78.329241862      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    78.329241862      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    79.333680485      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    79.333680485      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    79.333680485      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    79.333680485      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    80.338181580      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    80.338181580      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    80.338181580      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    80.338181580      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    81.342395515      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    81.342395515      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    81.342395515      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    81.342395515      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    82.346708951      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    82.346708951      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    82.346708951      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    82.346708951      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    83.350949395      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    83.350949395      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    83.350949395      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    83.350949395      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    84.355160465      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    84.355160465      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    84.355160465      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    84.355160465      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    85.359392313      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    85.359392313      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    85.359392313      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    85.359392313      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    86.363555993      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    86.363555993      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    86.363555993      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    86.363555993      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    87.367730675      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    87.367730675      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    87.367730675      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    87.367730675      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    88.371825987      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    88.371825987      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    88.371825987      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    88.371825987      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    89.375884228      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    89.375884228      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    89.375884228      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    89.375884228      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    90.380232485      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    90.380232485      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    90.380232485      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    90.380232485      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    91.384625732      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    91.384625732      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    91.384625732      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    91.384625732      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    92.388974715      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    92.388974715      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    92.388974715      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    92.388974715      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    93.393349735      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    93.393349735      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    93.393349735      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    93.393349735      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    94.397715265      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    94.397715265      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    94.397715265      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    94.397715265      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    95.402071860      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    95.402071860      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    95.402071860      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    95.402071860      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    96.406503438      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    96.406503438      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    96.406503438      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    96.406503438      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    97.410922316      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    97.410922316      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    97.410922316      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    97.410922316      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    98.415297443      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    98.415297443      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    98.415297443      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    98.415297443      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    99.419678459      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    99.419678459      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    99.419678459      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+    99.419678459      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   100.424068536      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   100.424068536      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   100.424068536      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   100.424068536      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+#           time             counts unit events
+   101.428478653      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   101.428478653      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   101.428478653      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   101.428478653      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   102.432808829      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   102.432808829      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   102.432808829      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   102.432808829      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   103.437161202      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   103.437161202      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   103.437161202      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   103.437161202      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   104.441482254      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   104.441482254      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   104.441482254      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   104.441482254      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   105.445829856      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   105.445829856      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   105.445829856      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   105.445829856      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   106.450141719      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   106.450141719      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   106.450141719      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   106.450141719      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   107.454513921      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   107.454513921      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   107.454513921      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   107.454513921      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   108.458868663      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   108.458868663      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   108.458868663      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   108.458868663      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   109.463151537      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   109.463151537      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   109.463151537      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   109.463151537      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   110.467536387      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   110.467536387      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   110.467536387      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   110.467536387      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   111.471853315      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   111.471853315      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   111.471853315      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   111.471853315      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   112.476220810      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   112.476220810      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   112.476220810      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   112.476220810      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   113.480551487      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   113.480551487      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   113.480551487      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   113.480551487      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   114.484930271      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   114.484930271      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   114.484930271      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   114.484930271      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   115.489258481      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   115.489258481      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   115.489258481      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   115.489258481      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   116.493563766      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   116.493563766      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   116.493563766      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   116.493563766      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   117.497912371      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   117.497912371      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   117.497912371      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   117.497912371      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   118.502226828      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   118.502226828      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   118.502226828      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   118.502226828      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   119.506479456      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   119.506479456      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   119.506479456      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   119.506479456      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   120.510853994      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   120.510853994      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   120.510853994      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   120.510853994      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   121.515193580      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   121.515193580      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   121.515193580      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   121.515193580      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   122.519572234      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   122.519572234      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   122.519572234      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   122.519572234      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   123.523938787      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   123.523938787      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   123.523938787      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   123.523938787      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   124.528316260      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   124.528316260      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   124.528316260      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   124.528316260      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   125.532613409      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   125.532613409      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   125.532613409      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   125.532613409      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+#           time             counts unit events
+   126.536967819      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   126.536967819      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   126.536967819      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   126.536967819      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   127.541449042      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   127.541449042      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   127.541449042      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   127.541449042      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   128.545740166      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   128.545740166      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   128.545740166      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   128.545740166      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   129.550036308      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   129.550036308      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   129.550036308      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   129.550036308      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   130.554348561      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   130.554348561      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   130.554348561      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   130.554348561      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   131.558680516      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   131.558680516      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   131.558680516      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   131.558680516      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   132.562997962      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   132.562997962      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   132.562997962      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   132.562997962      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   133.567373485      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   133.567373485      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   133.567373485      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   133.567373485      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   134.571689790      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   134.571689790      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   134.571689790      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   134.571689790      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   135.576002990      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   135.576002990      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   135.576002990      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   135.576002990      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   136.580321675      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   136.580321675      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   136.580321675      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   136.580321675      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   137.584613052      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   137.584613052      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   137.584613052      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   137.584613052      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   138.588937750      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   138.588937750      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   138.588937750      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   138.588937750      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   139.593326567      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   139.593326567      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   139.593326567      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   139.593326567      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   140.597642326      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   140.597642326      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   140.597642326      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   140.597642326      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   141.602005456      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   141.602005456      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   141.602005456      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   141.602005456      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   142.606336814      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   142.606336814      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   142.606336814      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   142.606336814      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   143.610679423      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   143.610679423      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   143.610679423      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   143.610679423      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   144.615014271      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   144.615014271      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   144.615014271      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   144.615014271      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   145.619399547      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   145.619399547      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   145.619399547      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   145.619399547      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   146.623763605      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   146.623763605      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   146.623763605      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   146.623763605      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   147.628091422      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   147.628091422      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   147.628091422      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   147.628091422      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   148.632333008      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   148.632333008      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   148.632333008      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   148.632333008      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   149.636512057      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   149.636512057      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   149.636512057      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   149.636512057      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   150.640856408      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   150.640856408      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   150.640856408      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   150.640856408      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+#           time             counts unit events
+   151.645246784      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   151.645246784      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   151.645246784      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   151.645246784      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   152.649622223      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   152.649622223      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   152.649622223      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   152.649622223      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   153.653865126      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   153.653865126      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   153.653865126      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   153.653865126      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   154.658266533      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   154.658266533      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   154.658266533      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   154.658266533      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   155.662643383      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   155.662643383      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   155.662643383      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   155.662643383      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   156.667000848      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   156.667000848      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   156.667000848      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   156.667000848      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   157.671366586      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   157.671366586      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   157.671366586      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   157.671366586      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   158.675713234      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   158.675713234      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   158.675713234      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   158.675713234      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   159.680067768      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   159.680067768      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   159.680067768      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   159.680067768      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   160.684426645      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   160.684426645      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   160.684426645      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   160.684426645      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   161.688841578      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   161.688841578      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   161.688841578      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   161.688841578      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   162.693212014      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   162.693212014      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   162.693212014      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   162.693212014      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   163.697626112      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   163.697626112      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   163.697626112      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   163.697626112      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   164.701899279      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   164.701899279      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   164.701899279      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   164.701899279      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   165.706249490      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   165.706249490      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   165.706249490      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   165.706249490      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   166.710579201      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   166.710579201      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   166.710579201      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   166.710579201      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   167.714905435      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   167.714905435      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   167.714905435      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   167.714905435      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   168.719124652      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   168.719124652      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   168.719124652      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   168.719124652      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   169.723371789      <not counted>      cycles                    /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   169.723371789      <not counted>      instructions              /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   169.723371789      <not counted>      branch-instructions       /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   
+   169.723371789      <not counted>      branch-misses             /system.slice/docker-f231b3fd780b53b0c6fef4a5c7d3c32f96efee948413d4f6f52872b16c729e99.scope                                   

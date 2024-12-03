@@ -1,0 +1,9 @@
+
+Running In-Memory Analytics benchmark with performance monitoring...
+cdf126751f59256409d2905feb8bf202716c8ea648e7ea8520cf61b492789dc7
+
+Starting monitoring for container: in-memory-analytics
+
+Started real-time logging for in-memory-analytics to benchmark_results/container_logs/in-memory-analytics.log
+
+Started monitoring container in-memory-analytics (Cgroup: /system.slice/docker-cdf126751f59256409d2905feb8bf202716c8ea648e7ea8520cf61b492789dc7.scope)

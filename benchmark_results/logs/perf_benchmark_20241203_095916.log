@@ -1,0 +1,470 @@
+
+Running Media Streaming benchmark with performance monitoring...
+gcc -Wall -g -o make_zipf make_zipf.c -lm
+gcc -Wall -g -o gen_fileset gen_fileset.c -lm
+quality = 240p
+ 10
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 0.50 MB
+file bit rate = 0.419 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 199 MB
+total size of viewed videos = 35 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 11.1 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      5       55.5  100.0
+      2       22.2   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 2.9 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5     20     0.2
+   10     40     0.1
+   20     80     0.0
+   50    200     0.0
+  100    400     0.0
+  200    800     0.0
+  500   2000     0.0
+  750   3000     0.0
+  900   3600     0.0
+quality = 360p
+ 1
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 1.25 MB
+file bit rate = 1.049 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 498 MB
+total size of viewed videos = 88 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 27.7 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      5      138.7  100.0
+      2       55.5   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 7.2 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5     50     0.2
+   10    100     0.1
+   20    200     0.0
+   50    500     0.0
+  100   1000     0.0
+  200   2000     0.0
+  500   5000     0.0
+  750   7500     0.0
+  900   9000     0.0
+quality = 480p
+ 2
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 3.12 MB
+file bit rate = 2.621 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 1246 MB
+total size of viewed videos = 221 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 69.4 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      5      346.8  100.0
+      2      138.7   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 18.1 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5    125     0.2
+   10    250     0.1
+   20    500     0.0
+   50   1250     0.0
+  100   2500     0.0
+  200   5000     0.0
+  500  12500     0.0
+  750  18750     0.0
+  900  22500     0.0
+quality = 720p
+ 5
+random seed = 40
+Zipf exponent = -0.8000
+number of videos in library = 18
+number of sessions = 10 (1 x 10)
+
+seconds of video per client request = 10.00 s
+size of client requests = 6.25 MB
+file bit rate = 5.243 Mbps
+timeout for request delivery = 10.00 s
+number of unpaced requests at session start = 3
+
+total number of unique videos = 5
+total size of library = 2491 MB
+total size of viewed videos = 442 MB
+percentage of single-request videos = 60.0 %
+average views per video = 2.0
+average duration of videos = 141.6 s
+average size of videos = 138.7 MB
+
+Top Video Popularity:
+# files  size (MB)  percent of sessions
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      5      693.5  100.0
+      2      277.4   70.0
+
+maximum session time = 161 s
+maximum number of client requests in session = 16
+total number of client requests = 58
+
+average duration of session = 54.2 s
+average size of session = 36.2 MB
+average client requests per session = 5.800
+client requests per log file:  58
+number of chunks viewed once = 16
+number of chunks to preload = 2
+percent of chunk requests preloaded = 70.0 %
+Experiment statistics:
+req/s   Mbps   Time (minutes)
+    5    250     0.2
+   10    500     0.1
+   20   1000     0.0
+   50   2500     0.0
+  100   5000     0.0
+  200  10000     0.0
+  500  25000     0.0
+  750  37500     0.0
+  900  45000     0.0
+[mp4 @ 0x5622e5b6c880] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+[mp4 @ 0x55fa2f491280] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+[mp4 @ 0x55fde9910a00] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+[mp4 @ 0x56527b212b40] Application provided duration: -9223372036854775808 / timestamp: -9223372036854775808 is out of range for mov/mp4 format
+8e5e3efcb4529389bf47292b20416a771241c273f1af1239db9b9a3230606961
+
+Starting monitoring for container: streaming_server
+
+Started real-time logging for streaming_server to benchmark_results/container_logs/streaming_server.log
+
+Started monitoring container streaming_server (Cgroup: /system.slice/docker-8e5e3efcb4529389bf47292b20416a771241c273f1af1239db9b9a3230606961.scope)
+Total clients = 4
+Total number of sessions = 1000
+Launching 4 clients on localhost
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log,/videos/logs/cl-720p-18-800-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result1.log --num-sessions=250 --rate=2.50 2>>/output/bt1.trace
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log,/videos/logs/cl-720p-18-800-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result2.log --num-sessions=250 --rate=2.50 2>>/output/bt2.trace
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log,/videos/logs/cl-720p-18-800-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result3.log --num-sessions=250 --rate=2.50 2>>/output/bt3.trace
+Running command httperf --hog --server localhost --videosesslog=[/videos/logs/cl-240p-18-10000-10-10-00.log,/videos/logs/cl-360p-18-4000-10-10-00.log,/videos/logs/cl-480p-18-1600-10-10-00.log,/videos/logs/cl-720p-18-800-10-10-00.log],[0.1,0.3,0.4,0.2],[localhost,localhost,localhost,localhost] --epoll --recv-buffer=524288 --port 80 --output-log=/output/result4.log --num-sessions=250 --rate=2.50 2>>/output/bt4.trace
+sizeof(fd_set) = 128
+sizeof(fd_set) = 128
+sizeof(fd_set) = 128
+sizeof(fd_set) = 128
+httperf --hog --client=0/1 --server=localhost --port=80 --uri=/ --rate=2.5 --send-buffer=4096 --recv-buffer=524288 --epoll --call-stats-file= --stats-interval=15
+httperf --hog --client=0/1 --server=localhost --port=80 --uri=/ --rate=2.5 --send-buffer=4096 --recv-buffer=524288 --epoll --call-stats-file= --stats-interval=15
+Run on hostname: node0.perfcloudsuite.armgem5-pg0.wisc.cloudlab.us
+Run on hostname: node0.perfcloudsuite.armgem5-pg0.wisc.cloudlab.us
+Run at: Tue Dec  3 16:00:31 2024
+
+Run at: Tue Dec  3 16:00:31 2024
+
+httperf --hog --client=0/1 --server=localhost --port=80 --uri=/ --rate=2.5 --send-buffer=4096 --recv-buffer=524288 --epoll --call-stats-file= --stats-interval=15
+Run on hostname: node0.perfcloudsuite.armgem5-pg0.wisc.cloudlab.us
+httperf --hog --client=0/1 --server=localhost --port=80 --uri=/ --rate=2.5 --send-buffer=4096 --recv-buffer=524288 --epoll --call-stats-file= --stats-interval=15
+Run at: Tue Dec  3 16:00:31 2024
+
+Run on hostname: node0.perfcloudsuite.armgem5-pg0.wisc.cloudlab.us
+Run at: Tue Dec  3 16:00:31 2024
+
+hash_enter: localhost 80
+stat basic init: using maximum errno = 500
+hash_enter: localhost 80
+stat basic init: using maximum errno = 500
+hash_enter: localhost 80
+stat basic init: using maximum errno = 500
+hash_enter: localhost 80
+stat basic init: using maximum errno = 500
+Throughput (Mbps) = 210.54  , total-errors = 0       , concurrent-clients = 6       , reply-rate = 8.8     
+Throughput (Mbps) = 210.54  , total-errors = 0       , concurrent-clients = 6       , reply-rate = 8.8     
+Throughput (Mbps) = 210.53  , total-errors = 0       , concurrent-clients = 6       , reply-rate = 8.8     
+Throughput (Mbps) = 210.51  , total-errors = 0       , concurrent-clients = 6       , reply-rate = 8.8     
+Throughput (Mbps) = 183.10  , total-errors = 0       , concurrent-clients = 13      , reply-rate = 8.0     
+Throughput (Mbps) = 183.10  , total-errors = 0       , concurrent-clients = 13      , reply-rate = 8.0     
+Throughput (Mbps) = 183.10  , total-errors = 0       , concurrent-clients = 14      , reply-rate = 8.0     
+Throughput (Mbps) = 183.06  , total-errors = 0       , concurrent-clients = 13      , reply-rate = 8.0     
+Throughput (Mbps) = 253.28  , total-errors = 0       , concurrent-clients = 16      , reply-rate = 9.2     
+Throughput (Mbps) = 253.28  , total-errors = 0       , concurrent-clients = 16      , reply-rate = 9.2     
+Throughput (Mbps) = 253.26  , total-errors = 0       , concurrent-clients = 16      , reply-rate = 9.2     
+Throughput (Mbps) = 253.25  , total-errors = 0       , concurrent-clients = 16      , reply-rate = 9.2     
+Throughput (Mbps) = 241.60  , total-errors = 0       , concurrent-clients = 20      , reply-rate = 9.2     
+Throughput (Mbps) = 241.64  , total-errors = 0       , concurrent-clients = 20      , reply-rate = 9.2     
+Throughput (Mbps) = 241.65  , total-errors = 0       , concurrent-clients = 20      , reply-rate = 9.2     
+Throughput (Mbps) = 241.63  , total-errors = 0       , concurrent-clients = 21      , reply-rate = 9.2     
+Throughput (Mbps) = 218.08  , total-errors = 0       , concurrent-clients = 22      , reply-rate = 10.2    
+Throughput (Mbps) = 218.09  , total-errors = 0       , concurrent-clients = 22      , reply-rate = 10.2    
+Throughput (Mbps) = 218.07  , total-errors = 0       , concurrent-clients = 22      , reply-rate = 10.2    
+Throughput (Mbps) = 218.10  , total-errors = 0       , concurrent-clients = 22      , reply-rate = 10.2    
+Throughput (Mbps) = 281.58  , total-errors = 0       , concurrent-clients = 27      , reply-rate = 10.2    
+Throughput (Mbps) = 281.57  , total-errors = 0       , concurrent-clients = 27      , reply-rate = 10.2    
+Throughput (Mbps) = 281.54  , total-errors = 0       , concurrent-clients = 28      , reply-rate = 10.2    
+Throughput (Mbps) = 281.55  , total-errors = 0       , concurrent-clients = 27      , reply-rate = 10.2    
+Throughput (Mbps) = 233.68  , total-errors = 0       , concurrent-clients = 27      , reply-rate = 10.0    
+Throughput (Mbps) = 233.69  , total-errors = 0       , concurrent-clients = 27      , reply-rate = 10.0    
+Throughput (Mbps) = 233.68  , total-errors = 0       , concurrent-clients = 27      , reply-rate = 10.0    
+Throughput (Mbps) = 233.68  , total-errors = 0       , concurrent-clients = 27      , reply-rate = 10.0    
+Throughput (Mbps) = 328.85  , total-errors = 0       , concurrent-clients = 29      , reply-rate = 11.2    
+Throughput (Mbps) = 328.84  , total-errors = 0       , concurrent-clients = 29      , reply-rate = 11.2    
+Throughput (Mbps) = 328.88  , total-errors = 0       , concurrent-clients = 30      , reply-rate = 11.2    
+Throughput (Mbps) = 328.84  , total-errors = 0       , concurrent-clients = 30      , reply-rate = 11.2    
+Throughput (Mbps) = 296.22  , total-errors = 0       , concurrent-clients = 33      , reply-rate = 10.8    
+Throughput (Mbps) = 296.21  , total-errors = 0       , concurrent-clients = 33      , reply-rate = 10.8    
+Throughput (Mbps) = 296.22  , total-errors = 0       , concurrent-clients = 33      , reply-rate = 10.8    
+Throughput (Mbps) = 296.22  , total-errors = 0       , concurrent-clients = 33      , reply-rate = 10.8    
+Throughput (Mbps) = 247.75  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 11.2    
+Throughput (Mbps) = 247.74  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 11.2    
+Throughput (Mbps) = 247.76  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 11.2    
+Throughput (Mbps) = 247.75  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 11.2    
+Throughput (Mbps) = 237.42  , total-errors = 0       , concurrent-clients = 37      , reply-rate = 11.2    
+Throughput (Mbps) = 237.42  , total-errors = 0       , concurrent-clients = 37      , reply-rate = 11.2    
+Throughput (Mbps) = 237.42  , total-errors = 0       , concurrent-clients = 37      , reply-rate = 11.2    
+Throughput (Mbps) = 237.44  , total-errors = 0       , concurrent-clients = 37      , reply-rate = 11.2    
+Throughput (Mbps) = 275.98  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 12.2    
+Throughput (Mbps) = 275.93  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 12.2    
+Throughput (Mbps) = 275.93  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 12.2    
+Throughput (Mbps) = 275.95  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 12.2    
+Throughput (Mbps) = 221.38  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 10.8    
+Throughput (Mbps) = 221.38  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 10.8    
+Throughput (Mbps) = 221.38  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 10.8    
+Throughput (Mbps) = 221.38  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 10.8    
+Throughput (Mbps) = 293.37  , total-errors = 0       , concurrent-clients = 45      , reply-rate = 12.0    
+Throughput (Mbps) = 295.48  , total-errors = 0       , concurrent-clients = 45      , reply-rate = 12.2    
+Throughput (Mbps) = 293.35  , total-errors = 0       , concurrent-clients = 45      , reply-rate = 12.0    
+Throughput (Mbps) = 295.42  , total-errors = 0       , concurrent-clients = 45      , reply-rate = 12.2    
+Throughput (Mbps) = 306.11  , total-errors = 0       , concurrent-clients = 49      , reply-rate = 12.8    
+Throughput (Mbps) = 303.96  , total-errors = 0       , concurrent-clients = 49      , reply-rate = 12.6    
+Throughput (Mbps) = 303.98  , total-errors = 0       , concurrent-clients = 49      , reply-rate = 12.6    
+Throughput (Mbps) = 306.05  , total-errors = 0       , concurrent-clients = 49      , reply-rate = 12.8    
+Throughput (Mbps) = 377.28  , total-errors = 0       , concurrent-clients = 51      , reply-rate = 12.8    
+Throughput (Mbps) = 377.31  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 12.8    
+Throughput (Mbps) = 377.30  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 12.8    
+Throughput (Mbps) = 377.26  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 12.8    
+Throughput (Mbps) = 365.29  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 12.8    
+Throughput (Mbps) = 365.30  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 12.8    
+Throughput (Mbps) = 365.27  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 12.8    
+Throughput (Mbps) = 365.26  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 12.8    
+Throughput (Mbps) = 272.67  , total-errors = 0       , concurrent-clients = 53      , reply-rate = 13.0    
+Throughput (Mbps) = 272.58  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 13.0    
+Throughput (Mbps) = 272.63  , total-errors = 0       , concurrent-clients = 53      , reply-rate = 13.0    
+Throughput (Mbps) = 272.59  , total-errors = 0       , concurrent-clients = 53      , reply-rate = 13.0    
+Throughput (Mbps) = 324.11  , total-errors = 0       , concurrent-clients = 55      , reply-rate = 13.6    
+Throughput (Mbps) = 324.13  , total-errors = 0       , concurrent-clients = 55      , reply-rate = 13.6    
+Throughput (Mbps) = 324.06  , total-errors = 0       , concurrent-clients = 55      , reply-rate = 13.6    
+Throughput (Mbps) = 324.06  , total-errors = 0       , concurrent-clients = 55      , reply-rate = 13.6    
+Throughput (Mbps) = 308.72  , total-errors = 0       , concurrent-clients = 59      , reply-rate = 13.6    
+Throughput (Mbps) = 308.69  , total-errors = 0       , concurrent-clients = 59      , reply-rate = 13.6    
+Throughput (Mbps) = 308.65  , total-errors = 0       , concurrent-clients = 59      , reply-rate = 13.6    
+Throughput (Mbps) = 308.66  , total-errors = 0       , concurrent-clients = 59      , reply-rate = 13.6    
+Throughput (Mbps) = 121.52  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 5.4     
+Throughput (Mbps) = 121.53  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 5.4     
+Throughput (Mbps) = 121.51  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 5.4     
+Throughput (Mbps) = 121.50  , total-errors = 0       , concurrent-clients = 52      , reply-rate = 5.4     
+Throughput (Mbps) = 143.83  , total-errors = 0       , concurrent-clients = 47      , reply-rate = 6.4     
+Throughput (Mbps) = 143.83  , total-errors = 0       , concurrent-clients = 47      , reply-rate = 6.4     
+Throughput (Mbps) = 143.85  , total-errors = 0       , concurrent-clients = 47      , reply-rate = 6.4     
+Throughput (Mbps) = 143.82  , total-errors = 0       , concurrent-clients = 47      , reply-rate = 6.4     
+Throughput (Mbps) = 97.45   , total-errors = 0       , concurrent-clients = 46      , reply-rate = 4.0     
+Throughput (Mbps) = 97.46   , total-errors = 0       , concurrent-clients = 46      , reply-rate = 4.0     
+Throughput (Mbps) = 97.44   , total-errors = 0       , concurrent-clients = 46      , reply-rate = 4.0     
+Throughput (Mbps) = 97.44   , total-errors = 0       , concurrent-clients = 46      , reply-rate = 4.0     
+Throughput (Mbps) = 114.54  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 5.4     
+Throughput (Mbps) = 114.52  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 5.4     
+Throughput (Mbps) = 114.53  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 5.4     
+Throughput (Mbps) = 114.56  , total-errors = 0       , concurrent-clients = 42      , reply-rate = 5.4     
+Throughput (Mbps) = 85.83   , total-errors = 0       , concurrent-clients = 40      , reply-rate = 3.8     
+Throughput (Mbps) = 85.82   , total-errors = 0       , concurrent-clients = 40      , reply-rate = 3.8     
+Throughput (Mbps) = 85.83   , total-errors = 0       , concurrent-clients = 40      , reply-rate = 3.8     
+Throughput (Mbps) = 85.83   , total-errors = 0       , concurrent-clients = 40      , reply-rate = 3.8     
+Throughput (Mbps) = 102.89  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 4.6     
+Throughput (Mbps) = 102.89  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 4.6     
+Throughput (Mbps) = 102.89  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 4.6     
+Throughput (Mbps) = 102.87  , total-errors = 0       , concurrent-clients = 36      , reply-rate = 4.6     
+Throughput (Mbps) = 78.45   , total-errors = 0       , concurrent-clients = 36      , reply-rate = 3.4     
+Throughput (Mbps) = 78.44   , total-errors = 0       , concurrent-clients = 36      , reply-rate = 3.4     
+Throughput (Mbps) = 78.43   , total-errors = 0       , concurrent-clients = 36      , reply-rate = 3.4     
+Throughput (Mbps) = 78.43   , total-errors = 0       , concurrent-clients = 36      , reply-rate = 3.4     
+Throughput (Mbps) = 87.81   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.8     
+Throughput (Mbps) = 87.81   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.8     
+Throughput (Mbps) = 87.81   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.8     
+Throughput (Mbps) = 87.81   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.8     
+Throughput (Mbps) = 78.44   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.4     
+Throughput (Mbps) = 78.44   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.4     
+Throughput (Mbps) = 78.45   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.4     
+Throughput (Mbps) = 78.43   , total-errors = 0       , concurrent-clients = 31      , reply-rate = 3.4     
+Throughput (Mbps) = 63.88   , total-errors = 0       , concurrent-clients = 28      , reply-rate = 2.8     
+Throughput (Mbps) = 63.88   , total-errors = 0       , concurrent-clients = 28      , reply-rate = 2.8     
+Throughput (Mbps) = 63.89   , total-errors = 0       , concurrent-clients = 28      , reply-rate = 2.8     
+Throughput (Mbps) = 63.89   , total-errors = 0       , concurrent-clients = 28      , reply-rate = 2.8     
+Throughput (Mbps) = 74.24   , total-errors = 0       , concurrent-clients = 26      , reply-rate = 3.4     
+Throughput (Mbps) = 74.23   , total-errors = 0       , concurrent-clients = 26      , reply-rate = 3.4     
+Throughput (Mbps) = 74.23   , total-errors = 0       , concurrent-clients = 26      , reply-rate = 3.4     
+Throughput (Mbps) = 74.24   , total-errors = 0       , concurrent-clients = 26      , reply-rate = 3.4     
+Throughput (Mbps) = 45.55   , total-errors = 0       , concurrent-clients = 22      , reply-rate = 2.2     
+Throughput (Mbps) = 45.55   , total-errors = 0       , concurrent-clients = 22      , reply-rate = 2.2     
+Throughput (Mbps) = 45.54   , total-errors = 0       , concurrent-clients = 22      , reply-rate = 2.2     
+Throughput (Mbps) = 45.55   , total-errors = 0       , concurrent-clients = 22      , reply-rate = 2.2     
+Throughput (Mbps) = 59.53   , total-errors = 0       , concurrent-clients = 20      , reply-rate = 3.0     
+Throughput (Mbps) = 59.53   , total-errors = 0       , concurrent-clients = 20      , reply-rate = 3.0     
+Throughput (Mbps) = 59.53   , total-errors = 0       , concurrent-clients = 20      , reply-rate = 3.0     
+Throughput (Mbps) = 59.53   , total-errors = 0       , concurrent-clients = 20      , reply-rate = 3.0     
+Throughput (Mbps) = 32.94   , total-errors = 0       , concurrent-clients = 19      , reply-rate = 1.4     
+Throughput (Mbps) = 32.94   , total-errors = 0       , concurrent-clients = 19      , reply-rate = 1.4     
+Throughput (Mbps) = 32.94   , total-errors = 0       , concurrent-clients = 19      , reply-rate = 1.4     
+Throughput (Mbps) = 32.94   , total-errors = 0       , concurrent-clients = 19      , reply-rate = 1.4     
+Throughput (Mbps) = 41.01   , total-errors = 0       , concurrent-clients = 15      , reply-rate = 2.6     
+Throughput (Mbps) = 41.01   , total-errors = 0       , concurrent-clients = 15      , reply-rate = 2.6     
+Throughput (Mbps) = 41.01   , total-errors = 0       , concurrent-clients = 15      , reply-rate = 2.6     
+Throughput (Mbps) = 41.01   , total-errors = 0       , concurrent-clients = 15      , reply-rate = 2.6     
+Throughput (Mbps) = 25.33   , total-errors = 0       , concurrent-clients = 13      , reply-rate = 1.2     
+Throughput (Mbps) = 25.33   , total-errors = 0       , concurrent-clients = 13      , reply-rate = 1.2     
+Throughput (Mbps) = 25.33   , total-errors = 0       , concurrent-clients = 13      , reply-rate = 1.2     
+Throughput (Mbps) = 25.33   , total-errors = 0       , concurrent-clients = 13      , reply-rate = 1.2     
+Throughput (Mbps) = 33.60   , total-errors = 0       , concurrent-clients = 12      , reply-rate = 1.8     
+Throughput (Mbps) = 33.61   , total-errors = 0       , concurrent-clients = 12      , reply-rate = 1.8     
+Throughput (Mbps) = 33.60   , total-errors = 0       , concurrent-clients = 12      , reply-rate = 1.8     
+Throughput (Mbps) = 33.60   , total-errors = 0       , concurrent-clients = 12      , reply-rate = 1.8     
+Throughput (Mbps) = 16.47   , total-errors = 0       , concurrent-clients = 10      , reply-rate = 0.8     
+Throughput (Mbps) = 16.47   , total-errors = 0       , concurrent-clients = 10      , reply-rate = 0.8     
+Throughput (Mbps) = 16.47   , total-errors = 0       , concurrent-clients = 10      , reply-rate = 0.8     
+Throughput (Mbps) = 16.47   , total-errors = 0       , concurrent-clients = 10      , reply-rate = 0.8     
+Throughput (Mbps) = 31.51   , total-errors = 0       , concurrent-clients = 9       , reply-rate = 1.6     
+Throughput (Mbps) = 31.50   , total-errors = 0       , concurrent-clients = 9       , reply-rate = 1.6     
+Throughput (Mbps) = 31.51   , total-errors = 0       , concurrent-clients = 9       , reply-rate = 1.6     
+Throughput (Mbps) = 31.51   , total-errors = 0       , concurrent-clients = 9       , reply-rate = 1.6     
+Throughput (Mbps) = 6.53    , total-errors = 0       , concurrent-clients = 8       , reply-rate = 0.4     
+Throughput (Mbps) = 6.53    , total-errors = 0       , concurrent-clients = 8       , reply-rate = 0.4     
+Throughput (Mbps) = 6.53    , total-errors = 0       , concurrent-clients = 8       , reply-rate = 0.4     
+Throughput (Mbps) = 6.53    , total-errors = 0       , concurrent-clients = 8       , reply-rate = 0.4     
+Throughput (Mbps) = 26.64   , total-errors = 0       , concurrent-clients = 7       , reply-rate = 1.4     
+Throughput (Mbps) = 26.65   , total-errors = 0       , concurrent-clients = 7       , reply-rate = 1.4     
+Throughput (Mbps) = 26.65   , total-errors = 0       , concurrent-clients = 7       , reply-rate = 1.4     
+Throughput (Mbps) = 26.65   , total-errors = 0       , concurrent-clients = 7       , reply-rate = 1.4     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 7       , reply-rate = 0.2     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 7       , reply-rate = 0.2     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 7       , reply-rate = 0.2     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 7       , reply-rate = 0.2     
+Throughput (Mbps) = 9.63    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 1.2     
+Throughput (Mbps) = 9.63    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 1.2     
+Throughput (Mbps) = 9.63    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 1.2     
+Throughput (Mbps) = 9.63    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 1.2     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 0.2     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 0.2     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 0.2     
+Throughput (Mbps) = 5.24    , total-errors = 0       , concurrent-clients = 3       , reply-rate = 0.2     
+Throughput (Mbps) = 0.90    , total-errors = 0       , concurrent-clients = 1       , reply-rate = 0.4     
+Throughput (Mbps) = 0.90    , total-errors = 0       , concurrent-clients = 1       , reply-rate = 0.4     
+Throughput (Mbps) = 0.90    , total-errors = 0       , concurrent-clients = 1       , reply-rate = 0.4     
+Throughput (Mbps) = 0.90    , total-errors = 0       , concurrent-clients = 1       , reply-rate = 0.4     
+Maximum connect burst length: 1
+Maximum connect burst length: 1
+Maximum connect burst length: 1
+Maximum connect burst length: 1
+
+
+
+
+Total connections = 1000
+Total errors = 0
+Percentage failure = 0
+Requests: 5772
+Replies: 5772
+Reply rate: 6.40
+Reply time: .20
+Net I/O: 73004.7
+sed: -e expression #1, char 19: unterminated `s' command
+httperf: maximum number of open descriptors = 0
+sed: -e expression #1, char 19: unterminated `s' command
+httperf: maximum number of open descriptors = 0
+sed: -e expression #1, char 19: unterminated `s' command
+httperf: maximum number of open descriptors = 0
+sed: -e expression #1, char 19: unterminated `s' command
+httperf: maximum number of open descriptors = 0
+
+Starting monitoring for container: streaming_client
+
+Started real-time logging for streaming_client to benchmark_results/container_logs/streaming_client.log
